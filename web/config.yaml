@@ -1,0 +1,5 @@
+repository:
+  rawBase: https://raw.githubusercontent.com/rainboyOJ/problems/master
+download:
+  rawMirrors:
+    - https://gh-proxy.com/

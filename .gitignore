@@ -1,0 +1,20 @@
+# 依赖
+node_modules/
+
+# 构建产物
+web/public/assets/
+
+# Python
+__pycache__/
+*.pyc
+
+# 测试数据：不进 Git，走 BT/HTTP 分发
+data/
+data.zip
+
+# 题解：已丢弃，不再迁入
+solutions/
+
+# 日志与临时
+*.log
+.DS_Store

@@ -1,0 +1,116 @@
+extends layout.pug
+
+block title
+  | #{problem.title} - ROJ
+
+block content
+  .shell
+    nav.breadcrumbs(aria-label="当前位置")
+      a(href="/") 题目列表
+      span(aria-hidden="true") /
+      span(aria-current="page") #{problem.id}
+
+    header.problem-heading
+      .problem-heading-main
+        p.eyebrow 题目 #{problem.id}
+        h1 #{problem.title}
+      if problem.metadataIncomplete
+        span.metadata-warning(title="这道题的部分辅助信息缺失或格式异常") 元数据不完整
+
+    .problem-actions(aria-label="题目操作")
+      if problem.hasPublicData
+        button.action-button.action-button-primary(type="button", data-download-trigger, data-problem-id=problem.id, aria-haspopup="dialog") 下载数据
+      button.action-button(type="button", data-command-trigger, data-problem-id=problem.id, data-has-public-data=(problem.hasPublicData ? 'true' : 'false'), aria-haspopup="dialog") 常用命令
+      if problem.hasMarkdown
+        button.action-button(type="button", data-copy-statement, data-problem-id=problem.id, aria-describedby="copy-statement-status") 复制题面
+      a.action-button(href=solutionUrl, target="_blank", rel="noopener noreferrer") 查看题解 ↗
+      a.action-button(href=githubUrl, target="_blank", rel="noopener noreferrer") GitHub ↗
+      a.action-button(href=howToEvaluateUrl) 如何评测
+      if problem.hasMarkdown
+        span#copy-statement-status.problem-action-status(data-copy-statement-status, role="status", aria-live="polite", aria-atomic="true")
+
+    dl.problem-meta
+      div
+        dt 题号
+        dd #{problem.id}
+      if problem.time !== null
+        div
+          dt 时间限制
+          dd #{problem.time} ms
+      if problem.memory !== null
+        div
+          dt 内存限制
+          dd #{problem.memory} MB
+      if problem.tags.length
+        div.problem-meta-wide
+          dt 标签
+          dd
+            .tag-list
+              each tag in problem.tags
+                span.tag #{tag}
+      if problem.source
+        div.problem-meta-wide
+          dt 来源
+          dd
+            if /^https?:\/\//i.test(problem.source)
+              a.external-link(href=problem.source, target="_blank", rel="noopener noreferrer") 原题链接 ↗
+            else
+              | #{problem.source}
+
+    if statement
+      .problem-layout
+        article.markdown-body!= statement.html
+        if statement.toc.length
+          aside.problem-toc
+            details.toc-details(open)
+              summary 题面目录
+              nav(aria-label="题面目录")
+                each item in statement.toc
+                  a.toc-link(data-toc-link, class=item.level === 3 ? 'is-subheading' : '', href=`#${item.id}`) #{item.text}
+    else if problem.statementKind === 'pdf' && pdfUrl
+      .pdf-viewer
+        .pdf-viewer-heading
+          h2 PDF 题面
+          a.external-link(href=pdfUrl, target="_blank", rel="noopener noreferrer") 在新窗口打开 ↗
+        iframe(src=pdfUrl, title=`${problem.title} PDF 题面`, loading="lazy")
+        p.pdf-fallback
+          | 如果浏览器无法显示 PDF，
+          a(href=pdfUrl, target="_blank", rel="noopener noreferrer") 在新窗口打开题面
+    else if renderError
+      .content-error(role="alert")
+        h2 题面暂时无法显示
+        p #{renderError}
+    else
+      .content-error(role="status")
+        h2 题面暂缺
+        p 这道题目前没有可用的题面文件。
+
+    if problem.hasPublicData
+      dialog.download-modal(data-download-modal, aria-labelledby="download-modal-title")
+        .download-modal-panel
+          header.download-modal-header
+            div
+              p.eyebrow 数据下载
+              h2#download-modal-title 题目 #{problem.id} 的公开数据
+            button.icon-button(type="button", data-download-close, aria-label="关闭下载窗口", title="关闭") ×
+          .download-modal-summary(data-download-summary, role="status") 正在读取文件列表…
+          .download-modal-source
+            label(for="download-source") 下载源
+            select#download-source(data-download-source, disabled)
+          .download-file-list(data-download-list)
+          footer.download-modal-footer
+            span.download-modal-status(data-download-status, role="status")
+
+    dialog.download-modal.command-modal(data-command-modal, aria-labelledby="command-modal-title")
+      .download-modal-panel
+        header.download-modal-header
+          div
+            p.eyebrow 常用命令
+            h2#command-modal-title 题目 #{problem.id} 的 ROJ 命令
+          button.icon-button(type="button", data-command-close, aria-label="关闭常用命令窗口", title="关闭") ×
+        p.command-modal-intro
+          | 以下命令默认使用全局安装的 ROJ Skill，请在终端中直接执行；如果修改过 AGENT_HOME，请将命令中的 ~/.agents 替换为对应目录。
+        ol.command-list(data-command-list)
+        footer.download-modal-footer
+          span.download-modal-status(data-command-status, role="status", aria-live="polite", aria-atomic="true")
+          button.action-button.action-button-primary(type="button", data-copy-all-commands) 复制全部
