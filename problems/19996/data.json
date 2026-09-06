@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "five_1.in",
+      "size": 106
+    },
+    {
+      "path": "five_1.out",
+      "size": 9795
+    },
+    {
+      "path": "five_10.in",
+      "size": 210
+    },
+    {
+      "path": "five_10.out",
+      "size": 19794
+    },
+    {
+      "path": "five_2.in",
+      "size": 204
+    },
+    {
+      "path": "five_2.out",
+      "size": 2983
+    },
+    {
+      "path": "five_3.in",
+      "size": 203
+    },
+    {
+      "path": "five_3.out",
+      "size": 2946
+    },
+    {
+      "path": "five_4.in",
+      "size": 207
+    },
+    {
+      "path": "five_4.out",
+      "size": 3092
+    },
+    {
+      "path": "five_5.in",
+      "size": 202
+    },
+    {
+      "path": "five_5.out",
+      "size": 2913
+    },
+    {
+      "path": "five_6.in",
+      "size": 520
+    },
+    {
+      "path": "five_6.out",
+      "size": 49185
+    },
+    {
+      "path": "five_7.in",
+      "size": 419
+    },
+    {
+      "path": "five_7.out",
+      "size": 39980
+    },
+    {
+      "path": "five_8.in",
+      "size": 315
+    },
+    {
+      "path": "five_8.out",
+      "size": 29984
+    },
+    {
+      "path": "five_9.in",
+      "size": 315
+    },
+    {
+      "path": "five_9.out",
+      "size": 29985
+    }
+  ]
+}
