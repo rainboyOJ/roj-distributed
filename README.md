@@ -11,11 +11,11 @@
 ```text
 GitHub(题面+代码+数据清单) ──浏览──> 只读题面站(web/)
                                   │
-                                  └─ data.json 清单 → 按题打包 data.tar.zst
+                                  └─ data.json 清单 → 按题打包 <id>.tar.zst
                                                         │
-                                        BT 种子(主要) + HTTP 镜像(临时)
+                                        csps 主站 + oidata 备用（HTTP, Range 续传）
                                                         │
-                                            用户本地: 下载数据 → 评测(roj.py test)
+                                            用户本地: 下载归档 → 解压 → 评测(roj.py test)
 ```
 
 - 题目元数据与题面在仓库 `problems/<id>/` 下，站点启动时自动发现；
@@ -53,7 +53,7 @@ python3 .agents/skills/roj/scripts/roj.py download 20015
 python3 .agents/skills/roj/scripts/roj.py test 20015 main.cpp --download
 ```
 
-客户端只读：检索/阅读题面、下载公开数据、本地评测。详见 `.agents/skills/roj/SKILL.md`。
+客户端只读：检索/阅读题面、下载数据归档并本地评测。详见 `.agents/skills/roj/SKILL.md`。
 
 ## 导入新题目
 
@@ -61,4 +61,4 @@ python3 .agents/skills/roj/scripts/roj.py test 20015 main.cpp --download
 
 ## 数据分发
 
-每题测试数据打包为 `<id>.tar.zst` 归档，通过 BT 种子分发，HTTP 通道作临时兜底；公开数据清单由 `data.json` 提供。架构细节见 `docs/数据分发与托管说明.md`。
+每题测试数据打包为不可变的 `<id>.tar.zst` 归档（内含 `data/`），经两条只读通道分发：`csps.de5.net`（主站）+ `oidata.cc.cd`（备用），均支持 Range 断点续传；不再提供单文件下载。通道配置见 `web/config.yaml`，打包/上传运维流程见 `/home/<user>/mycode/800G-OJ数据托管项目`。

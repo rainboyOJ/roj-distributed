@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
-import { downloadSources, normalizeDownloadConfig, rawUrlFor } from '../server/download-config.mjs';
+import { archiveFileName, downloadSources, normalizeDownloadConfig } from '../server/download-config.mjs';
 import { isPublicDataPath, readDataManifest } from '../server/data-manifest.mjs';
 
 function temporaryDirectory() {
@@ -59,32 +59,30 @@ test('missing or invalid data manifests become empty and invalid', () => {
   }
 });
 
-test('download config ignores legacy zip settings and keeps valid mirrors', () => {
+test('download config normalizes archive sources and drops invalid entries', () => {
   const config = normalizeDownloadConfig({
-    repository: { rawBase: 'file:///private' },
-    download: { rawMirrors: ['https://mirror.example/base', 'not-a-url'], zip: { activeJobs: 0 } }
+    download: {
+      sources: [
+        { id: 'csps', label: '主站', baseUrl: 'https://csps.de5.net/roj-data/' },
+        { id: 'broken', label: '坏源', baseUrl: 'file:///private' },
+        { id: 'unparsable', baseUrl: 'not-a-url' }
+      ]
+    }
   });
-  assert.equal(config.repository.rawBase, 'https://raw.githubusercontent.com/rainboyOJ/problems/master');
-  assert.deepEqual(config.download.rawMirrors, ['https://mirror.example/base/']);
-  assert.equal('zip' in config.download, false);
+  assert.deepEqual(config.download.sources, [
+    { id: 'csps', label: '主站', baseUrl: 'https://csps.de5.net/roj-data/' }
+  ]);
+  assert.deepEqual(downloadSources(config), config.download.sources);
 });
 
-test('source URLs encode each path component and retain raw fallback', () => {
-  const config = normalizeDownloadConfig({
-    repository: { rawBase: 'https://raw.example/repo/' },
-    download: { rawMirrors: ['https://gh-proxy.com/'] }
-  });
-  assert.equal(rawUrlFor(config, '1460', 'nested/a b.in'), 'https://raw.example/repo/roj/1460/data/nested/a%20b.in');
-  assert.deepEqual(downloadSources(config, '1460'), [
-    {
-      id: 'mirror-0',
-      label: 'GitHub 加速源（gh-proxy.com）',
-      baseUrl: 'https://gh-proxy.com/https://raw.example/repo/roj/1460/data/'
-    },
-    {
-      id: 'github',
-      label: 'GitHub Raw 直连',
-      baseUrl: 'https://raw.example/repo/roj/1460/data/'
-    }
+test('missing or empty sources fall back to the two default channels', () => {
+  const config = normalizeDownloadConfig({});
+  assert.deepEqual(config.download.sources, [
+    { id: 'csps', label: '主站 csps.de5.net', baseUrl: 'https://csps.de5.net/roj-data/' },
+    { id: 'oidata', label: '备用 oidata.cc.cd', baseUrl: 'https://oidata.cc.cd/roj-data/' }
   ]);
+});
+
+test('archive file name is derived from the numeric problem id', () => {
+  assert.equal(archiveFileName('1460'), '1460.tar.zst');
 });

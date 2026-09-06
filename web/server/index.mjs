@@ -9,7 +9,7 @@ import pug from 'pug';
 import { ProblemCatalog } from './problem-catalog.mjs';
 import { ContestCatalog } from './contest-catalog.mjs';
 import { MarkdownRenderer } from './markdown-renderer.mjs';
-import { downloadSources, loadDownloadConfig } from './download-config.mjs';
+import { archiveFileName, downloadSources, loadDownloadConfig } from './download-config.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rojRoot = path.resolve(process.env.ROJ_ROOT || path.join(projectRoot, '..', 'problems'));
@@ -107,7 +107,8 @@ function dataManifest(entry) {
     problemId: entry.id,
     totalFiles: entry.publicData.length,
     totalBytes: entry.publicDataBytes,
-    sources: downloadSources(downloadConfig, entry.id),
+    archive: { name: archiveFileName(entry.id) },
+    sources: downloadSources(downloadConfig),
     files: entry.publicData.map((file) => ({ path: file.path, size: file.size }))
   };
 }

@@ -1,5 +1,8 @@
-repository:
-  rawBase: https://raw.githubusercontent.com/rainboyOJ/problems/master
 download:
-  rawMirrors:
-    - https://gh-proxy.com/
+  sources:
+    - id: csps
+      label: 主站 csps.de5.net
+      baseUrl: https://csps.de5.net/roj-data/
+    - id: oidata
+      label: 备用 oidata.cc.cd
+      baseUrl: https://oidata.cc.cd/roj-data/

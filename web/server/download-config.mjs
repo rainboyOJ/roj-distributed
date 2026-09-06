@@ -3,11 +3,11 @@ import path from 'node:path';
 import { parse } from 'yaml';
 
 export const DEFAULT_DOWNLOAD_CONFIG = Object.freeze({
-  repository: {
-    rawBase: 'https://raw.githubusercontent.com/rainboyOJ/problems/master'
-  },
   download: {
-    rawMirrors: ['https://gh-proxy.com/']
+    sources: [
+      { id: 'csps', label: '主站 csps.de5.net', baseUrl: 'https://csps.de5.net/roj-data/' },
+      { id: 'oidata', label: '备用 oidata.cc.cd', baseUrl: 'https://oidata.cc.cd/roj-data/' }
+    ]
   }
 });
 
@@ -25,24 +25,23 @@ function optionalUrl(value) {
   }
 }
 
-function normalizeMirror(value) {
-  const url = optionalUrl(value);
-  return url ? `${url}/` : null;
+function normalizeSource(value, index) {
+  const item = asObject(value);
+  const id = typeof item.id === 'string' && item.id.trim() ? item.id.trim() : `source-${index}`;
+  const label = typeof item.label === 'string' && item.label.trim() ? item.label.trim() : id;
+  const url = optionalUrl(item.baseUrl);
+  if (!url) return null;
+  return { id, label, baseUrl: `${url}/` };
 }
 
 export function normalizeDownloadConfig(value = {}) {
   const root = asObject(value);
-  const repository = asObject(root.repository);
   const download = asObject(root.download);
-  const rawBase = optionalUrl(repository.rawBase) || DEFAULT_DOWNLOAD_CONFIG.repository.rawBase;
-  const rawMirrors = Array.isArray(download.rawMirrors)
-    ? download.rawMirrors.map(normalizeMirror).filter(Boolean)
-    : DEFAULT_DOWNLOAD_CONFIG.download.rawMirrors;
-
-  return {
-    repository: { rawBase },
-    download: { rawMirrors }
-  };
+  let sources = Array.isArray(download.sources)
+    ? download.sources.map(normalizeSource).filter(Boolean)
+    : [];
+  if (!sources.length) sources = [...DEFAULT_DOWNLOAD_CONFIG.download.sources];
+  return { download: { sources } };
 }
 
 export function loadDownloadConfig(configPath, logger = console) {
@@ -61,29 +60,10 @@ export function loadDownloadConfig(configPath, logger = console) {
   return { config, invalid, configPath: path.resolve(configPath) };
 }
 
-export function rawUrlFor(config, problemId, relativePath) {
-  const encodedPath = relativePath.split('/').map((part) => encodeURIComponent(part)).join('/');
-  return `${config.repository.rawBase}/roj/${encodeURIComponent(problemId)}/data/${encodedPath}`;
+export function archiveFileName(problemId) {
+  return `${encodeURIComponent(problemId)}.tar.zst`;
 }
 
-export function downloadSources(config, problemId) {
-  const directBase = `${config.repository.rawBase}/roj/${encodeURIComponent(problemId)}/data/`;
-  const sources = [];
-  const seen = new Set();
-  for (const mirror of config.download.rawMirrors) {
-    const baseUrl = `${mirror}${directBase}`;
-    if (seen.has(baseUrl)) continue;
-    seen.add(baseUrl);
-    let hostname = mirror;
-    try { hostname = new URL(mirror).hostname; } catch { /* normalized config should make this unreachable */ }
-    sources.push({
-      id: `mirror-${sources.length}`,
-      label: `GitHub 加速源（${hostname}）`,
-      baseUrl
-    });
-  }
-  if (!seen.has(directBase)) {
-    sources.push({ id: 'github', label: 'GitHub Raw 直连', baseUrl: directBase });
-  }
-  return sources;
+export function downloadSources(config) {
+  return config.download.sources;
 }

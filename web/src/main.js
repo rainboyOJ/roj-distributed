@@ -275,6 +275,7 @@ function initDownloadModal() {
   const list = modal.querySelector('[data-download-list]');
   const summary = modal.querySelector('[data-download-summary]');
   const sourceSelect = modal.querySelector('[data-download-source]');
+  const archiveLink = modal.querySelector('[data-download-archive]');
   const status = modal.querySelector('[data-download-status]');
   let manifest = null;
   let lastFocused = null;
@@ -295,10 +296,6 @@ function initDownloadModal() {
     const separator = filePath.lastIndexOf('/');
     const dot = filePath.lastIndexOf('.');
     return dot > separator ? filePath.slice(dot).toLowerCase() : '';
-  }
-
-  function encodedPath(filePath) {
-    return filePath.split('/').map((part) => encodeURIComponent(part)).join('/');
   }
 
   function selectedSource() {
@@ -329,18 +326,14 @@ function initDownloadModal() {
     return rows;
   }
 
-  function appendFileSlot(row, file) {
+  function appendFileInfo(row, file) {
     const cell = document.createElement('td');
     cell.className = 'download-file-cell';
-    const action = document.createElement('td');
-    action.className = 'download-file-action';
 
     if (!file) {
       cell.classList.add('is-empty');
-      action.classList.add('is-empty');
       cell.textContent = '-';
-      action.textContent = '-';
-      row.append(cell, action);
+      row.append(cell);
       return;
     }
 
@@ -351,50 +344,7 @@ function initDownloadModal() {
     meta.className = 'download-file-size';
     meta.textContent = formatBytes(file.size);
     cell.append(name, meta);
-
-    const link = document.createElement('a');
-    link.className = 'download-file-link';
-    link.href = '#';
-    link.textContent = '下载';
-    link.setAttribute('aria-label', `下载 ${file.path}`);
-    link.addEventListener('click', async (event) => {
-      event.preventDefault();
-      if (link.dataset.busy === 'true') return;
-      const source = selectedSource();
-      if (!source) {
-        setStatus('没有可用的下载源。', 'error');
-        return;
-      }
-      link.dataset.busy = 'true';
-      link.setAttribute('aria-busy', 'true');
-      link.classList.add('is-busy');
-      setStatus(`正在下载 ${file.path}…`, 'working');
-      try {
-        const response = await fetch(`${source.baseUrl}${encodedPath(file.path)}`, {
-          headers: { Accept: 'application/octet-stream' },
-          mode: 'cors'
-        });
-        if (!response.ok) throw new Error(`下载失败（HTTP ${response.status}）。`);
-        const blob = await response.blob();
-        const url = URL.createObjectURL(blob);
-        const download = document.createElement('a');
-        download.href = url;
-        download.download = file.path.split('/').pop() || 'download';
-        document.body.append(download);
-        download.click();
-        download.remove();
-        window.setTimeout(() => URL.revokeObjectURL(url), 1000);
-        setStatus(`${file.path} 下载已开始。`, 'success');
-      } catch (error) {
-        setStatus(error.name === 'TypeError' ? '下载源暂时无法访问，请切换其他源重试。' : (error.message || '文件暂时无法下载。'), 'error');
-      } finally {
-        link.dataset.busy = 'false';
-        link.removeAttribute('aria-busy');
-        link.classList.remove('is-busy');
-      }
-    });
-    action.append(link);
-    row.append(cell, action);
+    row.append(cell);
   }
 
   function renderFiles(files) {
@@ -412,7 +362,7 @@ function initDownloadModal() {
 
     const head = document.createElement('thead');
     const headingRow = document.createElement('tr');
-    for (const label of ['输入数据', '操作', '输出数据', '操作']) {
+    for (const label of ['输入数据', '输出数据']) {
       const heading = document.createElement('th');
       heading.scope = 'col';
       heading.textContent = label;
@@ -424,12 +374,25 @@ function initDownloadModal() {
     const body = document.createElement('tbody');
     for (const [input, output] of pairFiles(files)) {
       const row = document.createElement('tr');
-      appendFileSlot(row, input);
-      appendFileSlot(row, output);
+      appendFileInfo(row, input);
+      appendFileInfo(row, output);
       body.append(row);
     }
     table.append(body);
     list.append(table);
+  }
+
+  function updateArchiveLink() {
+    const source = selectedSource();
+    if (!source || !manifest?.archive?.name) {
+      archiveLink.href = '#';
+      archiveLink.classList.add('is-disabled');
+      archiveLink.setAttribute('aria-disabled', 'true');
+      return;
+    }
+    archiveLink.href = `${source.baseUrl}${manifest.archive.name}`;
+    archiveLink.classList.remove('is-disabled');
+    archiveLink.removeAttribute('aria-disabled');
   }
 
   async function loadManifest() {
@@ -453,7 +416,12 @@ function initDownloadModal() {
           sourceSelect.append(option);
         }
         sourceSelect.disabled = !payload.sources?.length;
+        if (payload.archive?.name) {
+          archiveLink.textContent = `下载数据归档 ${payload.archive.name}`;
+          archiveLink.download = payload.archive.name;
+        }
         renderFiles(payload.files || []);
+        updateArchiveLink();
         return payload;
       })
       .catch((error) => {
@@ -462,6 +430,7 @@ function initDownloadModal() {
         sourceSelect.replaceChildren();
         sourceSelect.disabled = true;
         list.replaceChildren();
+        updateArchiveLink();
         return null;
       })
       .finally(() => { loading = null; });
@@ -471,6 +440,14 @@ function initDownloadModal() {
   function closeModal() {
     if (modal.open) modal.close();
   }
+
+  sourceSelect.addEventListener('change', updateArchiveLink);
+  archiveLink.addEventListener('click', (event) => {
+    if (archiveLink.classList.contains('is-disabled')) {
+      event.preventDefault();
+      setStatus('没有可用的下载源。', 'error');
+    }
+  });
 
   trigger.addEventListener('click', async () => {
     lastFocused = document.activeElement;
@@ -489,7 +466,6 @@ function initDownloadModal() {
     lastFocused = null;
   });
 }
-
 document.addEventListener('DOMContentLoaded', () => {
   applyTheme();
   initDownloadModal();

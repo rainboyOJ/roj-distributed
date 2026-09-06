@@ -1386,6 +1386,11 @@ p {
   opacity: 0.55;
 }
 
+.action-button.is-disabled {
+  pointer-events: none;
+  opacity: 0.55;
+}
+
 .download-modal {
   width: min(620px, calc(100% - 28px));
   max-height: min(760px, calc(100vh - 40px));
@@ -1537,8 +1542,7 @@ p {
   min-width: 0;
 }
 
-.download-file-cell.is-empty,
-.download-file-action.is-empty {
+.download-file-cell.is-empty {
   color: var(--text-faint);
 }
 
@@ -1557,19 +1561,6 @@ p {
   color: var(--text-faint);
   font-size: 0.78rem;
   white-space: nowrap;
-}
-
-.download-file-link {
-  color: var(--accent);
-  cursor: pointer;
-  font-size: 0.84rem;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
-.download-file-link.is-busy {
-  cursor: wait;
-  opacity: 0.55;
 }
 
 .download-empty {
@@ -1890,19 +1881,11 @@ p {
     padding-left: 6px;
   }
 
-  .download-file-table th:nth-child(2),
-  .download-file-table th:nth-child(4),
-  .download-file-table td:nth-child(2),
-  .download-file-table td:nth-child(4) {
-    width: 44px;
-  }
-
   .download-file-name {
     font-size: 0.76rem;
   }
 
-  .download-file-size,
-  .download-file-link {
+  .download-file-size {
     font-size: 0.74rem;
   }
 }

@@ -30,7 +30,7 @@ from urllib.request import Request, urlopen
 
 # 默认 ROJ 站点地址；可通过环境变量 ROJ_URL 或 --base-url 覆盖（例如本地 127.0.0.1:3033）
 DEFAULT_BASE_URL = "https://roj.ac.cn"
-# download/test 命令的默认数据落盘目录（相对于当前工作目录）
+# download/test 命令的默认集合目录（归档与解压数据的父目录，相对于当前工作目录）
 DEFAULT_DOWNLOAD_ROOT = Path("roj-data")
 # 本地评测每组数据的默认超时秒数（无元数据时兜底）
 DEFAULT_TEST_TIMEOUT_SECONDS = 5.0
@@ -63,21 +63,6 @@ def problem_id(value: str) -> str:
     value = str(value).strip()
     if not re.fullmatch(r"\d+", value):
         raise argparse.ArgumentTypeError("题号必须是数字。")
-    return value
-
-
-def safe_relative_path(value: str) -> str:
-    """校验清单中的相对路径，防止把本地文件系统用作攻击面。
-
-    拒绝绝对路径、反斜杠、空段、. .. 以及隐藏文件段。
-    """
-    if not isinstance(value, str) or not value or "\x00" in value:
-        raise RojError("服务器返回了无效的数据文件路径。")
-    if value.startswith("/") or "\\" in value:
-        raise RojError(f"拒绝不安全的数据路径：{value}")
-    parts = value.split("/")
-    if any(not part or part in (".", "..") or part.startswith(".") for part in parts):
-        raise RojError(f"拒绝不安全的数据路径：{value}")
     return value
 
 
@@ -141,8 +126,8 @@ class RojClient:
     def manifest(self, identifier: str) -> dict[str, Any]:
         """获取公开数据清单：/api/problem/<id>/data
 
-        对 sources（下载源）与 files（文件列表）做合法性校验，
-        并规范化 baseUrl 结尾的 / 与文件的相对路径。
+        对 sources（下载源）与 archive（题目数据归档）做合法性校验，
+        并规范化 baseUrl 结尾的 /。
         """
         result = self.json(f"/api/problem/{quote(identifier, safe='')}/data")
         files = result.get("files")
@@ -163,16 +148,14 @@ class RojClient:
                 **source,
                 "baseUrl": source["baseUrl"].rstrip("/") + "/",
             })
-        normalized = []
-        for item in files:
-            if not isinstance(item, dict) or not isinstance(item.get("path"), str):
-                raise RojError("ROJ 返回了无效的数据文件项。")
-            normalized.append({
-                **item,
-                # 每个路径都经过安全校验，防止路径穿越
-                "path": safe_relative_path(item["path"]),
-            })
-        return {**result, "sources": normalized_sources, "files": normalized}
+        archive = result.get("archive")
+        if not isinstance(archive, dict) or not isinstance(archive.get("name"), str):
+            raise RojError("ROJ 返回了无效的归档信息。")
+        name = archive["name"]
+        # 归档名必须是简单文件名，防止把本地文件系统用作攻击面
+        if not name or name.startswith(".") or "/" in name or "\\" in name or "\x00" in name:
+            raise RojError(f"拒绝不安全的归档名：{name}")
+        return {**result, "sources": normalized_sources, "archive": {**archive, "name": name}}
 
     def markdown(self, identifier: str) -> str | None:
         """获取 Markdown 题面；404 表示无 Markdown（可能是 PDF 题面）返回 None。"""
@@ -185,34 +168,69 @@ class RojClient:
         return body.decode("utf-8")
 
 
-def manifest_file(manifest: dict[str, Any], requested: str) -> dict[str, Any]:
-    """按路径或文件名从清单中选出单个文件（--file 用）。
+def require_command(name: str) -> str:
+    """找到系统命令，缺失时给出安装提示。"""
+    command = shutil.which(name)
+    if not command:
+        raise RojError(f"找不到命令 {name}；下载 tar.zst 归档需要 {name}（tar 与 zstd），请先安装。")
+    return command
 
-    先精确匹配路径；再按文件名匹配——仅在唯一命中时接受，
-    避免嵌套目录下误选同名文件。
+
+def archive_urls(manifest: dict[str, Any]) -> list[str]:
+    """为题目数据归档生成所有下载源 URL（baseUrl 已规范化结尾 /）。"""
+    name = manifest["archive"]["name"]
+    return [f"{source['baseUrl']}{name}" for source in manifest.get("sources", [])]
+
+
+def download_and_extract_archive(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
+                                 force: bool = False,
+                                 progress: DownloadProgress | None = None) -> tuple[Path, Path, bool, bool]:
+    """下载题目数据归档并解压。
+
+    destination 是集合目录：归档写 destination/<id>.tar.zst，解压到 destination/<id>/，
+    数据落在 destination/<id>/data/。归档已存在时复用（数据不可变），--force 重新下载。
+    下载完用 zstd -t 校验完整性；data/ 已存在时跳过解压（防覆盖本地改动），--force 重新解压。
+
+    返回 (归档路径, 数据目录, 本次是否下载, 本次是否解压)。
     """
-    requested = safe_relative_path(requested)
-    files = manifest.get("files", [])
-    exact = next((item for item in files if item["path"] == requested), None)
-    if exact:
-        return exact
-    # 通常 data/ 是扁平目录，允许直接给文件名；但必须无歧义
-    matches = [item for item in files if Path(item["path"]).name == requested]
-    if len(matches) == 1:
-        return matches[0]
-    raise RojError(f"公开数据中没有唯一匹配的文件：{requested}")
+    name = manifest["archive"]["name"]
+    archive_path = destination / name
+    data_dir = destination / identifier / "data"
 
+    downloaded_now = False
+    if archive_path.exists() and not force:
+        # 归档不可变：本地缓存直接复用
+        pass
+    else:
+        if progress is not None:
+            progress.show_status(f"下载 {name}")
+        archive_path.parent.mkdir(parents=True, exist_ok=True)
+        download_to(client, archive_urls(manifest), archive_path, force=force,
+                    on_attempt=progress.on_attempt if progress else None,
+                    on_chunk=progress.on_chunk if progress else None)
+        if progress is not None:
+            progress.show_status(f"下载 {name} 完成")
+        downloaded_now = True
+        # 完整性校验：zstd -t 检查归档可解压
+        zstd = require_command("zstd")
+        verify = subprocess.run([zstd, "-t", str(archive_path)],
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+        if verify.returncode != 0:
+            raise RojError(f"归档完整性校验失败（zstd -t）：{archive_path}")
 
-def local_destination(root: Path, relative: str) -> Path:
-    """把清单相对路径映射到本地目标路径，并确认不越出 root。"""
-    relative = safe_relative_path(relative)
-    root = root.expanduser().absolute()
-    destination = (root / Path(*relative.split("/"))).absolute()
-    try:
-        destination.relative_to(root)
-    except ValueError as error:
-        raise RojError(f"数据路径超出目标目录：{relative}") from error
-    return destination
+    extracted_now = False
+    if data_dir.is_dir() and not force:
+        # 已有本地数据：不覆盖用户的修改
+        pass
+    else:
+        tar = require_command("tar")
+        data_dir.parent.mkdir(parents=True, exist_ok=True)
+        extract = subprocess.run([tar, "--zstd", "-xf", str(archive_path), "-C", str(data_dir.parent)],
+                                 stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+        if extract.returncode != 0:
+            raise RojError("归档解压失败：" + extract.stderr.decode("utf-8", errors="replace")[-1000:])
+        extracted_now = True
+    return archive_path, data_dir, downloaded_now, extracted_now
 
 
 def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False,
@@ -266,57 +284,6 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
                 temporary.unlink(missing_ok=True)
     detail = "；".join(errors) if errors else "未知错误"
     raise RojError(f"下载失败，已尝试 {len(urls)} 个源：{detail}")
-
-
-def file_urls(manifest: dict[str, Any], relative: str) -> list[str]:
-    """为清单中的一个文件生成所有下载源 URL（按段编码，保留目录结构）。"""
-    encoded = "/".join(quote(part, safe="") for part in safe_relative_path(relative).split("/"))
-    return [f"{source['baseUrl']}{encoded}" for source in manifest.get("sources", [])]
-
-
-def download_manifest(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
-                      force: bool = False, skip_existing: bool = False,
-                      progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
-    """按清单批量下载全部文件。
-
-    返回 (已下载列表, 跳过列表)。skip_existing 用于 test --download：
-    已有文件不覆盖、不报错。
-    progress 非空时启用进度条，分母 = 本次实际要下载的文件 size 之和
-    （排除 --file 未选中与被跳过的文件）。
-    """
-    downloaded: list[dict[str, Any]] = []
-    skipped: list[Path] = []
-    files = manifest.get("files", [])
-
-    if progress is not None:
-        # 计算分母：先按"会被下载"过滤一遍（与下方循环相同的判定）
-        planned = 0
-        for item in files:
-            target = local_destination(destination, item["path"])
-            if target.exists() and skip_existing and not force:
-                continue
-            planned += int(item.get("size") or 0)
-        # 清单没有逐文件 size 时退回 totalBytes；仍无效则进度条自动静默
-        if planned <= 0:
-            total = manifest.get("totalBytes")
-            if isinstance(total, (int, float)) and total > 0:
-                planned = int(total)
-        progress.enable(planned)
-
-    for item in files:
-        target = local_destination(destination, item["path"])
-        if target.exists() and skip_existing and not force:
-            skipped.append(target)
-            continue
-        if progress is not None:
-            progress.show_status(f"下载 {item['path']}")
-        size = download_to(client, file_urls(manifest, item["path"]), target, force=force,
-                           on_attempt=progress.on_attempt if progress else None,
-                           on_chunk=progress.on_chunk if progress else None)
-        if progress is not None:
-            progress.commit(int(item.get("size") or size))
-        downloaded.append({"path": item["path"], "size": size})
-    return downloaded, skipped
 
 
 def print_manifest_summary(manifest: dict[str, Any]) -> None:
@@ -549,12 +516,12 @@ def cmd_get(client: RojClient, args: argparse.Namespace) -> int:
 def prompt_download_destination(identifier: str) -> Path:
     """交互式询问下载位置（仅 TTY 时由调用方触发）。
 
-    提供 4 个选项：./data、./roj-data/<id>/data、./、自定义路径；
-    回车取默认值（./roj-data/<id>/data）。
+    位置是集合目录：归档写 <位置>/<id>.tar.zst，数据解压到 <位置>/<id>/data/。
+    提供 4 个选项：./roj-data、./data、./、自定义路径；回车取默认值（./roj-data）。
     """
-    default = DEFAULT_DOWNLOAD_ROOT / identifier / "data"
-    options = [Path("data"), default, Path(".")]
-    print("选择下载位置：")
+    default = DEFAULT_DOWNLOAD_ROOT
+    options = [DEFAULT_DOWNLOAD_ROOT, Path("data"), Path(".")]
+    print(f"选择下载位置（归档在 <位置>/{identifier}.tar.zst，数据在 <位置>/{identifier}/data/）：")
     for index, option in enumerate(options, 1):
         print(f"{index}. {option}/")
     print("4. 自定义路径")
@@ -657,43 +624,40 @@ def prompt_data_directory(identifier: str) -> Path:
 
 
 def resolve_download_destination(identifier: str, explicit_output: str | None) -> Path:
-    """确定下载落盘目录：--output 指定 > TTY 交互询问 > 默认位置。"""
+    """确定下载落盘集合目录：--output 指定 > TTY 交互询问 > 默认位置 ./roj-data。"""
     if explicit_output:
         return Path(explicit_output)
     if sys.stdin.isatty():
         # 交互式终端：让用户选下载位置
         return prompt_download_destination(identifier)
-    # 管道/脚本场景：静默使用默认位置（与交互选项 2 一致），避免卡住
-    return DEFAULT_DOWNLOAD_ROOT / identifier / "data"
+    # 管道/脚本场景：静默使用默认位置（与交互选项 1 一致），避免卡住
+    return DEFAULT_DOWNLOAD_ROOT
 
 
-def perform_download(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
-                     force: bool = False, skip_existing: bool = False,
-                     progress: DownloadProgress | None = None) -> tuple[list[dict[str, Any]], list[Path]]:
-    """执行清单下载（带进度条），失败时清进度条并抛错。
+def perform_archive_download(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
+                             force: bool = False,
+                             progress: DownloadProgress | None = None) -> tuple[Path, Path, bool, bool]:
+    """执行归档下载与解压（带状态行），失败时清状态行并抛错。
 
     供 cmd_download 与 cmd_test --download 复用。
     """
     try:
-        downloaded, skipped = download_manifest(client, identifier, manifest, destination,
-                                                force=force, skip_existing=skip_existing, progress=progress)
+        result = download_and_extract_archive(client, identifier, manifest, destination,
+                                              force=force, progress=progress)
     except RojError:
         if progress is not None:
-            # 失败：清掉进度条行，保留"卡在哪"的上下文后重新抛出
+            # 失败：清掉状态行，保留"卡在哪"的上下文后重新抛出
             progress.fail()
-            if progress.enabled:
-                print(f"已下载 {format_bytes(progress.committed)} / {format_bytes(progress.total)} 后失败",
-                      file=sys.stderr)
         raise
     if progress is not None:
         progress.finish()
-    return downloaded, skipped
+    return result
 
 
 def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
-    """download 命令：把题目的公开数据下载到本地目录。
+    """download 命令：把题目的公开数据归档下载到本地并解压。
 
-    未指定 --output 且 stdin 是 TTY 时，先询问下载位置。
+    未指定 --output 且 stdin 是 TTY 时，先询问下载位置（集合目录）。
     """
     # JSON 输出时进度条静默；否则在 TTY 上显示状态行与进度条
     progress = None if json_requested(args) else DownloadProgress()
@@ -706,30 +670,32 @@ def cmd_download(client: RojClient, args: argparse.Namespace) -> int:
             # 清单请求失败：清掉状态行后再报错
             progress.fail()
         raise
-    destination = resolve_download_destination(args.identifier, args.output)
     if not manifest.get("files"):
         raise RojError("这道题没有公开数据。")
-
-    # --file 只下载一个文件（路径或唯一文件名），否则下载全部
-    files = [manifest_file(manifest, args.file)] if args.file else manifest.get("files", [])
-    selected_manifest = {**manifest, "files": files}
-    downloaded, skipped = perform_download(client, args.identifier, selected_manifest, destination,
-                                           force=args.force, progress=progress)
+    destination = resolve_download_destination(args.identifier, args.output)
+    archive_path, data_dir, downloaded_now, extracted_now = perform_archive_download(
+        client, args.identifier, manifest, destination, force=args.force, progress=progress)
     payload = {
         "problemId": args.identifier,
-        "kind": "files",
+        "kind": "archive",
         "destination": str(destination),
-        "downloaded": [{**item, "localPath": str(local_destination(destination, item["path"]))} for item in downloaded],
-        "skipped": [str(target) for target in skipped],
+        "archive": {"name": archive_path.name, "localPath": str(archive_path), "bytes": archive_path.stat().st_size},
+        "dataDir": str(data_dir),
+        "downloadedNow": downloaded_now,
+        "extractedNow": extracted_now,
     }
     if json_requested(args):
         print(json.dumps(payload, ensure_ascii=False, indent=2))
     else:
         print_manifest_summary(manifest)
-        for item in downloaded:
-            print(f"已下载：{local_destination(destination, item['path'])}")
-        for target in skipped:
-            print(f"已存在，跳过：{target}")
+        if downloaded_now:
+            print(f"已下载：{archive_path} ({format_bytes(archive_path.stat().st_size)})")
+        else:
+            print(f"复用已有归档：{archive_path}")
+        if extracted_now:
+            print(f"已解压：{data_dir}")
+        else:
+            print(f"数据目录：{data_dir}（已存在，未覆盖）")
     return 0
 
 
@@ -812,14 +778,14 @@ def run_case(executable: Path, input_path: Path, expected_path: Path, output_pat
 def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
     """test 命令：编译 C++ 源码并用公开数据在本地评测。
 
-    数据来源：--data-dir 指定 > 本地扫描候选（递归 data/ 目录）> --download 现场下载。
-    --download 时复用 download 的流程（请求清单、选择落盘位置、下载）。
+    数据来源：--data-dir 指定 > 本地扫描候选（递归 data/ 目录）> --download 现场下载归档并解压。
+    --download 时复用 download 的流程（请求清单、选择落盘位置、下载归档、解压）。
     时间限制取题目元数据（毫秒），无元数据时用默认 5 秒。
     """
     metadata = client.problem(args.identifier)
     explicit_data_dir = Path(args.data_dir) if args.data_dir else None
     if args.download:
-        # 复用 download 的下载流程：请求清单 → 选择落盘位置 → 下载（跳过已有）
+        # 复用 download 的下载流程：请求清单 → 选择落盘位置 → 下载归档 → 解压（复用已有）
         progress = None if json_requested(args) else DownloadProgress()
         try:
             if progress is not None:
@@ -834,9 +800,8 @@ def cmd_test(client: RojClient, args: argparse.Namespace) -> int:
                 progress.fail()
             raise RojError("这道题没有公开数据，无法评测。")
         destination = explicit_data_dir if explicit_data_dir else resolve_download_destination(args.identifier, None)
-        perform_download(client, args.identifier, manifest, destination,
-                         force=args.force, skip_existing=True, progress=progress)
-        data_dir = destination
+        _, data_dir, _, _ = perform_archive_download(client, args.identifier, manifest, destination,
+                                                     force=args.force, progress=progress)
     elif explicit_data_dir is not None:
         data_dir = explicit_data_dir
     else:
@@ -935,18 +900,17 @@ def build_parser() -> argparse.ArgumentParser:
 
     download_parser = commands.add_parser("download", help="下载公开数据")
     download_parser.add_argument("identifier", type=problem_id)
-    download_parser.add_argument("--file", help="只下载指定文件或唯一匹配的文件名")
-    download_parser.add_argument("--output", help="目标目录，默认 ./roj-data/<id>/")
-    download_parser.add_argument("--force", action="store_true", help="允许覆盖已有文件")
+    download_parser.add_argument("--output", help="集合目录，默认 ./roj-data（归档在 <目录>/<id>.tar.zst，数据在 <目录>/<id>/data/）")
+    download_parser.add_argument("--force", action="store_true", help="允许重新下载并重新解压")
     download_parser.add_argument("--json", dest="command_json", action="store_true", help="使用 JSON 输出")
     download_parser.set_defaults(handler=cmd_download)
 
     test_parser = commands.add_parser("test", help="使用公开数据在本地评测 C++")
     test_parser.add_argument("identifier", type=problem_id)
     test_parser.add_argument("source", help="C++ 源代码文件")
-    test_parser.add_argument("--data-dir", help="本地数据目录")
-    test_parser.add_argument("--download", action="store_true", help="数据缺失时显式下载到 ./roj-data/<id>/")
-    test_parser.add_argument("--force", action="store_true", help="配合 --download 覆盖已有数据")
+    test_parser.add_argument("--data-dir", help="本地数据目录（配合 --download 时视为集合目录）")
+    test_parser.add_argument("--download", action="store_true", help="数据缺失时显式下载归档到 ./roj-data/ 并解压")
+    test_parser.add_argument("--force", action="store_true", help="配合 --download 强制重新下载与解压")
     test_parser.add_argument("--compiler", default="g++", help="C++ 编译器，默认 g++")
     test_parser.add_argument("--json", dest="command_json", action="store_true", help="使用 JSON 输出")
     test_parser.set_defaults(handler=cmd_test)

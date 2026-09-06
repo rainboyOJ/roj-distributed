@@ -1,7 +1,7 @@
 ---
 name: roj
 description: Use the ROJ read-only problem website from an AI or terminal. Trigger whenever the user asks to search, fetch, read, download, inspect, or locally test a problem from roj.ac.cn, or asks how to use the ROJ problem data. This skill covers the bundled scripts/roj.py client; never treat ROJ as a submission or remote judging service.
-compatibility: Requires Python 3.10+, network access for API and data commands, and g++ plus the system diff command for local C++ testing.
+compatibility: Requires Python 3.10+, network access for API and data commands, zstd plus GNU tar for archive extraction, and g++ plus the system diff command for local C++ testing.
 ---
 
 # ROJ Client
@@ -53,20 +53,22 @@ python3 ~/.agents/skills/roj/scripts/roj.py --json get 1000
 
 ### Download public data
 
-The default destination is `./roj-data/<id>/`. The command reads the ROJ manifest
-first, then downloads only files listed by it from the configured GitHub mirror. If a
-mirror fails, it tries GitHub Raw directly. Existing files are never overwritten
-unless `--force` is supplied. `--output` names a destination directory.
+Data ships as one immutable `tar.zst` archive per problem. The default collection
+directory is `./roj-data/`: the archive lands at `./roj-data/<id>.tar.zst` and is
+extracted so the data ends up in `./roj-data/<id>/data/`. The command reads the ROJ
+manifest first, downloads `<id>.tar.zst` from the configured archive sources
+(csps 主站 first, oidata 备用 as fallback), verifies it with `zstd -t`, and extracts
+it. A cached archive is reused without re-downloading; an existing `data/` directory
+is never overwritten. `--force` re-downloads and re-extracts. `--output` names the
+collection directory instead of `./roj-data`.
 
 ```sh
 python3 ~/.agents/skills/roj/scripts/roj.py download 1000
-python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --file problem1.in
-python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --output ./data/1000 --force
+python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --output ./data --force
 ```
 
-`--file` accepts a manifest-relative path or a unique basename. Batch download is
-the normal mode; there is no server-side ZIP operation. The ROJ API supplies the
-manifest and configured source order, while file bytes come directly from GitHub.
+Extraction requires the system `zstd` and GNU `tar` commands. The archive contains
+the whole `data/` tree; there is no per-file download.
 
 ### Test C++ locally
 
@@ -76,14 +78,13 @@ compares output with `diff -b`. A non-zero program exit is `RE`; timeout is `TLE
 different output is `WA`; all matching cases are `AC`. Memory limits are reported
 but are not forcibly imposed by this Python client.
 
-Data lookup is offline by default, in this order:
+Data lookup is offline by default: `--data-dir DIR` or any `data/` directory found
+under the current working directory.
 
-1. `--data-dir DIR`
-2. `./roj-data/<id>/`
-3. `./roj/<id>/data/`
-
-If no data exists, add `--download` to explicitly fetch it into
-`./roj-data/<id>/`. This is the only `test` mode that uses the network.
+If no data exists, add `--download` to explicitly fetch the archive into
+`./roj-data/` and extract it. This is the only `test` mode that uses the network.
+When combined with `--download`, `--data-dir` is treated as the collection directory
+(archive at `<dir>/<id>.tar.zst`, data at `<dir>/<id>/data/`).
 
 ```sh
 python3 ~/.agents/skills/roj/scripts/roj.py test 1000 main.cpp
@@ -101,8 +102,8 @@ compiler details, per-case status, elapsed time, and any diagnostics.
 
 - Treat IDs and paths as untrusted input. Never construct a shell command from a
   problem title or a manifest filename.
-- Download only public files returned by `/api/problem/<id>/data`; the file bytes
-  come from its configured GitHub sources. Do not expose or copy `std.cpp`, solution
+- Download only the problem archive named by `/api/problem/<id>/data`; its bytes
+  come from the configured archive sources. Do not expose or copy `std.cpp`, solution
   files, generators, checkers, or legacy `down/` files.
 - Do not claim that a local `AC` is an official submission result. It only means the
   program matched the public data with this client's comparison rule.
@@ -120,10 +121,11 @@ GET /api/problem/<id>/markdown
 GET /api/problem/<id>/data
 ```
 
-`/api/problem/<id>/data` returns `sources` and a `files` array. Each source contains
-an `id`, a display `label`, and a problem-specific `baseUrl`; append the encoded
-manifest-relative `path` to that base URL to download the file. The normal source
-order is the configured GitHub mirror(s), followed by GitHub Raw direct.
+`/api/problem/<id>/data` returns `archive` (with `name` `<id>.tar.zst`), a `sources`
+array, and a `files` array that is informational only. Each source contains an `id`,
+a display `label`, and a `baseUrl` (an archive directory ending in `/`); append
+`archive.name` to that base URL to download the whole problem archive. The normal
+source order is csps 主站 followed by oidata 备用.
 
 The problem metadata response contains `id`, `title`, `time`, `memory`, `tags`,
 `source`, `statementKind`, `hasMarkdown`, `hasPdf`, and `hasPublicData`. A missing

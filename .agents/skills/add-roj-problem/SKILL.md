@@ -206,10 +206,17 @@ python3 .agents/skills/add-roj-problem/scripts/generate-data-manifest.py \
 ```
 
 The manifest contains only a sorted `files` array of `{ "path", "size" }` objects.
-Generate `{ "files": [] }` for a problem with no public data. The web2 API reads this
-small manifest from bohai and gives the browser and `roj.py` configured GitHub Raw or
-mirror source URLs; no VPS data URL is created. In the preview, report the public
-data candidates, their relative paths, sizes, and the generated manifest.
+Generate `{ "files": [] }` for a problem with no public data. The web API reads this
+small manifest and serves it with the problem archive name (`<id>.tar.zst`); the
+browser and `roj.py` download the whole archive from the configured csps/oidata
+channels, not individual files. In the preview, report the public data candidates,
+their relative paths, sizes, and the generated manifest.
+
+After the import is committed and deployed, the problem's `data/` must still be
+packed into `<id>.tar.zst` and uploaded per the 800G-OJ数据托管项目 flow
+(`/home/<user>/mycode/800G-OJ数据托管项目/0007-local-rclone-roj-data-upload.md`);
+until the archive is uploaded, downloads for that problem return 404. Do not claim
+an archive URL works before that step.
 
 Before finalizing an import, run the validator:
 

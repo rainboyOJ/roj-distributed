@@ -99,6 +99,7 @@ block content
             select#download-source(data-download-source, disabled)
           .download-file-list(data-download-list)
           footer.download-modal-footer
+            a.action-button.action-button-primary.is-disabled(data-download-archive, href="#", download, aria-disabled="true") 下载数据归档
             span.download-modal-status(data-download-status, role="status")
 
     dialog.download-modal.command-modal(data-command-modal, aria-labelledby="command-modal-title")
