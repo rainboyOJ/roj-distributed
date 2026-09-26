@@ -74,11 +74,11 @@
 
 ### 数据范围
 
-对于 $30%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 200,1 \leq n \leq 20$。
+对于 $30\%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 200,1 \leq n \leq 20$。
 
-对于 $60%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 10^4,1 \leq n \leq 1000$。
+对于 $60\%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 10^4,1 \leq n \leq 1000$。
 
-对于 $100%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 10^6,1 \leq k \leq 10^6,0 \leq a_i \leq 2$。
+对于 $100\%$ 的数据，$1 \leq \sum_{i=1}^T n_i \leq 10^6,1 \leq k \leq 10^6,0 \leq a_i \leq 2$。
 
 <!-- roj:downloads:start -->
 ## 下发数据
