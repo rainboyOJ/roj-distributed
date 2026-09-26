@@ -251,7 +251,7 @@ app.get('/problem/:id', async (request, reply) => {
     statement,
     renderError,
     pdfUrl: entry.hasPdf ? `/problem/${encodeURIComponent(entry.id)}/pdf` : null,
-    solutionUrl: `https://pcs2.roj.ac.cn/problem/roj/${encodeURIComponent(entry.id)}`,
+    solutionUrl: `https://pcs2.roj.ac.cn/problems/roj/${encodeURIComponent(entry.id)}/`,
     githubUrl: `https://github.com/rainboyOJ/problems/tree/master/roj/${encodeURIComponent(entry.id)}`,
     howToEvaluateUrl: '/about#how-to-evaluate'
   }));
