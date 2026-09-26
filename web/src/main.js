@@ -1,3 +1,4 @@
+import 'katex/dist/katex.min.css';
 import './app.scss';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-markup';
