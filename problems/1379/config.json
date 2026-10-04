@@ -1,5 +1,9 @@
 {
   "title": "热浪(heatwv)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "图论",
+    "最短路"
+  ]
 }
