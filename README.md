@@ -29,7 +29,6 @@ problems/      题目记录: config.json / content.md / std.cpp / data.json
 contests/      比赛页面 (Markdown 记录)
 web/           只读题面站 (Fastify + Pug 服务端渲染, Vite 构建)
 scripts/       迁移等辅助脚本
-docs/          数据分发与托管设计文档
 .agents/skills/ 导入与访问题目等工作流 (add-roj-problem / roj 等)
 ```
 
@@ -61,4 +60,4 @@ python3 .agents/skills/roj/scripts/roj.py test 20015 main.cpp --download
 
 ## 数据分发
 
-每题测试数据打包为不可变的 `<id>.tar.zst` 归档（内含 `data/`），经两条只读通道分发：`csps.de5.net`（主站）+ `oidata.cc.cd`（备用），均支持 Range 断点续传；不再提供单文件下载。通道配置见 `web/config.yaml`，打包/上传运维流程见 `/home/<user>/mycode/800G-OJ数据托管项目`。
+每题测试数据打包为不可变的 `<id>.tar.zst` 归档（内含 `data/`），经两条只读通道分发：`csps.de5.net`（主站）+ `oidata.cc.cd`（备用），均支持 Range 断点续传；不再提供单文件下载。通道配置见 `web/config.yaml`。

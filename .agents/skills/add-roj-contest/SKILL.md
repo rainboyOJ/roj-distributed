@@ -14,7 +14,7 @@ Fastify + Pug site, not an online-judge, registration, submission, or scoring fe
 
 Use it when the user asks to create or maintain a contest page, contest announcement,
 contest schedule, or contest overview for this repository, including requests based on
-a local contest directory such as `/home/<user>/tmp-暑假比赛`.
+a local contest directory such as `~/tmp-暑假比赛`.
 
 Do not use it for these unrelated tasks:
 

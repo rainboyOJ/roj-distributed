@@ -50,8 +50,8 @@ def strip_is_del(config_path, dest_path, dry_run):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", default="/home/<user>/mycode/problems/roj")
-    parser.add_argument("--dest", default="/home/<user>/mycode/new_ROJ/problems")
+    parser.add_argument("--source", default=os.path.expanduser("~/mycode/problems/roj"))
+    parser.add_argument("--dest", default=os.path.expanduser("~/mycode/new_ROJ/problems"))
     parser.add_argument("--dry-run", action="store_true", help="只报告，不写任何文件")
     args = parser.parse_args()
 

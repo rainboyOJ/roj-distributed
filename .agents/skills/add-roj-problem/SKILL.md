@@ -32,8 +32,8 @@ judge integration. The website discovers numeric `problems/<id>/` directories at
 The primary input is a local path, for example:
 
 ```text
-/home/<user>/tmp-暑假比赛
-/home/<user>/tmp-暑假比赛/08-25/A
+~/tmp-暑假比赛
+~/tmp-暑假比赛/08-25/A
 ```
 
 Also support an explicitly supplied source platform plus problem ID or URL. If the
@@ -213,8 +213,8 @@ channels, not individual files. In the preview, report the public data candidate
 their relative paths, sizes, and the generated manifest.
 
 After the import is committed and deployed, the problem's `data/` must still be
-packed into `<id>.tar.zst` and uploaded per the 800G-OJ数据托管项目 flow
-(`/home/<user>/mycode/800G-OJ数据托管项目/0007-local-rclone-roj-data-upload.md`);
+packed into `<id>.tar.zst` and uploaded per the internal data-hosting runbook
+(`0007-local-rclone-roj-data-upload.md` in the private hosting project);
 until the archive is uploaded, downloads for that problem return 404. Do not claim
 an archive URL works before that step.
 
