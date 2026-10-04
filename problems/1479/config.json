@@ -1,5 +1,9 @@
 {
   "title": "「一本通 2.4 例 1」Keywords Search",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "字典树",
+    "字符串"
+  ]
 }
