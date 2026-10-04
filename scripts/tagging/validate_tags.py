@@ -85,9 +85,11 @@ def check_one(pid: str, pdir: pathlib.Path, canonical, alias2canon, preserved, c
     if dup:
         problems.append(f"归并后重复：{dup}")
     if cohort == "missing":
-        n_str = sum(1 for t in tags if isinstance(t, str) and t.strip())
-        if not 2 <= n_str <= 3:
-            problems.append(f"missing cohort 要求 2~3 个 tag，实际 {n_str}")
+        # 2~3 个指算法 tag；保留的来源/难度类旧 tag（如 2023/rbook）不计入
+        n_algo = sum(1 for t in tags
+                     if isinstance(t, str) and t.strip() and t.strip() not in preserved)
+        if not 2 <= n_algo <= 3:
+            problems.append(f"missing cohort 要求 2~3 个算法 tag（不含保留的来源/难度 tag），实际 {n_algo}")
     return problems
 
 
