@@ -25,3 +25,4 @@ push-to-vps.sh
 # 打 tag 批次临时产物
 .tmp/
 scripts/tagging/queue.lock
+deploy.sh
