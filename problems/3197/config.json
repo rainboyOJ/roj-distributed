@@ -4,8 +4,7 @@
   "memory": 128,
   "tags": [
     "图论",
-    "Tarjan算法",
-    "有向图的强连通分量"
+    "Tarjan"
   ],
   "level": 4
 }

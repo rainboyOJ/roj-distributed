@@ -4,8 +4,9 @@
   "memory": 128,
   "tags": [
     "图论",
-    "tarjan",
-    "2-SAT"
+    "Tarjan",
+    "2-SAT",
+    "构造"
   ],
   "level": 4
 }

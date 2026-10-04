@@ -4,8 +4,7 @@
   "memory": 128,
   "tags": [
     "图论",
-    "Tarjan算法",
-    "有向图的必经点与必经边"
+    "Tarjan"
   ],
   "level": 3
 }
