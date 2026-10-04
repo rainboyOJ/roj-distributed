@@ -18,7 +18,7 @@
 
 ### 【输入】
 
-$\\begin{matrix}n\\\\k\\\\x\_1&y\_1\\\\x\_2&y\_2\\\\…&…\\\\x\_n&y\_n\\end{matrix}$
+$\begin{matrix}n\\k\\x_1&y_1\\x_2&y_2\\\dots&\dots\\x_n&y_n\end{matrix}$
 
 ### 【输出】
 
