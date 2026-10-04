@@ -10,7 +10,7 @@
 
 ### 【输出】
 
-若存在一组合法解输出$Ordering\\ is\\ possible$.，否则输出$The\\ door\\ cannot\\ be\\ opened.$。
+若存在一组合法解输出$Ordering\ is\ possible$.，否则输出$The\ door\ cannot\ be\ opened.$。
 
 ### 【输入样例】
 
@@ -40,7 +40,7 @@ The door cannot be opened.
 
 数据范围与提示
 
-$1≤N≤10^5 ,∣S∣≤1000$
+$1\leq N\leq 10^5 ,\mid S\mid\leq 1000$
 
 
  ### 【来源】
