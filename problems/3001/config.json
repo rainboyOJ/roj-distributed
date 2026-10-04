@@ -1,10 +1,13 @@
 {
-    "title": "64位整数乘法",
-    "time": 1000,
-    "pre_rbook":["quick_pow"],
-    "memory": 128,
-    "tags": [
-        "位运算"
-    ],
-    "level": 3
+  "title": "64位整数乘法",
+  "time": 1000,
+  "pre_rbook": [
+    "quick_pow"
+  ],
+  "memory": 128,
+  "tags": [
+    "位运算",
+    "数学"
+  ],
+  "level": 3
 }
