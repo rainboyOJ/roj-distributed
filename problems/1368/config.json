@@ -1,5 +1,9 @@
 {
   "title": "对称二叉树(tree_c)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "树",
+    "模拟"
+  ]
 }

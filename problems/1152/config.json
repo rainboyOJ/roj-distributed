@@ -1,5 +1,9 @@
 {
   "title": "最大数max(x,y,z)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "模拟",
+    "数学"
+  ]
 }

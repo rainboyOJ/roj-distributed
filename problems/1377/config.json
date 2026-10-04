@@ -1,5 +1,9 @@
 {
   "title": "最优乘车(travel)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "图论",
+    "广度优先搜索"
+  ]
 }

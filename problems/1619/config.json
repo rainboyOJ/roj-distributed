@@ -1,5 +1,9 @@
 {
   "title": "「一本通 6.2 例 1」Prime Distance",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "数论",
+    "枚举"
+  ]
 }

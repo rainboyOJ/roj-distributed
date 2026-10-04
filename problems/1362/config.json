@@ -1,5 +1,9 @@
 {
   "title": "家庭问题(family)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "并查集",
+    "图论"
+  ]
 }

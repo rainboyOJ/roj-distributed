@@ -1,5 +1,9 @@
 {
   "title": "「一本通 6.2 练习 4」Sherlock and His Girlfriend",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "数论",
+    "构造"
+  ]
 }

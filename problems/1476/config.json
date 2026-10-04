@@ -1,5 +1,9 @@
 {
   "title": "「一本通 2.3 练习 3」Secret Message 秘密信息",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "数据结构",
+    "字典树"
+  ]
 }

@@ -1,5 +1,9 @@
 {
   "title": "「一本通 3.7 练习 2」Ant Trip",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "图论",
+    "欧拉路"
+  ]
 }

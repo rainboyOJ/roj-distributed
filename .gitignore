@@ -21,3 +21,7 @@ solutions/
 
 # 部署脚本：仅本机使用
 push-to-vps.sh
+
+# 打 tag 批次临时产物
+.tmp/
+scripts/tagging/queue.lock

@@ -3,9 +3,8 @@
   "time": 1000,
   "memory": 128,
   "tags": [
-    "字符串hash",
     "哈希",
-    "KMP模式匹配"
+    "KMP"
   ],
   "level": 4
 }
