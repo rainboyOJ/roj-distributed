@@ -48,8 +48,8 @@ Did the Ottoman Empire lose its power at that time
 
 数据范围
 
-$1≤ $单词长度$≤10$。
+$1\leq $单词长度$\leq 10$。
 
-$1≤ $文章长度$≤1,000,000$。
+$1\leq $文章长度$\leq 1,000,000$。
 
 noip2011普及组第2题

@@ -67,16 +67,16 @@
 
 【数据范围】
 
-对于 100%的数据，有$ 2≤N≤100$
+对于 100%的数据，有$ 2\leq N\leq100$
 
-$1≤K≤100$
+$1\leq K\leq100$
 
-$1≤M≤N^2$
+$1\leq M\leq N^2$
 
-$1≤k_i≤K$
+$1\leq k_i\leq K$
 
-$1≤u, v≤N$
+$1\leq u, v\leq N$
 
-$1≤d≤1000,S≠T,1≤S,T≤N$
+$1\leq d\leq1000,S\neq T,1\leq S,T\leq N$
 
 NOIP 2012 普及组 第四题

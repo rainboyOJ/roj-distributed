@@ -84,14 +84,14 @@
 
 **【数据范围】**
 
-对于所有测试数据有：$1 ≤ n ≤ 10^5,1 ≤ a_i ≤ 10^{18}, 1 ≤ b_i ≤ 10^9,0 ≤ |c_i| ≤ 10^9, 1 ≤ u_i, v_i ≤ n$。保证存在方案能在 $10^9$ 天内完成任务。
+对于所有测试数据有：$1 \leq n \leq 10^5,1 \leq a_i \leq 10^{18}, 1 \leq b_i \leq 10^9,0 \leq |c_i| \leq 10^9, 1 \leq u_i, v_i \leq n$。保证存在方案能在 $10^9$ 天内完成任务。
 
 ![T4](https://cdn.luogu.com.cn/upload/image_hosting/aqqd4l0y.png?x-oss-process=image/resize,m_lfit,h_400,w_300)
 
-特殊性质 A：对于所有 $1 ≤ i ≤ n$，均有 $c_i = 0$；
+特殊性质 A：对于所有 $1 \leq i \leq n$，均有 $c_i = 0$；
 
-特殊性质 B：对于所有 $1 ≤ i < n$，均有 $u_i = i$、$v_i = i + 1$；
+特殊性质 B：对于所有 $1 \leq i < n$，均有 $u_i = i$、$v_i = i + 1$；
 
 特殊性质 C：与任何地块直接相连的道路均不超过 $2$ 条；
 
-特殊性质 D：对于所有 $1 ≤ i < n$，均有 $u_i = 1$。
+特殊性质 D：对于所有 $1 \leq i < n$，均有 $u_i = 1$。

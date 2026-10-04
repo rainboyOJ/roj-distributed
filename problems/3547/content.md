@@ -8,7 +8,7 @@
 
 一个数列$a_n$，已知$a_1$及$a_2$两项。
 
-数列$a_n$满足递推式$a_n=x \times a_{n-1}+ y \times a_{n-2}(n≥3).$
+数列$a_n$满足递推式$a_n=x \times a_{n-1}+ y \times a_{n-2}(n\geq 3).$
 
 求$$\sum_{i=1}^na_i^2.$$
 
