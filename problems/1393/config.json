@@ -1,5 +1,9 @@
 {
   "title": "联络员(liaison)",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "最小生成树",
+    "贪心"
+  ]
 }
