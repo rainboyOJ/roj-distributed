@@ -2,5 +2,9 @@
   "title": "usaco-2.4.3 回家",
   "time": 1000,
   "memory": 134217728,
-  "level": 1
+  "level": 1,
+  "tags": [
+    "最短路",
+    "图论"
+  ]
 }
