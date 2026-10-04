@@ -1,5 +1,10 @@
 {
   "title": "「一本通 5.6 例 4」Cats Transport",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "斜率优化",
+    "动态规划",
+    "排序"
+  ]
 }
