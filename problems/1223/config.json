@@ -1,5 +1,10 @@
 {
   "title": "An Easy Problem",
   "time": 1000,
-  "memory": 128
+  "memory": 128,
+  "tags": [
+    "位运算",
+    "构造",
+    "枚举"
+  ]
 }
