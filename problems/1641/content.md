@@ -1,10 +1,10 @@
 ### 【题目描述】
 
-矩阵 $A$ 规模为 $n×m$，矩阵 $B$ 规模为 $m×p$，现需要你求 $A×B$。
+矩阵 $A$ 规模为 $n\times m$，矩阵 $B$ 规模为 $m\times p$，现需要你求 $A\times B$。
 
-矩阵相乘的定义：$n×m$ 的矩阵与 $m×p$ 的矩阵相乘变成 $n×p$ 的矩阵，令 $a\_{ik}$为矩阵 $A$ 中的元素，$b\_{kj}$为矩阵 $B$ 中的元素，则相乘所得矩阵 $C$ 中的元素
+矩阵相乘的定义：$n\times m$ 的矩阵与 $m\times p$ 的矩阵相乘变成 $n\times p$ 的矩阵，令 $a_{ik}$为矩阵 $A$ 中的元素，$b_{kj}$为矩阵 $B$ 中的元素，则相乘所得矩阵 $C$ 中的元素
 
-$$c\_{ij}=\\sum\_{k=1}^m a\_{ik}b\_{kj}$$
+$$c_{ij}=\sum_{k=1}^m a_{ik}b_{kj}$$
 
 具体可见样例。
 
@@ -45,11 +45,11 @@ $$c\_{ij}=\\sum\_{k=1}^m a\_{ik}b\_{kj}$$
 
 样例解释
 
-$\\begin{bmatrix} 14=1× 1+2× 2+3× 3&14=1× 1+2× 2+3× 3\\\\ 10=3× 1+2× 2+1× 3&10=3× 1+2× 2+1× 3 \\end{bmatrix}$
+$\begin{bmatrix} 14=1\times 1+2\times 2+3\times 3&14=1\times 1+2\times 2+3\times 3\\ 10=3\times 1+2\times 2+1\times 3&10=3\times 1+2\times 2+1\times 3 \end{bmatrix}$
 
 数据范围与提示：
 
-对于全部数据，$1\\le n,m,p \\le 100,-10000\\le a\_{ij},b\_{ij}\\le 10000$。
+对于全部数据，$1\le n,m,p \le 100,-10000\le a_{ij},b_{ij}\le 10000$。
 
 
  ### 【来源】
