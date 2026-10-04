@@ -24,7 +24,7 @@ Tom最近在研究一个有趣的排序问题。
 
 下图描述了一个将(1, 3, 2, 4)排序的操作序列：
 
-![untitled.png](/media/article/image/2019/01/15/19_6fe3ea3c18-untitled.png)
+![untitled.png](pic/3058-1.png)
 
 当然，这样的操作序列有可能有几个，对于上例(1, 3, 2, 4)，是另外一个可行的操作序列。
 
