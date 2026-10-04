@@ -4,8 +4,7 @@
   "memory": 128,
   "tags": [
     "搜索",
-    "A*",
-    "dijkstra",
+    "A*搜索",
     "最短路"
   ],
   "level": 6
