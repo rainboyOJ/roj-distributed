@@ -6,7 +6,7 @@
 
 现在需要把棋盘按上述规则分割成n块矩形棋盘，并使各矩形棋盘总分的均方差最小。
 
-均方差![formula.png](/media/article/image/2019/02/05/19_566d096029-formula.png) ，其中平均值![lala.png](/media/article/image/2019/02/05/19_047fe57229-lala.png) ，$x\_i$为第 i 块矩形棋盘的总分。
+均方差![formula.png](/media/article/image/2019/02/05/19_566d096029-formula.png) ，其中平均值![lala.png](/media/article/image/2019/02/05/19_047fe57229-lala.png) ，$x_i$为第 i 块矩形棋盘的总分。
 
 请编程对给出的棋盘及n，求出均方差的最小值。
 
