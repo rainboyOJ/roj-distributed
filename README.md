@@ -61,3 +61,5 @@ python3 .agents/skills/roj/scripts/roj.py test 20015 main.cpp --download
 ## 数据分发
 
 每题测试数据打包为不可变的 `<id>.tar.zst` 归档（内含 `data/`），经两条只读通道分发：`csps.de5.net`（主站）+ `oidata.cc.cd`（备用），均支持 Range 断点续传；不再提供单文件下载。通道配置见 `web/config.yaml`。
+
+测试数据本地存放在各题目录的 `problems/<id>/data/`（gitignored，不进 Git）；`problems/<id>/data.json` 是其清单（路径/大小）。打包上传后若归档未更新，该题数据下载会 404。
