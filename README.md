@@ -27,10 +27,20 @@ GitHub(题面+代码+数据清单) ──浏览──> 只读题面站(web/)
 ```text
 problems/      题目记录: config.json / content.md / std.cpp / data.json
 contests/      比赛页面 (Markdown 记录)
+problem-sets/  题目单 (Markdown 记录)
 web/           只读题面站 (Fastify + Pug 服务端渲染, Vite 构建)
 scripts/       迁移等辅助脚本
 .agents/skills/ 导入与访问题目等工作流 (add-roj-problem / roj 等)
 ```
+
+## 题目单
+
+网站提供「题目单」功能（导航 → 题目单）：按主题/教材整理的刷题清单，题目链接直接跳站内题面，支持浏览器本地勾选进度（可导出/导入）。题目单文件放在 `problem-sets/` 下，详见 [web/README.md](web/README.md)。
+
+现有题目单：
+
+- [problem-sets/ybt.md](problem-sets/ybt.md)：按 [ybt.ssoier.cn](https://ybt.ssoier.cn/index.php) 左侧分类索引整理的《信息学奥赛一本通（C++版）》题目单（C++编程语言 / 基础算法 / 数据结构基础 / 算法提高篇 / 高手训练篇），逐题标注 ROJ 收录情况与同题异号对照。
+  表格区由 `python3 scripts/gen_ybt_list.py` 生成（数据快照：`scripts/ybt_catalog.json`），引言与笔记可手工编辑。
 
 ## 本地运行
 

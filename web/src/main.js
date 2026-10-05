@@ -467,11 +467,133 @@ function initDownloadModal() {
     lastFocused = null;
   });
 }
+const PROGRESS_KEY = 'roj.progress.v1';
+
+function loadProgressState() {
+  try {
+    const raw = JSON.parse(window.localStorage.getItem(PROGRESS_KEY) || 'null');
+    if (raw && typeof raw === 'object' && raw.done && typeof raw.done === 'object' && !Array.isArray(raw.done)) {
+      return { done: raw.done };
+    }
+  } catch {
+    // Ignore broken payloads and start fresh.
+  }
+  return { done: {} };
+}
+
+function saveProgressState(state) {
+  try {
+    window.localStorage.setItem(PROGRESS_KEY, JSON.stringify({ version: 1, done: state.done }));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function todayStamp() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function syncProgressCheckboxes(state, container = document) {
+  container.querySelectorAll('[data-progress-id]').forEach((checkbox) => {
+    checkbox.checked = Boolean(state.done[checkbox.dataset.progressId]);
+  });
+}
+
+function initProgressDetail() {
+  const panel = document.querySelector('[data-progress-panel]');
+  if (!panel) return;
+  const state = loadProgressState();
+  const text = panel.querySelector('[data-progress-text]');
+  const fill = panel.querySelector('[data-progress-fill]');
+  const checkboxes = [...document.querySelectorAll('[data-progress-id]')];
+
+  function update() {
+    syncProgressCheckboxes(state);
+    const total = checkboxes.length;
+    const done = checkboxes.filter((checkbox) => state.done[checkbox.dataset.progressId]).length;
+    const percent = total ? Math.round((done / total) * 100) : 0;
+    if (text) text.textContent = total ? `已完成 ${done} / ${total}（${percent}%）` : '这份题目单暂无可勾选的题目。';
+    if (fill) fill.style.width = `${percent}%`;
+  }
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+      const id = checkbox.dataset.progressId;
+      if (checkbox.checked) state.done[id] = todayStamp();
+      else delete state.done[id];
+      saveProgressState(state);
+      update();
+    });
+  });
+
+  panel.querySelector('[data-progress-clear-set]')?.addEventListener('click', () => {
+    const ids = checkboxes.map((checkbox) => checkbox.dataset.progressId);
+    if (!ids.length) return;
+    if (!window.confirm(`清空这份题目单里 ${ids.length} 道题的勾选记录？`)) return;
+    ids.forEach((id) => delete state.done[id]);
+    saveProgressState(state);
+    update();
+  });
+
+  panel.querySelector('[data-progress-export]')?.addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify({ version: 1, done: state.done }, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `roj-progress-${todayStamp()}.json`;
+    document.body.append(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+  });
+
+  const fileInput = panel.querySelector('[data-progress-import-file]');
+  panel.querySelector('[data-progress-import]')?.addEventListener('click', () => fileInput?.click());
+  fileInput?.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    fileInput.value = '';
+    if (!file) return;
+    try {
+      const payload = JSON.parse(await file.text());
+      const done = payload && typeof payload === 'object' ? (payload.done ?? payload) : null;
+      if (!done || typeof done !== 'object' || Array.isArray(done)) throw new Error('bad_payload');
+      Object.assign(state.done, done);
+      saveProgressState(state);
+      update();
+      if (text) text.textContent += ' · 已导入';
+    } catch {
+      if (text) text.textContent = '导入失败：不是有效的进度 JSON。';
+    }
+  });
+
+  update();
+}
+
+function initProgressList() {
+  const rows = [...document.querySelectorAll('[data-progress-row]')];
+  if (!rows.length) return;
+  const state = loadProgressState();
+  rows.forEach((row) => {
+    const summary = row.querySelector('[data-progress-summary]');
+    if (!summary) return;
+    const ids = (row.dataset.problemIds || '').split(',').filter(Boolean);
+    if (!ids.length) {
+      summary.textContent = '—';
+      return;
+    }
+    const done = ids.filter((id) => state.done[id]).length;
+    summary.textContent = `${done} / ${ids.length}（${Math.round((done / ids.length) * 100)}%）`;
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   applyTheme();
   initDownloadModal();
   initCommandModal();
   initCopyStatement();
+  initProgressDetail();
+  initProgressList();
 
   document.querySelectorAll('.code-block code[class*="language-"]').forEach((code) => {
     const language = [...code.classList].find((name) => name.startsWith('language-'))?.slice(9);

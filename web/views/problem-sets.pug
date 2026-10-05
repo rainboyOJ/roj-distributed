@@ -1,0 +1,50 @@
+extends layout.pug
+
+block title
+  | 题目单 - ROJ
+
+block content
+  .shell
+    section.page-heading
+      .page-heading-copy
+        p.eyebrow ROJ / PROBLEM SETS
+        h1 题目单
+        p.page-lead 按主题或教材整理的刷题清单，每道题直接跳到本站题面。
+      .heading-count
+        strong #{problemSets.length}
+        span 张题目单
+
+    if problemSets.length
+      .table-wrap
+        table.problem-table.problem-set-table
+          caption.visually-hidden 题目单列表
+          thead
+            tr
+              th(scope="col") 题目单
+              th(scope="col") 题目数
+              th(scope="col") 本站收录
+              th(scope="col") 我的进度
+              th(scope="col") 标签
+          tbody
+            each set in problemSets
+              tr(data-progress-row, data-problem-ids=set.problemIds.join(','))
+                td.problem-set-title-cell
+                  a.problem-title-link(href=`/problem-set/${set.slug}`) #{set.title}
+                  if set.description
+                    p.contest-table-description #{set.description}
+                td #{set.stats.items}
+                td #{set.stats.covered}
+                td.problem-set-progress-cell
+                  span(data-progress-summary) —
+                td.contest-tags-cell
+                  if set.tags.length
+                    .tag-list
+                      each tag in set.tags
+                        span.tag #{tag}
+                  else
+                    span.muted 未标注
+    else
+      .empty-state
+        span.empty-state-mark(aria-hidden="true") /
+        h2 暂无题目单
+        p 题目单添加到 problem-sets 目录后会显示在这里。

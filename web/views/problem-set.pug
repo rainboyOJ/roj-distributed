@@ -1,0 +1,67 @@
+extends layout.pug
+
+block title
+  | #{problemSet.title} - ROJ
+
+block content
+  .shell
+    nav.breadcrumbs(aria-label="当前位置")
+      a(href="/problem-sets") 题目单
+      span(aria-hidden="true") /
+      span(aria-current="page") #{problemSet.title}
+
+    header.contest-heading
+      .contest-heading-main
+        p.eyebrow 题目单
+        h1 #{problemSet.title}
+        if problemSet.description
+          p.page-lead #{problemSet.description}
+
+    if problemSet.metadata.length
+      dl.contest-meta
+        each field in problemSet.metadata
+          div
+            dt #{field.label}
+            dd #{field.value}
+
+    if statement
+      section.progress-panel(aria-labelledby="progress-title", data-progress-panel)
+        .progress-panel-main
+          h2#progress-title 本单进度
+          .progress-bar(aria-hidden="true")
+            span.progress-bar-fill(data-progress-fill, style="width:0%")
+          p.progress-text(data-progress-text) 正在读取进度…
+        .progress-panel-actions
+          button.progress-button(type="button", data-progress-export) 导出进度
+          button.progress-button(type="button", data-progress-import) 导入进度
+          button.progress-button(type="button", data-progress-clear-set) 清空本单勾选
+          input.visually-hidden(type="file", accept="application/json,.json", data-progress-import-file)
+
+      if statement.missingLinks.length
+        .content-error(role="alert")
+          h2 有题目链接失效
+          p
+            | 以下题号在本站不存在，请核对题目单内容：
+            |
+            each link, index in statement.missingLinks
+              if index > 0
+                | 、
+              | #{link.id}
+
+      .contest-layout
+        article.markdown-body(data-progress-body)!= statement.html
+        if statement.toc.length
+          aside.problem-toc
+            details.toc-details(open)
+              summary 页面目录
+              nav(aria-label="题目单内容目录")
+                each item in statement.toc
+                  a.toc-link(data-toc-link, class=item.level === 3 ? 'is-subheading' : '', href=`#${item.id}`) #{item.text}
+    else if renderError
+      .content-error(role="alert")
+        h2 内容暂时无法显示
+        p #{renderError}
+    else
+      .content-error(role="status")
+        h2 内容暂缺
+        p 这份题目单目前没有可用的 Markdown 内容。

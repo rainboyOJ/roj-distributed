@@ -8,12 +8,14 @@ import fastifyView from '@fastify/view';
 import pug from 'pug';
 import { ProblemCatalog } from './problem-catalog.mjs';
 import { ContestCatalog } from './contest-catalog.mjs';
+import { ProblemSetCatalog } from './problem-set-catalog.mjs';
 import { MarkdownRenderer } from './markdown-renderer.mjs';
 import { archiveFileName, downloadSources, loadDownloadConfig } from './download-config.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rojRoot = path.resolve(process.env.ROJ_ROOT || path.join(projectRoot, '..', 'problems'));
 const contestsRoot = path.resolve(process.env.CONTESTS_ROOT || path.join(projectRoot, '..', 'contests'));
+const problemSetsRoot = path.resolve(process.env.PROBLEM_SETS_ROOT || path.join(projectRoot, '..', 'problem-sets'));
 const publicRoot = path.join(projectRoot, 'public');
 const favRoot = path.join(projectRoot, 'fav');
 const downloadConfigPath = process.env.DOWNLOAD_CONFIG || path.join(projectRoot, 'config.yaml');
@@ -44,6 +46,8 @@ const catalog = new ProblemCatalog(rojRoot, renderer, { logger: app.log });
 catalog.load();
 const contestCatalog = new ContestCatalog(contestsRoot, renderer, catalog, { logger: app.log });
 contestCatalog.load();
+const problemSetCatalog = new ProblemSetCatalog(problemSetsRoot, renderer, catalog, { logger: app.log });
+problemSetCatalog.load();
 
 function apiError(reply, statusCode, error, message) {
   return reply.code(statusCode).send({ error, message, retryable: false });
@@ -230,6 +234,59 @@ app.get('/contest/:slug', async (request, reply) => {
   }));
 });
 
+app.get('/problem-sets', async (_request, reply) => {
+  const sets = problemSetCatalog.list();
+  return reply.view('problem-sets.pug', baseLocals('/problem-sets', {
+    title: '题目单 - ROJ',
+    problemSets: sets.map((entry) => {
+      const rendered = problemSetCatalog.render(entry);
+      return {
+        ...entry,
+        stats: rendered?.stats ?? { items: entry.items ?? 0, covered: entry.covered ?? 0, linked: 0 },
+        problemIds: (rendered?.problemLinks ?? []).map((link) => link.id)
+      };
+    })
+  }));
+});
+
+app.get('/problem-set/:slug', async (request, reply) => {
+  const entry = problemSetCatalog.get(request.params.slug);
+  if (!entry) return reply.code(404).view('404.pug', { title: '题目单不存在 - ROJ', message: '没有找到这份题目单。' });
+
+  let statement = null;
+  let renderError = null;
+  try {
+    statement = problemSetCatalog.render(entry);
+  } catch (error) {
+    request.log.error({ err: error, problemSet: entry.slug }, 'Problem set Markdown render failed');
+    renderError = '这份题目单的 Markdown 暂时无法渲染。';
+  }
+
+  return reply.view('problem-set.pug', baseLocals('/problem-sets', {
+    title: `${entry.title} - ROJ`,
+    problemSet: entry,
+    statement,
+    renderError
+  }));
+});
+
+app.get('/problem-set/:slug/asset/*', async (request, reply) => {
+  const entry = problemSetCatalog.get(request.params.slug);
+  let assetPath = null;
+  try { assetPath = problemSetCatalog.assetPath(entry, request.params['*']); } catch { assetPath = null; }
+  if (!assetPath) return reply.code(404).send('Not found');
+  const contentTypes = {
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.gif': 'image/gif',
+    '.webp': 'image/webp',
+    '.svg': 'image/svg+xml'
+  };
+  reply.type(contentTypes[path.extname(assetPath).toLocaleLowerCase()] || 'application/octet-stream');
+  return reply.send(fs.createReadStream(assetPath));
+});
+
 app.get('/problem/:id', async (request, reply) => {
   const entry = catalog.get(request.params.id);
   if (!entry) return reply.code(404).view('404.pug', { title: '题目不存在 - ROJ', message: `没有找到题目 ${request.params.id}` });
@@ -312,7 +369,7 @@ app.setErrorHandler(async (error, request, reply) => {
 
 try {
   await app.listen({ port, host });
-  app.log.info({ host, port, rojRoot, contestsRoot, problems: catalog.entries.length, contests: contestCatalog.entries.length, downloadConfigPath, downloadConfigInvalid }, 'ROJ is serving');
+  app.log.info({ host, port, rojRoot, contestsRoot, problemSetsRoot, problems: catalog.entries.length, contests: contestCatalog.entries.length, problemSets: problemSetCatalog.entries.length, downloadConfigPath, downloadConfigInvalid }, 'ROJ is serving');
 } catch (error) {
   app.log.error(error);
   process.exit(1);

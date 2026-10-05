@@ -23,6 +23,7 @@ npm run start
 - `HOST`：监听地址，默认 `0.0.0.0`
 - `ROJ_ROOT`：题目目录，默认使用 `web/../problems`
 - `CONTESTS_ROOT`：比赛目录，默认使用 `web/../contests`
+- `PROBLEM_SETS_ROOT`：题目单目录，默认使用 `web/../problem-sets`
 - `DOWNLOAD_CONFIG`：下载配置文件，默认使用 `web/config.yaml`
 
 开发时可以单独运行 `npm run build`，服务端会读取 `public/assets` 中的构建结果。生产部署前请先构建一次静态资源。
@@ -95,3 +96,33 @@ tags: [训练赛, 暑假]
 ```
 
 `title` 是必填字段。`status` 可取 `upcoming`、`ongoing`、`archived`；省略时根据日期按中国时区自动推断。编辑中的文件可以设置 `draft: true` 暂不公开。比赛图片可放在同名目录（如 `contests/2026-summer/schedule.png`），正文使用相对路径引用。
+
+## 题目单文件
+
+题目单放在仓库根目录的 `problem-sets/` 下，每个一级 Markdown 文件的文件名（不含 `.md`）就是详情页 slug。例如 `problem-sets/ybt.md` 对应 `/problem-set/ybt`。
+
+```yaml
+---
+title: 一本通（ybt.ssoier.cn）题目单
+description: 按在线题库分类索引整理的刷题清单
+tags: [一本通, 刷题计划]
+order: 1
+items: 895
+covered: 667
+source: https://ybt.ssoier.cn/index.php
+---
+
+说明文字，以及指向站内题目的链接：
+
+- [A. 两数之和](/problem/1000)
+```
+
+`title` 是必填字段。其余约定：
+
+- `order`：列表页排序（小的在前）；省略时按标题排。`draft: true` 暂不公开；
+- `items` / `covered`：题目总数与本站收录数，显示在列表页和详情页；省略时按正文里的 `/problem/<id>` 链接自动计数（`items` 计全部链接，`covered` 只计存在的题目）；
+- 正文里的 `/problem/<id>` 链接由渲染器自动加进度复选框；指向不存在题目的链接会降级成灰色删除线并在页面顶部列出；
+- 进度存在浏览器 localStorage（`roj.progress.v1`，按题号全局共享），详情页提供导出/导入 JSON 与清空本单勾选；
+- 题目单图片可放在同名目录（如 `problem-sets/ybt/fig.png`），正文使用相对路径引用。
+
+大体量题目单可以只让脚本重写标记区块（如 `problem-sets/ybt.md` 的 `<!-- ybt:generated:start/end -->` 之间由 `scripts/gen_ybt_list.py` 维护），区块外的引言与笔记手工编辑。

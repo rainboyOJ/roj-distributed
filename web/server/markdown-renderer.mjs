@@ -97,6 +97,39 @@ function extractProblemLinks(tokens) {
   return links;
 }
 
+/**
+ * 题目单渲染：给 /problem/<id> 链接加进度复选框；死链降级标注，不静默失败。
+ * 只在 env.decorateProblemLinks 开启时生效，不影响题面/比赛渲染。
+ */
+function decorateProblemLinks(tokens, env) {
+  const exists = typeof env.problemExists === 'function' ? env.problemExists : () => true;
+  for (const token of tokens) {
+    if (token.type !== 'inline' || !token.children) continue;
+    for (let index = 0; index < token.children.length; index += 1) {
+      const child = token.children[index];
+      if (child.type !== 'link_open') continue;
+      const match = (child.attrGet('href') || '').match(/^\/problem\/(\d+)(?:[?#].*)?\/?$/);
+      if (!match) continue;
+      const id = match[1];
+      child.meta = { problemId: id };
+      if (!exists(id)) {
+        child.attrJoin('class', 'problem-link is-missing');
+        child.attrSet('title', `题目 ${id} 在本站不存在`);
+        continue;
+      }
+      child.attrJoin('class', 'problem-link');
+      if (!env.progressCheckboxes) continue;
+      child.meta.checkbox = true;
+      for (let closeIndex = index + 1; closeIndex < token.children.length; closeIndex += 1) {
+        const candidate = token.children[closeIndex];
+        if (candidate.type !== 'link_close') continue;
+        candidate.meta = { checkboxFor: id };
+        break;
+      }
+    }
+  }
+}
+
 export class MarkdownRenderer {
   constructor() {
     this.md = new MarkdownIt({ html: false, linkify: true, typographer: true, breaks: false });
@@ -145,7 +178,17 @@ export class MarkdownRenderer {
         tokens[index].attrSet('target', '_blank');
         tokens[index].attrSet('rel', 'noopener noreferrer');
       }
-      return defaultLinkOpen(tokens, index, options, env, self);
+      const html = defaultLinkOpen(tokens, index, options, env, self);
+      if (!tokens[index].meta?.checkbox) return html;
+      const id = tokens[index].meta.problemId;
+      return `<span class="progress-item">${
+        `<input class="progress-checkbox" type="checkbox" data-progress-id="${escapeHtml(id)}" aria-label="标记题目 ${escapeHtml(id)} 已完成">`
+      }${html}`;
+    };
+
+    this.md.renderer.rules.link_close = (tokens, index, options, env, self) => {
+      const html = self.renderToken(tokens, index, options);
+      return tokens[index].meta?.checkboxFor ? `${html}</span>` : html;
     };
 
     this.md.renderer.rules.emoji = (tokens, index) => twemoji.parse(tokens[index].content);
@@ -156,6 +199,7 @@ export class MarkdownRenderer {
     const renderEnv = { ...env, toc: [] };
     const tokens = this.md.parse(parsed.content, renderEnv);
     addHeadingIds(tokens, renderEnv);
+    if (env.decorateProblemLinks) decorateProblemLinks(tokens, renderEnv);
     return {
       html: this.md.renderer.render(tokens, this.md.options, renderEnv),
       toc: renderEnv.toc,

@@ -19,3 +19,7 @@ _Avoid_: 测试数据（生成器是脚本，不是数据本体）
 **测试数据**:
 不进 Git 的、用于评测的数据本体：`data/` 下的 `.in`/`.out`（及 `.ans` 等）以及派生的 `data.zip`。通过 BT（主要）+ HTTP（临时）分发。
 _Avoid_: 数据、题目内容、公开数据
+
+**题目单**:
+进入 Git 的、按主题或教材整理的刷题清单：`problem-sets/<slug>.md`（frontmatter + Markdown 正文），题目用 `/problem/<id>` 站内链接引用。
+_Avoid_: 题单、计划、清单（避免与 data.json「清单」混淆）
