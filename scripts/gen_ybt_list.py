@@ -17,6 +17,10 @@
     python3 scripts/gen_ybt_list.py --check    # 只校验对照关系与统计，不写文件
 
 输出：problem-sets/ybt-cpp.md / ybt-basic.md / ybt-ds.md / ybt-adv.md / ybt-expert.md
+
+ybt 的分类树是「章节标题与题目互为兄弟」的平结构，生成前会先归并成真正的
+父子结构（见 adopt_orphan_leaves），否则一个节点的题目会全部堆在它自己的表格里、
+各章节标题下反而没有题目。
 """
 
 from __future__ import annotations
@@ -139,6 +143,46 @@ def parse_tree(menu: str) -> list[Node]:
         (stack[-1].children if stack else roots).append(node)
         stack.append(node)
     return roots
+
+
+def adopt_orphan_leaves(node: Node) -> Node:
+    """把「空章节节点 + 紧跟在它后面的兄弟题目」收成真正的父子结构。
+
+    ybt 的分类树是平的：章节标题与题目是**兄弟**，题目排在自己所属章节标题后面，
+    例如「一、基础算法(高手训练)」的孩子依次是
+    第1章 贪心算法（空）、1671-1675、第2章 二分与三分（空）、1676-1680……
+    不归并的话，一个节点的所有直属题目会全部堆在它自己的表格里，
+    而每个章节标题下面空空如也（曾导致「贪心算法」下无题目）。
+
+    只归并「后面确实跟着题目」的空章节；有真子节点的节自己成树，不抢兄弟题目。
+    """
+    if not node.children:
+        return node
+    merged: list[Node] = []
+    current: Node | None = None  # 正在承接后续兄弟题目的空章节
+    for child in node.children:
+        if child.pid:
+            (current.children if current else merged).append(child)
+            continue
+        adopt_orphan_leaves(child)
+        merged.append(child)
+        current = child if not child.children else None
+    node.children = merged
+    return node
+
+
+def unmerged_flat_sections(node: Node, path: str, out: list[str]) -> None:
+    """归并后置校验：空章节后面不应再跟着兄弟题目。"""
+    siblings = node.children
+    for i, child in enumerate(siblings):
+        if child.pid or child.children:
+            continue
+        if any(x.pid for x in siblings[i + 1:]):
+            out.append(f"{path}/{child.text}")
+            break
+    for child in node.children:
+        if not child.pid:
+            unmerged_flat_sections(child, f"{path}/{child.text}", out)
 
 
 # ---------------------------------------------------------------- ROJ 对照
@@ -407,6 +451,18 @@ def generate() -> list[dict]:
     catalog = json.loads(CATALOG.read_text())
     titles = catalog["titles"]
     by_name = {n.text: n for n in parse_tree(catalog["menu"])}
+    for top in [s["top"] for s in SETS]:
+        node = by_name.get(top)
+        if node is None:
+            raise SystemExit(f"快照中找不到分类「{top}」，检查 scripts/ybt_catalog.json 或 SETS 配置")
+        adopt_orphan_leaves(node)
+
+    flat = []
+    for top in [s["top"] for s in SETS]:
+        unmerged_flat_sections(by_name[top], top, flat)
+    if flat:
+        raise SystemExit("分类树归并未完成，以下章节的题目无法归属：" + "、".join(flat))
+
     roj_titles = load_roj_titles()
     mapping = json.loads(MAPPING.read_text()) if MAPPING.exists() else {}
 

@@ -75,6 +75,9 @@ source: https://ybt.ssoier.cn/index.php
 <a id="sec-3"></a>
 ### 第三章 树
 
+<a id="sec-4"></a>
+#### 第一节 树及二叉树
+
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
 | 1 | [1336](https://ybt.ssoier.cn/problem_show.php?pid=1336) | 【例3-1】找树根和孩子 | [ROJ 1336](/problem/1336) |
@@ -90,20 +93,23 @@ source: https://ybt.ssoier.cn/index.php
 | 11 | [1368](https://ybt.ssoier.cn/problem_show.php?pid=1368) | 对称二叉树(tree_c) | [ROJ 1368](/problem/1368) |
 | 12 | [2141](https://ybt.ssoier.cn/problem_show.php?pid=2141) | 公司下属 | [ROJ 2141](/problem/2141) |
 | 13 | [2142](https://ybt.ssoier.cn/problem_show.php?pid=2142) | 树边匹配 | [ROJ 2142](/problem/2142) |
-| 14 | [1369](https://ybt.ssoier.cn/problem_show.php?pid=1369) | 合并果子(fruit) | [ROJ 1369](/problem/1369) |
-| 15 | [1370](https://ybt.ssoier.cn/problem_show.php?pid=1370) | 最小函数值(minval) | [ROJ 1370](/problem/1370) |
-| 16 | [1371](https://ybt.ssoier.cn/problem_show.php?pid=1371) | 看病 | [ROJ 1371](/problem/1371) |
-| 17 | [1372](https://ybt.ssoier.cn/problem_show.php?pid=1372) | 小明的账单 | [ROJ 1372](/problem/1372) |
-| 18 | [1373](https://ybt.ssoier.cn/problem_show.php?pid=1373) | 鱼塘钓鱼(fishing） | [ROJ 1373](/problem/1373) |
-
-<a id="sec-4"></a>
-#### 第一节 树及二叉树
 
 <a id="sec-5"></a>
 #### 第二节 堆及其应用
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1369](https://ybt.ssoier.cn/problem_show.php?pid=1369) | 合并果子(fruit) | [ROJ 1369](/problem/1369) |
+| 2 | [1370](https://ybt.ssoier.cn/problem_show.php?pid=1370) | 最小函数值(minval) | [ROJ 1370](/problem/1370) |
+| 3 | [1371](https://ybt.ssoier.cn/problem_show.php?pid=1371) | 看病 | [ROJ 1371](/problem/1371) |
+| 4 | [1372](https://ybt.ssoier.cn/problem_show.php?pid=1372) | 小明的账单 | [ROJ 1372](/problem/1372) |
+| 5 | [1373](https://ybt.ssoier.cn/problem_show.php?pid=1373) | 鱼塘钓鱼(fishing） | [ROJ 1373](/problem/1373) |
+
 <a id="sec-6"></a>
 ### 第四章 图论算法
+
+<a id="sec-7"></a>
+#### 第一节 图的遍历
 
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
@@ -114,59 +120,71 @@ source: https://ybt.ssoier.cn/index.php
 | 5 | [2126](https://ybt.ssoier.cn/problem_show.php?pid=2126) | [USACO19OPEN] Milk Factory | [ROJ 2126](/problem/2126) |
 | 6 | [1374](https://ybt.ssoier.cn/problem_show.php?pid=1374) | 铲雪车(snow) | [ROJ 1374](/problem/1374) |
 | 7 | [1375](https://ybt.ssoier.cn/problem_show.php?pid=1375) | 骑马修栅栏(fence) | [ROJ 1375](/problem/1375) |
-| 8 | [1342](https://ybt.ssoier.cn/problem_show.php?pid=1342) | 【例4-1】最短路径问题 | [ROJ 1342](/problem/1342) |
-| 9 | [1343](https://ybt.ssoier.cn/problem_show.php?pid=1343) | 【例4-2】牛的旅行 | [ROJ 1343](/problem/1343) |
-| 10 | [1344](https://ybt.ssoier.cn/problem_show.php?pid=1344) | 【例4-4】最小花费 | [ROJ 1344](/problem/1344) |
-| 11 | [1345](https://ybt.ssoier.cn/problem_show.php?pid=1345) | 【例4-6】香甜的黄油 | [ROJ 1345](/problem/1345) |
-| 12 | [1376](https://ybt.ssoier.cn/problem_show.php?pid=1376) | 信使(msner) | [ROJ 1376](/problem/1376) |
-| 13 | [1377](https://ybt.ssoier.cn/problem_show.php?pid=1377) | 最优乘车(travel) | [ROJ 1377](/problem/1377) |
-| 14 | [1378](https://ybt.ssoier.cn/problem_show.php?pid=1378) | 最短路径(shopth) | [ROJ 1378](/problem/1378) |
-| 15 | [1379](https://ybt.ssoier.cn/problem_show.php?pid=1379) | 热浪(heatwv) | [ROJ 1379](/problem/1379) |
-| 16 | [1380](https://ybt.ssoier.cn/problem_show.php?pid=1380) | 分糖果(candy) | [ROJ 1380](/problem/1380) |
-| 17 | [1381](https://ybt.ssoier.cn/problem_show.php?pid=1381) | 城市路(Dijkstra) | [ROJ 1381](/problem/1381) |
-| 18 | [1382](https://ybt.ssoier.cn/problem_show.php?pid=1382) | 最短路(Spfa) | [ROJ 1382](/problem/1382) |
-| 19 | [1419](https://ybt.ssoier.cn/problem_show.php?pid=1419) | SPFA(II) | [ROJ 1419](/problem/1419) |
-| 20 | [1420](https://ybt.ssoier.cn/problem_show.php?pid=1420) | Dijkastra(II) | [ROJ 1420](/problem/1420) |
-| 21 | [1421](https://ybt.ssoier.cn/problem_show.php?pid=1421) | Floyd | [ROJ 1421](/problem/1421) |
-| 22 | [1383](https://ybt.ssoier.cn/problem_show.php?pid=1383) | 刻录光盘(cdrom) | [ROJ 1383](/problem/1383) |
-| 23 | [1384](https://ybt.ssoier.cn/problem_show.php?pid=1384) | 珍珠(bead) | [ROJ 1384](/problem/1384) |
-| 24 | [1346](https://ybt.ssoier.cn/problem_show.php?pid=1346) | 【例4-7】亲戚(relation) | [ROJ 1346](/problem/1346) |
-| 25 | [1347](https://ybt.ssoier.cn/problem_show.php?pid=1347) | 【例4-8】格子游戏 | [ROJ 1347](/problem/1347) |
-| 26 | [1385](https://ybt.ssoier.cn/problem_show.php?pid=1385) | 团伙(group) | [ROJ 1385](/problem/1385) |
-| 27 | [1386](https://ybt.ssoier.cn/problem_show.php?pid=1386) | 打击犯罪(black) | [ROJ 1386](/problem/1386) |
-| 28 | [1387](https://ybt.ssoier.cn/problem_show.php?pid=1387) | 搭配购买(buy) | [ROJ 1387](/problem/1387) |
-| 29 | [1388](https://ybt.ssoier.cn/problem_show.php?pid=1388) | 家谱(gen) | [ROJ 1388](/problem/1388) |
-| 30 | [1389](https://ybt.ssoier.cn/problem_show.php?pid=1389) | 亲戚 | [ROJ 1389](/problem/1389) |
-| 31 | [1390](https://ybt.ssoier.cn/problem_show.php?pid=1390) | 食物链【NOI2001】 | [ROJ 1390](/problem/1390) |
-| 32 | [1348](https://ybt.ssoier.cn/problem_show.php?pid=1348) | 【例4-9】城市公交网建设问题 | [ROJ 1348](/problem/1348) |
-| 33 | [1349](https://ybt.ssoier.cn/problem_show.php?pid=1349) | 【例4-10】最优布线问题 | [ROJ 1349](/problem/1349) |
-| 34 | [1350](https://ybt.ssoier.cn/problem_show.php?pid=1350) | 【例4-11】最短网络(agrinet) | [ROJ 1350](/problem/1350) |
-| 35 | [1351](https://ybt.ssoier.cn/problem_show.php?pid=1351) | 【例4-12】家谱树 | [ROJ 1351](/problem/1351) |
-| 36 | [1391](https://ybt.ssoier.cn/problem_show.php?pid=1391) | 局域网(net) | [ROJ 1391](/problem/1391) |
-| 37 | [1392](https://ybt.ssoier.cn/problem_show.php?pid=1392) | 繁忙的都市(city) | [ROJ 1392](/problem/1392) |
-| 38 | [1393](https://ybt.ssoier.cn/problem_show.php?pid=1393) | 联络员(liaison) | [ROJ 1393](/problem/1393) |
-| 39 | [1394](https://ybt.ssoier.cn/problem_show.php?pid=1394) | 连接格点(grid) | [ROJ 1394](/problem/1394) |
-| 40 | [1352](https://ybt.ssoier.cn/problem_show.php?pid=1352) | 【例4-13】奖金 | [ROJ 1352](/problem/1352) |
-| 41 | [1395](https://ybt.ssoier.cn/problem_show.php?pid=1395) | 烦人的幻灯片(slides) | [ROJ 1395](/problem/1395) |
-| 42 | [1396](https://ybt.ssoier.cn/problem_show.php?pid=1396) | 病毒(virus) | [ROJ 1396](/problem/1396) |
-
-<a id="sec-7"></a>
-#### 第一节 图的遍历
 
 <a id="sec-8"></a>
 #### 第二节 最短路径算法
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1342](https://ybt.ssoier.cn/problem_show.php?pid=1342) | 【例4-1】最短路径问题 | [ROJ 1342](/problem/1342) |
+| 2 | [1343](https://ybt.ssoier.cn/problem_show.php?pid=1343) | 【例4-2】牛的旅行 | [ROJ 1343](/problem/1343) |
+| 3 | [1344](https://ybt.ssoier.cn/problem_show.php?pid=1344) | 【例4-4】最小花费 | [ROJ 1344](/problem/1344) |
+| 4 | [1345](https://ybt.ssoier.cn/problem_show.php?pid=1345) | 【例4-6】香甜的黄油 | [ROJ 1345](/problem/1345) |
+| 5 | [1376](https://ybt.ssoier.cn/problem_show.php?pid=1376) | 信使(msner) | [ROJ 1376](/problem/1376) |
+| 6 | [1377](https://ybt.ssoier.cn/problem_show.php?pid=1377) | 最优乘车(travel) | [ROJ 1377](/problem/1377) |
+| 7 | [1378](https://ybt.ssoier.cn/problem_show.php?pid=1378) | 最短路径(shopth) | [ROJ 1378](/problem/1378) |
+| 8 | [1379](https://ybt.ssoier.cn/problem_show.php?pid=1379) | 热浪(heatwv) | [ROJ 1379](/problem/1379) |
+| 9 | [1380](https://ybt.ssoier.cn/problem_show.php?pid=1380) | 分糖果(candy) | [ROJ 1380](/problem/1380) |
+| 10 | [1381](https://ybt.ssoier.cn/problem_show.php?pid=1381) | 城市路(Dijkstra) | [ROJ 1381](/problem/1381) |
+| 11 | [1382](https://ybt.ssoier.cn/problem_show.php?pid=1382) | 最短路(Spfa) | [ROJ 1382](/problem/1382) |
+| 12 | [1419](https://ybt.ssoier.cn/problem_show.php?pid=1419) | SPFA(II) | [ROJ 1419](/problem/1419) |
+| 13 | [1420](https://ybt.ssoier.cn/problem_show.php?pid=1420) | Dijkastra(II) | [ROJ 1420](/problem/1420) |
+| 14 | [1421](https://ybt.ssoier.cn/problem_show.php?pid=1421) | Floyd | [ROJ 1421](/problem/1421) |
+
 <a id="sec-9"></a>
 #### 第三节 图的连通性问题
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1383](https://ybt.ssoier.cn/problem_show.php?pid=1383) | 刻录光盘(cdrom) | [ROJ 1383](/problem/1383) |
+| 2 | [1384](https://ybt.ssoier.cn/problem_show.php?pid=1384) | 珍珠(bead) | [ROJ 1384](/problem/1384) |
 
 <a id="sec-10"></a>
 #### 第四节 并查集
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1346](https://ybt.ssoier.cn/problem_show.php?pid=1346) | 【例4-7】亲戚(relation) | [ROJ 1346](/problem/1346) |
+| 2 | [1347](https://ybt.ssoier.cn/problem_show.php?pid=1347) | 【例4-8】格子游戏 | [ROJ 1347](/problem/1347) |
+| 3 | [1385](https://ybt.ssoier.cn/problem_show.php?pid=1385) | 团伙(group) | [ROJ 1385](/problem/1385) |
+| 4 | [1386](https://ybt.ssoier.cn/problem_show.php?pid=1386) | 打击犯罪(black) | [ROJ 1386](/problem/1386) |
+| 5 | [1387](https://ybt.ssoier.cn/problem_show.php?pid=1387) | 搭配购买(buy) | [ROJ 1387](/problem/1387) |
+| 6 | [1388](https://ybt.ssoier.cn/problem_show.php?pid=1388) | 家谱(gen) | [ROJ 1388](/problem/1388) |
+| 7 | [1389](https://ybt.ssoier.cn/problem_show.php?pid=1389) | 亲戚 | [ROJ 1389](/problem/1389) |
+| 8 | [1390](https://ybt.ssoier.cn/problem_show.php?pid=1390) | 食物链【NOI2001】 | [ROJ 1390](/problem/1390) |
+
 <a id="sec-11"></a>
 #### 第五节 最小生成树
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1348](https://ybt.ssoier.cn/problem_show.php?pid=1348) | 【例4-9】城市公交网建设问题 | [ROJ 1348](/problem/1348) |
+| 2 | [1349](https://ybt.ssoier.cn/problem_show.php?pid=1349) | 【例4-10】最优布线问题 | [ROJ 1349](/problem/1349) |
+| 3 | [1350](https://ybt.ssoier.cn/problem_show.php?pid=1350) | 【例4-11】最短网络(agrinet) | [ROJ 1350](/problem/1350) |
+| 4 | [1351](https://ybt.ssoier.cn/problem_show.php?pid=1351) | 【例4-12】家谱树 | [ROJ 1351](/problem/1351) |
+| 5 | [1391](https://ybt.ssoier.cn/problem_show.php?pid=1391) | 局域网(net) | [ROJ 1391](/problem/1391) |
+| 6 | [1392](https://ybt.ssoier.cn/problem_show.php?pid=1392) | 繁忙的都市(city) | [ROJ 1392](/problem/1392) |
+| 7 | [1393](https://ybt.ssoier.cn/problem_show.php?pid=1393) | 联络员(liaison) | [ROJ 1393](/problem/1393) |
+| 8 | [1394](https://ybt.ssoier.cn/problem_show.php?pid=1394) | 连接格点(grid) | [ROJ 1394](/problem/1394) |
+
 <a id="sec-12"></a>
 #### 第六节 拓扑排序与关键路径
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1352](https://ybt.ssoier.cn/problem_show.php?pid=1352) | 【例4-13】奖金 | [ROJ 1352](/problem/1352) |
+| 2 | [1395](https://ybt.ssoier.cn/problem_show.php?pid=1395) | 烦人的幻灯片(slides) | [ROJ 1395](/problem/1395) |
+| 3 | [1396](https://ybt.ssoier.cn/problem_show.php?pid=1396) | 病毒(virus) | [ROJ 1396](/problem/1396) |
 
 <a id="appendix-a"></a>
 ## 附录 A：同题异号对照

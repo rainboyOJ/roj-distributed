@@ -72,6 +72,9 @@ source: https://ybt.ssoier.cn/index.php
 <a id="sec-2"></a>
 ### 第二章、顺序结构程序设计
 
+<a id="sec-3"></a>
+#### 第一节 运算符和表达式
+
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
 | 1 | [2064](https://ybt.ssoier.cn/problem_show.php?pid=2064) | 【例2.1】交换值 | [ROJ 5065](/problem/5065)（ROJ 题号 5065） |
@@ -81,60 +84,72 @@ source: https://ybt.ssoier.cn/index.php
 | 5 | [1008](https://ybt.ssoier.cn/problem_show.php?pid=1008) | 计算(a+b)/c的值 | [ROJ 1008](/problem/1008) |
 | 6 | [1009](https://ybt.ssoier.cn/problem_show.php?pid=1009) | 带余除法 | [ROJ 1009](/problem/1009) |
 | 7 | [1010](https://ybt.ssoier.cn/problem_show.php?pid=1010) | 计算分数的浮点数值 | [ROJ 1010](/problem/1010) |
-| 8 | [2067](https://ybt.ssoier.cn/problem_show.php?pid=2067) | 【例2.5】圆 | [ROJ 5068](/problem/5068)（ROJ 题号 5068） |
-| 9 | [2068](https://ybt.ssoier.cn/problem_show.php?pid=2068) | 【例2.6】鸡兔同笼 | [ROJ 5069](/problem/5069)（ROJ 题号 5069） |
-| 10 | [1011](https://ybt.ssoier.cn/problem_show.php?pid=1011) | 甲流疫情死亡率 | [ROJ 1011](/problem/1011) |
-| 11 | [1012](https://ybt.ssoier.cn/problem_show.php?pid=1012) | 计算多项式的值 | [ROJ 1012](/problem/1012) |
-| 12 | [1013](https://ybt.ssoier.cn/problem_show.php?pid=1013) | 温度表达转化 | [ROJ 1013](/problem/1013) |
-| 13 | [1014](https://ybt.ssoier.cn/problem_show.php?pid=1014) | 与圆相关的计算 | [ROJ 1014](/problem/1014) |
-| 14 | [1015](https://ybt.ssoier.cn/problem_show.php?pid=1015) | 计算并联电阻的阻值 | [ROJ 1015](/problem/1015) |
-| 15 | [1414](https://ybt.ssoier.cn/problem_show.php?pid=1414) | 【17NOIP普及组】成绩 | [ROJ 1414](/problem/1414) |
-| 16 | [1016](https://ybt.ssoier.cn/problem_show.php?pid=1016) | 整型数据类型存储空间大小 | [ROJ 1016](/problem/1016) |
-| 17 | [1017](https://ybt.ssoier.cn/problem_show.php?pid=1017) | 浮点型数据类型存储空间大小 | [ROJ 1017](/problem/1017) |
-| 18 | [1018](https://ybt.ssoier.cn/problem_show.php?pid=1018) | 其他数据类型存储空间大小 | [ROJ 1018](/problem/1018) |
-| 19 | [1019](https://ybt.ssoier.cn/problem_show.php?pid=1019) | 浮点数向零舍入 | [ROJ 1019](/problem/1019) |
-| 20 | [1020](https://ybt.ssoier.cn/problem_show.php?pid=1020) | 打印ASCII码 | [ROJ 1020](/problem/1020) |
-| 21 | [1021](https://ybt.ssoier.cn/problem_show.php?pid=1021) | 打印字符 | [ROJ 1021](/problem/1021) |
-| 22 | [1022](https://ybt.ssoier.cn/problem_show.php?pid=1022) | 整型与布尔型的转换 | [ROJ 1022](/problem/1022) |
-| 23 | [1023](https://ybt.ssoier.cn/problem_show.php?pid=1023) | Hello,World!的大小 | [ROJ 1023](/problem/1023) |
-| 24 | [2069](https://ybt.ssoier.cn/problem_show.php?pid=2069) | 【例2.12 】糖果游戏 | [ROJ 5070](/problem/5070)（ROJ 题号 5070） |
-| 25 | [1024](https://ybt.ssoier.cn/problem_show.php?pid=1024) | 保留3位小数的浮点数 | [ROJ 1024](/problem/1024) |
-| 26 | [1025](https://ybt.ssoier.cn/problem_show.php?pid=1025) | 保留12位小数的浮点数 | [ROJ 1025](/problem/1025) |
-| 27 | [1026](https://ybt.ssoier.cn/problem_show.php?pid=1026) | 空格分隔输出 | [ROJ 1026](/problem/1026) |
-| 28 | [1027](https://ybt.ssoier.cn/problem_show.php?pid=1027) | 输出浮点数 | [ROJ 1027](/problem/1027) |
-| 29 | [1028](https://ybt.ssoier.cn/problem_show.php?pid=1028) | 字符菱形 | [ROJ 1028](/problem/1028) |
-| 30 | [2070](https://ybt.ssoier.cn/problem_show.php?pid=2070) | 【例2.13】数字对调 | [ROJ 5071](/problem/5071)（ROJ 题号 5071） |
-| 31 | [2071](https://ybt.ssoier.cn/problem_show.php?pid=2071) | 【例2.14】平均分 | [ROJ 5072](/problem/5072)（ROJ 题号 5072） |
-| 32 | [2072](https://ybt.ssoier.cn/problem_show.php?pid=2072) | 【例2.15】歌手大奖赛 | [ROJ 5073](/problem/5073)（ROJ 题号 5073） |
-| 33 | [2073](https://ybt.ssoier.cn/problem_show.php?pid=2073) | 【例2.16 】三角形面积 | [ROJ 5074](/problem/5074)（ROJ 题号 5074） |
-| 34 | [1029](https://ybt.ssoier.cn/problem_show.php?pid=1029) | 计算浮点数相除的余 | [ROJ 1029](/problem/1029) |
-| 35 | [1030](https://ybt.ssoier.cn/problem_show.php?pid=1030) | 计算球的体积 | [ROJ 1030](/problem/1030) |
-| 36 | [1031](https://ybt.ssoier.cn/problem_show.php?pid=1031) | 反向输出一个三位数 | [ROJ 1031](/problem/1031) |
-| 37 | [1032](https://ybt.ssoier.cn/problem_show.php?pid=1032) | 大象喝水查 | [ROJ 1032](/problem/1032) |
-| 38 | [1033](https://ybt.ssoier.cn/problem_show.php?pid=1033) | 计算线段长度 | [ROJ 1033](/problem/1033) |
-| 39 | [1034](https://ybt.ssoier.cn/problem_show.php?pid=1034) | 计算三角形面积 | [ROJ 1034](/problem/1034) |
-| 40 | [1035](https://ybt.ssoier.cn/problem_show.php?pid=1035) | 等差数列末项计算 | [ROJ 1035](/problem/1035) |
-| 41 | [1036](https://ybt.ssoier.cn/problem_show.php?pid=1036) | A×B问题 | [ROJ 1036](/problem/1036) |
-| 42 | [1037](https://ybt.ssoier.cn/problem_show.php?pid=1037) | 计算2的幂 | [ROJ 1037](/problem/1037) |
-| 43 | [1038](https://ybt.ssoier.cn/problem_show.php?pid=1038) | 苹果和虫子 | [ROJ 1038](/problem/1038) |
-
-<a id="sec-3"></a>
-#### 第一节 运算符和表达式
 
 <a id="sec-4"></a>
 #### 第二节 常量和变量
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2067](https://ybt.ssoier.cn/problem_show.php?pid=2067) | 【例2.5】圆 | [ROJ 5068](/problem/5068)（ROJ 题号 5068） |
+| 2 | [2068](https://ybt.ssoier.cn/problem_show.php?pid=2068) | 【例2.6】鸡兔同笼 | [ROJ 5069](/problem/5069)（ROJ 题号 5069） |
+| 3 | [1011](https://ybt.ssoier.cn/problem_show.php?pid=1011) | 甲流疫情死亡率 | [ROJ 1011](/problem/1011) |
+| 4 | [1012](https://ybt.ssoier.cn/problem_show.php?pid=1012) | 计算多项式的值 | [ROJ 1012](/problem/1012) |
+| 5 | [1013](https://ybt.ssoier.cn/problem_show.php?pid=1013) | 温度表达转化 | [ROJ 1013](/problem/1013) |
+| 6 | [1014](https://ybt.ssoier.cn/problem_show.php?pid=1014) | 与圆相关的计算 | [ROJ 1014](/problem/1014) |
+| 7 | [1015](https://ybt.ssoier.cn/problem_show.php?pid=1015) | 计算并联电阻的阻值 | [ROJ 1015](/problem/1015) |
+
 <a id="sec-5"></a>
 #### 第三节 标准数据类型
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1414](https://ybt.ssoier.cn/problem_show.php?pid=1414) | 【17NOIP普及组】成绩 | [ROJ 1414](/problem/1414) |
+| 2 | [1016](https://ybt.ssoier.cn/problem_show.php?pid=1016) | 整型数据类型存储空间大小 | [ROJ 1016](/problem/1016) |
+| 3 | [1017](https://ybt.ssoier.cn/problem_show.php?pid=1017) | 浮点型数据类型存储空间大小 | [ROJ 1017](/problem/1017) |
+| 4 | [1018](https://ybt.ssoier.cn/problem_show.php?pid=1018) | 其他数据类型存储空间大小 | [ROJ 1018](/problem/1018) |
+| 5 | [1019](https://ybt.ssoier.cn/problem_show.php?pid=1019) | 浮点数向零舍入 | [ROJ 1019](/problem/1019) |
+| 6 | [1020](https://ybt.ssoier.cn/problem_show.php?pid=1020) | 打印ASCII码 | [ROJ 1020](/problem/1020) |
+| 7 | [1021](https://ybt.ssoier.cn/problem_show.php?pid=1021) | 打印字符 | [ROJ 1021](/problem/1021) |
+| 8 | [1022](https://ybt.ssoier.cn/problem_show.php?pid=1022) | 整型与布尔型的转换 | [ROJ 1022](/problem/1022) |
+| 9 | [1023](https://ybt.ssoier.cn/problem_show.php?pid=1023) | Hello,World!的大小 | [ROJ 1023](/problem/1023) |
 
 <a id="sec-6"></a>
 #### 第四节 数据输入输出
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2069](https://ybt.ssoier.cn/problem_show.php?pid=2069) | 【例2.12 】糖果游戏 | [ROJ 5070](/problem/5070)（ROJ 题号 5070） |
+| 2 | [1024](https://ybt.ssoier.cn/problem_show.php?pid=1024) | 保留3位小数的浮点数 | [ROJ 1024](/problem/1024) |
+| 3 | [1025](https://ybt.ssoier.cn/problem_show.php?pid=1025) | 保留12位小数的浮点数 | [ROJ 1025](/problem/1025) |
+| 4 | [1026](https://ybt.ssoier.cn/problem_show.php?pid=1026) | 空格分隔输出 | [ROJ 1026](/problem/1026) |
+| 5 | [1027](https://ybt.ssoier.cn/problem_show.php?pid=1027) | 输出浮点数 | [ROJ 1027](/problem/1027) |
+| 6 | [1028](https://ybt.ssoier.cn/problem_show.php?pid=1028) | 字符菱形 | [ROJ 1028](/problem/1028) |
+
 <a id="sec-7"></a>
 #### 第五节 顺序结构实例
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2070](https://ybt.ssoier.cn/problem_show.php?pid=2070) | 【例2.13】数字对调 | [ROJ 5071](/problem/5071)（ROJ 题号 5071） |
+| 2 | [2071](https://ybt.ssoier.cn/problem_show.php?pid=2071) | 【例2.14】平均分 | [ROJ 5072](/problem/5072)（ROJ 题号 5072） |
+| 3 | [2072](https://ybt.ssoier.cn/problem_show.php?pid=2072) | 【例2.15】歌手大奖赛 | [ROJ 5073](/problem/5073)（ROJ 题号 5073） |
+| 4 | [2073](https://ybt.ssoier.cn/problem_show.php?pid=2073) | 【例2.16 】三角形面积 | [ROJ 5074](/problem/5074)（ROJ 题号 5074） |
+| 5 | [1029](https://ybt.ssoier.cn/problem_show.php?pid=1029) | 计算浮点数相除的余 | [ROJ 1029](/problem/1029) |
+| 6 | [1030](https://ybt.ssoier.cn/problem_show.php?pid=1030) | 计算球的体积 | [ROJ 1030](/problem/1030) |
+| 7 | [1031](https://ybt.ssoier.cn/problem_show.php?pid=1031) | 反向输出一个三位数 | [ROJ 1031](/problem/1031) |
+| 8 | [1032](https://ybt.ssoier.cn/problem_show.php?pid=1032) | 大象喝水查 | [ROJ 1032](/problem/1032) |
+| 9 | [1033](https://ybt.ssoier.cn/problem_show.php?pid=1033) | 计算线段长度 | [ROJ 1033](/problem/1033) |
+| 10 | [1034](https://ybt.ssoier.cn/problem_show.php?pid=1034) | 计算三角形面积 | [ROJ 1034](/problem/1034) |
+| 11 | [1035](https://ybt.ssoier.cn/problem_show.php?pid=1035) | 等差数列末项计算 | [ROJ 1035](/problem/1035) |
+| 12 | [1036](https://ybt.ssoier.cn/problem_show.php?pid=1036) | A×B问题 | [ROJ 1036](/problem/1036) |
+| 13 | [1037](https://ybt.ssoier.cn/problem_show.php?pid=1037) | 计算2的幂 | [ROJ 1037](/problem/1037) |
+| 14 | [1038](https://ybt.ssoier.cn/problem_show.php?pid=1038) | 苹果和虫子 | [ROJ 1038](/problem/1038) |
+
 <a id="sec-8"></a>
 ### 第三章、程序的控制结构
+
+<a id="sec-9"></a>
+#### 第一节 if选择结构
 
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
@@ -154,27 +169,30 @@ source: https://ybt.ssoier.cn/index.php
 | 14 | [1046](https://ybt.ssoier.cn/problem_show.php?pid=1046) | 判断一个数能否同时被3和5整除 | [ROJ 1046](/problem/1046) |
 | 15 | [1047](https://ybt.ssoier.cn/problem_show.php?pid=1047) | 判断能否被3，5，7整除 | [ROJ 1047](/problem/1047) |
 | 16 | [1048](https://ybt.ssoier.cn/problem_show.php?pid=1048) | 有一门课不及格的学生 | [ROJ 1048](/problem/1048) |
-| 17 | [2057](https://ybt.ssoier.cn/problem_show.php?pid=2057) | 【例3.9 】星期几 | [ROJ 5059](/problem/5059)（ROJ 题号 5059） |
-| 18 | [2058](https://ybt.ssoier.cn/problem_show.php?pid=2058) | 【例3.10】简单计算器 | [ROJ 5060](/problem/5060)（ROJ 题号 5060） |
-| 19 | [2059](https://ybt.ssoier.cn/problem_show.php?pid=2059) | 【例3.11】买笔 | [ROJ 5061](/problem/5061)（ROJ 题号 5061） |
-| 20 | [1049](https://ybt.ssoier.cn/problem_show.php?pid=1049) | 晶晶赴约会 | [ROJ 1049](/problem/1049) |
-| 21 | [1050](https://ybt.ssoier.cn/problem_show.php?pid=1050) | 骑车与走路 | [ROJ 1050](/problem/1050) |
-| 22 | [1051](https://ybt.ssoier.cn/problem_show.php?pid=1051) | 分段函数 | [ROJ 1051](/problem/1051) |
-| 23 | [1052](https://ybt.ssoier.cn/problem_show.php?pid=1052) | 计算邮资 | [ROJ 1052](/problem/1052) |
-| 24 | [1053](https://ybt.ssoier.cn/problem_show.php?pid=1053) | 最大数输出 | [ROJ 1053](/problem/1053) |
-| 25 | [1054](https://ybt.ssoier.cn/problem_show.php?pid=1054) | 三角形判断 | [ROJ 1054](/problem/1054) |
-| 26 | [1055](https://ybt.ssoier.cn/problem_show.php?pid=1055) | 判断闰年 | [ROJ 1055](/problem/1055) |
-| 27 | [1056](https://ybt.ssoier.cn/problem_show.php?pid=1056) | 点和正方形的关系 | [ROJ 1056](/problem/1056) |
-| 28 | [1058](https://ybt.ssoier.cn/problem_show.php?pid=1058) | 求一元二次方程 | [ROJ 1058](/problem/1058) |
-
-<a id="sec-9"></a>
-#### 第一节 if选择结构
 
 <a id="sec-10"></a>
 #### 第二节 switch语句
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2057](https://ybt.ssoier.cn/problem_show.php?pid=2057) | 【例3.9 】星期几 | [ROJ 5059](/problem/5059)（ROJ 题号 5059） |
+| 2 | [2058](https://ybt.ssoier.cn/problem_show.php?pid=2058) | 【例3.10】简单计算器 | [ROJ 5060](/problem/5060)（ROJ 题号 5060） |
+| 3 | [2059](https://ybt.ssoier.cn/problem_show.php?pid=2059) | 【例3.11】买笔 | [ROJ 5061](/problem/5061)（ROJ 题号 5061） |
+| 4 | [1049](https://ybt.ssoier.cn/problem_show.php?pid=1049) | 晶晶赴约会 | [ROJ 1049](/problem/1049) |
+| 5 | [1050](https://ybt.ssoier.cn/problem_show.php?pid=1050) | 骑车与走路 | [ROJ 1050](/problem/1050) |
+| 6 | [1051](https://ybt.ssoier.cn/problem_show.php?pid=1051) | 分段函数 | [ROJ 1051](/problem/1051) |
+| 7 | [1052](https://ybt.ssoier.cn/problem_show.php?pid=1052) | 计算邮资 | [ROJ 1052](/problem/1052) |
+| 8 | [1053](https://ybt.ssoier.cn/problem_show.php?pid=1053) | 最大数输出 | [ROJ 1053](/problem/1053) |
+| 9 | [1054](https://ybt.ssoier.cn/problem_show.php?pid=1054) | 三角形判断 | [ROJ 1054](/problem/1054) |
+| 10 | [1055](https://ybt.ssoier.cn/problem_show.php?pid=1055) | 判断闰年 | [ROJ 1055](/problem/1055) |
+| 11 | [1056](https://ybt.ssoier.cn/problem_show.php?pid=1056) | 点和正方形的关系 | [ROJ 1056](/problem/1056) |
+| 12 | [1058](https://ybt.ssoier.cn/problem_show.php?pid=1058) | 求一元二次方程 | [ROJ 1058](/problem/1058) |
+
 <a id="sec-11"></a>
 ### 第四章、循环结构的程序设计
+
+<a id="sec-12"></a>
+#### 第一节 for语句
 
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
@@ -208,58 +226,67 @@ source: https://ybt.ssoier.cn/index.php
 | 28 | [1082](https://ybt.ssoier.cn/problem_show.php?pid=1082) | 求小数的某一位 | [ROJ 1082](/problem/1082) |
 | 29 | [1083](https://ybt.ssoier.cn/problem_show.php?pid=1083) | 计算星期几 | [ROJ 1083](/problem/1083) |
 | 30 | [1084](https://ybt.ssoier.cn/problem_show.php?pid=1084) | 幂的末尾 | [ROJ 1084](/problem/1084) |
-| 31 | [2020](https://ybt.ssoier.cn/problem_show.php?pid=2020) | 【例4.5】第几项 | [ROJ 5022](/problem/5022)（ROJ 题号 5022） |
-| 32 | [2021](https://ybt.ssoier.cn/problem_show.php?pid=2021) | 【例4.6】最大公约数 | [ROJ 5023](/problem/5023)（ROJ 题号 5023） |
-| 33 | [2022](https://ybt.ssoier.cn/problem_show.php?pid=2022) | 【例4.7】最小n值 | [ROJ 5024](/problem/5024)（ROJ 题号 5024） |
-| 34 | [2023](https://ybt.ssoier.cn/problem_show.php?pid=2023) | 【例4.8】数据统计 | [ROJ 5025](/problem/5025)（ROJ 题号 5025） |
-| 35 | [1085](https://ybt.ssoier.cn/problem_show.php?pid=1085) | 球弹跳高度的计算 | [ROJ 1085](/problem/1085) |
-| 36 | [1086](https://ybt.ssoier.cn/problem_show.php?pid=1086) | 角谷猜想 | [ROJ 1086](/problem/1086) |
-| 37 | [1087](https://ybt.ssoier.cn/problem_show.php?pid=1087) | 级数求和 | [ROJ 1087](/problem/1087) |
-| 38 | [1088](https://ybt.ssoier.cn/problem_show.php?pid=1088) | 分离整数的各个数 | [ROJ 1088](/problem/1088) |
-| 39 | [1089](https://ybt.ssoier.cn/problem_show.php?pid=1089) | 数字反转 | [ROJ 1089](/problem/1089) |
-| 40 | [1090](https://ybt.ssoier.cn/problem_show.php?pid=1090) | 含k个3的数 | [ROJ 1090](/problem/1090) |
-| 41 | [2024](https://ybt.ssoier.cn/problem_show.php?pid=2024) | 【例4.10】末两位数 | [ROJ 5026](/problem/5026)（ROJ 题号 5026） |
-| 42 | [2025](https://ybt.ssoier.cn/problem_show.php?pid=2025) | 【例4.11】体操队 | [ROJ 5027](/problem/5027)（ROJ 题号 5027） |
-| 43 | [1085](https://ybt.ssoier.cn/problem_show.php?pid=1085) | 球弹跳高度的计算 | [ROJ 1085](/problem/1085) |
-| 44 | [1086](https://ybt.ssoier.cn/problem_show.php?pid=1086) | 角谷猜想 | [ROJ 1086](/problem/1086) |
-| 45 | [1087](https://ybt.ssoier.cn/problem_show.php?pid=1087) | 级数求和 | [ROJ 1087](/problem/1087) |
-| 46 | [1088](https://ybt.ssoier.cn/problem_show.php?pid=1088) | 分离整数的各个数 | [ROJ 1088](/problem/1088) |
-| 47 | [1089](https://ybt.ssoier.cn/problem_show.php?pid=1089) | 数字反转 | [ROJ 1089](/problem/1089) |
-| 48 | [1090](https://ybt.ssoier.cn/problem_show.php?pid=1090) | 含k个3的数 | [ROJ 1090](/problem/1090) |
-| 49 | [2026](https://ybt.ssoier.cn/problem_show.php?pid=2026) | 【例4.12】阶乘和 | [ROJ 5028](/problem/5028)（ROJ 题号 5028） |
-| 50 | [2027](https://ybt.ssoier.cn/problem_show.php?pid=2027) | 【例4.13】三角形 | [ROJ 5029](/problem/5029)（ROJ 题号 5029） |
-| 51 | [2028](https://ybt.ssoier.cn/problem_show.php?pid=2028) | 【例4.14】百钱买百鸡 | [ROJ 5030](/problem/5030)（ROJ 题号 5030） |
-| 52 | [2029](https://ybt.ssoier.cn/problem_show.php?pid=2029) | 【例4.15】水仙花数 | [ROJ 5031](/problem/5031)（ROJ 题号 5031） |
-| 53 | [2030](https://ybt.ssoier.cn/problem_show.php?pid=2030) | 【例4.16】找素数 | [ROJ 5032](/problem/5032)（ROJ 题号 5032） |
-| 54 | [2031](https://ybt.ssoier.cn/problem_show.php?pid=2031) | 【例4.17】四位完全平方数 | [ROJ 5033](/problem/5033)（ROJ 题号 5033） |
-| 55 | [2032](https://ybt.ssoier.cn/problem_show.php?pid=2032) | 【例4.18】分解质因数 | [ROJ 5034](/problem/5034)（ROJ 题号 5034） |
-| 56 | [2033](https://ybt.ssoier.cn/problem_show.php?pid=2033) | 【例4.19】阶乘之和 | [ROJ 5035](/problem/5035)（ROJ 题号 5035） |
-| 57 | [1091](https://ybt.ssoier.cn/problem_show.php?pid=1091) | 求阶乘的和 | [ROJ 1091](/problem/1091) |
-| 58 | [1092](https://ybt.ssoier.cn/problem_show.php?pid=1092) | 求出e的值 | [ROJ 1092](/problem/1092) |
-| 59 | [1093](https://ybt.ssoier.cn/problem_show.php?pid=1093) | 计算多项式的值 | [ROJ 1093](/problem/1093) |
-| 60 | [1094](https://ybt.ssoier.cn/problem_show.php?pid=1094) | 与7无关的数 | [ROJ 1094](/problem/1094) |
-| 61 | [1095](https://ybt.ssoier.cn/problem_show.php?pid=1095) | 数1的个数 | [ROJ 1095](/problem/1095) |
-| 62 | [1096](https://ybt.ssoier.cn/problem_show.php?pid=1096) | 数字统计 | [ROJ 1096](/problem/1096) |
-| 63 | [1097](https://ybt.ssoier.cn/problem_show.php?pid=1097) | 画矩形 | [ROJ 1097](/problem/1097) |
-| 64 | [1098](https://ybt.ssoier.cn/problem_show.php?pid=1098) | 质因数分解 | [ROJ 1098](/problem/1098) |
-| 65 | [1099](https://ybt.ssoier.cn/problem_show.php?pid=1099) | 第n小的质数 | [ROJ 1099](/problem/1099)（ROJ 题名：第n小质数） |
-| 66 | [1100](https://ybt.ssoier.cn/problem_show.php?pid=1100) | 金币 | [ROJ 1100](/problem/1100) |
-| 67 | [1101](https://ybt.ssoier.cn/problem_show.php?pid=1101) | 不定方程求解 | [ROJ 1101](/problem/1101) |
-
-<a id="sec-12"></a>
-#### 第一节 for语句
 
 <a id="sec-13"></a>
 #### 第二节 while语句
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2020](https://ybt.ssoier.cn/problem_show.php?pid=2020) | 【例4.5】第几项 | [ROJ 5022](/problem/5022)（ROJ 题号 5022） |
+| 2 | [2021](https://ybt.ssoier.cn/problem_show.php?pid=2021) | 【例4.6】最大公约数 | [ROJ 5023](/problem/5023)（ROJ 题号 5023） |
+| 3 | [2022](https://ybt.ssoier.cn/problem_show.php?pid=2022) | 【例4.7】最小n值 | [ROJ 5024](/problem/5024)（ROJ 题号 5024） |
+| 4 | [2023](https://ybt.ssoier.cn/problem_show.php?pid=2023) | 【例4.8】数据统计 | [ROJ 5025](/problem/5025)（ROJ 题号 5025） |
+| 5 | [1085](https://ybt.ssoier.cn/problem_show.php?pid=1085) | 球弹跳高度的计算 | [ROJ 1085](/problem/1085) |
+| 6 | [1086](https://ybt.ssoier.cn/problem_show.php?pid=1086) | 角谷猜想 | [ROJ 1086](/problem/1086) |
+| 7 | [1087](https://ybt.ssoier.cn/problem_show.php?pid=1087) | 级数求和 | [ROJ 1087](/problem/1087) |
+| 8 | [1088](https://ybt.ssoier.cn/problem_show.php?pid=1088) | 分离整数的各个数 | [ROJ 1088](/problem/1088) |
+| 9 | [1089](https://ybt.ssoier.cn/problem_show.php?pid=1089) | 数字反转 | [ROJ 1089](/problem/1089) |
+| 10 | [1090](https://ybt.ssoier.cn/problem_show.php?pid=1090) | 含k个3的数 | [ROJ 1090](/problem/1090) |
+
 <a id="sec-14"></a>
 #### 第三节 do-while语句
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2024](https://ybt.ssoier.cn/problem_show.php?pid=2024) | 【例4.10】末两位数 | [ROJ 5026](/problem/5026)（ROJ 题号 5026） |
+| 2 | [2025](https://ybt.ssoier.cn/problem_show.php?pid=2025) | 【例4.11】体操队 | [ROJ 5027](/problem/5027)（ROJ 题号 5027） |
+| 3 | [1085](https://ybt.ssoier.cn/problem_show.php?pid=1085) | 球弹跳高度的计算 | [ROJ 1085](/problem/1085) |
+| 4 | [1086](https://ybt.ssoier.cn/problem_show.php?pid=1086) | 角谷猜想 | [ROJ 1086](/problem/1086) |
+| 5 | [1087](https://ybt.ssoier.cn/problem_show.php?pid=1087) | 级数求和 | [ROJ 1087](/problem/1087) |
+| 6 | [1088](https://ybt.ssoier.cn/problem_show.php?pid=1088) | 分离整数的各个数 | [ROJ 1088](/problem/1088) |
+| 7 | [1089](https://ybt.ssoier.cn/problem_show.php?pid=1089) | 数字反转 | [ROJ 1089](/problem/1089) |
+| 8 | [1090](https://ybt.ssoier.cn/problem_show.php?pid=1090) | 含k个3的数 | [ROJ 1090](/problem/1090) |
 
 <a id="sec-15"></a>
 #### 第四节 循环嵌套
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2026](https://ybt.ssoier.cn/problem_show.php?pid=2026) | 【例4.12】阶乘和 | [ROJ 5028](/problem/5028)（ROJ 题号 5028） |
+| 2 | [2027](https://ybt.ssoier.cn/problem_show.php?pid=2027) | 【例4.13】三角形 | [ROJ 5029](/problem/5029)（ROJ 题号 5029） |
+| 3 | [2028](https://ybt.ssoier.cn/problem_show.php?pid=2028) | 【例4.14】百钱买百鸡 | [ROJ 5030](/problem/5030)（ROJ 题号 5030） |
+| 4 | [2029](https://ybt.ssoier.cn/problem_show.php?pid=2029) | 【例4.15】水仙花数 | [ROJ 5031](/problem/5031)（ROJ 题号 5031） |
+| 5 | [2030](https://ybt.ssoier.cn/problem_show.php?pid=2030) | 【例4.16】找素数 | [ROJ 5032](/problem/5032)（ROJ 题号 5032） |
+| 6 | [2031](https://ybt.ssoier.cn/problem_show.php?pid=2031) | 【例4.17】四位完全平方数 | [ROJ 5033](/problem/5033)（ROJ 题号 5033） |
+| 7 | [2032](https://ybt.ssoier.cn/problem_show.php?pid=2032) | 【例4.18】分解质因数 | [ROJ 5034](/problem/5034)（ROJ 题号 5034） |
+| 8 | [2033](https://ybt.ssoier.cn/problem_show.php?pid=2033) | 【例4.19】阶乘之和 | [ROJ 5035](/problem/5035)（ROJ 题号 5035） |
+| 9 | [1091](https://ybt.ssoier.cn/problem_show.php?pid=1091) | 求阶乘的和 | [ROJ 1091](/problem/1091) |
+| 10 | [1092](https://ybt.ssoier.cn/problem_show.php?pid=1092) | 求出e的值 | [ROJ 1092](/problem/1092) |
+| 11 | [1093](https://ybt.ssoier.cn/problem_show.php?pid=1093) | 计算多项式的值 | [ROJ 1093](/problem/1093) |
+| 12 | [1094](https://ybt.ssoier.cn/problem_show.php?pid=1094) | 与7无关的数 | [ROJ 1094](/problem/1094) |
+| 13 | [1095](https://ybt.ssoier.cn/problem_show.php?pid=1095) | 数1的个数 | [ROJ 1095](/problem/1095) |
+| 14 | [1096](https://ybt.ssoier.cn/problem_show.php?pid=1096) | 数字统计 | [ROJ 1096](/problem/1096) |
+| 15 | [1097](https://ybt.ssoier.cn/problem_show.php?pid=1097) | 画矩形 | [ROJ 1097](/problem/1097) |
+| 16 | [1098](https://ybt.ssoier.cn/problem_show.php?pid=1098) | 质因数分解 | [ROJ 1098](/problem/1098) |
+| 17 | [1099](https://ybt.ssoier.cn/problem_show.php?pid=1099) | 第n小的质数 | [ROJ 1099](/problem/1099)（ROJ 题名：第n小质数） |
+| 18 | [1100](https://ybt.ssoier.cn/problem_show.php?pid=1100) | 金币 | [ROJ 1100](/problem/1100) |
+| 19 | [1101](https://ybt.ssoier.cn/problem_show.php?pid=1101) | 不定方程求解 | [ROJ 1101](/problem/1101) |
+
 <a id="sec-16"></a>
 ### 第五章、数组
+
+<a id="sec-17"></a>
+#### 第一节 一维数组
 
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
@@ -287,58 +314,64 @@ source: https://ybt.ssoier.cn/index.php
 | 22 | [1116](https://ybt.ssoier.cn/problem_show.php?pid=1116) | 最长平台 | [ROJ 1116](/problem/1116) |
 | 23 | [1117](https://ybt.ssoier.cn/problem_show.php?pid=1117) | 整数去重 | [ROJ 1117](/problem/1117) |
 | 24 | [1118](https://ybt.ssoier.cn/problem_show.php?pid=1118) | 铺地毯 | [ROJ 1118](/problem/1118) |
-| 25 | [2041](https://ybt.ssoier.cn/problem_show.php?pid=2041) | 【例5.9】新矩阵 | [ROJ 5043](/problem/5043)（ROJ 题号 5043） |
-| 26 | [2042](https://ybt.ssoier.cn/problem_show.php?pid=2042) | 【例5.10】稀疏矩阵 | [ROJ 5044](/problem/5044)（ROJ 题号 5044） |
-| 27 | [2043](https://ybt.ssoier.cn/problem_show.php?pid=2043) | 【例5.11】杨辉三角形 | [ROJ 5045](/problem/5045)（ROJ 题号 5045） |
-| 28 | [2044](https://ybt.ssoier.cn/problem_show.php?pid=2044) | 【例5.12】回文字串 | [ROJ 5046](/problem/5046)（ROJ 题号 5046） |
-| 29 | [2045](https://ybt.ssoier.cn/problem_show.php?pid=2045) | 【例5.13】蛇形填数 | [ROJ 5047](/problem/5047)（ROJ 题号 5047） |
-| 30 | [1119](https://ybt.ssoier.cn/problem_show.php?pid=1119) | 矩阵交换行 | [ROJ 1119](/problem/1119) |
-| 31 | [1120](https://ybt.ssoier.cn/problem_show.php?pid=1120) | 同行列对角线的格 | [ROJ 1120](/problem/1120) |
-| 32 | [1121](https://ybt.ssoier.cn/problem_show.php?pid=1121) | 计算矩阵边缘元素之和 | [ROJ 1121](/problem/1121) |
-| 33 | [1122](https://ybt.ssoier.cn/problem_show.php?pid=1122) | 计算鞍点 | [ROJ 1122](/problem/1122) |
-| 34 | [1123](https://ybt.ssoier.cn/problem_show.php?pid=1123) | 图像相似度 | [ROJ 1123](/problem/1123) |
-| 35 | [1124](https://ybt.ssoier.cn/problem_show.php?pid=1124) | 矩阵加法 | [ROJ 1124](/problem/1124) |
-| 36 | [1125](https://ybt.ssoier.cn/problem_show.php?pid=1125) | 矩阵乘法 | [ROJ 1125](/problem/1125) |
-| 37 | [1126](https://ybt.ssoier.cn/problem_show.php?pid=1126) | 矩阵转置 | [ROJ 1126](/problem/1126) |
-| 38 | [1127](https://ybt.ssoier.cn/problem_show.php?pid=1127) | 图像旋转 | [ROJ 1127](/problem/1127) |
-| 39 | [1128](https://ybt.ssoier.cn/problem_show.php?pid=1128) | 图像模糊处理 | [ROJ 1128](/problem/1128) |
-| 40 | [2046](https://ybt.ssoier.cn/problem_show.php?pid=2046) | 【例5.15】替换字母 | [ROJ 5048](/problem/5048)（ROJ 题号 5048） |
-| 41 | [2047](https://ybt.ssoier.cn/problem_show.php?pid=2047) | 【例5.16】过滤空格 | [ROJ 5049](/problem/5049)（ROJ 题号 5049） |
-| 42 | [2048](https://ybt.ssoier.cn/problem_show.php?pid=2048) | 【例5.18】串排序 | [ROJ 5050](/problem/5050)（ROJ 题号 5050） |
-| 43 | [2049](https://ybt.ssoier.cn/problem_show.php?pid=2049) | 【例5.19】字符串判等 | [ROJ 5051](/problem/5051)（ROJ 题号 5051） |
-| 44 | [2050](https://ybt.ssoier.cn/problem_show.php?pid=2050) | 【例5.20】字串包含 | [ROJ 5052](/problem/5052)（ROJ 题号 5052） |
-| 45 | [1839](https://ybt.ssoier.cn/problem_show.php?pid=1839) | 【05NOIP提高组】谁拿了最多奖学金 | [ROJ 1839](/problem/1839) |
-| 46 | [1131](https://ybt.ssoier.cn/problem_show.php?pid=1131) | 基因相关性 | [ROJ 1131](/problem/1131) |
-| 47 | [1132](https://ybt.ssoier.cn/problem_show.php?pid=1132) | 石头剪子布 | [ROJ 1132](/problem/1132) |
-| 48 | [1133](https://ybt.ssoier.cn/problem_show.php?pid=1133) | 输出亲朋字符串 | [ROJ 1133](/problem/1133) |
-| 49 | [1134](https://ybt.ssoier.cn/problem_show.php?pid=1134) | 合法C标识符查 | [ROJ 1134](/problem/1134) |
-| 50 | [1135](https://ybt.ssoier.cn/problem_show.php?pid=1135) | 配对碱基链 | [ROJ 1135](/problem/1135) |
-| 51 | [1136](https://ybt.ssoier.cn/problem_show.php?pid=1136) | 密码翻译 | [ROJ 1136](/problem/1136) |
-| 52 | [1137](https://ybt.ssoier.cn/problem_show.php?pid=1137) | 加密的病历单 | [ROJ 1137](/problem/1137) |
-| 53 | [1138](https://ybt.ssoier.cn/problem_show.php?pid=1138) | 将字符串中的小写字母转换成大写字母 | [ROJ 1138](/problem/1138) |
-| 54 | [1139](https://ybt.ssoier.cn/problem_show.php?pid=1139) | 整理药名 | [ROJ 1139](/problem/1139) |
-| 55 | [1140](https://ybt.ssoier.cn/problem_show.php?pid=1140) | 验证子串 | [ROJ 1140](/problem/1140) |
-| 56 | [1141](https://ybt.ssoier.cn/problem_show.php?pid=1141) | 删除单词后缀 | [ROJ 1141](/problem/1141) |
-| 57 | [1142](https://ybt.ssoier.cn/problem_show.php?pid=1142) | 单词的长度 | [ROJ 1142](/problem/1142) |
-| 58 | [1143](https://ybt.ssoier.cn/problem_show.php?pid=1143) | 最长最短单词 | [ROJ 1143](/problem/1143) |
-| 59 | [1144](https://ybt.ssoier.cn/problem_show.php?pid=1144) | 单词翻转 | [ROJ 1144](/problem/1144) |
-| 60 | [1145](https://ybt.ssoier.cn/problem_show.php?pid=1145) | 字符串p型编码 | [ROJ 1145](/problem/1145) |
-| 61 | [1146](https://ybt.ssoier.cn/problem_show.php?pid=1146) | 判断字符串是否为回文 | [ROJ 1146](/problem/1146) |
-| 62 | [1147](https://ybt.ssoier.cn/problem_show.php?pid=1147) | 最高分数的学生姓名 | [ROJ 1147](/problem/1147) |
-| 63 | [1148](https://ybt.ssoier.cn/problem_show.php?pid=1148) | 连续出现的字符 | [ROJ 1148](/problem/1148) |
-| 64 | [1149](https://ybt.ssoier.cn/problem_show.php?pid=1149) | 最长单词2 | [ROJ 1149](/problem/1149) |
-
-<a id="sec-17"></a>
-#### 第一节 一维数组
 
 <a id="sec-18"></a>
 #### 第二节 二维数组
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2041](https://ybt.ssoier.cn/problem_show.php?pid=2041) | 【例5.9】新矩阵 | [ROJ 5043](/problem/5043)（ROJ 题号 5043） |
+| 2 | [2042](https://ybt.ssoier.cn/problem_show.php?pid=2042) | 【例5.10】稀疏矩阵 | [ROJ 5044](/problem/5044)（ROJ 题号 5044） |
+| 3 | [2043](https://ybt.ssoier.cn/problem_show.php?pid=2043) | 【例5.11】杨辉三角形 | [ROJ 5045](/problem/5045)（ROJ 题号 5045） |
+| 4 | [2044](https://ybt.ssoier.cn/problem_show.php?pid=2044) | 【例5.12】回文字串 | [ROJ 5046](/problem/5046)（ROJ 题号 5046） |
+| 5 | [2045](https://ybt.ssoier.cn/problem_show.php?pid=2045) | 【例5.13】蛇形填数 | [ROJ 5047](/problem/5047)（ROJ 题号 5047） |
+| 6 | [1119](https://ybt.ssoier.cn/problem_show.php?pid=1119) | 矩阵交换行 | [ROJ 1119](/problem/1119) |
+| 7 | [1120](https://ybt.ssoier.cn/problem_show.php?pid=1120) | 同行列对角线的格 | [ROJ 1120](/problem/1120) |
+| 8 | [1121](https://ybt.ssoier.cn/problem_show.php?pid=1121) | 计算矩阵边缘元素之和 | [ROJ 1121](/problem/1121) |
+| 9 | [1122](https://ybt.ssoier.cn/problem_show.php?pid=1122) | 计算鞍点 | [ROJ 1122](/problem/1122) |
+| 10 | [1123](https://ybt.ssoier.cn/problem_show.php?pid=1123) | 图像相似度 | [ROJ 1123](/problem/1123) |
+| 11 | [1124](https://ybt.ssoier.cn/problem_show.php?pid=1124) | 矩阵加法 | [ROJ 1124](/problem/1124) |
+| 12 | [1125](https://ybt.ssoier.cn/problem_show.php?pid=1125) | 矩阵乘法 | [ROJ 1125](/problem/1125) |
+| 13 | [1126](https://ybt.ssoier.cn/problem_show.php?pid=1126) | 矩阵转置 | [ROJ 1126](/problem/1126) |
+| 14 | [1127](https://ybt.ssoier.cn/problem_show.php?pid=1127) | 图像旋转 | [ROJ 1127](/problem/1127) |
+| 15 | [1128](https://ybt.ssoier.cn/problem_show.php?pid=1128) | 图像模糊处理 | [ROJ 1128](/problem/1128) |
+
 <a id="sec-19"></a>
 #### 第三节 字符类型和字符数组
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [2046](https://ybt.ssoier.cn/problem_show.php?pid=2046) | 【例5.15】替换字母 | [ROJ 5048](/problem/5048)（ROJ 题号 5048） |
+| 2 | [2047](https://ybt.ssoier.cn/problem_show.php?pid=2047) | 【例5.16】过滤空格 | [ROJ 5049](/problem/5049)（ROJ 题号 5049） |
+| 3 | [2048](https://ybt.ssoier.cn/problem_show.php?pid=2048) | 【例5.18】串排序 | [ROJ 5050](/problem/5050)（ROJ 题号 5050） |
+| 4 | [2049](https://ybt.ssoier.cn/problem_show.php?pid=2049) | 【例5.19】字符串判等 | [ROJ 5051](/problem/5051)（ROJ 题号 5051） |
+| 5 | [2050](https://ybt.ssoier.cn/problem_show.php?pid=2050) | 【例5.20】字串包含 | [ROJ 5052](/problem/5052)（ROJ 题号 5052） |
+| 6 | [1839](https://ybt.ssoier.cn/problem_show.php?pid=1839) | 【05NOIP提高组】谁拿了最多奖学金 | [ROJ 1839](/problem/1839) |
+| 7 | [1131](https://ybt.ssoier.cn/problem_show.php?pid=1131) | 基因相关性 | [ROJ 1131](/problem/1131) |
+| 8 | [1132](https://ybt.ssoier.cn/problem_show.php?pid=1132) | 石头剪子布 | [ROJ 1132](/problem/1132) |
+| 9 | [1133](https://ybt.ssoier.cn/problem_show.php?pid=1133) | 输出亲朋字符串 | [ROJ 1133](/problem/1133) |
+| 10 | [1134](https://ybt.ssoier.cn/problem_show.php?pid=1134) | 合法C标识符查 | [ROJ 1134](/problem/1134) |
+| 11 | [1135](https://ybt.ssoier.cn/problem_show.php?pid=1135) | 配对碱基链 | [ROJ 1135](/problem/1135) |
+| 12 | [1136](https://ybt.ssoier.cn/problem_show.php?pid=1136) | 密码翻译 | [ROJ 1136](/problem/1136) |
+| 13 | [1137](https://ybt.ssoier.cn/problem_show.php?pid=1137) | 加密的病历单 | [ROJ 1137](/problem/1137) |
+| 14 | [1138](https://ybt.ssoier.cn/problem_show.php?pid=1138) | 将字符串中的小写字母转换成大写字母 | [ROJ 1138](/problem/1138) |
+| 15 | [1139](https://ybt.ssoier.cn/problem_show.php?pid=1139) | 整理药名 | [ROJ 1139](/problem/1139) |
+| 16 | [1140](https://ybt.ssoier.cn/problem_show.php?pid=1140) | 验证子串 | [ROJ 1140](/problem/1140) |
+| 17 | [1141](https://ybt.ssoier.cn/problem_show.php?pid=1141) | 删除单词后缀 | [ROJ 1141](/problem/1141) |
+| 18 | [1142](https://ybt.ssoier.cn/problem_show.php?pid=1142) | 单词的长度 | [ROJ 1142](/problem/1142) |
+| 19 | [1143](https://ybt.ssoier.cn/problem_show.php?pid=1143) | 最长最短单词 | [ROJ 1143](/problem/1143) |
+| 20 | [1144](https://ybt.ssoier.cn/problem_show.php?pid=1144) | 单词翻转 | [ROJ 1144](/problem/1144) |
+| 21 | [1145](https://ybt.ssoier.cn/problem_show.php?pid=1145) | 字符串p型编码 | [ROJ 1145](/problem/1145) |
+| 22 | [1146](https://ybt.ssoier.cn/problem_show.php?pid=1146) | 判断字符串是否为回文 | [ROJ 1146](/problem/1146) |
+| 23 | [1147](https://ybt.ssoier.cn/problem_show.php?pid=1147) | 最高分数的学生姓名 | [ROJ 1147](/problem/1147) |
+| 24 | [1148](https://ybt.ssoier.cn/problem_show.php?pid=1148) | 连续出现的字符 | [ROJ 1148](/problem/1148) |
+| 25 | [1149](https://ybt.ssoier.cn/problem_show.php?pid=1149) | 最长单词2 | [ROJ 1149](/problem/1149) |
+
 <a id="sec-20"></a>
 ### 第六章、函数
+
+<a id="sec-21"></a>
+#### 第一节 函数
 
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
@@ -367,22 +400,22 @@ source: https://ybt.ssoier.cn/index.php
 | 23 | [1411](https://ybt.ssoier.cn/problem_show.php?pid=1411) | 区间内的真素数 | [ROJ 1411](/problem/1411) |
 | 24 | [1412](https://ybt.ssoier.cn/problem_show.php?pid=1412) | 二进制分类 | [ROJ 1412](/problem/1412) |
 | 25 | [1413](https://ybt.ssoier.cn/problem_show.php?pid=1413) | 确定进制 | [ROJ 1413](/problem/1413) |
-| 26 | [1158](https://ybt.ssoier.cn/problem_show.php?pid=1158) | 求1+2+3+... | [ROJ 1158](/problem/1158) |
-| 27 | [1159](https://ybt.ssoier.cn/problem_show.php?pid=1159) | 斐波那契数列 | [ROJ 1159](/problem/1159) |
-| 28 | [1160](https://ybt.ssoier.cn/problem_show.php?pid=1160) | 倒序数 | [ROJ 1160](/problem/1160) |
-| 29 | [1161](https://ybt.ssoier.cn/problem_show.php?pid=1161) | 转进制 | [ROJ 1161](/problem/1161) |
-| 30 | [1162](https://ybt.ssoier.cn/problem_show.php?pid=1162) | 字符串逆序 | [ROJ 1162](/problem/1162) |
-| 31 | [1163](https://ybt.ssoier.cn/problem_show.php?pid=1163) | 阿克曼(Ackmann)函数 | [ROJ 1163](/problem/1163) |
-| 32 | [1164](https://ybt.ssoier.cn/problem_show.php?pid=1164) | digit函数 | [ROJ 1164](/problem/1164) |
-| 33 | [1165](https://ybt.ssoier.cn/problem_show.php?pid=1165) | Hermite多项式 | [ROJ 1165](/problem/1165) |
-| 34 | [1166](https://ybt.ssoier.cn/problem_show.php?pid=1166) | 求f(x,n) | [ROJ 1166](/problem/1166) |
-| 35 | [1167](https://ybt.ssoier.cn/problem_show.php?pid=1167) | 再求f(x,n) | [ROJ 1167](/problem/1167) |
-
-<a id="sec-21"></a>
-#### 第一节 函数
 
 <a id="sec-22"></a>
 #### 第二节 递归算法
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1158](https://ybt.ssoier.cn/problem_show.php?pid=1158) | 求1+2+3+... | [ROJ 1158](/problem/1158) |
+| 2 | [1159](https://ybt.ssoier.cn/problem_show.php?pid=1159) | 斐波那契数列 | [ROJ 1159](/problem/1159) |
+| 3 | [1160](https://ybt.ssoier.cn/problem_show.php?pid=1160) | 倒序数 | [ROJ 1160](/problem/1160) |
+| 4 | [1161](https://ybt.ssoier.cn/problem_show.php?pid=1161) | 转进制 | [ROJ 1161](/problem/1161) |
+| 5 | [1162](https://ybt.ssoier.cn/problem_show.php?pid=1162) | 字符串逆序 | [ROJ 1162](/problem/1162) |
+| 6 | [1163](https://ybt.ssoier.cn/problem_show.php?pid=1163) | 阿克曼(Ackmann)函数 | [ROJ 1163](/problem/1163) |
+| 7 | [1164](https://ybt.ssoier.cn/problem_show.php?pid=1164) | digit函数 | [ROJ 1164](/problem/1164) |
+| 8 | [1165](https://ybt.ssoier.cn/problem_show.php?pid=1165) | Hermite多项式 | [ROJ 1165](/problem/1165) |
+| 9 | [1166](https://ybt.ssoier.cn/problem_show.php?pid=1166) | 求f(x,n) | [ROJ 1166](/problem/1166) |
+| 10 | [1167](https://ybt.ssoier.cn/problem_show.php?pid=1167) | 再求f(x,n) | [ROJ 1167](/problem/1167) |
 
 <a id="sec-23"></a>
 ### 第七章、结构体

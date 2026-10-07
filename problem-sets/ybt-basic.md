@@ -212,6 +212,9 @@ source: https://ybt.ssoier.cn/index.php
 <a id="sec-9"></a>
 ### 第九章 动态规划
 
+<a id="sec-10"></a>
+#### 第一节 动态规划的基本模型
+
 | 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
 | ---: | --- | --- | --- |
 | 1 | [1258](https://ybt.ssoier.cn/problem_show.php?pid=1258) | 【例9.2】数字金字塔 | [ROJ 1258](/problem/1258) |
@@ -232,47 +235,50 @@ source: https://ybt.ssoier.cn/index.php
 | 16 | [1287](https://ybt.ssoier.cn/problem_show.php?pid=1287) | 最低通行费 | [ROJ 1287](/problem/1287) |
 | 17 | [1288](https://ybt.ssoier.cn/problem_show.php?pid=1288) | 三角形最佳路径问题 | [ROJ 1288](/problem/1288) |
 | 18 | [1289](https://ybt.ssoier.cn/problem_show.php?pid=1289) | 拦截导弹 | [ROJ 1289](/problem/1289) |
-| 19 | [1267](https://ybt.ssoier.cn/problem_show.php?pid=1267) | 【例9.11】01背包问题 | [ROJ 1267](/problem/1267) |
-| 20 | [1268](https://ybt.ssoier.cn/problem_show.php?pid=1268) | 【例9.12】完全背包问题 | [ROJ 1268](/problem/1268) |
-| 21 | [1269](https://ybt.ssoier.cn/problem_show.php?pid=1269) | 【例9.13】庆功会 | [ROJ 1269](/problem/1269) |
-| 22 | [1270](https://ybt.ssoier.cn/problem_show.php?pid=1270) | 【例9.14】混合背包 | [ROJ 1270](/problem/1270) |
-| 23 | [1271](https://ybt.ssoier.cn/problem_show.php?pid=1271) | 【例9.15】潜水员 | [ROJ 1271](/problem/1271) |
-| 24 | [1272](https://ybt.ssoier.cn/problem_show.php?pid=1272) | 【例9.16】分组背包 | [ROJ 1272](/problem/1272) |
-| 25 | [1273](https://ybt.ssoier.cn/problem_show.php?pid=1273) | 【例9.17】货币系统 | [ROJ 1273](/problem/1273) |
-| 26 | [1290](https://ybt.ssoier.cn/problem_show.php?pid=1290) | 采药 | [ROJ 1290](/problem/1290) |
-| 27 | [1291](https://ybt.ssoier.cn/problem_show.php?pid=1291) | 数字组合 | [ROJ 1291](/problem/1291) |
-| 28 | [1292](https://ybt.ssoier.cn/problem_show.php?pid=1292) | 宠物小精灵之收服 | [ROJ 1292](/problem/1292) |
-| 29 | [1293](https://ybt.ssoier.cn/problem_show.php?pid=1293) | 买书 | [ROJ 1293](/problem/1293) |
-| 30 | [1294](https://ybt.ssoier.cn/problem_show.php?pid=1294) | Charm Bracelet | [ROJ 1294](/problem/1294) |
-| 31 | [1295](https://ybt.ssoier.cn/problem_show.php?pid=1295) | 装箱问题 | [ROJ 1295](/problem/1295) |
-| 32 | [1296](https://ybt.ssoier.cn/problem_show.php?pid=1296) | 开餐馆 | [ROJ 1296](/problem/1296) |
-| 33 | [2003](https://ybt.ssoier.cn/problem_show.php?pid=2003) | 高效工作 | [ROJ 5018](/problem/5018)（ROJ 题号 5018） |
-| 34 | [1274](https://ybt.ssoier.cn/problem_show.php?pid=1274) | 【例9.18】合并石子 | [ROJ 1274](/problem/1274) |
-| 35 | [1275](https://ybt.ssoier.cn/problem_show.php?pid=1275) | 【例9.19】乘积最大 | [ROJ 1275](/problem/1275) |
-| 36 | [1276](https://ybt.ssoier.cn/problem_show.php?pid=1276) | 【例9.20】编辑距离 | [ROJ 1276](/problem/1276) |
-| 37 | [1277](https://ybt.ssoier.cn/problem_show.php?pid=1277) | 【例9.21】方格取数 | [ROJ 1277](/problem/1277) |
-| 38 | [1278](https://ybt.ssoier.cn/problem_show.php?pid=1278) | 【例9.22】复制书稿(book) | [ROJ 1278](/problem/1278) |
-| 39 | [1279](https://ybt.ssoier.cn/problem_show.php?pid=1279) | 【例9.23】橱窗布置(flower) | [ROJ 1279](/problem/1279) |
-| 40 | [1280](https://ybt.ssoier.cn/problem_show.php?pid=1280) | 【例9.24】滑雪 | [ROJ 1280](/problem/1280) |
-| 41 | [1297](https://ybt.ssoier.cn/problem_show.php?pid=1297) | 公共子序列 | [ROJ 1297](/problem/1297) |
-| 42 | [1298](https://ybt.ssoier.cn/problem_show.php?pid=1298) | 计算字符串距离 | [ROJ 1298](/problem/1298) |
-| 43 | [1299](https://ybt.ssoier.cn/problem_show.php?pid=1299) | 糖果 | [ROJ 1299](/problem/1299) |
-| 44 | [1300](https://ybt.ssoier.cn/problem_show.php?pid=1300) | 鸡蛋的硬度 | [ROJ 1300](/problem/1300) |
-| 45 | [1301](https://ybt.ssoier.cn/problem_show.php?pid=1301) | 大盗阿福 | [ROJ 1301](/problem/1301) |
-| 46 | [1302](https://ybt.ssoier.cn/problem_show.php?pid=1302) | 股票买卖 | [ROJ 1302](/problem/1302) |
-| 47 | [1303](https://ybt.ssoier.cn/problem_show.php?pid=1303) | 鸣人的影分身 | [ROJ 1303](/problem/1303) |
-| 48 | [1304](https://ybt.ssoier.cn/problem_show.php?pid=1304) | 数的划分 | [ROJ 1304](/problem/1304) |
-| 49 | [1305](https://ybt.ssoier.cn/problem_show.php?pid=1305) | Maximum sum | [ROJ 1305](/problem/1305) |
-| 50 | [1306](https://ybt.ssoier.cn/problem_show.php?pid=1306) | 最长公共子上升序列 | [ROJ 1306](/problem/1306) |
-
-<a id="sec-10"></a>
-#### 第一节 动态规划的基本模型
 
 <a id="sec-11"></a>
 #### 第二节 背包问题
 
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1267](https://ybt.ssoier.cn/problem_show.php?pid=1267) | 【例9.11】01背包问题 | [ROJ 1267](/problem/1267) |
+| 2 | [1268](https://ybt.ssoier.cn/problem_show.php?pid=1268) | 【例9.12】完全背包问题 | [ROJ 1268](/problem/1268) |
+| 3 | [1269](https://ybt.ssoier.cn/problem_show.php?pid=1269) | 【例9.13】庆功会 | [ROJ 1269](/problem/1269) |
+| 4 | [1270](https://ybt.ssoier.cn/problem_show.php?pid=1270) | 【例9.14】混合背包 | [ROJ 1270](/problem/1270) |
+| 5 | [1271](https://ybt.ssoier.cn/problem_show.php?pid=1271) | 【例9.15】潜水员 | [ROJ 1271](/problem/1271) |
+| 6 | [1272](https://ybt.ssoier.cn/problem_show.php?pid=1272) | 【例9.16】分组背包 | [ROJ 1272](/problem/1272) |
+| 7 | [1273](https://ybt.ssoier.cn/problem_show.php?pid=1273) | 【例9.17】货币系统 | [ROJ 1273](/problem/1273) |
+| 8 | [1290](https://ybt.ssoier.cn/problem_show.php?pid=1290) | 采药 | [ROJ 1290](/problem/1290) |
+| 9 | [1291](https://ybt.ssoier.cn/problem_show.php?pid=1291) | 数字组合 | [ROJ 1291](/problem/1291) |
+| 10 | [1292](https://ybt.ssoier.cn/problem_show.php?pid=1292) | 宠物小精灵之收服 | [ROJ 1292](/problem/1292) |
+| 11 | [1293](https://ybt.ssoier.cn/problem_show.php?pid=1293) | 买书 | [ROJ 1293](/problem/1293) |
+| 12 | [1294](https://ybt.ssoier.cn/problem_show.php?pid=1294) | Charm Bracelet | [ROJ 1294](/problem/1294) |
+| 13 | [1295](https://ybt.ssoier.cn/problem_show.php?pid=1295) | 装箱问题 | [ROJ 1295](/problem/1295) |
+| 14 | [1296](https://ybt.ssoier.cn/problem_show.php?pid=1296) | 开餐馆 | [ROJ 1296](/problem/1296) |
+| 15 | [2003](https://ybt.ssoier.cn/problem_show.php?pid=2003) | 高效工作 | [ROJ 5018](/problem/5018)（ROJ 题号 5018） |
+
 <a id="sec-12"></a>
 #### 第三节 动态规划经典题目
+
+| 序号 | 一本通题号 | 题目名称 | ROJ 收录 |
+| ---: | --- | --- | --- |
+| 1 | [1274](https://ybt.ssoier.cn/problem_show.php?pid=1274) | 【例9.18】合并石子 | [ROJ 1274](/problem/1274) |
+| 2 | [1275](https://ybt.ssoier.cn/problem_show.php?pid=1275) | 【例9.19】乘积最大 | [ROJ 1275](/problem/1275) |
+| 3 | [1276](https://ybt.ssoier.cn/problem_show.php?pid=1276) | 【例9.20】编辑距离 | [ROJ 1276](/problem/1276) |
+| 4 | [1277](https://ybt.ssoier.cn/problem_show.php?pid=1277) | 【例9.21】方格取数 | [ROJ 1277](/problem/1277) |
+| 5 | [1278](https://ybt.ssoier.cn/problem_show.php?pid=1278) | 【例9.22】复制书稿(book) | [ROJ 1278](/problem/1278) |
+| 6 | [1279](https://ybt.ssoier.cn/problem_show.php?pid=1279) | 【例9.23】橱窗布置(flower) | [ROJ 1279](/problem/1279) |
+| 7 | [1280](https://ybt.ssoier.cn/problem_show.php?pid=1280) | 【例9.24】滑雪 | [ROJ 1280](/problem/1280) |
+| 8 | [1297](https://ybt.ssoier.cn/problem_show.php?pid=1297) | 公共子序列 | [ROJ 1297](/problem/1297) |
+| 9 | [1298](https://ybt.ssoier.cn/problem_show.php?pid=1298) | 计算字符串距离 | [ROJ 1298](/problem/1298) |
+| 10 | [1299](https://ybt.ssoier.cn/problem_show.php?pid=1299) | 糖果 | [ROJ 1299](/problem/1299) |
+| 11 | [1300](https://ybt.ssoier.cn/problem_show.php?pid=1300) | 鸡蛋的硬度 | [ROJ 1300](/problem/1300) |
+| 12 | [1301](https://ybt.ssoier.cn/problem_show.php?pid=1301) | 大盗阿福 | [ROJ 1301](/problem/1301) |
+| 13 | [1302](https://ybt.ssoier.cn/problem_show.php?pid=1302) | 股票买卖 | [ROJ 1302](/problem/1302) |
+| 14 | [1303](https://ybt.ssoier.cn/problem_show.php?pid=1303) | 鸣人的影分身 | [ROJ 1303](/problem/1303) |
+| 15 | [1304](https://ybt.ssoier.cn/problem_show.php?pid=1304) | 数的划分 | [ROJ 1304](/problem/1304) |
+| 16 | [1305](https://ybt.ssoier.cn/problem_show.php?pid=1305) | Maximum sum | [ROJ 1305](/problem/1305) |
+| 17 | [1306](https://ybt.ssoier.cn/problem_show.php?pid=1306) | 最长公共子上升序列 | [ROJ 1306](/problem/1306) |
 
 <a id="appendix-a"></a>
 ## 附录 A：同题异号对照
