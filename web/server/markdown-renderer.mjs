@@ -33,6 +33,45 @@ function uniqueHeadingId(base, used) {
   return id;
 }
 
+// 题目单/题面里的两种「安全裸 HTML」：空锚点与 HTML 注释。
+// 渲染器整体是 html:false（题面来自外部抓取，不能放行任意标签），
+// 但这两类必须原样生效，否则会在页面上显示成转义后的文字：
+//   - `<a id="sec-1"></a>`：题目单正文目录的锚点，放行后才能让 `#sec-1` 跳转；
+//   - `<!-- ... -->`：生成区块标记（如 `<!-- ybt:generated:start -->`）与
+//     `<!-- roj:downloads:start -->`，应当不可见。
+// id 只允许字母/数字/下划线/连字符，避免把任意属性放进来。
+const SAFE_ANCHOR_RE = /^<a\s+id="([A-Za-z0-9_-]+)"\s*>\s*<\/a>$/;
+const HTML_COMMENT_RE = /^<!--.*-->$/;
+
+function standaloneLine(state, line) {
+  const start = state.bMarks[line] + state.tShift[line];
+  return state.src.slice(start, state.eMarks[line]).trim();
+}
+
+function safeRawBlocks(md) {
+  // alt 里带 paragraph：让这两类块同时充当段落终止符。
+  // 否则紧跟在列表/段落后面、中间没有空行的锚点或注释会被吞进段落里。
+  md.block.ruler.before('paragraph', 'roj_safe_anchor', (state, startLine, endLine, silent) => {
+    const match = SAFE_ANCHOR_RE.exec(standaloneLine(state, startLine));
+    if (!match) return false;
+    if (silent) return true;
+    const token = state.push('roj_anchor', '', 0);
+    token.map = [startLine, startLine + 1];
+    token.content = match[1];
+    state.line = startLine + 1;
+    return true;
+  }, { alt: ['paragraph'] });
+
+  md.block.ruler.before('paragraph', 'roj_html_comment', (state, startLine, endLine, silent) => {
+    if (!HTML_COMMENT_RE.test(standaloneLine(state, startLine))) return false;
+    if (silent) return true;
+    state.line = startLine + 1;  // 整行丢弃，不产出 token
+    return true;
+  }, { alt: ['paragraph'] });
+
+  md.renderer.rules.roj_anchor = (tokens, index) => `<a id="${escapeHtml(tokens[index].content)}"></a>\n`;
+}
+
 function normalizeLanguage(value) {
   const language = String(value || '').trim().toLocaleLowerCase().split(/\s+/, 1)[0] || 'text';
   const map = { cxx: 'cpp', 'c++': 'cpp', cc: 'cpp', h: 'c', py: 'python', js: 'javascript', ts: 'typescript', sh: 'bash', plaintext: 'text', plain: 'text' };
@@ -133,6 +172,7 @@ function decorateProblemLinks(tokens, env) {
 export class MarkdownRenderer {
   constructor() {
     this.md = new MarkdownIt({ html: false, linkify: true, typographer: true, breaks: false });
+    this.md.use(safeRawBlocks);
     this.md.use(TexMath, { engine: Katex, delimiters: ['dollars', 'beg_end', 'julia'], katexOptions: { strict: false, throwOnError: false, macros: { '\\R': '\\mathbb{R}' } } });
     this.md.use(taskCheckbox, { disabled: true });
     this.md.use(insDel).use(sub).use(sup).use(mark).use(abbr).use(emoji);
