@@ -99,7 +99,7 @@ tags: [训练赛, 暑假]
 
 ## 题目单文件
 
-题目单放在仓库根目录的 `problem-sets/` 下，每个一级 Markdown 文件的文件名（不含 `.md`）就是详情页 slug。例如 `problem-sets/ybt.md` 对应 `/problem-set/ybt`。
+题目单放在仓库根目录的 `problem-sets/` 下，每个一级 Markdown 文件的文件名（不含 `.md`）就是详情页 slug。例如 `problem-sets/ybt-cpp.md` 对应 `/problem-set/ybt-cpp`。
 
 ```yaml
 ---
@@ -125,4 +125,6 @@ source: https://ybt.ssoier.cn/index.php
 - 进度存在浏览器 localStorage（`roj.progress.v1`，按题号全局共享），详情页提供导出/导入 JSON 与清空本单勾选；
 - 题目单图片可放在同名目录（如 `problem-sets/ybt/fig.png`），正文使用相对路径引用。
 
-大体量题目单可以只让脚本重写标记区块（如 `problem-sets/ybt.md` 的 `<!-- ybt:generated:start/end -->` 之间由 `scripts/gen_ybt_list.py` 维护），区块外的引言与笔记手工编辑。
+大体量题目单建议拆成多份（一份太大时列表页与详情页都会很重，且 git diff 难以阅读）。拆分时让同一个脚本重写每份文件的标记区块（如 `problem-sets/ybt-*.md` 的 `<!-- ybt:generated:start/end -->` 由 `scripts/gen_ybt_list.py` 的 `SETS` 表驱动），区块外的引言与笔记手工编辑。
+
+注意：`problem-sets/` 只扫描一级 Markdown 文件，子目录（用于放图片，见上）不会被当成题目单；因此拆分的产物必须是平铺文件。

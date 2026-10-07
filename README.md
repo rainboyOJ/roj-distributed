@@ -37,10 +37,16 @@ scripts/       迁移等辅助脚本
 
 网站提供「题目单」功能（导航 → 题目单）：按主题/教材整理的刷题清单，题目链接直接跳站内题面，支持浏览器本地勾选进度（可导出/导入）。题目单文件放在 `problem-sets/` 下，详见 [web/README.md](web/README.md)。
 
-现有题目单：
+现有题目单（一本通按篇章拆成 5 份，勾选进度在站内按题号全局共享，跨篇不丢）：
 
-- [problem-sets/ybt.md](problem-sets/ybt.md)：按 [ybt.ssoier.cn](https://ybt.ssoier.cn/index.php) 左侧分类索引整理的《信息学奥赛一本通（C++版）》题目单（C++编程语言 / 基础算法 / 数据结构基础 / 算法提高篇 / 高手训练篇），逐题标注 ROJ 收录情况与同题异号对照。
-  表格区由 `python3 scripts/gen_ybt_list.py` 生成（数据快照：`scripts/ybt_catalog.json`），引言与笔记可手工编辑。
+- [problem-sets/ybt-cpp.md](problem-sets/ybt-cpp.md)：一本通 · C++编程语言（251 题）
+- [problem-sets/ybt-basic.md](problem-sets/ybt-basic.md)：一本通 · 基础算法（167 题）
+- [problem-sets/ybt-ds.md](problem-sets/ybt-ds.md)：一本通 · 数据结构基础（76 题）
+- [problem-sets/ybt-adv.md](problem-sets/ybt-adv.md)：一本通 · 算法提高篇（252 题）
+- [problem-sets/ybt-expert.md](problem-sets/ybt-expert.md)：一本通 · 高手训练篇（149 题）
+
+这 5 份按 [ybt.ssoier.cn](https://ybt.ssoier.cn/index.php) 左侧分类索引整理（共 895 题），逐题标注 ROJ 收录情况与同题异号对照；
+表格区由 `python3 scripts/gen_ybt_list.py` 生成（数据快照：`scripts/ybt_catalog.json`，拆分表见脚本里的 `SETS`），引言与笔记可手工编辑。
 
 ## 本地运行
 
