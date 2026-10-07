@@ -26,3 +26,5 @@ push-to-vps.sh
 .tmp/
 scripts/tagging/queue.lock
 deploy.sh
+.ybt-import/
+.pi-subagents/

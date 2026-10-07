@@ -27,6 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = Path(__file__).resolve().parent / "ybt_catalog.json"
+MAPPING = Path(__file__).resolve().parent / "ybt_roj_mapping.json"
 OUTPUT = ROOT / "problem-sets" / "ybt.md"
 PROBLEMS = ROOT / "problems"
 
@@ -37,7 +38,9 @@ ROJ_SHOW = "/problem/{pid}"  # 站内链接：GitHub 上阅读时需补 https://
 TOP_SECTIONS = ["C++编程语言", "基础算法", "数据结构基础", "算法提高篇", "高手训练篇"]
 
 # 同题号但题目不同（题号撞车）：ROJ 侧不是这道一本通题
-MANUAL_REJECT = [str(x) for x in range(1671, 1682)] + ["2097"]
+# 1671-1681 曾因『同题号被占、易错配同名异题』被拉黑；现已落地专属题 5007-5017
+# 并经 scripts/ybt_roj_mapping.json 显式锁定映射，取消拉黑（2097 保留）。
+MANUAL_REJECT = ["2097"]
 # 同题号、标题差异大但经人工核对题面确认是同一道题
 MANUAL_ACCEPT = ["1473", "1495", "1507", "1540", "1592"]
 
@@ -231,10 +234,13 @@ def walk(node: Node, level: int, ctx: dict, out: list[str]):
             pid = leaf.pid
             title = ctx["titles"].get(pid, "（标题缺失）")
             row_title = f"[{pid}]({YBT_SHOW.format(pid=pid)}) | {title}"
-            roj = ctx["roj"].get(pid)
+            rid = ctx["mapping"].get(pid, pid)
+            roj = ctx["roj"].get(rid)
             ctx["rows"] += 1
             if roj is not None and same_problem(pid, title, roj):
-                cell = f"[ROJ {pid}]({ROJ_SHOW.format(pid=pid)})"
+                cell = f"[ROJ {rid}]({ROJ_SHOW.format(pid=rid)})"
+                if rid != pid:
+                    cell += f"（ROJ 题号 {rid}）"
                 if core_title(title) != core_title(roj):
                     cell += f"（ROJ 题名：{roj}）"
                 ctx["matched_rows"] += 1
@@ -308,9 +314,11 @@ def generate() -> dict:
     by_name = {n.text: n for n in roots}
 
     roj_titles = load_roj_titles()
+    mapping = json.loads(MAPPING.read_text()) if MAPPING.exists() else {}
     ctx = {
         "titles": titles,
         "roj": roj_titles,
+        "mapping": mapping,
         "rows": 0,
         "matched_rows": 0,
         "unmatched": [],
