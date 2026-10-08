@@ -124,10 +124,10 @@ static u32 Query(int x, int y) {
 
     // y 侧：l（不含）向下到 y，方向自上而下
     while (top[y] != top[l]) {
-        acc = fy; queryF(1, 1, n, dfn[top[y]], dfn[y]); fy = acc;
+        acc = ID; queryF(1, 1, n, dfn[top[y]], dfn[y]); fy = comp(fy, acc);
         y = parent_[top[y]];
     }
-    if (y != l) { acc = fy; queryF(1, 1, n, dfn[l] + 1, dfn[y]); fy = acc; }
+    if (y != l) { acc = ID; queryF(1, 1, n, dfn[l] + 1, dfn[y]); fy = comp(fy, acc); }
 
     Seg total = comp(fy, fx);               // 先走 x 侧，再走 y 侧
     return total.A;                         // = F(0^k) = f(L)
