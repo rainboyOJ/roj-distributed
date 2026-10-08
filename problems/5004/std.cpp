@@ -9,17 +9,17 @@ vector<ll> v;
 
 int main(){
     v.push_back(0); //占位
-    scanf("%d%d",&n,&m);
+    scanf("%lld%lld",&n,&m);
     for(ll i=1;i<=n;++i){
         ll t;
-        scanf("%d",&t);
+        scanf("%lld",&t);
         v.push_back(t);
     }
     for(ll i=1;i<=m;++i){
         ll o,x,y,z;
         scanf("%lld",&o);
         if( o ==1 ) {
-            scanf("%d%d%d",&x,&y,&z);
+            scanf("%lld%lld%lld",&x,&y,&z);
             for(ll i=x;i<=y;++i) v[i]+=z;
         }
         else {
