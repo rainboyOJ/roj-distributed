@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "cross1.in",
+      "size": 1375
+    },
+    {
+      "path": "cross1.out",
+      "size": 300
+    },
+    {
+      "path": "cross10.in",
+      "size": 3013300
+    },
+    {
+      "path": "cross10.out",
+      "size": 398708
+    },
+    {
+      "path": "cross2.in",
+      "size": 1371
+    },
+    {
+      "path": "cross2.out",
+      "size": 300
+    },
+    {
+      "path": "cross3.in",
+      "size": 1389
+    },
+    {
+      "path": "cross3.out",
+      "size": 300
+    },
+    {
+      "path": "cross4.in",
+      "size": 15405
+    },
+    {
+      "path": "cross4.out",
+      "size": 3431
+    },
+    {
+      "path": "cross5.in",
+      "size": 15431
+    },
+    {
+      "path": "cross5.out",
+      "size": 3399
+    },
+    {
+      "path": "cross6.in",
+      "size": 2084879
+    },
+    {
+      "path": "cross6.out",
+      "size": 397211
+    },
+    {
+      "path": "cross7.in",
+      "size": 2084973
+    },
+    {
+      "path": "cross7.out",
+      "size": 397247
+    },
+    {
+      "path": "cross8.in",
+      "size": 2085448
+    },
+    {
+      "path": "cross8.out",
+      "size": 397090
+    },
+    {
+      "path": "cross9.in",
+      "size": 3013054
+    },
+    {
+      "path": "cross9.out",
+      "size": 398678
+    }
+  ]
+}

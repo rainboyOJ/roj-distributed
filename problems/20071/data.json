@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "min_1.ans",
+      "size": 10
+    },
+    {
+      "path": "min_1.in",
+      "size": 22
+    },
+    {
+      "path": "min_10.ans",
+      "size": 17
+    },
+    {
+      "path": "min_10.in",
+      "size": 15731581
+    },
+    {
+      "path": "min_2.ans",
+      "size": 12
+    },
+    {
+      "path": "min_2.in",
+      "size": 35
+    },
+    {
+      "path": "min_3.ans",
+      "size": 11
+    },
+    {
+      "path": "min_3.in",
+      "size": 33
+    },
+    {
+      "path": "min_4.ans",
+      "size": 14
+    },
+    {
+      "path": "min_4.in",
+      "size": 7465
+    },
+    {
+      "path": "min_5.ans",
+      "size": 14
+    },
+    {
+      "path": "min_5.in",
+      "size": 8538
+    },
+    {
+      "path": "min_6.ans",
+      "size": 17
+    },
+    {
+      "path": "min_6.in",
+      "size": 19761820
+    },
+    {
+      "path": "min_7.ans",
+      "size": 17
+    },
+    {
+      "path": "min_7.in",
+      "size": 15359119
+    },
+    {
+      "path": "min_8.ans",
+      "size": 17
+    },
+    {
+      "path": "min_8.in",
+      "size": 7087247
+    },
+    {
+      "path": "min_9.ans",
+      "size": 17
+    },
+    {
+      "path": "min_9.in",
+      "size": 16055145
+    }
+  ]
+}

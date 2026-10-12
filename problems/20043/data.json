@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "dream1.in",
+      "size": 7581
+    },
+    {
+      "path": "dream1.out",
+      "size": 5943
+    },
+    {
+      "path": "dream10.in",
+      "size": 1902206
+    },
+    {
+      "path": "dream10.out",
+      "size": 1403732
+    },
+    {
+      "path": "dream2.in",
+      "size": 6948
+    },
+    {
+      "path": "dream2.out",
+      "size": 5910
+    },
+    {
+      "path": "dream3.in",
+      "size": 8631
+    },
+    {
+      "path": "dream3.out",
+      "size": 7134
+    },
+    {
+      "path": "dream4.in",
+      "size": 844330
+    },
+    {
+      "path": "dream4.out",
+      "size": 688808
+    },
+    {
+      "path": "dream5.in",
+      "size": 545029
+    },
+    {
+      "path": "dream5.out",
+      "size": 477134
+    },
+    {
+      "path": "dream6.in",
+      "size": 667992
+    },
+    {
+      "path": "dream6.out",
+      "size": 369977
+    },
+    {
+      "path": "dream7.in",
+      "size": 2238225
+    },
+    {
+      "path": "dream7.out",
+      "size": 1370045
+    },
+    {
+      "path": "dream8.in",
+      "size": 2320787
+    },
+    {
+      "path": "dream8.out",
+      "size": 1443999
+    },
+    {
+      "path": "dream9.in",
+      "size": 1398409
+    },
+    {
+      "path": "dream9.out",
+      "size": 988523
+    }
+  ]
+}

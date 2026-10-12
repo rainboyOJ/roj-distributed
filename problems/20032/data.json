@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mod_1.ans",
+      "size": 9
+    },
+    {
+      "path": "mod_1.in",
+      "size": 114
+    },
+    {
+      "path": "mod_10.ans",
+      "size": 10
+    },
+    {
+      "path": "mod_10.in",
+      "size": 242
+    },
+    {
+      "path": "mod_2.ans",
+      "size": 9
+    },
+    {
+      "path": "mod_2.in",
+      "size": 192
+    },
+    {
+      "path": "mod_3.ans",
+      "size": 9
+    },
+    {
+      "path": "mod_3.in",
+      "size": 148
+    },
+    {
+      "path": "mod_4.ans",
+      "size": 11
+    },
+    {
+      "path": "mod_4.in",
+      "size": 116
+    },
+    {
+      "path": "mod_5.ans",
+      "size": 11
+    },
+    {
+      "path": "mod_5.in",
+      "size": 84
+    },
+    {
+      "path": "mod_6.ans",
+      "size": 10
+    },
+    {
+      "path": "mod_6.in",
+      "size": 206
+    },
+    {
+      "path": "mod_7.ans",
+      "size": 9
+    },
+    {
+      "path": "mod_7.in",
+      "size": 211
+    },
+    {
+      "path": "mod_8.ans",
+      "size": 10
+    },
+    {
+      "path": "mod_8.in",
+      "size": 221
+    },
+    {
+      "path": "mod_9.ans",
+      "size": 9
+    },
+    {
+      "path": "mod_9.in",
+      "size": 245
+    }
+  ]
+}

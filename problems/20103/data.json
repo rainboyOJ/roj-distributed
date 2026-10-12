@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "adventure1.in",
+      "size": 44
+    },
+    {
+      "path": "adventure1.out",
+      "size": 25
+    },
+    {
+      "path": "adventure10.in",
+      "size": 4445
+    },
+    {
+      "path": "adventure10.out",
+      "size": 323
+    },
+    {
+      "path": "adventure2.in",
+      "size": 86
+    },
+    {
+      "path": "adventure2.out",
+      "size": 53
+    },
+    {
+      "path": "adventure3.in",
+      "size": 72
+    },
+    {
+      "path": "adventure3.out",
+      "size": 43
+    },
+    {
+      "path": "adventure4.in",
+      "size": 930
+    },
+    {
+      "path": "adventure4.out",
+      "size": 278
+    },
+    {
+      "path": "adventure5.in",
+      "size": 484
+    },
+    {
+      "path": "adventure5.out",
+      "size": 195
+    },
+    {
+      "path": "adventure6.in",
+      "size": 1474
+    },
+    {
+      "path": "adventure6.out",
+      "size": 321
+    },
+    {
+      "path": "adventure7.in",
+      "size": 1006
+    },
+    {
+      "path": "adventure7.out",
+      "size": 286
+    },
+    {
+      "path": "adventure8.in",
+      "size": 986
+    },
+    {
+      "path": "adventure8.out",
+      "size": 283
+    },
+    {
+      "path": "adventure9.in",
+      "size": 644
+    },
+    {
+      "path": "adventure9.out",
+      "size": 237
+    }
+  ]
+}

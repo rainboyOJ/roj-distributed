@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sky1.in",
+      "size": 11
+    },
+    {
+      "path": "sky1.out",
+      "size": 5
+    },
+    {
+      "path": "sky10.in",
+      "size": 200012
+    },
+    {
+      "path": "sky10.out",
+      "size": 4
+    },
+    {
+      "path": "sky2.in",
+      "size": 11
+    },
+    {
+      "path": "sky2.out",
+      "size": 4
+    },
+    {
+      "path": "sky3.in",
+      "size": 11
+    },
+    {
+      "path": "sky3.out",
+      "size": 5
+    },
+    {
+      "path": "sky4.in",
+      "size": 78
+    },
+    {
+      "path": "sky4.out",
+      "size": 4
+    },
+    {
+      "path": "sky5.in",
+      "size": 40
+    },
+    {
+      "path": "sky5.out",
+      "size": 5
+    },
+    {
+      "path": "sky6.in",
+      "size": 209
+    },
+    {
+      "path": "sky6.out",
+      "size": 4
+    },
+    {
+      "path": "sky7.in",
+      "size": 200012
+    },
+    {
+      "path": "sky7.out",
+      "size": 5
+    },
+    {
+      "path": "sky8.in",
+      "size": 200012
+    },
+    {
+      "path": "sky8.out",
+      "size": 4
+    },
+    {
+      "path": "sky9.in",
+      "size": 200012
+    },
+    {
+      "path": "sky9.out",
+      "size": 5
+    }
+  ]
+}

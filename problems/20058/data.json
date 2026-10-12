@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "century_1.in",
+      "size": 28
+    },
+    {
+      "path": "century_1.out",
+      "size": 9
+    },
+    {
+      "path": "century_10.in",
+      "size": 2015706
+    },
+    {
+      "path": "century_10.out",
+      "size": 108855
+    },
+    {
+      "path": "century_11.in",
+      "size": 2015651
+    },
+    {
+      "path": "century_11.out",
+      "size": 108837
+    },
+    {
+      "path": "century_12.in",
+      "size": 2015569
+    },
+    {
+      "path": "century_12.out",
+      "size": 108902
+    },
+    {
+      "path": "century_13.in",
+      "size": 2015766
+    },
+    {
+      "path": "century_13.out",
+      "size": 108917
+    },
+    {
+      "path": "century_14.in",
+      "size": 2015849
+    },
+    {
+      "path": "century_14.out",
+      "size": 108894
+    },
+    {
+      "path": "century_15.in",
+      "size": 2015950
+    },
+    {
+      "path": "century_15.out",
+      "size": 108886
+    },
+    {
+      "path": "century_16.in",
+      "size": 2000021
+    },
+    {
+      "path": "century_16.out",
+      "size": 22
+    },
+    {
+      "path": "century_17.in",
+      "size": 2000020
+    },
+    {
+      "path": "century_17.out",
+      "size": 22
+    },
+    {
+      "path": "century_18.in",
+      "size": 2000022
+    },
+    {
+      "path": "century_18.out",
+      "size": 21
+    },
+    {
+      "path": "century_19.in",
+      "size": 2000020
+    },
+    {
+      "path": "century_19.out",
+      "size": 22
+    },
+    {
+      "path": "century_2.in",
+      "size": 28
+    },
+    {
+      "path": "century_2.out",
+      "size": 10
+    },
+    {
+      "path": "century_20.in",
+      "size": 2000023
+    },
+    {
+      "path": "century_20.out",
+      "size": 22
+    },
+    {
+      "path": "century_3.in",
+      "size": 69
+    },
+    {
+      "path": "century_3.out",
+      "size": 4
+    },
+    {
+      "path": "century_4.in",
+      "size": 2187
+    },
+    {
+      "path": "century_4.out",
+      "size": 459
+    },
+    {
+      "path": "century_5.in",
+      "size": 2182
+    },
+    {
+      "path": "century_5.out",
+      "size": 473
+    },
+    {
+      "path": "century_6.in",
+      "size": 2177
+    },
+    {
+      "path": "century_6.out",
+      "size": 460
+    },
+    {
+      "path": "century_7.in",
+      "size": 2193
+    },
+    {
+      "path": "century_7.out",
+      "size": 475
+    },
+    {
+      "path": "century_8.in",
+      "size": 2016025
+    },
+    {
+      "path": "century_8.out",
+      "size": 108900
+    },
+    {
+      "path": "century_9.in",
+      "size": 2000020
+    },
+    {
+      "path": "century_9.out",
+      "size": 22
+    }
+  ]
+}

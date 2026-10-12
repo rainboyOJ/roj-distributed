@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "queue1.in",
+      "size": 3
+    },
+    {
+      "path": "queue1.out",
+      "size": 5
+    },
+    {
+      "path": "queue10.in",
+      "size": 6
+    },
+    {
+      "path": "queue10.out",
+      "size": 9
+    },
+    {
+      "path": "queue11.in",
+      "size": 6
+    },
+    {
+      "path": "queue11.out",
+      "size": 8
+    },
+    {
+      "path": "queue12.in",
+      "size": 6
+    },
+    {
+      "path": "queue12.out",
+      "size": 9
+    },
+    {
+      "path": "queue13.in",
+      "size": 6
+    },
+    {
+      "path": "queue13.out",
+      "size": 9
+    },
+    {
+      "path": "queue14.in",
+      "size": 6
+    },
+    {
+      "path": "queue14.out",
+      "size": 9
+    },
+    {
+      "path": "queue15.in",
+      "size": 6
+    },
+    {
+      "path": "queue15.out",
+      "size": 9
+    },
+    {
+      "path": "queue16.in",
+      "size": 6
+    },
+    {
+      "path": "queue16.out",
+      "size": 7
+    },
+    {
+      "path": "queue17.in",
+      "size": 6
+    },
+    {
+      "path": "queue17.out",
+      "size": 9
+    },
+    {
+      "path": "queue18.in",
+      "size": 6
+    },
+    {
+      "path": "queue18.out",
+      "size": 9
+    },
+    {
+      "path": "queue19.in",
+      "size": 6
+    },
+    {
+      "path": "queue19.out",
+      "size": 9
+    },
+    {
+      "path": "queue2.in",
+      "size": 3
+    },
+    {
+      "path": "queue2.out",
+      "size": 3
+    },
+    {
+      "path": "queue20.in",
+      "size": 6
+    },
+    {
+      "path": "queue20.out",
+      "size": 9
+    },
+    {
+      "path": "queue3.in",
+      "size": 5
+    },
+    {
+      "path": "queue3.out",
+      "size": 9
+    },
+    {
+      "path": "queue4.in",
+      "size": 5
+    },
+    {
+      "path": "queue4.out",
+      "size": 9
+    },
+    {
+      "path": "queue5.in",
+      "size": 5
+    },
+    {
+      "path": "queue5.out",
+      "size": 9
+    },
+    {
+      "path": "queue6.in",
+      "size": 5
+    },
+    {
+      "path": "queue6.out",
+      "size": 9
+    },
+    {
+      "path": "queue7.in",
+      "size": 5
+    },
+    {
+      "path": "queue7.out",
+      "size": 9
+    },
+    {
+      "path": "queue8.in",
+      "size": 5
+    },
+    {
+      "path": "queue8.out",
+      "size": 9
+    },
+    {
+      "path": "queue9.in",
+      "size": 6
+    },
+    {
+      "path": "queue9.out",
+      "size": 9
+    }
+  ]
+}

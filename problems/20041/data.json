@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "recall1.in",
+      "size": 2297
+    },
+    {
+      "path": "recall1.out",
+      "size": 1617
+    },
+    {
+      "path": "recall10.in",
+      "size": 55503
+    },
+    {
+      "path": "recall10.out",
+      "size": 1872
+    },
+    {
+      "path": "recall2.in",
+      "size": 698
+    },
+    {
+      "path": "recall2.out",
+      "size": 499
+    },
+    {
+      "path": "recall3.in",
+      "size": 2072
+    },
+    {
+      "path": "recall3.out",
+      "size": 1481
+    },
+    {
+      "path": "recall4.in",
+      "size": 1659
+    },
+    {
+      "path": "recall4.out",
+      "size": 1175
+    },
+    {
+      "path": "recall5.in",
+      "size": 2403
+    },
+    {
+      "path": "recall5.out",
+      "size": 1685
+    },
+    {
+      "path": "recall6.in",
+      "size": 85749
+    },
+    {
+      "path": "recall6.out",
+      "size": 2754
+    },
+    {
+      "path": "recall7.in",
+      "size": 40977
+    },
+    {
+      "path": "recall7.out",
+      "size": 1347
+    },
+    {
+      "path": "recall8.in",
+      "size": 12992
+    },
+    {
+      "path": "recall8.out",
+      "size": 445
+    },
+    {
+      "path": "recall9.in",
+      "size": 52500
+    },
+    {
+      "path": "recall9.out",
+      "size": 1687
+    }
+  ]
+}

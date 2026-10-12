@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "data1.in",
+      "size": 1024
+    },
+    {
+      "path": "data1.out",
+      "size": 50
+    },
+    {
+      "path": "data10.in",
+      "size": 10000024
+    },
+    {
+      "path": "data10.out",
+      "size": 130
+    },
+    {
+      "path": "data11.in",
+      "size": 10000024
+    },
+    {
+      "path": "data11.out",
+      "size": 130
+    },
+    {
+      "path": "data12.in",
+      "size": 10000024
+    },
+    {
+      "path": "data12.out",
+      "size": 130
+    },
+    {
+      "path": "data13.in",
+      "size": 9999979
+    },
+    {
+      "path": "data13.out",
+      "size": 130
+    },
+    {
+      "path": "data14.in",
+      "size": 8736695
+    },
+    {
+      "path": "data14.out",
+      "size": 119
+    },
+    {
+      "path": "data15.in",
+      "size": 100024
+    },
+    {
+      "path": "data15.out",
+      "size": 90
+    },
+    {
+      "path": "data16.in",
+      "size": 100024
+    },
+    {
+      "path": "data16.out",
+      "size": 90
+    },
+    {
+      "path": "data17.in",
+      "size": 1000024
+    },
+    {
+      "path": "data17.out",
+      "size": 110
+    },
+    {
+      "path": "data18.in",
+      "size": 1000024
+    },
+    {
+      "path": "data18.out",
+      "size": 110
+    },
+    {
+      "path": "data19.in",
+      "size": 10000024
+    },
+    {
+      "path": "data19.out",
+      "size": 130
+    },
+    {
+      "path": "data2.in",
+      "size": 1024
+    },
+    {
+      "path": "data2.out",
+      "size": 50
+    },
+    {
+      "path": "data20.in",
+      "size": 10000024
+    },
+    {
+      "path": "data20.out",
+      "size": 130
+    },
+    {
+      "path": "data3.in",
+      "size": 986
+    },
+    {
+      "path": "data3.out",
+      "size": 50
+    },
+    {
+      "path": "data4.in",
+      "size": 831
+    },
+    {
+      "path": "data4.out",
+      "size": 49
+    },
+    {
+      "path": "data5.in",
+      "size": 10024
+    },
+    {
+      "path": "data5.out",
+      "size": 70
+    },
+    {
+      "path": "data6.in",
+      "size": 10024
+    },
+    {
+      "path": "data6.out",
+      "size": 70
+    },
+    {
+      "path": "data7.in",
+      "size": 10024
+    },
+    {
+      "path": "data7.out",
+      "size": 70
+    },
+    {
+      "path": "data8.in",
+      "size": 10024
+    },
+    {
+      "path": "data8.out",
+      "size": 70
+    },
+    {
+      "path": "data9.in",
+      "size": 10000024
+    },
+    {
+      "path": "data9.out",
+      "size": 130
+    }
+  ]
+}

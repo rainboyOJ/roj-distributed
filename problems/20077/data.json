@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "robot1.in",
+      "size": 23
+    },
+    {
+      "path": "robot1.out",
+      "size": 3
+    },
+    {
+      "path": "robot10.in",
+      "size": 100186
+    },
+    {
+      "path": "robot10.out",
+      "size": 4
+    },
+    {
+      "path": "robot2.in",
+      "size": 20
+    },
+    {
+      "path": "robot2.out",
+      "size": 2
+    },
+    {
+      "path": "robot3.in",
+      "size": 36
+    },
+    {
+      "path": "robot3.out",
+      "size": 3
+    },
+    {
+      "path": "robot4.in",
+      "size": 40
+    },
+    {
+      "path": "robot4.out",
+      "size": 3
+    },
+    {
+      "path": "robot5.in",
+      "size": 120
+    },
+    {
+      "path": "robot5.out",
+      "size": 4
+    },
+    {
+      "path": "robot6.in",
+      "size": 120
+    },
+    {
+      "path": "robot6.out",
+      "size": 4
+    },
+    {
+      "path": "robot7.in",
+      "size": 120
+    },
+    {
+      "path": "robot7.out",
+      "size": 3
+    },
+    {
+      "path": "robot8.in",
+      "size": 100186
+    },
+    {
+      "path": "robot8.out",
+      "size": 7
+    },
+    {
+      "path": "robot9.in",
+      "size": 100186
+    },
+    {
+      "path": "robot9.out",
+      "size": 7
+    }
+  ]
+}

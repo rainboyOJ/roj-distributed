@@ -1,0 +1,168 @@
+{
+  "files": [
+    {
+      "path": "juncture.out",
+      "size": 4524
+    },
+    {
+      "path": "juncture1.ans",
+      "size": 4524
+    },
+    {
+      "path": "juncture1.in",
+      "size": 29678
+    },
+    {
+      "path": "juncture10.ans",
+      "size": 2022625
+    },
+    {
+      "path": "juncture10.in",
+      "size": 8044575
+    },
+    {
+      "path": "juncture11.ans",
+      "size": 2022722
+    },
+    {
+      "path": "juncture11.in",
+      "size": 8044436
+    },
+    {
+      "path": "juncture12.ans",
+      "size": 2022740
+    },
+    {
+      "path": "juncture12.in",
+      "size": 8044584
+    },
+    {
+      "path": "juncture13.ans",
+      "size": 2193346
+    },
+    {
+      "path": "juncture13.in",
+      "size": 8318755
+    },
+    {
+      "path": "juncture14.ans",
+      "size": 2193292
+    },
+    {
+      "path": "juncture14.in",
+      "size": 8315986
+    },
+    {
+      "path": "juncture15.ans",
+      "size": 2193754
+    },
+    {
+      "path": "juncture15.in",
+      "size": 8310480
+    },
+    {
+      "path": "juncture16.ans",
+      "size": 2193018
+    },
+    {
+      "path": "juncture16.in",
+      "size": 8310124
+    },
+    {
+      "path": "juncture17.ans",
+      "size": 2192969
+    },
+    {
+      "path": "juncture17.in",
+      "size": 8315096
+    },
+    {
+      "path": "juncture18.ans",
+      "size": 2193746
+    },
+    {
+      "path": "juncture18.in",
+      "size": 8305678
+    },
+    {
+      "path": "juncture19.ans",
+      "size": 2192696
+    },
+    {
+      "path": "juncture19.in",
+      "size": 8320367
+    },
+    {
+      "path": "juncture2.ans",
+      "size": 4540
+    },
+    {
+      "path": "juncture2.in",
+      "size": 29691
+    },
+    {
+      "path": "juncture20.ans",
+      "size": 2192079
+    },
+    {
+      "path": "juncture20.in",
+      "size": 8321126
+    },
+    {
+      "path": "juncture3.ans",
+      "size": 4489
+    },
+    {
+      "path": "juncture3.in",
+      "size": 29654
+    },
+    {
+      "path": "juncture4.ans",
+      "size": 4520
+    },
+    {
+      "path": "juncture4.in",
+      "size": 29657
+    },
+    {
+      "path": "juncture5.ans",
+      "size": 4509
+    },
+    {
+      "path": "juncture5.in",
+      "size": 29649
+    },
+    {
+      "path": "juncture6.ans",
+      "size": 2400031
+    },
+    {
+      "path": "juncture6.in",
+      "size": 3795908
+    },
+    {
+      "path": "juncture7.ans",
+      "size": 2398257
+    },
+    {
+      "path": "juncture7.in",
+      "size": 3794795
+    },
+    {
+      "path": "juncture8.ans",
+      "size": 2400107
+    },
+    {
+      "path": "juncture8.in",
+      "size": 3796472
+    },
+    {
+      "path": "juncture9.ans",
+      "size": 2406541
+    },
+    {
+      "path": "juncture9.in",
+      "size": 3793933
+    }
+  ]
+}

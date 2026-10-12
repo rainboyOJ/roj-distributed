@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sum_1.ans",
+      "size": 6
+    },
+    {
+      "path": "sum_1.in",
+      "size": 5
+    },
+    {
+      "path": "sum_10.ans",
+      "size": 18
+    },
+    {
+      "path": "sum_10.in",
+      "size": 11
+    },
+    {
+      "path": "sum_2.ans",
+      "size": 6
+    },
+    {
+      "path": "sum_2.in",
+      "size": 5
+    },
+    {
+      "path": "sum_3.ans",
+      "size": 6
+    },
+    {
+      "path": "sum_3.in",
+      "size": 5
+    },
+    {
+      "path": "sum_4.ans",
+      "size": 10
+    },
+    {
+      "path": "sum_4.in",
+      "size": 7
+    },
+    {
+      "path": "sum_5.ans",
+      "size": 10
+    },
+    {
+      "path": "sum_5.in",
+      "size": 7
+    },
+    {
+      "path": "sum_6.ans",
+      "size": 8
+    },
+    {
+      "path": "sum_6.in",
+      "size": 6
+    },
+    {
+      "path": "sum_7.ans",
+      "size": 15
+    },
+    {
+      "path": "sum_7.in",
+      "size": 10
+    },
+    {
+      "path": "sum_8.ans",
+      "size": 18
+    },
+    {
+      "path": "sum_8.in",
+      "size": 11
+    },
+    {
+      "path": "sum_9.ans",
+      "size": 18
+    },
+    {
+      "path": "sum_9.in",
+      "size": 11
+    }
+  ]
+}

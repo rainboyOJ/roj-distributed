@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mxism1.in",
+      "size": 15
+    },
+    {
+      "path": "mxism1.out",
+      "size": 3
+    },
+    {
+      "path": "mxism10.in",
+      "size": 302
+    },
+    {
+      "path": "mxism10.out",
+      "size": 5
+    },
+    {
+      "path": "mxism2.in",
+      "size": 13
+    },
+    {
+      "path": "mxism2.out",
+      "size": 3
+    },
+    {
+      "path": "mxism3.in",
+      "size": 14
+    },
+    {
+      "path": "mxism3.out",
+      "size": 3
+    },
+    {
+      "path": "mxism4.in",
+      "size": 51
+    },
+    {
+      "path": "mxism4.out",
+      "size": 4
+    },
+    {
+      "path": "mxism5.in",
+      "size": 39
+    },
+    {
+      "path": "mxism5.out",
+      "size": 4
+    },
+    {
+      "path": "mxism6.in",
+      "size": 303
+    },
+    {
+      "path": "mxism6.out",
+      "size": 5
+    },
+    {
+      "path": "mxism7.in",
+      "size": 301
+    },
+    {
+      "path": "mxism7.out",
+      "size": 5
+    },
+    {
+      "path": "mxism8.in",
+      "size": 301
+    },
+    {
+      "path": "mxism8.out",
+      "size": 5
+    },
+    {
+      "path": "mxism9.in",
+      "size": 299
+    },
+    {
+      "path": "mxism9.out",
+      "size": 5
+    }
+  ]
+}

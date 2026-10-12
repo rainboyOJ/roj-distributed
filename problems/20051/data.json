@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "village1.in",
+      "size": 52
+    },
+    {
+      "path": "village1.out",
+      "size": 11
+    },
+    {
+      "path": "village10.in",
+      "size": 987151
+    },
+    {
+      "path": "village10.out",
+      "size": 4
+    },
+    {
+      "path": "village2.in",
+      "size": 51
+    },
+    {
+      "path": "village2.out",
+      "size": 11
+    },
+    {
+      "path": "village3.in",
+      "size": 52
+    },
+    {
+      "path": "village3.out",
+      "size": 10
+    },
+    {
+      "path": "village4.in",
+      "size": 51
+    },
+    {
+      "path": "village4.out",
+      "size": 10
+    },
+    {
+      "path": "village5.in",
+      "size": 998
+    },
+    {
+      "path": "village5.out",
+      "size": 8
+    },
+    {
+      "path": "village6.in",
+      "size": 985
+    },
+    {
+      "path": "village6.out",
+      "size": 8
+    },
+    {
+      "path": "village7.in",
+      "size": 987062
+    },
+    {
+      "path": "village7.out",
+      "size": 3
+    },
+    {
+      "path": "village8.in",
+      "size": 987063
+    },
+    {
+      "path": "village8.out",
+      "size": 4
+    },
+    {
+      "path": "village9.in",
+      "size": 987235
+    },
+    {
+      "path": "village9.out",
+      "size": 4
+    }
+  ]
+}

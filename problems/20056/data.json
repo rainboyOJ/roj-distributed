@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "instruct1.ans",
+      "size": 43
+    },
+    {
+      "path": "instruct1.in",
+      "size": 7504
+    },
+    {
+      "path": "instruct10.ans",
+      "size": 44
+    },
+    {
+      "path": "instruct10.in",
+      "size": 2748060
+    },
+    {
+      "path": "instruct2.ans",
+      "size": 44
+    },
+    {
+      "path": "instruct2.in",
+      "size": 8255
+    },
+    {
+      "path": "instruct3.ans",
+      "size": 44
+    },
+    {
+      "path": "instruct3.in",
+      "size": 871922
+    },
+    {
+      "path": "instruct4.ans",
+      "size": 46
+    },
+    {
+      "path": "instruct4.in",
+      "size": 860227
+    },
+    {
+      "path": "instruct5.ans",
+      "size": 45
+    },
+    {
+      "path": "instruct5.in",
+      "size": 859871
+    },
+    {
+      "path": "instruct6.ans",
+      "size": 45
+    },
+    {
+      "path": "instruct6.in",
+      "size": 859805
+    },
+    {
+      "path": "instruct7.ans",
+      "size": 45
+    },
+    {
+      "path": "instruct7.in",
+      "size": 2773487
+    },
+    {
+      "path": "instruct8.ans",
+      "size": 44
+    },
+    {
+      "path": "instruct8.in",
+      "size": 2754336
+    },
+    {
+      "path": "instruct9.ans",
+      "size": 45
+    },
+    {
+      "path": "instruct9.in",
+      "size": 2736577
+    }
+  ]
+}

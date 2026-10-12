@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "game1.in",
+      "size": 140
+    },
+    {
+      "path": "game1.out",
+      "size": 34
+    },
+    {
+      "path": "game10.in",
+      "size": 1049
+    },
+    {
+      "path": "game10.out",
+      "size": 378
+    },
+    {
+      "path": "game2.in",
+      "size": 140
+    },
+    {
+      "path": "game2.out",
+      "size": 34
+    },
+    {
+      "path": "game3.in",
+      "size": 386
+    },
+    {
+      "path": "game3.out",
+      "size": 102
+    },
+    {
+      "path": "game4.in",
+      "size": 385
+    },
+    {
+      "path": "game4.out",
+      "size": 103
+    },
+    {
+      "path": "game5.in",
+      "size": 1047
+    },
+    {
+      "path": "game5.out",
+      "size": 275
+    },
+    {
+      "path": "game6.in",
+      "size": 1047
+    },
+    {
+      "path": "game6.out",
+      "size": 560
+    },
+    {
+      "path": "game7.in",
+      "size": 1050
+    },
+    {
+      "path": "game7.out",
+      "size": 416
+    },
+    {
+      "path": "game8.in",
+      "size": 1049
+    },
+    {
+      "path": "game8.out",
+      "size": 286
+    },
+    {
+      "path": "game9.in",
+      "size": 1049
+    },
+    {
+      "path": "game9.out",
+      "size": 320
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "lol1.in",
+      "size": 38
+    },
+    {
+      "path": "lol1.out",
+      "size": 1
+    },
+    {
+      "path": "lol10.in",
+      "size": 2466800
+    },
+    {
+      "path": "lol10.out",
+      "size": 6
+    },
+    {
+      "path": "lol2.in",
+      "size": 61
+    },
+    {
+      "path": "lol2.out",
+      "size": 1
+    },
+    {
+      "path": "lol3.in",
+      "size": 122
+    },
+    {
+      "path": "lol3.out",
+      "size": 1
+    },
+    {
+      "path": "lol4.in",
+      "size": 236
+    },
+    {
+      "path": "lol4.out",
+      "size": 2
+    },
+    {
+      "path": "lol5.in",
+      "size": 589
+    },
+    {
+      "path": "lol5.out",
+      "size": 2
+    },
+    {
+      "path": "lol6.in",
+      "size": 1188
+    },
+    {
+      "path": "lol6.out",
+      "size": 2
+    },
+    {
+      "path": "lol7.in",
+      "size": 1177902
+    },
+    {
+      "path": "lol7.out",
+      "size": 5
+    },
+    {
+      "path": "lol8.in",
+      "size": 2466667
+    },
+    {
+      "path": "lol8.out",
+      "size": 6
+    },
+    {
+      "path": "lol9.in",
+      "size": 2466918
+    },
+    {
+      "path": "lol9.out",
+      "size": 6
+    }
+  ]
+}

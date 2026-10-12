@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "telecom1.in",
+      "size": 12
+    },
+    {
+      "path": "telecom1.out",
+      "size": 10
+    },
+    {
+      "path": "telecom10.in",
+      "size": 944398
+    },
+    {
+      "path": "telecom10.out",
+      "size": 381906
+    },
+    {
+      "path": "telecom2.in",
+      "size": 12
+    },
+    {
+      "path": "telecom2.out",
+      "size": 10
+    },
+    {
+      "path": "telecom3.in",
+      "size": 12
+    },
+    {
+      "path": "telecom3.out",
+      "size": 10
+    },
+    {
+      "path": "telecom4.in",
+      "size": 42
+    },
+    {
+      "path": "telecom4.out",
+      "size": 30
+    },
+    {
+      "path": "telecom5.in",
+      "size": 43
+    },
+    {
+      "path": "telecom5.out",
+      "size": 30
+    },
+    {
+      "path": "telecom6.in",
+      "size": 40
+    },
+    {
+      "path": "telecom6.out",
+      "size": 29
+    },
+    {
+      "path": "telecom7.in",
+      "size": 944330
+    },
+    {
+      "path": "telecom7.out",
+      "size": 381734
+    },
+    {
+      "path": "telecom8.in",
+      "size": 944426
+    },
+    {
+      "path": "telecom8.out",
+      "size": 381916
+    },
+    {
+      "path": "telecom9.in",
+      "size": 944392
+    },
+    {
+      "path": "telecom9.out",
+      "size": 381821
+    }
+  ]
+}

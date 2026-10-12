@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "a1.ans",
+      "size": 5
+    },
+    {
+      "path": "a1.in",
+      "size": 28
+    },
+    {
+      "path": "a10.ans",
+      "size": 435650
+    },
+    {
+      "path": "a10.in",
+      "size": 1675790
+    },
+    {
+      "path": "a2.ans",
+      "size": 451
+    },
+    {
+      "path": "a2.in",
+      "size": 765
+    },
+    {
+      "path": "a3.ans",
+      "size": 413
+    },
+    {
+      "path": "a3.in",
+      "size": 796
+    },
+    {
+      "path": "a4.ans",
+      "size": 459599
+    },
+    {
+      "path": "a4.in",
+      "size": 982329
+    },
+    {
+      "path": "a5.ans",
+      "size": 459133
+    },
+    {
+      "path": "a5.in",
+      "size": 985523
+    },
+    {
+      "path": "a6.ans",
+      "size": 459188
+    },
+    {
+      "path": "a6.in",
+      "size": 987460
+    },
+    {
+      "path": "a7.ans",
+      "size": 435567
+    },
+    {
+      "path": "a7.in",
+      "size": 1664793
+    },
+    {
+      "path": "a8.ans",
+      "size": 435559
+    },
+    {
+      "path": "a8.in",
+      "size": 1618473
+    },
+    {
+      "path": "a9.ans",
+      "size": 435829
+    },
+    {
+      "path": "a9.in",
+      "size": 1661573
+    }
+  ]
+}

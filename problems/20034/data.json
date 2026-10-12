@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "differ_1.ans",
+      "size": 13536
+    },
+    {
+      "path": "differ_1.in",
+      "size": 1377
+    },
+    {
+      "path": "differ_10.ans",
+      "size": 25292
+    },
+    {
+      "path": "differ_10.in",
+      "size": 2436
+    },
+    {
+      "path": "differ_2.ans",
+      "size": 34
+    },
+    {
+      "path": "differ_2.in",
+      "size": 16
+    },
+    {
+      "path": "differ_3.ans",
+      "size": 26
+    },
+    {
+      "path": "differ_3.in",
+      "size": 13
+    },
+    {
+      "path": "differ_4.ans",
+      "size": 475
+    },
+    {
+      "path": "differ_4.in",
+      "size": 83
+    },
+    {
+      "path": "differ_5.ans",
+      "size": 522
+    },
+    {
+      "path": "differ_5.in",
+      "size": 96
+    },
+    {
+      "path": "differ_6.ans",
+      "size": 342
+    },
+    {
+      "path": "differ_6.in",
+      "size": 67
+    },
+    {
+      "path": "differ_7.ans",
+      "size": 26884
+    },
+    {
+      "path": "differ_7.in",
+      "size": 2638
+    },
+    {
+      "path": "differ_8.ans",
+      "size": 23351
+    },
+    {
+      "path": "differ_8.in",
+      "size": 2386
+    },
+    {
+      "path": "differ_9.ans",
+      "size": 23848
+    },
+    {
+      "path": "differ_9.in",
+      "size": 2425
+    }
+  ]
+}

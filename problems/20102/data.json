@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "medal1.in",
+      "size": 225
+    },
+    {
+      "path": "medal1.out",
+      "size": 8
+    },
+    {
+      "path": "medal10.in",
+      "size": 8395
+    },
+    {
+      "path": "medal10.out",
+      "size": 10
+    },
+    {
+      "path": "medal2.in",
+      "size": 57
+    },
+    {
+      "path": "medal2.out",
+      "size": 8
+    },
+    {
+      "path": "medal3.in",
+      "size": 68
+    },
+    {
+      "path": "medal3.out",
+      "size": 8
+    },
+    {
+      "path": "medal4.in",
+      "size": 2486
+    },
+    {
+      "path": "medal4.out",
+      "size": 8
+    },
+    {
+      "path": "medal5.in",
+      "size": 516
+    },
+    {
+      "path": "medal5.out",
+      "size": 8
+    },
+    {
+      "path": "medal6.in",
+      "size": 7469
+    },
+    {
+      "path": "medal6.out",
+      "size": 8
+    },
+    {
+      "path": "medal7.in",
+      "size": 9741
+    },
+    {
+      "path": "medal7.out",
+      "size": 10
+    },
+    {
+      "path": "medal8.in",
+      "size": 6964
+    },
+    {
+      "path": "medal8.out",
+      "size": 12
+    },
+    {
+      "path": "medal9.in",
+      "size": 10318
+    },
+    {
+      "path": "medal9.out",
+      "size": 9
+    }
+  ]
+}

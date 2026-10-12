@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "num1.in",
+      "size": 1404
+    },
+    {
+      "path": "num1.out",
+      "size": 552
+    },
+    {
+      "path": "num10.in",
+      "size": 13800557
+    },
+    {
+      "path": "num10.out",
+      "size": 5900089
+    },
+    {
+      "path": "num2.in",
+      "size": 1404
+    },
+    {
+      "path": "num2.out",
+      "size": 300
+    },
+    {
+      "path": "num3.in",
+      "size": 1000675
+    },
+    {
+      "path": "num3.out",
+      "size": 500100
+    },
+    {
+      "path": "num4.in",
+      "size": 1000704
+    },
+    {
+      "path": "num4.out",
+      "size": 495102
+    },
+    {
+      "path": "num5.in",
+      "size": 640448
+    },
+    {
+      "path": "num5.out",
+      "size": 270084
+    },
+    {
+      "path": "num6.in",
+      "size": 20000404
+    },
+    {
+      "path": "num6.out",
+      "size": 9200116
+    },
+    {
+      "path": "num7.in",
+      "size": 2401071
+    },
+    {
+      "path": "num7.out",
+      "size": 1000423
+    },
+    {
+      "path": "num8.in",
+      "size": 20000791
+    },
+    {
+      "path": "num8.out",
+      "size": 10000100
+    },
+    {
+      "path": "num9.in",
+      "size": 20000904
+    },
+    {
+      "path": "num9.out",
+      "size": 9700106
+    }
+  ]
+}

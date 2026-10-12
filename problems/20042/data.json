@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "distance1.in",
+      "size": 44
+    },
+    {
+      "path": "distance1.out",
+      "size": 3
+    },
+    {
+      "path": "distance10.in",
+      "size": 1170212
+    },
+    {
+      "path": "distance10.out",
+      "size": 10
+    },
+    {
+      "path": "distance2.in",
+      "size": 186
+    },
+    {
+      "path": "distance2.out",
+      "size": 5
+    },
+    {
+      "path": "distance3.in",
+      "size": 712
+    },
+    {
+      "path": "distance3.out",
+      "size": 3
+    },
+    {
+      "path": "distance4.in",
+      "size": 51974
+    },
+    {
+      "path": "distance4.out",
+      "size": 6
+    },
+    {
+      "path": "distance5.in",
+      "size": 846040
+    },
+    {
+      "path": "distance5.out",
+      "size": 3
+    },
+    {
+      "path": "distance6.in",
+      "size": 955032
+    },
+    {
+      "path": "distance6.out",
+      "size": 8
+    },
+    {
+      "path": "distance7.in",
+      "size": 946056
+    },
+    {
+      "path": "distance7.out",
+      "size": 7
+    },
+    {
+      "path": "distance8.in",
+      "size": 1170249
+    },
+    {
+      "path": "distance8.out",
+      "size": 10
+    },
+    {
+      "path": "distance9.in",
+      "size": 1170583
+    },
+    {
+      "path": "distance9.out",
+      "size": 10
+    }
+  ]
+}

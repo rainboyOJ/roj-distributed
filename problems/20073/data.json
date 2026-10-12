@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "compare_1.ans",
+      "size": 300
+    },
+    {
+      "path": "compare_1.in",
+      "size": 305
+    },
+    {
+      "path": "compare_10.ans",
+      "size": 789
+    },
+    {
+      "path": "compare_10.in",
+      "size": 795
+    },
+    {
+      "path": "compare_2.ans",
+      "size": 383
+    },
+    {
+      "path": "compare_2.in",
+      "size": 394
+    },
+    {
+      "path": "compare_3.ans",
+      "size": 392
+    },
+    {
+      "path": "compare_3.in",
+      "size": 395
+    },
+    {
+      "path": "compare_4.ans",
+      "size": 536
+    },
+    {
+      "path": "compare_4.in",
+      "size": 557
+    },
+    {
+      "path": "compare_5.ans",
+      "size": 517
+    },
+    {
+      "path": "compare_5.in",
+      "size": 513
+    },
+    {
+      "path": "compare_6.ans",
+      "size": 786
+    },
+    {
+      "path": "compare_6.in",
+      "size": 794
+    },
+    {
+      "path": "compare_7.ans",
+      "size": 775
+    },
+    {
+      "path": "compare_7.in",
+      "size": 783
+    },
+    {
+      "path": "compare_8.ans",
+      "size": 783
+    },
+    {
+      "path": "compare_8.in",
+      "size": 805
+    },
+    {
+      "path": "compare_9.ans",
+      "size": 778
+    },
+    {
+      "path": "compare_9.in",
+      "size": 787
+    }
+  ]
+}
