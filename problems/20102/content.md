@@ -81,5 +81,5 @@ $$
 
 对于 $100\%$ 的数据，满足：
 
-- $ 1\leq N\leq 500, 1\leq M\leq  10^3$
-- $ 1\leq u_i, v_i\leq N, u_i\neq v_i, 1\leq a_i, b_i\leq 200$
+- $1\leq N\leq 500, 1\leq M\leq  10^3$
+- $1\leq u_i, v_i\leq N, u_i\neq v_i, 1\leq a_i, b_i\leq 200$
