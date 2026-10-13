@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "sibling1.in",
+      "size": 122
+    },
+    {
+      "path": "sibling1.out",
+      "size": 23
+    },
+    {
+      "path": "sibling10.in",
+      "size": 1620023
+    },
+    {
+      "path": "sibling10.out",
+      "size": 31
+    },
+    {
+      "path": "sibling2.in",
+      "size": 124
+    },
+    {
+      "path": "sibling2.out",
+      "size": 23
+    },
+    {
+      "path": "sibling3.in",
+      "size": 1335
+    },
+    {
+      "path": "sibling3.out",
+      "size": 25
+    },
+    {
+      "path": "sibling4.in",
+      "size": 1322
+    },
+    {
+      "path": "sibling4.out",
+      "size": 25
+    },
+    {
+      "path": "sibling5.in",
+      "size": 1326
+    },
+    {
+      "path": "sibling5.out",
+      "size": 25
+    },
+    {
+      "path": "sibling6.in",
+      "size": 1577749
+    },
+    {
+      "path": "sibling6.out",
+      "size": 17
+    },
+    {
+      "path": "sibling7.in",
+      "size": 1576543
+    },
+    {
+      "path": "sibling7.out",
+      "size": 17
+    },
+    {
+      "path": "sibling8.in",
+      "size": 1626973
+    },
+    {
+      "path": "sibling8.out",
+      "size": 31
+    },
+    {
+      "path": "sibling9.in",
+      "size": 1626242
+    },
+    {
+      "path": "sibling9.out",
+      "size": 31
+    }
+  ]
+}

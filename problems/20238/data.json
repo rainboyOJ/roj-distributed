@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "palindrome1.in",
+      "size": 54
+    },
+    {
+      "path": "palindrome1.out",
+      "size": 5
+    },
+    {
+      "path": "palindrome10.in",
+      "size": 22558
+    },
+    {
+      "path": "palindrome10.out",
+      "size": 15
+    },
+    {
+      "path": "palindrome2.in",
+      "size": 58
+    },
+    {
+      "path": "palindrome2.out",
+      "size": 6
+    },
+    {
+      "path": "palindrome3.in",
+      "size": 283
+    },
+    {
+      "path": "palindrome3.out",
+      "size": 10
+    },
+    {
+      "path": "palindrome4.in",
+      "size": 305
+    },
+    {
+      "path": "palindrome4.out",
+      "size": 10
+    },
+    {
+      "path": "palindrome5.in",
+      "size": 13358
+    },
+    {
+      "path": "palindrome5.out",
+      "size": 8
+    },
+    {
+      "path": "palindrome6.in",
+      "size": 13368
+    },
+    {
+      "path": "palindrome6.out",
+      "size": 9
+    },
+    {
+      "path": "palindrome7.in",
+      "size": 23548
+    },
+    {
+      "path": "palindrome7.out",
+      "size": 15
+    },
+    {
+      "path": "palindrome8.in",
+      "size": 21962
+    },
+    {
+      "path": "palindrome8.out",
+      "size": 14
+    },
+    {
+      "path": "palindrome9.in",
+      "size": 22162
+    },
+    {
+      "path": "palindrome9.out",
+      "size": 15
+    }
+  ]
+}

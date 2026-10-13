@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "trie1.in",
+      "size": 940
+    },
+    {
+      "path": "trie1.out",
+      "size": 7
+    },
+    {
+      "path": "trie10.in",
+      "size": 923
+    },
+    {
+      "path": "trie10.out",
+      "size": 10
+    },
+    {
+      "path": "trie2.in",
+      "size": 914
+    },
+    {
+      "path": "trie2.out",
+      "size": 7
+    },
+    {
+      "path": "trie3.in",
+      "size": 921
+    },
+    {
+      "path": "trie3.out",
+      "size": 10
+    },
+    {
+      "path": "trie4.in",
+      "size": 912
+    },
+    {
+      "path": "trie4.out",
+      "size": 10
+    },
+    {
+      "path": "trie5.in",
+      "size": 222
+    },
+    {
+      "path": "trie5.out",
+      "size": 10
+    },
+    {
+      "path": "trie6.in",
+      "size": 224
+    },
+    {
+      "path": "trie6.out",
+      "size": 10
+    },
+    {
+      "path": "trie7.in",
+      "size": 465
+    },
+    {
+      "path": "trie7.out",
+      "size": 10
+    },
+    {
+      "path": "trie8.in",
+      "size": 471
+    },
+    {
+      "path": "trie8.out",
+      "size": 10
+    },
+    {
+      "path": "trie9.in",
+      "size": 921
+    },
+    {
+      "path": "trie9.out",
+      "size": 10
+    }
+  ]
+}

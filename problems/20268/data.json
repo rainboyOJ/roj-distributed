@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "convex1.in",
+      "size": 23
+    },
+    {
+      "path": "convex1.out",
+      "size": 4
+    },
+    {
+      "path": "convex10.in",
+      "size": 321
+    },
+    {
+      "path": "convex10.out",
+      "size": 9
+    },
+    {
+      "path": "convex2.in",
+      "size": 25
+    },
+    {
+      "path": "convex2.out",
+      "size": 3
+    },
+    {
+      "path": "convex3.in",
+      "size": 32
+    },
+    {
+      "path": "convex3.out",
+      "size": 10
+    },
+    {
+      "path": "convex4.in",
+      "size": 33
+    },
+    {
+      "path": "convex4.out",
+      "size": 5
+    },
+    {
+      "path": "convex5.in",
+      "size": 142
+    },
+    {
+      "path": "convex5.out",
+      "size": 10
+    },
+    {
+      "path": "convex6.in",
+      "size": 129
+    },
+    {
+      "path": "convex6.out",
+      "size": 10
+    },
+    {
+      "path": "convex7.in",
+      "size": 377
+    },
+    {
+      "path": "convex7.out",
+      "size": 3
+    },
+    {
+      "path": "convex8.in",
+      "size": 379
+    },
+    {
+      "path": "convex8.out",
+      "size": 3
+    },
+    {
+      "path": "convex9.in",
+      "size": 326
+    },
+    {
+      "path": "convex9.out",
+      "size": 9
+    }
+  ]
+}

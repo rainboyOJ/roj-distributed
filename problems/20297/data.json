@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "path": "trerone.out",
+      "size": 0
+    },
+    {
+      "path": "trerone1.in",
+      "size": 17520
+    },
+    {
+      "path": "trerone1.out",
+      "size": 1473
+    },
+    {
+      "path": "trerone10.in",
+      "size": 2336671
+    },
+    {
+      "path": "trerone10.out",
+      "size": 149778
+    },
+    {
+      "path": "trerone2.in",
+      "size": 17515
+    },
+    {
+      "path": "trerone2.out",
+      "size": 1464
+    },
+    {
+      "path": "trerone3.in",
+      "size": 17532
+    },
+    {
+      "path": "trerone3.out",
+      "size": 1479
+    },
+    {
+      "path": "trerone4.in",
+      "size": 2377797
+    },
+    {
+      "path": "trerone4.out",
+      "size": 150189
+    },
+    {
+      "path": "trerone5.in",
+      "size": 2377797
+    },
+    {
+      "path": "trerone5.out",
+      "size": 149928
+    },
+    {
+      "path": "trerone6.in",
+      "size": 2336639
+    },
+    {
+      "path": "trerone6.out",
+      "size": 150198
+    },
+    {
+      "path": "trerone7.in",
+      "size": 2336914
+    },
+    {
+      "path": "trerone7.out",
+      "size": 150216
+    },
+    {
+      "path": "trerone8.in",
+      "size": 2336631
+    },
+    {
+      "path": "trerone8.out",
+      "size": 150123
+    },
+    {
+      "path": "trerone9.in",
+      "size": 2336657
+    },
+    {
+      "path": "trerone9.out",
+      "size": 149847
+    }
+  ]
+}

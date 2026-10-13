@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "apsp1.in",
+      "size": 206
+    },
+    {
+      "path": "apsp1.out",
+      "size": 2
+    },
+    {
+      "path": "apsp10.in",
+      "size": 800438
+    },
+    {
+      "path": "apsp10.out",
+      "size": 4
+    },
+    {
+      "path": "apsp2.in",
+      "size": 2093
+    },
+    {
+      "path": "apsp2.out",
+      "size": 3
+    },
+    {
+      "path": "apsp3.in",
+      "size": 2073
+    },
+    {
+      "path": "apsp3.out",
+      "size": 3
+    },
+    {
+      "path": "apsp4.in",
+      "size": 22783
+    },
+    {
+      "path": "apsp4.out",
+      "size": 4
+    },
+    {
+      "path": "apsp5.in",
+      "size": 22577
+    },
+    {
+      "path": "apsp5.out",
+      "size": 4
+    },
+    {
+      "path": "apsp6.in",
+      "size": 23075
+    },
+    {
+      "path": "apsp6.out",
+      "size": 4
+    },
+    {
+      "path": "apsp7.in",
+      "size": 803786
+    },
+    {
+      "path": "apsp7.out",
+      "size": 5
+    },
+    {
+      "path": "apsp8.in",
+      "size": 801420
+    },
+    {
+      "path": "apsp8.out",
+      "size": 4
+    },
+    {
+      "path": "apsp9.in",
+      "size": 802874
+    },
+    {
+      "path": "apsp9.out",
+      "size": 4
+    }
+  ]
+}

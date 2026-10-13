@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "seq1.in",
+      "size": 27741
+    },
+    {
+      "path": "seq1.out",
+      "size": 10
+    },
+    {
+      "path": "seq10.in",
+      "size": 69570
+    },
+    {
+      "path": "seq10.out",
+      "size": 9
+    },
+    {
+      "path": "seq2.in",
+      "size": 27827
+    },
+    {
+      "path": "seq2.out",
+      "size": 10
+    },
+    {
+      "path": "seq3.in",
+      "size": 41600
+    },
+    {
+      "path": "seq3.out",
+      "size": 10
+    },
+    {
+      "path": "seq4.in",
+      "size": 41685
+    },
+    {
+      "path": "seq4.out",
+      "size": 10
+    },
+    {
+      "path": "seq5.in",
+      "size": 721
+    },
+    {
+      "path": "seq5.out",
+      "size": 4
+    },
+    {
+      "path": "seq6.in",
+      "size": 717
+    },
+    {
+      "path": "seq6.out",
+      "size": 4
+    },
+    {
+      "path": "seq7.in",
+      "size": 69444
+    },
+    {
+      "path": "seq7.out",
+      "size": 9
+    },
+    {
+      "path": "seq8.in",
+      "size": 69491
+    },
+    {
+      "path": "seq8.out",
+      "size": 9
+    },
+    {
+      "path": "seq9.in",
+      "size": 69555
+    },
+    {
+      "path": "seq9.out",
+      "size": 9
+    }
+  ]
+}

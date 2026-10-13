@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "expr1.in",
+      "size": 15
+    },
+    {
+      "path": "expr1.out",
+      "size": 6
+    },
+    {
+      "path": "expr10.in",
+      "size": 4194303
+    },
+    {
+      "path": "expr10.out",
+      "size": 18
+    },
+    {
+      "path": "expr2.in",
+      "size": 15
+    },
+    {
+      "path": "expr2.out",
+      "size": 6
+    },
+    {
+      "path": "expr3.in",
+      "size": 1023
+    },
+    {
+      "path": "expr3.out",
+      "size": 14
+    },
+    {
+      "path": "expr4.in",
+      "size": 1023
+    },
+    {
+      "path": "expr4.out",
+      "size": 14
+    },
+    {
+      "path": "expr5.in",
+      "size": 32767
+    },
+    {
+      "path": "expr5.out",
+      "size": 16
+    },
+    {
+      "path": "expr6.in",
+      "size": 32767
+    },
+    {
+      "path": "expr6.out",
+      "size": 16
+    },
+    {
+      "path": "expr7.in",
+      "size": 4194303
+    },
+    {
+      "path": "expr7.out",
+      "size": 18
+    },
+    {
+      "path": "expr8.in",
+      "size": 4194303
+    },
+    {
+      "path": "expr8.out",
+      "size": 18
+    },
+    {
+      "path": "expr9.in",
+      "size": 4194303
+    },
+    {
+      "path": "expr9.out",
+      "size": 18
+    }
+  ]
+}

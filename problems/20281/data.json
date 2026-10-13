@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "neginf1.in",
+      "size": 838
+    },
+    {
+      "path": "neginf1.out",
+      "size": 589
+    },
+    {
+      "path": "neginf10.in",
+      "size": 1127893
+    },
+    {
+      "path": "neginf10.out",
+      "size": 491431
+    },
+    {
+      "path": "neginf2.in",
+      "size": 9295
+    },
+    {
+      "path": "neginf2.out",
+      "size": 6907
+    },
+    {
+      "path": "neginf3.in",
+      "size": 9282
+    },
+    {
+      "path": "neginf3.out",
+      "size": 6983
+    },
+    {
+      "path": "neginf4.in",
+      "size": 1127972
+    },
+    {
+      "path": "neginf4.out",
+      "size": 799828
+    },
+    {
+      "path": "neginf5.in",
+      "size": 1127953
+    },
+    {
+      "path": "neginf5.out",
+      "size": 799906
+    },
+    {
+      "path": "neginf6.in",
+      "size": 1077866
+    },
+    {
+      "path": "neginf6.out",
+      "size": 581392
+    },
+    {
+      "path": "neginf7.in",
+      "size": 1077830
+    },
+    {
+      "path": "neginf7.out",
+      "size": 994355
+    },
+    {
+      "path": "neginf8.in",
+      "size": 1127585
+    },
+    {
+      "path": "neginf8.out",
+      "size": 763856
+    },
+    {
+      "path": "neginf9.in",
+      "size": 1127797
+    },
+    {
+      "path": "neginf9.out",
+      "size": 714083
+    }
+  ]
+}

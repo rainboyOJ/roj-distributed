@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "rectangle1.in",
+      "size": 595
+    },
+    {
+      "path": "rectangle1.out",
+      "size": 9
+    },
+    {
+      "path": "rectangle10.in",
+      "size": 19818
+    },
+    {
+      "path": "rectangle10.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle2.in",
+      "size": 5846
+    },
+    {
+      "path": "rectangle2.out",
+      "size": 9
+    },
+    {
+      "path": "rectangle3.in",
+      "size": 63
+    },
+    {
+      "path": "rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle4.in",
+      "size": 64
+    },
+    {
+      "path": "rectangle4.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle5.in",
+      "size": 1016
+    },
+    {
+      "path": "rectangle5.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle6.in",
+      "size": 1011
+    },
+    {
+      "path": "rectangle6.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle7.in",
+      "size": 1018
+    },
+    {
+      "path": "rectangle7.out",
+      "size": 10
+    },
+    {
+      "path": "rectangle8.in",
+      "size": 19779
+    },
+    {
+      "path": "rectangle8.out",
+      "size": 9
+    },
+    {
+      "path": "rectangle9.in",
+      "size": 19793
+    },
+    {
+      "path": "rectangle9.out",
+      "size": 10
+    }
+  ]
+}

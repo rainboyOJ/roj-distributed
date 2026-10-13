@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "perm1.in",
+      "size": 24
+    },
+    {
+      "path": "perm1.out",
+      "size": 4
+    },
+    {
+      "path": "perm10.in",
+      "size": 14888904
+    },
+    {
+      "path": "perm10.out",
+      "size": 10
+    },
+    {
+      "path": "perm2.in",
+      "size": 24
+    },
+    {
+      "path": "perm2.out",
+      "size": 4
+    },
+    {
+      "path": "perm3.in",
+      "size": 3898
+    },
+    {
+      "path": "perm3.out",
+      "size": 10
+    },
+    {
+      "path": "perm4.in",
+      "size": 3898
+    },
+    {
+      "path": "perm4.out",
+      "size": 10
+    },
+    {
+      "path": "perm5.in",
+      "size": 1988902
+    },
+    {
+      "path": "perm5.out",
+      "size": 10
+    },
+    {
+      "path": "perm6.in",
+      "size": 1988902
+    },
+    {
+      "path": "perm6.out",
+      "size": 10
+    },
+    {
+      "path": "perm7.in",
+      "size": 1988902
+    },
+    {
+      "path": "perm7.out",
+      "size": 10
+    },
+    {
+      "path": "perm8.in",
+      "size": 1988902
+    },
+    {
+      "path": "perm8.out",
+      "size": 10
+    },
+    {
+      "path": "perm9.in",
+      "size": 14888904
+    },
+    {
+      "path": "perm9.out",
+      "size": 10
+    }
+  ]
+}

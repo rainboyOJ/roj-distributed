@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "fence1.in",
+      "size": 105
+    },
+    {
+      "path": "fence1.out",
+      "size": 13
+    },
+    {
+      "path": "fence10.in",
+      "size": 9863
+    },
+    {
+      "path": "fence10.out",
+      "size": 17
+    },
+    {
+      "path": "fence11.in",
+      "size": 9859
+    },
+    {
+      "path": "fence11.out",
+      "size": 14
+    },
+    {
+      "path": "fence12.in",
+      "size": 9869
+    },
+    {
+      "path": "fence12.out",
+      "size": 16
+    },
+    {
+      "path": "fence13.in",
+      "size": 9902
+    },
+    {
+      "path": "fence13.out",
+      "size": 14
+    },
+    {
+      "path": "fence14.in",
+      "size": 9873
+    },
+    {
+      "path": "fence14.out",
+      "size": 15
+    },
+    {
+      "path": "fence15.in",
+      "size": 9866
+    },
+    {
+      "path": "fence15.out",
+      "size": 12
+    },
+    {
+      "path": "fence16.in",
+      "size": 1974203
+    },
+    {
+      "path": "fence16.out",
+      "size": 13
+    },
+    {
+      "path": "fence17.in",
+      "size": 1974079
+    },
+    {
+      "path": "fence17.out",
+      "size": 19
+    },
+    {
+      "path": "fence18.in",
+      "size": 1974227
+    },
+    {
+      "path": "fence18.out",
+      "size": 17
+    },
+    {
+      "path": "fence19.in",
+      "size": 1974353
+    },
+    {
+      "path": "fence19.out",
+      "size": 13
+    },
+    {
+      "path": "fence2.in",
+      "size": 104
+    },
+    {
+      "path": "fence2.out",
+      "size": 14
+    },
+    {
+      "path": "fence20.in",
+      "size": 1974329
+    },
+    {
+      "path": "fence20.out",
+      "size": 22
+    },
+    {
+      "path": "fence3.in",
+      "size": 104
+    },
+    {
+      "path": "fence3.out",
+      "size": 11
+    },
+    {
+      "path": "fence4.in",
+      "size": 105
+    },
+    {
+      "path": "fence4.out",
+      "size": 13
+    },
+    {
+      "path": "fence5.in",
+      "size": 9871
+    },
+    {
+      "path": "fence5.out",
+      "size": 17
+    },
+    {
+      "path": "fence6.in",
+      "size": 9873
+    },
+    {
+      "path": "fence6.out",
+      "size": 17
+    },
+    {
+      "path": "fence7.in",
+      "size": 9881
+    },
+    {
+      "path": "fence7.out",
+      "size": 17
+    },
+    {
+      "path": "fence8.in",
+      "size": 9870
+    },
+    {
+      "path": "fence8.out",
+      "size": 17
+    },
+    {
+      "path": "fence9.in",
+      "size": 9906
+    },
+    {
+      "path": "fence9.out",
+      "size": 17
+    }
+  ]
+}

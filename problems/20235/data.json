@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "tournament1.in",
+      "size": 63
+    },
+    {
+      "path": "tournament1.out",
+      "size": 3
+    },
+    {
+      "path": "tournament10.in",
+      "size": 988978
+    },
+    {
+      "path": "tournament10.out",
+      "size": 7
+    },
+    {
+      "path": "tournament2.in",
+      "size": 113
+    },
+    {
+      "path": "tournament2.out",
+      "size": 4
+    },
+    {
+      "path": "tournament3.in",
+      "size": 9898
+    },
+    {
+      "path": "tournament3.out",
+      "size": 5
+    },
+    {
+      "path": "tournament4.in",
+      "size": 9907
+    },
+    {
+      "path": "tournament4.out",
+      "size": 5
+    },
+    {
+      "path": "tournament5.in",
+      "size": 9906
+    },
+    {
+      "path": "tournament5.out",
+      "size": 5
+    },
+    {
+      "path": "tournament6.in",
+      "size": 989025
+    },
+    {
+      "path": "tournament6.out",
+      "size": 6
+    },
+    {
+      "path": "tournament7.in",
+      "size": 988863
+    },
+    {
+      "path": "tournament7.out",
+      "size": 7
+    },
+    {
+      "path": "tournament8.in",
+      "size": 988938
+    },
+    {
+      "path": "tournament8.out",
+      "size": 6
+    },
+    {
+      "path": "tournament9.in",
+      "size": 989001
+    },
+    {
+      "path": "tournament9.out",
+      "size": 7
+    }
+  ]
+}

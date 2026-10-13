@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "diameter1.in",
+      "size": 21951
+    },
+    {
+      "path": "diameter1.out",
+      "size": 2457
+    },
+    {
+      "path": "diameter10.in",
+      "size": 2790856
+    },
+    {
+      "path": "diameter10.out",
+      "size": 234710
+    },
+    {
+      "path": "diameter2.in",
+      "size": 21924
+    },
+    {
+      "path": "diameter2.out",
+      "size": 2342
+    },
+    {
+      "path": "diameter3.in",
+      "size": 21952
+    },
+    {
+      "path": "diameter3.out",
+      "size": 2125
+    },
+    {
+      "path": "diameter4.in",
+      "size": 2955547
+    },
+    {
+      "path": "diameter4.out",
+      "size": 1500000
+    },
+    {
+      "path": "diameter5.in",
+      "size": 2955608
+    },
+    {
+      "path": "diameter5.out",
+      "size": 1400000
+    },
+    {
+      "path": "diameter6.in",
+      "size": 2793469
+    },
+    {
+      "path": "diameter6.out",
+      "size": 269490
+    },
+    {
+      "path": "diameter7.in",
+      "size": 2793823
+    },
+    {
+      "path": "diameter7.out",
+      "size": 252294
+    },
+    {
+      "path": "diameter8.in",
+      "size": 2790452
+    },
+    {
+      "path": "diameter8.out",
+      "size": 248430
+    },
+    {
+      "path": "diameter9.in",
+      "size": 2790782
+    },
+    {
+      "path": "diameter9.out",
+      "size": 233884
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "triangular1.in",
+      "size": 34426
+    },
+    {
+      "path": "triangular1.out",
+      "size": 3151
+    },
+    {
+      "path": "triangular10.in",
+      "size": 34444599
+    },
+    {
+      "path": "triangular10.out",
+      "size": 6062774
+    },
+    {
+      "path": "triangular2.in",
+      "size": 34511
+    },
+    {
+      "path": "triangular2.out",
+      "size": 3166
+    },
+    {
+      "path": "triangular3.in",
+      "size": 1722030
+    },
+    {
+      "path": "triangular3.out",
+      "size": 237397
+    },
+    {
+      "path": "triangular4.in",
+      "size": 1722192
+    },
+    {
+      "path": "triangular4.out",
+      "size": 236945
+    },
+    {
+      "path": "triangular5.in",
+      "size": 6888486
+    },
+    {
+      "path": "triangular5.out",
+      "size": 1067054
+    },
+    {
+      "path": "triangular6.in",
+      "size": 6888727
+    },
+    {
+      "path": "triangular6.out",
+      "size": 1067264
+    },
+    {
+      "path": "triangular7.in",
+      "size": 6888969
+    },
+    {
+      "path": "triangular7.out",
+      "size": 1067004
+    },
+    {
+      "path": "triangular8.in",
+      "size": 34444960
+    },
+    {
+      "path": "triangular8.out",
+      "size": 6062894
+    },
+    {
+      "path": "triangular9.in",
+      "size": 34444648
+    },
+    {
+      "path": "triangular9.out",
+      "size": 6062458
+    }
+  ]
+}

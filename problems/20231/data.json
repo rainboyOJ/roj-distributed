@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "binary1.in",
+      "size": 424
+    },
+    {
+      "path": "binary1.out",
+      "size": 2148
+    },
+    {
+      "path": "binary2.in",
+      "size": 624
+    },
+    {
+      "path": "binary2.out",
+      "size": 182328
+    },
+    {
+      "path": "binary3.in",
+      "size": 624
+    },
+    {
+      "path": "binary3.out",
+      "size": 182328
+    },
+    {
+      "path": "binary4.in",
+      "size": 824
+    },
+    {
+      "path": "binary4.out",
+      "size": 18200328
+    },
+    {
+      "path": "binary5.in",
+      "size": 824
+    },
+    {
+      "path": "binary5.out",
+      "size": 18200328
+    }
+  ]
+}

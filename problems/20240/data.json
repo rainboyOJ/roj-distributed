@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "kth1.in",
+      "size": 298
+    },
+    {
+      "path": "kth1.out",
+      "size": 6
+    },
+    {
+      "path": "kth10.in",
+      "size": 3388904
+    },
+    {
+      "path": "kth10.out",
+      "size": 18
+    },
+    {
+      "path": "kth2.in",
+      "size": 298
+    },
+    {
+      "path": "kth2.out",
+      "size": 6
+    },
+    {
+      "path": "kth3.in",
+      "size": 3900
+    },
+    {
+      "path": "kth3.out",
+      "size": 10
+    },
+    {
+      "path": "kth4.in",
+      "size": 3900
+    },
+    {
+      "path": "kth4.out",
+      "size": 10
+    },
+    {
+      "path": "kth5.in",
+      "size": 3388903
+    },
+    {
+      "path": "kth5.out",
+      "size": 18
+    },
+    {
+      "path": "kth6.in",
+      "size": 3388903
+    },
+    {
+      "path": "kth6.out",
+      "size": 18
+    },
+    {
+      "path": "kth7.in",
+      "size": 288902
+    },
+    {
+      "path": "kth7.out",
+      "size": 15
+    },
+    {
+      "path": "kth8.in",
+      "size": 288902
+    },
+    {
+      "path": "kth8.out",
+      "size": 15
+    },
+    {
+      "path": "kth9.in",
+      "size": 3388904
+    },
+    {
+      "path": "kth9.out",
+      "size": 18
+    }
+  ]
+}

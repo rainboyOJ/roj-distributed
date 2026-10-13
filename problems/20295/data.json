@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "giant1.in",
+      "size": 7
+    },
+    {
+      "path": "giant1.out",
+      "size": 8
+    },
+    {
+      "path": "giant10.in",
+      "size": 10
+    },
+    {
+      "path": "giant10.out",
+      "size": 9
+    },
+    {
+      "path": "giant2.in",
+      "size": 7
+    },
+    {
+      "path": "giant2.out",
+      "size": 9
+    },
+    {
+      "path": "giant3.in",
+      "size": 7
+    },
+    {
+      "path": "giant3.out",
+      "size": 9
+    },
+    {
+      "path": "giant4.in",
+      "size": 7
+    },
+    {
+      "path": "giant4.out",
+      "size": 9
+    },
+    {
+      "path": "giant5.in",
+      "size": 6
+    },
+    {
+      "path": "giant5.out",
+      "size": 3
+    },
+    {
+      "path": "giant6.in",
+      "size": 11
+    },
+    {
+      "path": "giant6.out",
+      "size": 9
+    },
+    {
+      "path": "giant7.in",
+      "size": 11
+    },
+    {
+      "path": "giant7.out",
+      "size": 9
+    },
+    {
+      "path": "giant8.in",
+      "size": 10
+    },
+    {
+      "path": "giant8.out",
+      "size": 9
+    },
+    {
+      "path": "giant9.in",
+      "size": 10
+    },
+    {
+      "path": "giant9.out",
+      "size": 9
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "andsum1.in",
+      "size": 29858
+    },
+    {
+      "path": "andsum1.out",
+      "size": 10
+    },
+    {
+      "path": "andsum10.in",
+      "size": 996652
+    },
+    {
+      "path": "andsum10.out",
+      "size": 10
+    },
+    {
+      "path": "andsum2.in",
+      "size": 29940
+    },
+    {
+      "path": "andsum2.out",
+      "size": 10
+    },
+    {
+      "path": "andsum3.in",
+      "size": 473164
+    },
+    {
+      "path": "andsum3.out",
+      "size": 10
+    },
+    {
+      "path": "andsum4.in",
+      "size": 473065
+    },
+    {
+      "path": "andsum4.out",
+      "size": 10
+    },
+    {
+      "path": "andsum5.in",
+      "size": 472941
+    },
+    {
+      "path": "andsum5.out",
+      "size": 10
+    },
+    {
+      "path": "andsum6.in",
+      "size": 996465
+    },
+    {
+      "path": "andsum6.out",
+      "size": 10
+    },
+    {
+      "path": "andsum7.in",
+      "size": 996469
+    },
+    {
+      "path": "andsum7.out",
+      "size": 10
+    },
+    {
+      "path": "andsum8.in",
+      "size": 996643
+    },
+    {
+      "path": "andsum8.out",
+      "size": 10
+    },
+    {
+      "path": "andsum9.in",
+      "size": 996366
+    },
+    {
+      "path": "andsum9.out",
+      "size": 10
+    }
+  ]
+}

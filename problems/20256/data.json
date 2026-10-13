@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "expression1.in",
+      "size": 113
+    },
+    {
+      "path": "expression1.out",
+      "size": 10
+    },
+    {
+      "path": "expression10.in",
+      "size": 5460
+    },
+    {
+      "path": "expression10.out",
+      "size": 10
+    },
+    {
+      "path": "expression2.in",
+      "size": 113
+    },
+    {
+      "path": "expression2.out",
+      "size": 10
+    },
+    {
+      "path": "expression3.in",
+      "size": 5441
+    },
+    {
+      "path": "expression3.out",
+      "size": 10
+    },
+    {
+      "path": "expression4.in",
+      "size": 5443
+    },
+    {
+      "path": "expression4.out",
+      "size": 10
+    },
+    {
+      "path": "expression5.in",
+      "size": 5446
+    },
+    {
+      "path": "expression5.out",
+      "size": 9
+    },
+    {
+      "path": "expression6.in",
+      "size": 5463
+    },
+    {
+      "path": "expression6.out",
+      "size": 10
+    },
+    {
+      "path": "expression7.in",
+      "size": 5447
+    },
+    {
+      "path": "expression7.out",
+      "size": 10
+    },
+    {
+      "path": "expression8.in",
+      "size": 5445
+    },
+    {
+      "path": "expression8.out",
+      "size": 10
+    },
+    {
+      "path": "expression9.in",
+      "size": 5437
+    },
+    {
+      "path": "expression9.out",
+      "size": 10
+    }
+  ]
+}

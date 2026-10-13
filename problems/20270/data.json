@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "binary1.in",
+      "size": 11
+    },
+    {
+      "path": "binary1.out",
+      "size": 4
+    },
+    {
+      "path": "binary10.in",
+      "size": 100001
+    },
+    {
+      "path": "binary10.out",
+      "size": 10
+    },
+    {
+      "path": "binary2.in",
+      "size": 21
+    },
+    {
+      "path": "binary2.out",
+      "size": 8
+    },
+    {
+      "path": "binary3.in",
+      "size": 21
+    },
+    {
+      "path": "binary3.out",
+      "size": 8
+    },
+    {
+      "path": "binary4.in",
+      "size": 1001
+    },
+    {
+      "path": "binary4.out",
+      "size": 10
+    },
+    {
+      "path": "binary5.in",
+      "size": 1001
+    },
+    {
+      "path": "binary5.out",
+      "size": 10
+    },
+    {
+      "path": "binary6.in",
+      "size": 1001
+    },
+    {
+      "path": "binary6.out",
+      "size": 10
+    },
+    {
+      "path": "binary7.in",
+      "size": 100001
+    },
+    {
+      "path": "binary7.out",
+      "size": 10
+    },
+    {
+      "path": "binary8.in",
+      "size": 100001
+    },
+    {
+      "path": "binary8.out",
+      "size": 10
+    },
+    {
+      "path": "binary9.in",
+      "size": 100001
+    },
+    {
+      "path": "binary9.out",
+      "size": 10
+    }
+  ]
+}

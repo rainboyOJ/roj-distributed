@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "permutation1.in",
+      "size": 29
+    },
+    {
+      "path": "permutation1.out",
+      "size": 175
+    },
+    {
+      "path": "permutation10.in",
+      "size": 2352
+    },
+    {
+      "path": "permutation10.out",
+      "size": 340
+    },
+    {
+      "path": "permutation2.in",
+      "size": 26
+    },
+    {
+      "path": "permutation2.out",
+      "size": 190
+    },
+    {
+      "path": "permutation3.in",
+      "size": 35
+    },
+    {
+      "path": "permutation3.out",
+      "size": 13
+    },
+    {
+      "path": "permutation4.in",
+      "size": 108
+    },
+    {
+      "path": "permutation4.out",
+      "size": 323
+    },
+    {
+      "path": "permutation5.in",
+      "size": 1752
+    },
+    {
+      "path": "permutation5.out",
+      "size": 16
+    },
+    {
+      "path": "permutation6.in",
+      "size": 1749
+    },
+    {
+      "path": "permutation6.out",
+      "size": 16
+    },
+    {
+      "path": "permutation7.in",
+      "size": 300
+    },
+    {
+      "path": "permutation7.out",
+      "size": 298
+    },
+    {
+      "path": "permutation8.in",
+      "size": 394
+    },
+    {
+      "path": "permutation8.out",
+      "size": 320
+    },
+    {
+      "path": "permutation9.in",
+      "size": 1757
+    },
+    {
+      "path": "permutation9.out",
+      "size": 318
+    }
+  ]
+}

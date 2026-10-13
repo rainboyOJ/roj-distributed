@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "mul1.in",
+      "size": 11
+    },
+    {
+      "path": "mul1.out",
+      "size": 2
+    },
+    {
+      "path": "mul10.in",
+      "size": 1000001
+    },
+    {
+      "path": "mul10.out",
+      "size": 7
+    },
+    {
+      "path": "mul2.in",
+      "size": 11
+    },
+    {
+      "path": "mul2.out",
+      "size": 2
+    },
+    {
+      "path": "mul3.in",
+      "size": 1001
+    },
+    {
+      "path": "mul3.out",
+      "size": 4
+    },
+    {
+      "path": "mul4.in",
+      "size": 1001
+    },
+    {
+      "path": "mul4.out",
+      "size": 4
+    },
+    {
+      "path": "mul5.in",
+      "size": 1001
+    },
+    {
+      "path": "mul5.out",
+      "size": 4
+    },
+    {
+      "path": "mul6.in",
+      "size": 1000001
+    },
+    {
+      "path": "mul6.out",
+      "size": 7
+    },
+    {
+      "path": "mul7.in",
+      "size": 1000001
+    },
+    {
+      "path": "mul7.out",
+      "size": 7
+    },
+    {
+      "path": "mul8.in",
+      "size": 1000001
+    },
+    {
+      "path": "mul8.out",
+      "size": 7
+    },
+    {
+      "path": "mul9.in",
+      "size": 1000001
+    },
+    {
+      "path": "mul9.out",
+      "size": 7
+    }
+  ]
+}

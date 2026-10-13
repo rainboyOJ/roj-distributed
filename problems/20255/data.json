@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "palindrome1.in",
+      "size": 203
+    },
+    {
+      "path": "palindrome1.out",
+      "size": 43
+    },
+    {
+      "path": "palindrome2.in",
+      "size": 40103
+    },
+    {
+      "path": "palindrome2.out",
+      "size": 86
+    },
+    {
+      "path": "palindrome3.in",
+      "size": 40103
+    },
+    {
+      "path": "palindrome3.out",
+      "size": 85
+    },
+    {
+      "path": "palindrome4.in",
+      "size": 4889970
+    },
+    {
+      "path": "palindrome4.out",
+      "size": 183
+    },
+    {
+      "path": "palindrome5.in",
+      "size": 4889755
+    },
+    {
+      "path": "palindrome5.out",
+      "size": 183
+    }
+  ]
+}

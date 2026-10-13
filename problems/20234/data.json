@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "parity1.in",
+      "size": 42
+    },
+    {
+      "path": "parity1.out",
+      "size": 13
+    },
+    {
+      "path": "parity10.in",
+      "size": 933
+    },
+    {
+      "path": "parity10.out",
+      "size": 401
+    },
+    {
+      "path": "parity2.in",
+      "size": 127
+    },
+    {
+      "path": "parity2.out",
+      "size": 59
+    },
+    {
+      "path": "parity3.in",
+      "size": 120
+    },
+    {
+      "path": "parity3.out",
+      "size": 58
+    },
+    {
+      "path": "parity4.in",
+      "size": 457
+    },
+    {
+      "path": "parity4.out",
+      "size": 205
+    },
+    {
+      "path": "parity5.in",
+      "size": 478
+    },
+    {
+      "path": "parity5.out",
+      "size": 208
+    },
+    {
+      "path": "parity6.in",
+      "size": 690
+    },
+    {
+      "path": "parity6.out",
+      "size": 306
+    },
+    {
+      "path": "parity7.in",
+      "size": 686
+    },
+    {
+      "path": "parity7.out",
+      "size": 304
+    },
+    {
+      "path": "parity8.in",
+      "size": 910
+    },
+    {
+      "path": "parity8.out",
+      "size": 403
+    },
+    {
+      "path": "parity9.in",
+      "size": 941
+    },
+    {
+      "path": "parity9.out",
+      "size": 402
+    }
+  ]
+}

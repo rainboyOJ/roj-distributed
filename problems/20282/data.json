@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "spanning1.in",
+      "size": 211
+    },
+    {
+      "path": "spanning1.out",
+      "size": 9
+    },
+    {
+      "path": "spanning10.in",
+      "size": 24324
+    },
+    {
+      "path": "spanning10.out",
+      "size": 9
+    },
+    {
+      "path": "spanning2.in",
+      "size": 737
+    },
+    {
+      "path": "spanning2.out",
+      "size": 10
+    },
+    {
+      "path": "spanning3.in",
+      "size": 24313
+    },
+    {
+      "path": "spanning3.out",
+      "size": 10
+    },
+    {
+      "path": "spanning4.in",
+      "size": 24341
+    },
+    {
+      "path": "spanning4.out",
+      "size": 10
+    },
+    {
+      "path": "spanning5.in",
+      "size": 5005
+    },
+    {
+      "path": "spanning5.out",
+      "size": 10
+    },
+    {
+      "path": "spanning6.in",
+      "size": 5005
+    },
+    {
+      "path": "spanning6.out",
+      "size": 9
+    },
+    {
+      "path": "spanning7.in",
+      "size": 24355
+    },
+    {
+      "path": "spanning7.out",
+      "size": 10
+    },
+    {
+      "path": "spanning8.in",
+      "size": 24335
+    },
+    {
+      "path": "spanning8.out",
+      "size": 10
+    },
+    {
+      "path": "spanning9.in",
+      "size": 24350
+    },
+    {
+      "path": "spanning9.out",
+      "size": 10
+    }
+  ]
+}

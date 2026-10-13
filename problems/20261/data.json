@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "decomposition1.in",
+      "size": 68
+    },
+    {
+      "path": "decomposition1.out",
+      "size": 53
+    },
+    {
+      "path": "decomposition10.in",
+      "size": 1170028
+    },
+    {
+      "path": "decomposition10.out",
+      "size": 1200000
+    },
+    {
+      "path": "decomposition2.in",
+      "size": 67
+    },
+    {
+      "path": "decomposition2.out",
+      "size": 57
+    },
+    {
+      "path": "decomposition3.in",
+      "size": 67
+    },
+    {
+      "path": "decomposition3.out",
+      "size": 50
+    },
+    {
+      "path": "decomposition4.in",
+      "size": 7775
+    },
+    {
+      "path": "decomposition4.out",
+      "size": 8000
+    },
+    {
+      "path": "decomposition5.in",
+      "size": 7741
+    },
+    {
+      "path": "decomposition5.out",
+      "size": 8000
+    },
+    {
+      "path": "decomposition6.in",
+      "size": 7716
+    },
+    {
+      "path": "decomposition6.out",
+      "size": 8000
+    },
+    {
+      "path": "decomposition7.in",
+      "size": 1177778
+    },
+    {
+      "path": "decomposition7.out",
+      "size": 1137696
+    },
+    {
+      "path": "decomposition8.in",
+      "size": 1177688
+    },
+    {
+      "path": "decomposition8.out",
+      "size": 1200000
+    },
+    {
+      "path": "decomposition9.in",
+      "size": 1177628
+    },
+    {
+      "path": "decomposition9.out",
+      "size": 1200000
+    }
+  ]
+}

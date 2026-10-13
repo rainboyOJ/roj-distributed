@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "subset1.in",
+      "size": 15
+    },
+    {
+      "path": "subset1.out",
+      "size": 6
+    },
+    {
+      "path": "subset10.in",
+      "size": 105809
+    },
+    {
+      "path": "subset10.out",
+      "size": 177
+    },
+    {
+      "path": "subset2.in",
+      "size": 129
+    },
+    {
+      "path": "subset2.out",
+      "size": 21
+    },
+    {
+      "path": "subset3.in",
+      "size": 184
+    },
+    {
+      "path": "subset3.out",
+      "size": 22
+    },
+    {
+      "path": "subset4.in",
+      "size": 10009
+    },
+    {
+      "path": "subset4.out",
+      "size": 39
+    },
+    {
+      "path": "subset5.in",
+      "size": 10009
+    },
+    {
+      "path": "subset5.out",
+      "size": 38
+    },
+    {
+      "path": "subset6.in",
+      "size": 2883
+    },
+    {
+      "path": "subset6.out",
+      "size": 107
+    },
+    {
+      "path": "subset7.in",
+      "size": 3259
+    },
+    {
+      "path": "subset7.out",
+      "size": 103
+    },
+    {
+      "path": "subset8.in",
+      "size": 106579
+    },
+    {
+      "path": "subset8.out",
+      "size": 183
+    },
+    {
+      "path": "subset9.in",
+      "size": 105079
+    },
+    {
+      "path": "subset9.out",
+      "size": 182
+    }
+  ]
+}

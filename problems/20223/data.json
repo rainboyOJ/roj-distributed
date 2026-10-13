@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "bracket1.in",
+      "size": 5001
+    },
+    {
+      "path": "bracket1.out",
+      "size": 10
+    },
+    {
+      "path": "bracket10.in",
+      "size": 10000001
+    },
+    {
+      "path": "bracket10.out",
+      "size": 17
+    },
+    {
+      "path": "bracket2.in",
+      "size": 5001
+    },
+    {
+      "path": "bracket2.out",
+      "size": 11
+    },
+    {
+      "path": "bracket3.in",
+      "size": 5001
+    },
+    {
+      "path": "bracket3.out",
+      "size": 10
+    },
+    {
+      "path": "bracket4.in",
+      "size": 1000001
+    },
+    {
+      "path": "bracket4.out",
+      "size": 16
+    },
+    {
+      "path": "bracket5.in",
+      "size": 1000001
+    },
+    {
+      "path": "bracket5.out",
+      "size": 16
+    },
+    {
+      "path": "bracket6.in",
+      "size": 1000001
+    },
+    {
+      "path": "bracket6.out",
+      "size": 16
+    },
+    {
+      "path": "bracket7.in",
+      "size": 1000001
+    },
+    {
+      "path": "bracket7.out",
+      "size": 16
+    },
+    {
+      "path": "bracket8.in",
+      "size": 10000001
+    },
+    {
+      "path": "bracket8.out",
+      "size": 17
+    },
+    {
+      "path": "bracket9.in",
+      "size": 10000001
+    },
+    {
+      "path": "bracket9.out",
+      "size": 17
+    }
+  ]
+}
