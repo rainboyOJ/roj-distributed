@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "subtask1/construct1.in",
+      "size": 1040
+    },
+    {
+      "path": "subtask1/construct1.out",
+      "size": 8
+    },
+    {
+      "path": "subtask1/construct2.in",
+      "size": 781
+    },
+    {
+      "path": "subtask1/construct2.out",
+      "size": 8
+    },
+    {
+      "path": "subtask1/construct3.in",
+      "size": 975
+    },
+    {
+      "path": "subtask1/construct3.out",
+      "size": 8
+    },
+    {
+      "path": "subtask1/construct4.in",
+      "size": 974
+    },
+    {
+      "path": "subtask1/construct4.out",
+      "size": 8
+    },
+    {
+      "path": "subtask2/construct1.in",
+      "size": 3580
+    },
+    {
+      "path": "subtask2/construct1.out",
+      "size": 9
+    },
+    {
+      "path": "subtask2/construct2.in",
+      "size": 3313
+    },
+    {
+      "path": "subtask2/construct2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask2/construct3.in",
+      "size": 2862
+    },
+    {
+      "path": "subtask2/construct3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask3/construct1.in",
+      "size": 5265
+    },
+    {
+      "path": "subtask3/construct1.out",
+      "size": 14
+    },
+    {
+      "path": "subtask3/construct2.in",
+      "size": 5088
+    },
+    {
+      "path": "subtask3/construct2.out",
+      "size": 15
+    },
+    {
+      "path": "subtask3/construct3.in",
+      "size": 5835
+    },
+    {
+      "path": "subtask3/construct3.out",
+      "size": 16
+    },
+    {
+      "path": "subtask3/construct4.in",
+      "size": 5167
+    },
+    {
+      "path": "subtask3/construct4.out",
+      "size": 15
+    },
+    {
+      "path": "subtask3/construct5.in",
+      "size": 4926
+    },
+    {
+      "path": "subtask3/construct5.out",
+      "size": 15
+    },
+    {
+      "path": "subtask4/construct1.in",
+      "size": 643839
+    },
+    {
+      "path": "subtask4/construct1.out",
+      "size": 13
+    },
+    {
+      "path": "subtask4/construct2.in",
+      "size": 409865
+    },
+    {
+      "path": "subtask4/construct2.out",
+      "size": 17
+    },
+    {
+      "path": "subtask4/construct3.in",
+      "size": 293864
+    },
+    {
+      "path": "subtask4/construct3.out",
+      "size": 17
+    },
+    {
+      "path": "subtask4/construct4.in",
+      "size": 390226
+    },
+    {
+      "path": "subtask4/construct4.out",
+      "size": 17
+    },
+    {
+      "path": "subtask5/construct1.in",
+      "size": 5589767
+    },
+    {
+      "path": "subtask5/construct1.out",
+      "size": 14
+    },
+    {
+      "path": "subtask5/construct2.in",
+      "size": 6828558
+    },
+    {
+      "path": "subtask5/construct2.out",
+      "size": 19
+    },
+    {
+      "path": "subtask5/construct3.in",
+      "size": 5526761
+    },
+    {
+      "path": "subtask5/construct3.out",
+      "size": 19
+    }
+  ]
+}

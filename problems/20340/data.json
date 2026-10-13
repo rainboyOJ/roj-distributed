@@ -1,0 +1,388 @@
+{
+  "files": [
+    {
+      "path": "subtask1/paint1.in",
+      "size": 28
+    },
+    {
+      "path": "subtask1/paint1.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint2.in",
+      "size": 28
+    },
+    {
+      "path": "subtask1/paint2.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint3.in",
+      "size": 28
+    },
+    {
+      "path": "subtask1/paint3.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint4.in",
+      "size": 25
+    },
+    {
+      "path": "subtask1/paint4.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint5.in",
+      "size": 28
+    },
+    {
+      "path": "subtask1/paint5.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint6.in",
+      "size": 25
+    },
+    {
+      "path": "subtask1/paint6.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint7.in",
+      "size": 25
+    },
+    {
+      "path": "subtask1/paint7.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint8.in",
+      "size": 25
+    },
+    {
+      "path": "subtask1/paint8.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/paint9.in",
+      "size": 28
+    },
+    {
+      "path": "subtask1/paint9.out",
+      "size": 2
+    },
+    {
+      "path": "subtask2/paint1.in",
+      "size": 58
+    },
+    {
+      "path": "subtask2/paint1.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint10.in",
+      "size": 43
+    },
+    {
+      "path": "subtask2/paint10.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint11.in",
+      "size": 43
+    },
+    {
+      "path": "subtask2/paint11.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint12.in",
+      "size": 60
+    },
+    {
+      "path": "subtask2/paint12.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint2.in",
+      "size": 58
+    },
+    {
+      "path": "subtask2/paint2.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint3.in",
+      "size": 58
+    },
+    {
+      "path": "subtask2/paint3.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint4.in",
+      "size": 45
+    },
+    {
+      "path": "subtask2/paint4.out",
+      "size": 2
+    },
+    {
+      "path": "subtask2/paint5.in",
+      "size": 51
+    },
+    {
+      "path": "subtask2/paint5.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint6.in",
+      "size": 57
+    },
+    {
+      "path": "subtask2/paint6.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint7.in",
+      "size": 52
+    },
+    {
+      "path": "subtask2/paint7.out",
+      "size": 2
+    },
+    {
+      "path": "subtask2/paint8.in",
+      "size": 56
+    },
+    {
+      "path": "subtask2/paint8.out",
+      "size": 3
+    },
+    {
+      "path": "subtask2/paint9.in",
+      "size": 57
+    },
+    {
+      "path": "subtask2/paint9.out",
+      "size": 3
+    },
+    {
+      "path": "subtask3/paint1.in",
+      "size": 589
+    },
+    {
+      "path": "subtask3/paint1.out",
+      "size": 2
+    },
+    {
+      "path": "subtask3/paint2.in",
+      "size": 561
+    },
+    {
+      "path": "subtask3/paint2.out",
+      "size": 3
+    },
+    {
+      "path": "subtask3/paint3.in",
+      "size": 581
+    },
+    {
+      "path": "subtask3/paint3.out",
+      "size": 2
+    },
+    {
+      "path": "subtask3/paint4.in",
+      "size": 815
+    },
+    {
+      "path": "subtask3/paint4.out",
+      "size": 2
+    },
+    {
+      "path": "subtask3/paint5.in",
+      "size": 609
+    },
+    {
+      "path": "subtask3/paint5.out",
+      "size": 3
+    },
+    {
+      "path": "subtask3/paint6.in",
+      "size": 603
+    },
+    {
+      "path": "subtask3/paint6.out",
+      "size": 2
+    },
+    {
+      "path": "subtask3/paint7.in",
+      "size": 657
+    },
+    {
+      "path": "subtask3/paint7.out",
+      "size": 2
+    },
+    {
+      "path": "subtask3/paint8.in",
+      "size": 792
+    },
+    {
+      "path": "subtask3/paint8.out",
+      "size": 3
+    },
+    {
+      "path": "subtask3/paint9.in",
+      "size": 647
+    },
+    {
+      "path": "subtask3/paint9.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint1.in",
+      "size": 1608
+    },
+    {
+      "path": "subtask4/paint1.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint10.in",
+      "size": 1304
+    },
+    {
+      "path": "subtask4/paint10.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint11.in",
+      "size": 2067
+    },
+    {
+      "path": "subtask4/paint11.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint12.in",
+      "size": 1567
+    },
+    {
+      "path": "subtask4/paint12.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint13.in",
+      "size": 1689
+    },
+    {
+      "path": "subtask4/paint13.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint14.in",
+      "size": 1197
+    },
+    {
+      "path": "subtask4/paint14.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint15.in",
+      "size": 1709
+    },
+    {
+      "path": "subtask4/paint15.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint16.in",
+      "size": 1485
+    },
+    {
+      "path": "subtask4/paint16.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint17.in",
+      "size": 1481
+    },
+    {
+      "path": "subtask4/paint17.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint18.in",
+      "size": 1813
+    },
+    {
+      "path": "subtask4/paint18.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint2.in",
+      "size": 1600
+    },
+    {
+      "path": "subtask4/paint2.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint3.in",
+      "size": 2409
+    },
+    {
+      "path": "subtask4/paint3.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint4.in",
+      "size": 1674
+    },
+    {
+      "path": "subtask4/paint4.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint5.in",
+      "size": 1969
+    },
+    {
+      "path": "subtask4/paint5.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint6.in",
+      "size": 1413
+    },
+    {
+      "path": "subtask4/paint6.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint7.in",
+      "size": 1415
+    },
+    {
+      "path": "subtask4/paint7.out",
+      "size": 2
+    },
+    {
+      "path": "subtask4/paint8.in",
+      "size": 1701
+    },
+    {
+      "path": "subtask4/paint8.out",
+      "size": 3
+    },
+    {
+      "path": "subtask4/paint9.in",
+      "size": 2214
+    },
+    {
+      "path": "subtask4/paint9.out",
+      "size": 3
+    }
+  ]
+}

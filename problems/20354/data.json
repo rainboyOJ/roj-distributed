@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "equation.in",
+      "size": 65
+    },
+    {
+      "path": "equation.out",
+      "size": 21
+    },
+    {
+      "path": "subtask1/equation1.in",
+      "size": 62
+    },
+    {
+      "path": "subtask1/equation1.out",
+      "size": 0
+    },
+    {
+      "path": "subtask2/equation1.in",
+      "size": 11279101
+    },
+    {
+      "path": "subtask2/equation1.out",
+      "size": 3036164
+    },
+    {
+      "path": "subtask3/equation1.in",
+      "size": 21941
+    },
+    {
+      "path": "subtask3/equation1.out",
+      "size": 3142
+    },
+    {
+      "path": "subtask4/equation1.in",
+      "size": 2726236
+    },
+    {
+      "path": "subtask4/equation1.out",
+      "size": 304341
+    },
+    {
+      "path": "subtask4/equation2.in",
+      "size": 3317301
+    },
+    {
+      "path": "subtask4/equation2.out",
+      "size": 607018
+    },
+    {
+      "path": "subtask4/equation3.in",
+      "size": 2776763
+    },
+    {
+      "path": "subtask4/equation3.out",
+      "size": 304971
+    },
+    {
+      "path": "subtask5/equation1.in",
+      "size": 29756021
+    },
+    {
+      "path": "subtask5/equation1.out",
+      "size": 3033411
+    },
+    {
+      "path": "subtask5/equation2.in",
+      "size": 30388883
+    },
+    {
+      "path": "subtask5/equation2.out",
+      "size": 3032000
+    },
+    {
+      "path": "subtask5/equation3.in",
+      "size": 30321542
+    },
+    {
+      "path": "subtask5/equation3.out",
+      "size": 3032617
+    },
+    {
+      "path": "subtask5/equation4.in",
+      "size": 35227896
+    },
+    {
+      "path": "subtask5/equation4.out",
+      "size": 6066496
+    },
+    {
+      "path": "subtask5/equation5.in",
+      "size": 32089775
+    },
+    {
+      "path": "subtask5/equation5.out",
+      "size": 2996496
+    }
+  ]
+}

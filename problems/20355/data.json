@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "subtask1/rectangle1.in",
+      "size": 168
+    },
+    {
+      "path": "subtask1/rectangle1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask1/rectangle2.in",
+      "size": 171
+    },
+    {
+      "path": "subtask1/rectangle2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask1/rectangle3.in",
+      "size": 149
+    },
+    {
+      "path": "subtask1/rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask2/rectangle1.in",
+      "size": 454
+    },
+    {
+      "path": "subtask2/rectangle1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask2/rectangle2.in",
+      "size": 458
+    },
+    {
+      "path": "subtask2/rectangle2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask2/rectangle3.in",
+      "size": 450
+    },
+    {
+      "path": "subtask2/rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask3/rectangle1.in",
+      "size": 2742
+    },
+    {
+      "path": "subtask3/rectangle1.out",
+      "size": 9
+    },
+    {
+      "path": "subtask3/rectangle2.in",
+      "size": 2740
+    },
+    {
+      "path": "subtask3/rectangle2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask3/rectangle3.in",
+      "size": 2678
+    },
+    {
+      "path": "subtask3/rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask4/rectangle1.in",
+      "size": 22791
+    },
+    {
+      "path": "subtask4/rectangle1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/rectangle1.in",
+      "size": 22791
+    },
+    {
+      "path": "subtask5/rectangle1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/rectangle2.in",
+      "size": 22808
+    },
+    {
+      "path": "subtask5/rectangle2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/rectangle3.in",
+      "size": 22845
+    },
+    {
+      "path": "subtask5/rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/rectangle4.in",
+      "size": 22114
+    },
+    {
+      "path": "subtask5/rectangle4.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/rectangle5.in",
+      "size": 22676
+    },
+    {
+      "path": "subtask5/rectangle5.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/rectangle1.in",
+      "size": 22791
+    },
+    {
+      "path": "subtask6/rectangle1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/rectangle2.in",
+      "size": 91021
+    },
+    {
+      "path": "subtask6/rectangle2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/rectangle3.in",
+      "size": 91349
+    },
+    {
+      "path": "subtask6/rectangle3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/rectangle4.in",
+      "size": 81101
+    },
+    {
+      "path": "subtask6/rectangle4.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/rectangle5.in",
+      "size": 88629
+    },
+    {
+      "path": "subtask6/rectangle5.out",
+      "size": 10
+    }
+  ]
+}

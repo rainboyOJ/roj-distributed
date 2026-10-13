@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "subtask1/reverse1.in",
+      "size": 15
+    },
+    {
+      "path": "subtask1/reverse1.out",
+      "size": 29
+    },
+    {
+      "path": "subtask1/reverse4.in",
+      "size": 8
+    },
+    {
+      "path": "subtask1/reverse4.out",
+      "size": 22
+    },
+    {
+      "path": "subtask2/reverse1.in",
+      "size": 334
+    },
+    {
+      "path": "subtask2/reverse1.out",
+      "size": 2891
+    },
+    {
+      "path": "subtask2/reverse2.in",
+      "size": 403
+    },
+    {
+      "path": "subtask2/reverse2.out",
+      "size": 2952
+    },
+    {
+      "path": "subtask2/reverse4.in",
+      "size": 24
+    },
+    {
+      "path": "subtask2/reverse4.out",
+      "size": 2897
+    },
+    {
+      "path": "subtask2/reverse5.in",
+      "size": 101
+    },
+    {
+      "path": "subtask2/reverse5.out",
+      "size": 3231
+    },
+    {
+      "path": "subtask3/reverse1.in",
+      "size": 163749
+    },
+    {
+      "path": "subtask3/reverse1.out",
+      "size": 299999
+    },
+    {
+      "path": "subtask3/reverse4.in",
+      "size": 1647
+    },
+    {
+      "path": "subtask3/reverse4.out",
+      "size": 299993
+    },
+    {
+      "path": "subtask4/reverse1.in",
+      "size": 58114
+    },
+    {
+      "path": "subtask4/reverse1.out",
+      "size": 299988
+    },
+    {
+      "path": "subtask4/reverse4.in",
+      "size": 11627
+    },
+    {
+      "path": "subtask4/reverse4.out",
+      "size": 299951
+    },
+    {
+      "path": "subtask5/reverse1.in",
+      "size": 95125
+    },
+    {
+      "path": "subtask5/reverse1.out",
+      "size": 299970
+    },
+    {
+      "path": "subtask5/reverse2.in",
+      "size": 158957
+    },
+    {
+      "path": "subtask5/reverse2.out",
+      "size": 299958
+    },
+    {
+      "path": "subtask5/reverse3.in",
+      "size": 166020
+    },
+    {
+      "path": "subtask5/reverse3.out",
+      "size": 262184
+    },
+    {
+      "path": "subtask5/reverse4.in",
+      "size": 8609
+    },
+    {
+      "path": "subtask5/reverse4.out",
+      "size": 492160
+    },
+    {
+      "path": "subtask5/reverse5.in",
+      "size": 12576
+    },
+    {
+      "path": "subtask5/reverse5.out",
+      "size": 407408
+    },
+    {
+      "path": "subtask5/reverse6.in",
+      "size": 1138
+    },
+    {
+      "path": "subtask5/reverse6.out",
+      "size": 250062
+    }
+  ]
+}

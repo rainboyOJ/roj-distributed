@@ -1,0 +1,372 @@
+{
+  "files": [
+    {
+      "path": "subtask1/vegetable1.in",
+      "size": 63890
+    },
+    {
+      "path": "subtask1/vegetable1.out",
+      "size": 4236
+    },
+    {
+      "path": "subtask1/vegetable2.in",
+      "size": 79897
+    },
+    {
+      "path": "subtask1/vegetable2.out",
+      "size": 4955
+    },
+    {
+      "path": "subtask1/vegetable3.in",
+      "size": 92001
+    },
+    {
+      "path": "subtask1/vegetable3.out",
+      "size": 4971
+    },
+    {
+      "path": "subtask1/vegetable4.in",
+      "size": 88157
+    },
+    {
+      "path": "subtask1/vegetable4.out",
+      "size": 4723
+    },
+    {
+      "path": "subtask1/vegetable5.in",
+      "size": 85409
+    },
+    {
+      "path": "subtask1/vegetable5.out",
+      "size": 5166
+    },
+    {
+      "path": "subtask1/vegetable6.in",
+      "size": 91103
+    },
+    {
+      "path": "subtask1/vegetable6.out",
+      "size": 4317
+    },
+    {
+      "path": "subtask1/vegetable7.in",
+      "size": 80558
+    },
+    {
+      "path": "subtask1/vegetable7.out",
+      "size": 4470
+    },
+    {
+      "path": "subtask2/vegetable1.in",
+      "size": 181291
+    },
+    {
+      "path": "subtask2/vegetable1.out",
+      "size": 42432
+    },
+    {
+      "path": "subtask2/vegetable2.in",
+      "size": 191416
+    },
+    {
+      "path": "subtask2/vegetable2.out",
+      "size": 55424
+    },
+    {
+      "path": "subtask2/vegetable3.in",
+      "size": 180095
+    },
+    {
+      "path": "subtask2/vegetable3.out",
+      "size": 52464
+    },
+    {
+      "path": "subtask3/vegetable1.in",
+      "size": 991436
+    },
+    {
+      "path": "subtask3/vegetable1.out",
+      "size": 291076
+    },
+    {
+      "path": "subtask3/vegetable2.in",
+      "size": 946307
+    },
+    {
+      "path": "subtask3/vegetable2.out",
+      "size": 290081
+    },
+    {
+      "path": "subtask3/vegetable3.in",
+      "size": 1038226
+    },
+    {
+      "path": "subtask3/vegetable3.out",
+      "size": 331895
+    },
+    {
+      "path": "subtask3/vegetable4.in",
+      "size": 979300
+    },
+    {
+      "path": "subtask3/vegetable4.out",
+      "size": 332955
+    },
+    {
+      "path": "subtask4/vegetable1.in",
+      "size": 1426609
+    },
+    {
+      "path": "subtask4/vegetable1.out",
+      "size": 573480
+    },
+    {
+      "path": "subtask4/vegetable2.in",
+      "size": 1714158
+    },
+    {
+      "path": "subtask4/vegetable2.out",
+      "size": 688185
+    },
+    {
+      "path": "subtask4/vegetable3.in",
+      "size": 1622670
+    },
+    {
+      "path": "subtask4/vegetable3.out",
+      "size": 687147
+    },
+    {
+      "path": "subtask4/vegetable4.in",
+      "size": 1440175
+    },
+    {
+      "path": "subtask4/vegetable4.out",
+      "size": 576041
+    },
+    {
+      "path": "subtask5/vegetable1.in",
+      "size": 1653893
+    },
+    {
+      "path": "subtask5/vegetable1.out",
+      "size": 596294
+    },
+    {
+      "path": "subtask5/vegetable2.in",
+      "size": 1578667
+    },
+    {
+      "path": "subtask5/vegetable2.out",
+      "size": 591235
+    },
+    {
+      "path": "subtask5/vegetable3.in",
+      "size": 1469192
+    },
+    {
+      "path": "subtask5/vegetable3.out",
+      "size": 550464
+    },
+    {
+      "path": "subtask5/vegetable4.in",
+      "size": 1475638
+    },
+    {
+      "path": "subtask5/vegetable4.out",
+      "size": 555608
+    },
+    {
+      "path": "subtask5/vegetable5.in",
+      "size": 1548963
+    },
+    {
+      "path": "subtask5/vegetable5.out",
+      "size": 637517
+    },
+    {
+      "path": "upload/vegetable1.in",
+      "size": 63890
+    },
+    {
+      "path": "upload/vegetable1.out",
+      "size": 4236
+    },
+    {
+      "path": "upload/vegetable10.in",
+      "size": 180095
+    },
+    {
+      "path": "upload/vegetable10.out",
+      "size": 52464
+    },
+    {
+      "path": "upload/vegetable11.in",
+      "size": 991436
+    },
+    {
+      "path": "upload/vegetable11.out",
+      "size": 291076
+    },
+    {
+      "path": "upload/vegetable12.in",
+      "size": 946307
+    },
+    {
+      "path": "upload/vegetable12.out",
+      "size": 290081
+    },
+    {
+      "path": "upload/vegetable13.in",
+      "size": 1038226
+    },
+    {
+      "path": "upload/vegetable13.out",
+      "size": 331895
+    },
+    {
+      "path": "upload/vegetable14.in",
+      "size": 979300
+    },
+    {
+      "path": "upload/vegetable14.out",
+      "size": 332955
+    },
+    {
+      "path": "upload/vegetable15.in",
+      "size": 1426609
+    },
+    {
+      "path": "upload/vegetable15.out",
+      "size": 573480
+    },
+    {
+      "path": "upload/vegetable16.in",
+      "size": 1714158
+    },
+    {
+      "path": "upload/vegetable16.out",
+      "size": 688185
+    },
+    {
+      "path": "upload/vegetable17.in",
+      "size": 1622670
+    },
+    {
+      "path": "upload/vegetable17.out",
+      "size": 687147
+    },
+    {
+      "path": "upload/vegetable18.in",
+      "size": 1440175
+    },
+    {
+      "path": "upload/vegetable18.out",
+      "size": 576041
+    },
+    {
+      "path": "upload/vegetable19.in",
+      "size": 1653893
+    },
+    {
+      "path": "upload/vegetable19.out",
+      "size": 596294
+    },
+    {
+      "path": "upload/vegetable2.in",
+      "size": 79897
+    },
+    {
+      "path": "upload/vegetable2.out",
+      "size": 4955
+    },
+    {
+      "path": "upload/vegetable20.in",
+      "size": 1578667
+    },
+    {
+      "path": "upload/vegetable20.out",
+      "size": 591235
+    },
+    {
+      "path": "upload/vegetable21.in",
+      "size": 1469192
+    },
+    {
+      "path": "upload/vegetable21.out",
+      "size": 550464
+    },
+    {
+      "path": "upload/vegetable22.in",
+      "size": 1475638
+    },
+    {
+      "path": "upload/vegetable22.out",
+      "size": 555608
+    },
+    {
+      "path": "upload/vegetable23.in",
+      "size": 1548963
+    },
+    {
+      "path": "upload/vegetable23.out",
+      "size": 637517
+    },
+    {
+      "path": "upload/vegetable3.in",
+      "size": 92001
+    },
+    {
+      "path": "upload/vegetable3.out",
+      "size": 4971
+    },
+    {
+      "path": "upload/vegetable4.in",
+      "size": 88157
+    },
+    {
+      "path": "upload/vegetable4.out",
+      "size": 4723
+    },
+    {
+      "path": "upload/vegetable5.in",
+      "size": 85409
+    },
+    {
+      "path": "upload/vegetable5.out",
+      "size": 5166
+    },
+    {
+      "path": "upload/vegetable6.in",
+      "size": 91103
+    },
+    {
+      "path": "upload/vegetable6.out",
+      "size": 4317
+    },
+    {
+      "path": "upload/vegetable7.in",
+      "size": 80558
+    },
+    {
+      "path": "upload/vegetable7.out",
+      "size": 4470
+    },
+    {
+      "path": "upload/vegetable8.in",
+      "size": 181291
+    },
+    {
+      "path": "upload/vegetable8.out",
+      "size": 42432
+    },
+    {
+      "path": "upload/vegetable9.in",
+      "size": 191416
+    },
+    {
+      "path": "upload/vegetable9.out",
+      "size": 55424
+    }
+  ]
+}

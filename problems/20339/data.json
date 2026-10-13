@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "refract0.in",
+      "size": 5137
+    },
+    {
+      "path": "refract0.out",
+      "size": 10
+    },
+    {
+      "path": "refract1.in",
+      "size": 7765
+    },
+    {
+      "path": "refract1.out",
+      "size": 10
+    },
+    {
+      "path": "refract2.in",
+      "size": 79622
+    },
+    {
+      "path": "refract2.out",
+      "size": 10
+    },
+    {
+      "path": "refract3.in",
+      "size": 82115
+    },
+    {
+      "path": "refract3.out",
+      "size": 10
+    },
+    {
+      "path": "refract4.in",
+      "size": 84170
+    },
+    {
+      "path": "refract4.out",
+      "size": 10
+    },
+    {
+      "path": "refract5.in",
+      "size": 107990
+    },
+    {
+      "path": "refract5.out",
+      "size": 10
+    },
+    {
+      "path": "refract6.in",
+      "size": 126279
+    },
+    {
+      "path": "refract6.out",
+      "size": 10
+    },
+    {
+      "path": "refract7.in",
+      "size": 111812
+    },
+    {
+      "path": "refract7.out",
+      "size": 10
+    },
+    {
+      "path": "refract8.in",
+      "size": 125133
+    },
+    {
+      "path": "refract8.out",
+      "size": 10
+    },
+    {
+      "path": "refract9.in",
+      "size": 113461
+    },
+    {
+      "path": "refract9.out",
+      "size": 10
+    }
+  ]
+}

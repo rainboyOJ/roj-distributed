@@ -1,0 +1,160 @@
+{
+  "files": [
+    {
+      "path": "silhouette.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/silhouette1.in",
+      "size": 22
+    },
+    {
+      "path": "subtask1/silhouette1.out",
+      "size": 2
+    },
+    {
+      "path": "subtask1/silhouette2.in",
+      "size": 22
+    },
+    {
+      "path": "subtask1/silhouette2.out",
+      "size": 2
+    },
+    {
+      "path": "subtask2/silhouette1.in",
+      "size": 14
+    },
+    {
+      "path": "subtask2/silhouette1.out",
+      "size": 6
+    },
+    {
+      "path": "subtask2/silhouette2.in",
+      "size": 14
+    },
+    {
+      "path": "subtask2/silhouette2.out",
+      "size": 5
+    },
+    {
+      "path": "subtask3/silhouette1.in",
+      "size": 323
+    },
+    {
+      "path": "subtask3/silhouette1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask3/silhouette2.in",
+      "size": 303
+    },
+    {
+      "path": "subtask3/silhouette2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask3/silhouette3.in",
+      "size": 75
+    },
+    {
+      "path": "subtask3/silhouette3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask4/silhouette1.in",
+      "size": 2004
+    },
+    {
+      "path": "subtask4/silhouette1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask4/silhouette2.in",
+      "size": 1908
+    },
+    {
+      "path": "subtask4/silhouette2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask4/silhouette3.in",
+      "size": 588
+    },
+    {
+      "path": "subtask4/silhouette3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/silhouette1.in",
+      "size": 60005
+    },
+    {
+      "path": "subtask5/silhouette1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/silhouette2.in",
+      "size": 56579
+    },
+    {
+      "path": "subtask5/silhouette2.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/silhouette3.in",
+      "size": 27791
+    },
+    {
+      "path": "subtask5/silhouette3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask5/silhouette4.in",
+      "size": 59845
+    },
+    {
+      "path": "subtask5/silhouette4.out",
+      "size": 10
+    },
+    {
+      "path": "subtask6/silhouette3.in",
+      "size": 1177797
+    },
+    {
+      "path": "subtask6/silhouette3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask7/silhouette1.in",
+      "size": 2000007
+    },
+    {
+      "path": "subtask7/silhouette1.out",
+      "size": 10
+    },
+    {
+      "path": "subtask7/silhouette2.in",
+      "size": 1920706
+    },
+    {
+      "path": "subtask7/silhouette2.out",
+      "size": 9
+    },
+    {
+      "path": "subtask7/silhouette3.in",
+      "size": 1177734
+    },
+    {
+      "path": "subtask7/silhouette3.out",
+      "size": 10
+    },
+    {
+      "path": "subtask7/silhouette4.in",
+      "size": 1989949
+    },
+    {
+      "path": "subtask7/silhouette4.out",
+      "size": 9
+    }
+  ]
+}
