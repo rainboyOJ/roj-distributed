@@ -1,0 +1,452 @@
+{
+  "files": [
+    {
+      "path": "morax1.in",
+      "size": 399
+    },
+    {
+      "path": "morax1.out",
+      "size": 20
+    },
+    {
+      "path": "morax10.in",
+      "size": 399
+    },
+    {
+      "path": "morax10.out",
+      "size": 20
+    },
+    {
+      "path": "morax11.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax11.out",
+      "size": 55
+    },
+    {
+      "path": "morax12.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax12.out",
+      "size": 55
+    },
+    {
+      "path": "morax13.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax13.out",
+      "size": 55
+    },
+    {
+      "path": "morax14.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax14.out",
+      "size": 55
+    },
+    {
+      "path": "morax15.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax15.out",
+      "size": 55
+    },
+    {
+      "path": "morax16.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax16.out",
+      "size": 55
+    },
+    {
+      "path": "morax17.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax17.out",
+      "size": 55
+    },
+    {
+      "path": "morax18.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax18.out",
+      "size": 55
+    },
+    {
+      "path": "morax19.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax19.out",
+      "size": 55
+    },
+    {
+      "path": "morax2.in",
+      "size": 398
+    },
+    {
+      "path": "morax2.out",
+      "size": 19
+    },
+    {
+      "path": "morax20.in",
+      "size": 3913703
+    },
+    {
+      "path": "morax20.out",
+      "size": 55
+    },
+    {
+      "path": "morax21.in",
+      "size": 58105
+    },
+    {
+      "path": "morax21.out",
+      "size": 30
+    },
+    {
+      "path": "morax22.in",
+      "size": 58105
+    },
+    {
+      "path": "morax22.out",
+      "size": 30
+    },
+    {
+      "path": "morax23.in",
+      "size": 56030
+    },
+    {
+      "path": "morax23.out",
+      "size": 30
+    },
+    {
+      "path": "morax24.in",
+      "size": 59430
+    },
+    {
+      "path": "morax24.out",
+      "size": 40
+    },
+    {
+      "path": "morax25.in",
+      "size": 49928
+    },
+    {
+      "path": "morax25.out",
+      "size": 30
+    },
+    {
+      "path": "morax26.in",
+      "size": 56030
+    },
+    {
+      "path": "morax26.out",
+      "size": 30
+    },
+    {
+      "path": "morax27.in",
+      "size": 58875
+    },
+    {
+      "path": "morax27.out",
+      "size": 35
+    },
+    {
+      "path": "morax28.in",
+      "size": 86562
+    },
+    {
+      "path": "morax28.out",
+      "size": 65
+    },
+    {
+      "path": "morax29.in",
+      "size": 87768
+    },
+    {
+      "path": "morax29.out",
+      "size": 70
+    },
+    {
+      "path": "morax3.in",
+      "size": 398
+    },
+    {
+      "path": "morax3.out",
+      "size": 18
+    },
+    {
+      "path": "morax30.in",
+      "size": 58525
+    },
+    {
+      "path": "morax30.out",
+      "size": 40
+    },
+    {
+      "path": "morax31.in",
+      "size": 58154
+    },
+    {
+      "path": "morax31.out",
+      "size": 30
+    },
+    {
+      "path": "morax32.in",
+      "size": 88121
+    },
+    {
+      "path": "morax32.out",
+      "size": 65
+    },
+    {
+      "path": "morax33.in",
+      "size": 5333985
+    },
+    {
+      "path": "morax33.out",
+      "size": 75
+    },
+    {
+      "path": "morax34.in",
+      "size": 5104201
+    },
+    {
+      "path": "morax34.out",
+      "size": 70
+    },
+    {
+      "path": "morax35.in",
+      "size": 5333472
+    },
+    {
+      "path": "morax35.out",
+      "size": 85
+    },
+    {
+      "path": "morax36.in",
+      "size": 4389074
+    },
+    {
+      "path": "morax36.out",
+      "size": 70
+    },
+    {
+      "path": "morax37.in",
+      "size": 5277755
+    },
+    {
+      "path": "morax37.out",
+      "size": 75
+    },
+    {
+      "path": "morax38.in",
+      "size": 5277755
+    },
+    {
+      "path": "morax38.out",
+      "size": 75
+    },
+    {
+      "path": "morax39.in",
+      "size": 5333905
+    },
+    {
+      "path": "morax39.out",
+      "size": 75
+    },
+    {
+      "path": "morax4.in",
+      "size": 395
+    },
+    {
+      "path": "morax4.out",
+      "size": 17
+    },
+    {
+      "path": "morax40.in",
+      "size": 5333703
+    },
+    {
+      "path": "morax40.out",
+      "size": 75
+    },
+    {
+      "path": "morax41.in",
+      "size": 5308472
+    },
+    {
+      "path": "morax41.out",
+      "size": 85
+    },
+    {
+      "path": "morax42.in",
+      "size": 5308472
+    },
+    {
+      "path": "morax42.out",
+      "size": 85
+    },
+    {
+      "path": "morax43.in",
+      "size": 5259795
+    },
+    {
+      "path": "morax43.out",
+      "size": 85
+    },
+    {
+      "path": "morax44.in",
+      "size": 5259795
+    },
+    {
+      "path": "morax44.out",
+      "size": 85
+    },
+    {
+      "path": "morax45.in",
+      "size": 5333905
+    },
+    {
+      "path": "morax45.out",
+      "size": 75
+    },
+    {
+      "path": "morax46.in",
+      "size": 10636036
+    },
+    {
+      "path": "morax46.out",
+      "size": 75
+    },
+    {
+      "path": "morax47.in",
+      "size": 10778550
+    },
+    {
+      "path": "morax47.out",
+      "size": 75
+    },
+    {
+      "path": "morax48.in",
+      "size": 10778605
+    },
+    {
+      "path": "morax48.out",
+      "size": 90
+    },
+    {
+      "path": "morax49.in",
+      "size": 10778605
+    },
+    {
+      "path": "morax49.out",
+      "size": 90
+    },
+    {
+      "path": "morax5.in",
+      "size": 395
+    },
+    {
+      "path": "morax5.out",
+      "size": 20
+    },
+    {
+      "path": "morax50.in",
+      "size": 10833138
+    },
+    {
+      "path": "morax50.out",
+      "size": 70
+    },
+    {
+      "path": "morax51.in",
+      "size": 10833138
+    },
+    {
+      "path": "morax51.out",
+      "size": 70
+    },
+    {
+      "path": "morax52.in",
+      "size": 10777981
+    },
+    {
+      "path": "morax52.out",
+      "size": 75
+    },
+    {
+      "path": "morax53.in",
+      "size": 10777981
+    },
+    {
+      "path": "morax53.out",
+      "size": 75
+    },
+    {
+      "path": "morax54.in",
+      "size": 10778442
+    },
+    {
+      "path": "morax54.out",
+      "size": 90
+    },
+    {
+      "path": "morax55.in",
+      "size": 10777855
+    },
+    {
+      "path": "morax55.out",
+      "size": 75
+    },
+    {
+      "path": "morax56.in",
+      "size": 10777855
+    },
+    {
+      "path": "morax56.out",
+      "size": 75
+    },
+    {
+      "path": "morax6.in",
+      "size": 399
+    },
+    {
+      "path": "morax6.out",
+      "size": 20
+    },
+    {
+      "path": "morax7.in",
+      "size": 399
+    },
+    {
+      "path": "morax7.out",
+      "size": 20
+    },
+    {
+      "path": "morax8.in",
+      "size": 399
+    },
+    {
+      "path": "morax8.out",
+      "size": 20
+    },
+    {
+      "path": "morax9.in",
+      "size": 399
+    },
+    {
+      "path": "morax9.out",
+      "size": 20
+    }
+  ]
+}

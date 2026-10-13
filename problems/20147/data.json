@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "asahi1.in",
+      "size": 5
+    },
+    {
+      "path": "asahi1.out",
+      "size": 98
+    },
+    {
+      "path": "asahi10.in",
+      "size": 38
+    },
+    {
+      "path": "asahi10.out",
+      "size": 10000001
+    },
+    {
+      "path": "asahi2.in",
+      "size": 9
+    },
+    {
+      "path": "asahi2.out",
+      "size": 100001
+    },
+    {
+      "path": "asahi3.in",
+      "size": 13
+    },
+    {
+      "path": "asahi3.out",
+      "size": 90002
+    },
+    {
+      "path": "asahi4.in",
+      "size": 15
+    },
+    {
+      "path": "asahi4.out",
+      "size": 9990002
+    },
+    {
+      "path": "asahi5.in",
+      "size": 12
+    },
+    {
+      "path": "asahi5.out",
+      "size": 9999990
+    },
+    {
+      "path": "asahi6.in",
+      "size": 36
+    },
+    {
+      "path": "asahi6.out",
+      "size": 1001
+    },
+    {
+      "path": "asahi7.in",
+      "size": 36
+    },
+    {
+      "path": "asahi7.out",
+      "size": 1001
+    },
+    {
+      "path": "asahi8.in",
+      "size": 38
+    },
+    {
+      "path": "asahi8.out",
+      "size": 8000002
+    },
+    {
+      "path": "asahi9.in",
+      "size": 38
+    },
+    {
+      "path": "asahi9.out",
+      "size": 10000001
+    }
+  ]
+}

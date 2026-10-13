@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "digit1.in",
+      "size": 55606
+    },
+    {
+      "path": "digit1.out",
+      "size": 830
+    },
+    {
+      "path": "digit2.in",
+      "size": 4853696
+    },
+    {
+      "path": "digit2.out",
+      "size": 987
+    },
+    {
+      "path": "digit3.in",
+      "size": 1565466
+    },
+    {
+      "path": "digit3.out",
+      "size": 731
+    },
+    {
+      "path": "digit4.in",
+      "size": 5677187
+    },
+    {
+      "path": "digit4.out",
+      "size": 972
+    }
+  ]
+}

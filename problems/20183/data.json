@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "kujou1.in",
+      "size": 221
+    },
+    {
+      "path": "kujou1.out",
+      "size": 6
+    },
+    {
+      "path": "kujou10.in",
+      "size": 20027
+    },
+    {
+      "path": "kujou10.out",
+      "size": 7
+    },
+    {
+      "path": "kujou11.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou11.out",
+      "size": 6
+    },
+    {
+      "path": "kujou12.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou12.out",
+      "size": 7
+    },
+    {
+      "path": "kujou13.in",
+      "size": 20027
+    },
+    {
+      "path": "kujou13.out",
+      "size": 7
+    },
+    {
+      "path": "kujou14.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou14.out",
+      "size": 6
+    },
+    {
+      "path": "kujou2.in",
+      "size": 221
+    },
+    {
+      "path": "kujou2.out",
+      "size": 6
+    },
+    {
+      "path": "kujou3.in",
+      "size": 222
+    },
+    {
+      "path": "kujou3.out",
+      "size": 6
+    },
+    {
+      "path": "kujou4.in",
+      "size": 5024
+    },
+    {
+      "path": "kujou4.out",
+      "size": 6
+    },
+    {
+      "path": "kujou5.in",
+      "size": 12824
+    },
+    {
+      "path": "kujou5.out",
+      "size": 7
+    },
+    {
+      "path": "kujou6.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou6.out",
+      "size": 6
+    },
+    {
+      "path": "kujou7.in",
+      "size": 20025
+    },
+    {
+      "path": "kujou7.out",
+      "size": 7
+    },
+    {
+      "path": "kujou8.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou8.out",
+      "size": 6
+    },
+    {
+      "path": "kujou9.in",
+      "size": 20026
+    },
+    {
+      "path": "kujou9.out",
+      "size": 6
+    }
+  ]
+}

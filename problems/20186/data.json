@@ -1,0 +1,804 @@
+{
+  "files": [
+    {
+      "path": "seq1.in",
+      "size": 118
+    },
+    {
+      "path": "seq1.out",
+      "size": 45
+    },
+    {
+      "path": "seq10.in",
+      "size": 228
+    },
+    {
+      "path": "seq10.out",
+      "size": 48
+    },
+    {
+      "path": "seq100.in",
+      "size": 546043
+    },
+    {
+      "path": "seq100.out",
+      "size": 339281
+    },
+    {
+      "path": "seq11.in",
+      "size": 232
+    },
+    {
+      "path": "seq11.out",
+      "size": 56
+    },
+    {
+      "path": "seq12.in",
+      "size": 227
+    },
+    {
+      "path": "seq12.out",
+      "size": 53
+    },
+    {
+      "path": "seq13.in",
+      "size": 223
+    },
+    {
+      "path": "seq13.out",
+      "size": 55
+    },
+    {
+      "path": "seq14.in",
+      "size": 226
+    },
+    {
+      "path": "seq14.out",
+      "size": 49
+    },
+    {
+      "path": "seq15.in",
+      "size": 232
+    },
+    {
+      "path": "seq15.out",
+      "size": 58
+    },
+    {
+      "path": "seq16.in",
+      "size": 10626
+    },
+    {
+      "path": "seq16.out",
+      "size": 3940
+    },
+    {
+      "path": "seq17.in",
+      "size": 12528
+    },
+    {
+      "path": "seq17.out",
+      "size": 3000
+    },
+    {
+      "path": "seq18.in",
+      "size": 14414
+    },
+    {
+      "path": "seq18.out",
+      "size": 3000
+    },
+    {
+      "path": "seq19.in",
+      "size": 16138
+    },
+    {
+      "path": "seq19.out",
+      "size": 3000
+    },
+    {
+      "path": "seq2.in",
+      "size": 147
+    },
+    {
+      "path": "seq2.out",
+      "size": 45
+    },
+    {
+      "path": "seq20.in",
+      "size": 17757
+    },
+    {
+      "path": "seq20.out",
+      "size": 3000
+    },
+    {
+      "path": "seq21.in",
+      "size": 17833
+    },
+    {
+      "path": "seq21.out",
+      "size": 3204
+    },
+    {
+      "path": "seq22.in",
+      "size": 17727
+    },
+    {
+      "path": "seq22.out",
+      "size": 3171
+    },
+    {
+      "path": "seq23.in",
+      "size": 17835
+    },
+    {
+      "path": "seq23.out",
+      "size": 3179
+    },
+    {
+      "path": "seq24.in",
+      "size": 17800
+    },
+    {
+      "path": "seq24.out",
+      "size": 3016
+    },
+    {
+      "path": "seq25.in",
+      "size": 17808
+    },
+    {
+      "path": "seq25.out",
+      "size": 3125
+    },
+    {
+      "path": "seq26.in",
+      "size": 17820
+    },
+    {
+      "path": "seq26.out",
+      "size": 3517
+    },
+    {
+      "path": "seq27.in",
+      "size": 17799
+    },
+    {
+      "path": "seq27.out",
+      "size": 3504
+    },
+    {
+      "path": "seq28.in",
+      "size": 17765
+    },
+    {
+      "path": "seq28.out",
+      "size": 3496
+    },
+    {
+      "path": "seq29.in",
+      "size": 17832
+    },
+    {
+      "path": "seq29.out",
+      "size": 3239
+    },
+    {
+      "path": "seq3.in",
+      "size": 178
+    },
+    {
+      "path": "seq3.out",
+      "size": 45
+    },
+    {
+      "path": "seq30.in",
+      "size": 17374
+    },
+    {
+      "path": "seq30.out",
+      "size": 3562
+    },
+    {
+      "path": "seq31.in",
+      "size": 5760
+    },
+    {
+      "path": "seq31.out",
+      "size": 3462
+    },
+    {
+      "path": "seq32.in",
+      "size": 5778
+    },
+    {
+      "path": "seq32.out",
+      "size": 3419
+    },
+    {
+      "path": "seq33.in",
+      "size": 5875
+    },
+    {
+      "path": "seq33.out",
+      "size": 3618
+    },
+    {
+      "path": "seq34.in",
+      "size": 5908
+    },
+    {
+      "path": "seq34.out",
+      "size": 3522
+    },
+    {
+      "path": "seq35.in",
+      "size": 5741
+    },
+    {
+      "path": "seq35.out",
+      "size": 3119
+    },
+    {
+      "path": "seq36.in",
+      "size": 2174322
+    },
+    {
+      "path": "seq36.out",
+      "size": 300000
+    },
+    {
+      "path": "seq37.in",
+      "size": 2174376
+    },
+    {
+      "path": "seq37.out",
+      "size": 300000
+    },
+    {
+      "path": "seq38.in",
+      "size": 2174101
+    },
+    {
+      "path": "seq38.out",
+      "size": 300000
+    },
+    {
+      "path": "seq39.in",
+      "size": 2174350
+    },
+    {
+      "path": "seq39.out",
+      "size": 300000
+    },
+    {
+      "path": "seq4.in",
+      "size": 203
+    },
+    {
+      "path": "seq4.out",
+      "size": 45
+    },
+    {
+      "path": "seq40.in",
+      "size": 2174099
+    },
+    {
+      "path": "seq40.out",
+      "size": 300000
+    },
+    {
+      "path": "seq41.in",
+      "size": 1415153
+    },
+    {
+      "path": "seq41.out",
+      "size": 399986
+    },
+    {
+      "path": "seq42.in",
+      "size": 1415344
+    },
+    {
+      "path": "seq42.out",
+      "size": 399986
+    },
+    {
+      "path": "seq43.in",
+      "size": 1415499
+    },
+    {
+      "path": "seq43.out",
+      "size": 399987
+    },
+    {
+      "path": "seq44.in",
+      "size": 1415367
+    },
+    {
+      "path": "seq44.out",
+      "size": 399982
+    },
+    {
+      "path": "seq45.in",
+      "size": 1415265
+    },
+    {
+      "path": "seq45.out",
+      "size": 399981
+    },
+    {
+      "path": "seq46.in",
+      "size": 1419633
+    },
+    {
+      "path": "seq46.out",
+      "size": 399986
+    },
+    {
+      "path": "seq47.in",
+      "size": 1406008
+    },
+    {
+      "path": "seq47.out",
+      "size": 399995
+    },
+    {
+      "path": "seq48.in",
+      "size": 1409952
+    },
+    {
+      "path": "seq48.out",
+      "size": 399981
+    },
+    {
+      "path": "seq49.in",
+      "size": 1419536
+    },
+    {
+      "path": "seq49.out",
+      "size": 399986
+    },
+    {
+      "path": "seq5.in",
+      "size": 232
+    },
+    {
+      "path": "seq5.out",
+      "size": 45
+    },
+    {
+      "path": "seq50.in",
+      "size": 1425705
+    },
+    {
+      "path": "seq50.out",
+      "size": 399991
+    },
+    {
+      "path": "seq51.in",
+      "size": 1417643
+    },
+    {
+      "path": "seq51.out",
+      "size": 399981
+    },
+    {
+      "path": "seq52.in",
+      "size": 1412449
+    },
+    {
+      "path": "seq52.out",
+      "size": 399991
+    },
+    {
+      "path": "seq53.in",
+      "size": 1417576
+    },
+    {
+      "path": "seq53.out",
+      "size": 399981
+    },
+    {
+      "path": "seq54.in",
+      "size": 1414545
+    },
+    {
+      "path": "seq54.out",
+      "size": 399968
+    },
+    {
+      "path": "seq55.in",
+      "size": 1411858
+    },
+    {
+      "path": "seq55.out",
+      "size": 399980
+    },
+    {
+      "path": "seq56.in",
+      "size": 545572
+    },
+    {
+      "path": "seq56.out",
+      "size": 392546
+    },
+    {
+      "path": "seq57.in",
+      "size": 551388
+    },
+    {
+      "path": "seq57.out",
+      "size": 390603
+    },
+    {
+      "path": "seq58.in",
+      "size": 553857
+    },
+    {
+      "path": "seq58.out",
+      "size": 393979
+    },
+    {
+      "path": "seq59.in",
+      "size": 543901
+    },
+    {
+      "path": "seq59.out",
+      "size": 389947
+    },
+    {
+      "path": "seq6.in",
+      "size": 220
+    },
+    {
+      "path": "seq6.out",
+      "size": 50
+    },
+    {
+      "path": "seq60.in",
+      "size": 545784
+    },
+    {
+      "path": "seq60.out",
+      "size": 386404
+    },
+    {
+      "path": "seq61.in",
+      "size": 497679
+    },
+    {
+      "path": "seq61.out",
+      "size": 107773
+    },
+    {
+      "path": "seq62.in",
+      "size": 546017
+    },
+    {
+      "path": "seq62.out",
+      "size": 90000
+    },
+    {
+      "path": "seq63.in",
+      "size": 602759
+    },
+    {
+      "path": "seq63.out",
+      "size": 90000
+    },
+    {
+      "path": "seq64.in",
+      "size": 397862
+    },
+    {
+      "path": "seq64.out",
+      "size": 119999
+    },
+    {
+      "path": "seq65.in",
+      "size": 423270
+    },
+    {
+      "path": "seq65.out",
+      "size": 119942
+    },
+    {
+      "path": "seq66.in",
+      "size": 638290
+    },
+    {
+      "path": "seq66.out",
+      "size": 90726
+    },
+    {
+      "path": "seq67.in",
+      "size": 637414
+    },
+    {
+      "path": "seq67.out",
+      "size": 90774
+    },
+    {
+      "path": "seq68.in",
+      "size": 635988
+    },
+    {
+      "path": "seq68.out",
+      "size": 94800
+    },
+    {
+      "path": "seq69.in",
+      "size": 637787
+    },
+    {
+      "path": "seq69.out",
+      "size": 92310
+    },
+    {
+      "path": "seq7.in",
+      "size": 216
+    },
+    {
+      "path": "seq7.out",
+      "size": 51
+    },
+    {
+      "path": "seq70.in",
+      "size": 638182
+    },
+    {
+      "path": "seq70.out",
+      "size": 90502
+    },
+    {
+      "path": "seq71.in",
+      "size": 637904
+    },
+    {
+      "path": "seq71.out",
+      "size": 105259
+    },
+    {
+      "path": "seq72.in",
+      "size": 639502
+    },
+    {
+      "path": "seq72.out",
+      "size": 103417
+    },
+    {
+      "path": "seq73.in",
+      "size": 632934
+    },
+    {
+      "path": "seq73.out",
+      "size": 109758
+    },
+    {
+      "path": "seq74.in",
+      "size": 637750
+    },
+    {
+      "path": "seq74.out",
+      "size": 104722
+    },
+    {
+      "path": "seq75.in",
+      "size": 634439
+    },
+    {
+      "path": "seq75.out",
+      "size": 108097
+    },
+    {
+      "path": "seq76.in",
+      "size": 163997
+    },
+    {
+      "path": "seq76.out",
+      "size": 103738
+    },
+    {
+      "path": "seq77.in",
+      "size": 164631
+    },
+    {
+      "path": "seq77.out",
+      "size": 98954
+    },
+    {
+      "path": "seq78.in",
+      "size": 166290
+    },
+    {
+      "path": "seq78.out",
+      "size": 106227
+    },
+    {
+      "path": "seq79.in",
+      "size": 165338
+    },
+    {
+      "path": "seq79.out",
+      "size": 105348
+    },
+    {
+      "path": "seq8.in",
+      "size": 224
+    },
+    {
+      "path": "seq8.out",
+      "size": 47
+    },
+    {
+      "path": "seq80.in",
+      "size": 166537
+    },
+    {
+      "path": "seq80.out",
+      "size": 104471
+    },
+    {
+      "path": "seq81.in",
+      "size": 1462139
+    },
+    {
+      "path": "seq81.out",
+      "size": 399940
+    },
+    {
+      "path": "seq82.in",
+      "size": 1651156
+    },
+    {
+      "path": "seq82.out",
+      "size": 397076
+    },
+    {
+      "path": "seq83.in",
+      "size": 1835601
+    },
+    {
+      "path": "seq83.out",
+      "size": 349038
+    },
+    {
+      "path": "seq84.in",
+      "size": 2011687
+    },
+    {
+      "path": "seq84.out",
+      "size": 300000
+    },
+    {
+      "path": "seq85.in",
+      "size": 2174099
+    },
+    {
+      "path": "seq85.out",
+      "size": 300000
+    },
+    {
+      "path": "seq86.in",
+      "size": 2179331
+    },
+    {
+      "path": "seq86.out",
+      "size": 306453
+    },
+    {
+      "path": "seq87.in",
+      "size": 2164227
+    },
+    {
+      "path": "seq87.out",
+      "size": 307715
+    },
+    {
+      "path": "seq88.in",
+      "size": 2171020
+    },
+    {
+      "path": "seq88.out",
+      "size": 305692
+    },
+    {
+      "path": "seq89.in",
+      "size": 2162749
+    },
+    {
+      "path": "seq89.out",
+      "size": 310631
+    },
+    {
+      "path": "seq9.in",
+      "size": 229
+    },
+    {
+      "path": "seq9.out",
+      "size": 45
+    },
+    {
+      "path": "seq90.in",
+      "size": 2187339
+    },
+    {
+      "path": "seq90.out",
+      "size": 308905
+    },
+    {
+      "path": "seq91.in",
+      "size": 2177679
+    },
+    {
+      "path": "seq91.out",
+      "size": 339434
+    },
+    {
+      "path": "seq92.in",
+      "size": 2172407
+    },
+    {
+      "path": "seq92.out",
+      "size": 350209
+    },
+    {
+      "path": "seq93.in",
+      "size": 2177539
+    },
+    {
+      "path": "seq93.out",
+      "size": 348788
+    },
+    {
+      "path": "seq94.in",
+      "size": 2188235
+    },
+    {
+      "path": "seq94.out",
+      "size": 347666
+    },
+    {
+      "path": "seq95.in",
+      "size": 2177759
+    },
+    {
+      "path": "seq95.out",
+      "size": 348138
+    },
+    {
+      "path": "seq96.in",
+      "size": 545806
+    },
+    {
+      "path": "seq96.out",
+      "size": 345700
+    },
+    {
+      "path": "seq97.in",
+      "size": 551645
+    },
+    {
+      "path": "seq97.out",
+      "size": 340932
+    },
+    {
+      "path": "seq98.in",
+      "size": 554131
+    },
+    {
+      "path": "seq98.out",
+      "size": 345568
+    },
+    {
+      "path": "seq99.in",
+      "size": 544114
+    },
+    {
+      "path": "seq99.out",
+      "size": 328216
+    }
+  ]
+}

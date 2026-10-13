@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "bubble1.in",
+      "size": 26621
+    },
+    {
+      "path": "bubble1.out",
+      "size": 8842
+    },
+    {
+      "path": "bubble10.in",
+      "size": 10166901
+    },
+    {
+      "path": "bubble10.out",
+      "size": 3388837
+    },
+    {
+      "path": "bubble2.in",
+      "size": 26682
+    },
+    {
+      "path": "bubble2.out",
+      "size": 8864
+    },
+    {
+      "path": "bubble3.in",
+      "size": 1752811
+    },
+    {
+      "path": "bubble3.out",
+      "size": 588930
+    },
+    {
+      "path": "bubble4.in",
+      "size": 1742576
+    },
+    {
+      "path": "bubble4.out",
+      "size": 588828
+    },
+    {
+      "path": "bubble5.in",
+      "size": 1762770
+    },
+    {
+      "path": "bubble5.out",
+      "size": 589389
+    },
+    {
+      "path": "bubble6.in",
+      "size": 1772831
+    },
+    {
+      "path": "bubble6.out",
+      "size": 587570
+    },
+    {
+      "path": "bubble7.in",
+      "size": 1766282
+    },
+    {
+      "path": "bubble7.out",
+      "size": 588886
+    },
+    {
+      "path": "bubble8.in",
+      "size": 1766518
+    },
+    {
+      "path": "bubble8.out",
+      "size": 589008
+    },
+    {
+      "path": "bubble9.in",
+      "size": 10166205
+    },
+    {
+      "path": "bubble9.out",
+      "size": 3388453
+    }
+  ]
+}

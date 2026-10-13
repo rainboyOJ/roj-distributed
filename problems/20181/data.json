@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "reverse1.in",
+      "size": 7236
+    },
+    {
+      "path": "reverse1.out",
+      "size": 2000
+    },
+    {
+      "path": "reverse10.in",
+      "size": 5078893
+    },
+    {
+      "path": "reverse10.out",
+      "size": 1000000
+    },
+    {
+      "path": "reverse11.in",
+      "size": 5078686
+    },
+    {
+      "path": "reverse11.out",
+      "size": 1000000
+    },
+    {
+      "path": "reverse12.in",
+      "size": 889060
+    },
+    {
+      "path": "reverse12.out",
+      "size": 200000
+    },
+    {
+      "path": "reverse2.in",
+      "size": 7247
+    },
+    {
+      "path": "reverse2.out",
+      "size": 2000
+    },
+    {
+      "path": "reverse3.in",
+      "size": 921947
+    },
+    {
+      "path": "reverse3.out",
+      "size": 200000
+    },
+    {
+      "path": "reverse4.in",
+      "size": 921702
+    },
+    {
+      "path": "reverse4.out",
+      "size": 200000
+    },
+    {
+      "path": "reverse5.in",
+      "size": 921822
+    },
+    {
+      "path": "reverse5.out",
+      "size": 200000
+    },
+    {
+      "path": "reverse6.in",
+      "size": 889060
+    },
+    {
+      "path": "reverse6.out",
+      "size": 200000
+    },
+    {
+      "path": "reverse7.in",
+      "size": 5405632
+    },
+    {
+      "path": "reverse7.out",
+      "size": 1000000
+    },
+    {
+      "path": "reverse8.in",
+      "size": 5089178
+    },
+    {
+      "path": "reverse8.out",
+      "size": 1000000
+    },
+    {
+      "path": "reverse9.in",
+      "size": 5079819
+    },
+    {
+      "path": "reverse9.out",
+      "size": 1000000
+    }
+  ]
+}

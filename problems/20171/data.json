@@ -1,0 +1,180 @@
+{
+  "files": [
+    {
+      "path": "seq1.in",
+      "size": 16
+    },
+    {
+      "path": "seq1.out",
+      "size": 3
+    },
+    {
+      "path": "seq10.in",
+      "size": 5823
+    },
+    {
+      "path": "seq10.out",
+      "size": 10
+    },
+    {
+      "path": "seq11.in",
+      "size": 2550
+    },
+    {
+      "path": "seq11.out",
+      "size": 10
+    },
+    {
+      "path": "seq12.in",
+      "size": 7469
+    },
+    {
+      "path": "seq12.out",
+      "size": 10
+    },
+    {
+      "path": "seq13.in",
+      "size": 1974166
+    },
+    {
+      "path": "seq13.out",
+      "size": 3
+    },
+    {
+      "path": "seq14.in",
+      "size": 710572
+    },
+    {
+      "path": "seq14.out",
+      "size": 10
+    },
+    {
+      "path": "seq15.in",
+      "size": 1288747
+    },
+    {
+      "path": "seq15.out",
+      "size": 10
+    },
+    {
+      "path": "seq16.in",
+      "size": 1400596
+    },
+    {
+      "path": "seq16.out",
+      "size": 10
+    },
+    {
+      "path": "seq17.in",
+      "size": 1175187
+    },
+    {
+      "path": "seq17.out",
+      "size": 10
+    },
+    {
+      "path": "seq18.in",
+      "size": 777954
+    },
+    {
+      "path": "seq18.out",
+      "size": 7
+    },
+    {
+      "path": "seq19.in",
+      "size": 839674
+    },
+    {
+      "path": "seq19.out",
+      "size": 9
+    },
+    {
+      "path": "seq2.in",
+      "size": 16
+    },
+    {
+      "path": "seq2.out",
+      "size": 3
+    },
+    {
+      "path": "seq20.in",
+      "size": 925715
+    },
+    {
+      "path": "seq20.out",
+      "size": 10
+    },
+    {
+      "path": "seq21.in",
+      "size": 748695
+    },
+    {
+      "path": "seq21.out",
+      "size": 9
+    },
+    {
+      "path": "seq22.in",
+      "size": 1188599
+    },
+    {
+      "path": "seq22.out",
+      "size": 10
+    },
+    {
+      "path": "seq3.in",
+      "size": 16
+    },
+    {
+      "path": "seq3.out",
+      "size": 3
+    },
+    {
+      "path": "seq4.in",
+      "size": 16
+    },
+    {
+      "path": "seq4.out",
+      "size": 3
+    },
+    {
+      "path": "seq5.in",
+      "size": 9891
+    },
+    {
+      "path": "seq5.out",
+      "size": 3
+    },
+    {
+      "path": "seq6.in",
+      "size": 7671
+    },
+    {
+      "path": "seq6.out",
+      "size": 10
+    },
+    {
+      "path": "seq7.in",
+      "size": 2008
+    },
+    {
+      "path": "seq7.out",
+      "size": 4
+    },
+    {
+      "path": "seq8.in",
+      "size": 6107
+    },
+    {
+      "path": "seq8.out",
+      "size": 10
+    },
+    {
+      "path": "seq9.in",
+      "size": 5057
+    },
+    {
+      "path": "seq9.out",
+      "size": 10
+    }
+  ]
+}

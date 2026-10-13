@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "water1.in",
+      "size": 1271129
+    },
+    {
+      "path": "water1.out",
+      "size": 14
+    },
+    {
+      "path": "water10.in",
+      "size": 1859062
+    },
+    {
+      "path": "water10.out",
+      "size": 15
+    },
+    {
+      "path": "water2.in",
+      "size": 1284833
+    },
+    {
+      "path": "water2.out",
+      "size": 14
+    },
+    {
+      "path": "water3.in",
+      "size": 1253213
+    },
+    {
+      "path": "water3.out",
+      "size": 16
+    },
+    {
+      "path": "water4.in",
+      "size": 1269281
+    },
+    {
+      "path": "water4.out",
+      "size": 16
+    },
+    {
+      "path": "water5.in",
+      "size": 7041
+    },
+    {
+      "path": "water5.out",
+      "size": 10
+    },
+    {
+      "path": "water6.in",
+      "size": 8703
+    },
+    {
+      "path": "water6.out",
+      "size": 12
+    },
+    {
+      "path": "water7.in",
+      "size": 1874277
+    },
+    {
+      "path": "water7.out",
+      "size": 16
+    },
+    {
+      "path": "water8.in",
+      "size": 1877031
+    },
+    {
+      "path": "water8.out",
+      "size": 16
+    },
+    {
+      "path": "water9.in",
+      "size": 1837278
+    },
+    {
+      "path": "water9.out",
+      "size": 16
+    }
+  ]
+}

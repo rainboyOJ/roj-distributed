@@ -1,0 +1,804 @@
+{
+  "files": [
+    {
+      "path": "ddl1.in",
+      "size": 23
+    },
+    {
+      "path": "ddl1.out",
+      "size": 31
+    },
+    {
+      "path": "ddl10.in",
+      "size": 20
+    },
+    {
+      "path": "ddl10.out",
+      "size": 30
+    },
+    {
+      "path": "ddl100.in",
+      "size": 587017
+    },
+    {
+      "path": "ddl100.out",
+      "size": 637076
+    },
+    {
+      "path": "ddl11.in",
+      "size": 18
+    },
+    {
+      "path": "ddl11.out",
+      "size": 34
+    },
+    {
+      "path": "ddl12.in",
+      "size": 18
+    },
+    {
+      "path": "ddl12.out",
+      "size": 26
+    },
+    {
+      "path": "ddl13.in",
+      "size": 20
+    },
+    {
+      "path": "ddl13.out",
+      "size": 38
+    },
+    {
+      "path": "ddl14.in",
+      "size": 18
+    },
+    {
+      "path": "ddl14.out",
+      "size": 30
+    },
+    {
+      "path": "ddl15.in",
+      "size": 23
+    },
+    {
+      "path": "ddl15.out",
+      "size": 31
+    },
+    {
+      "path": "ddl16.in",
+      "size": 16
+    },
+    {
+      "path": "ddl16.out",
+      "size": 24
+    },
+    {
+      "path": "ddl17.in",
+      "size": 16
+    },
+    {
+      "path": "ddl17.out",
+      "size": 24
+    },
+    {
+      "path": "ddl18.in",
+      "size": 20
+    },
+    {
+      "path": "ddl18.out",
+      "size": 38
+    },
+    {
+      "path": "ddl19.in",
+      "size": 23
+    },
+    {
+      "path": "ddl19.out",
+      "size": 33
+    },
+    {
+      "path": "ddl2.in",
+      "size": 23
+    },
+    {
+      "path": "ddl2.out",
+      "size": 31
+    },
+    {
+      "path": "ddl20.in",
+      "size": 18
+    },
+    {
+      "path": "ddl20.out",
+      "size": 26
+    },
+    {
+      "path": "ddl21.in",
+      "size": 35
+    },
+    {
+      "path": "ddl21.out",
+      "size": 48
+    },
+    {
+      "path": "ddl22.in",
+      "size": 35
+    },
+    {
+      "path": "ddl22.out",
+      "size": 52
+    },
+    {
+      "path": "ddl23.in",
+      "size": 38
+    },
+    {
+      "path": "ddl23.out",
+      "size": 53
+    },
+    {
+      "path": "ddl24.in",
+      "size": 33
+    },
+    {
+      "path": "ddl24.out",
+      "size": 51
+    },
+    {
+      "path": "ddl25.in",
+      "size": 36
+    },
+    {
+      "path": "ddl25.out",
+      "size": 51
+    },
+    {
+      "path": "ddl26.in",
+      "size": 32
+    },
+    {
+      "path": "ddl26.out",
+      "size": 45
+    },
+    {
+      "path": "ddl27.in",
+      "size": 41
+    },
+    {
+      "path": "ddl27.out",
+      "size": 74
+    },
+    {
+      "path": "ddl28.in",
+      "size": 36
+    },
+    {
+      "path": "ddl28.out",
+      "size": 50
+    },
+    {
+      "path": "ddl29.in",
+      "size": 36
+    },
+    {
+      "path": "ddl29.out",
+      "size": 50
+    },
+    {
+      "path": "ddl3.in",
+      "size": 23
+    },
+    {
+      "path": "ddl3.out",
+      "size": 44
+    },
+    {
+      "path": "ddl30.in",
+      "size": 32
+    },
+    {
+      "path": "ddl30.out",
+      "size": 45
+    },
+    {
+      "path": "ddl31.in",
+      "size": 35
+    },
+    {
+      "path": "ddl31.out",
+      "size": 48
+    },
+    {
+      "path": "ddl32.in",
+      "size": 36
+    },
+    {
+      "path": "ddl32.out",
+      "size": 54
+    },
+    {
+      "path": "ddl33.in",
+      "size": 42
+    },
+    {
+      "path": "ddl33.out",
+      "size": 74
+    },
+    {
+      "path": "ddl34.in",
+      "size": 34
+    },
+    {
+      "path": "ddl34.out",
+      "size": 49
+    },
+    {
+      "path": "ddl35.in",
+      "size": 41
+    },
+    {
+      "path": "ddl35.out",
+      "size": 64
+    },
+    {
+      "path": "ddl36.in",
+      "size": 33
+    },
+    {
+      "path": "ddl36.out",
+      "size": 51
+    },
+    {
+      "path": "ddl37.in",
+      "size": 40
+    },
+    {
+      "path": "ddl37.out",
+      "size": 62
+    },
+    {
+      "path": "ddl38.in",
+      "size": 33
+    },
+    {
+      "path": "ddl38.out",
+      "size": 51
+    },
+    {
+      "path": "ddl39.in",
+      "size": 33
+    },
+    {
+      "path": "ddl39.out",
+      "size": 51
+    },
+    {
+      "path": "ddl4.in",
+      "size": 23
+    },
+    {
+      "path": "ddl4.out",
+      "size": 39
+    },
+    {
+      "path": "ddl40.in",
+      "size": 35
+    },
+    {
+      "path": "ddl40.out",
+      "size": 48
+    },
+    {
+      "path": "ddl41.in",
+      "size": 568014
+    },
+    {
+      "path": "ddl41.out",
+      "size": 786468
+    },
+    {
+      "path": "ddl42.in",
+      "size": 570501
+    },
+    {
+      "path": "ddl42.out",
+      "size": 785980
+    },
+    {
+      "path": "ddl43.in",
+      "size": 556452
+    },
+    {
+      "path": "ddl43.out",
+      "size": 783020
+    },
+    {
+      "path": "ddl44.in",
+      "size": 583790
+    },
+    {
+      "path": "ddl44.out",
+      "size": 687698
+    },
+    {
+      "path": "ddl45.in",
+      "size": 584191
+    },
+    {
+      "path": "ddl45.out",
+      "size": 606366
+    },
+    {
+      "path": "ddl46.in",
+      "size": 556344
+    },
+    {
+      "path": "ddl46.out",
+      "size": 585576
+    },
+    {
+      "path": "ddl47.in",
+      "size": 557619
+    },
+    {
+      "path": "ddl47.out",
+      "size": 583229
+    },
+    {
+      "path": "ddl48.in",
+      "size": 583133
+    },
+    {
+      "path": "ddl48.out",
+      "size": 608489
+    },
+    {
+      "path": "ddl49.in",
+      "size": 570339
+    },
+    {
+      "path": "ddl49.out",
+      "size": 654208
+    },
+    {
+      "path": "ddl5.in",
+      "size": 23
+    },
+    {
+      "path": "ddl5.out",
+      "size": 33
+    },
+    {
+      "path": "ddl50.in",
+      "size": 560444
+    },
+    {
+      "path": "ddl50.out",
+      "size": 586427
+    },
+    {
+      "path": "ddl51.in",
+      "size": 584792
+    },
+    {
+      "path": "ddl51.out",
+      "size": 634490
+    },
+    {
+      "path": "ddl52.in",
+      "size": 585673
+    },
+    {
+      "path": "ddl52.out",
+      "size": 592525
+    },
+    {
+      "path": "ddl53.in",
+      "size": 585363
+    },
+    {
+      "path": "ddl53.out",
+      "size": 598046
+    },
+    {
+      "path": "ddl54.in",
+      "size": 587384
+    },
+    {
+      "path": "ddl54.out",
+      "size": 606164
+    },
+    {
+      "path": "ddl55.in",
+      "size": 560639
+    },
+    {
+      "path": "ddl55.out",
+      "size": 603399
+    },
+    {
+      "path": "ddl56.in",
+      "size": 562268
+    },
+    {
+      "path": "ddl56.out",
+      "size": 584761
+    },
+    {
+      "path": "ddl57.in",
+      "size": 585343
+    },
+    {
+      "path": "ddl57.out",
+      "size": 619302
+    },
+    {
+      "path": "ddl58.in",
+      "size": 584719
+    },
+    {
+      "path": "ddl58.out",
+      "size": 591454
+    },
+    {
+      "path": "ddl59.in",
+      "size": 587355
+    },
+    {
+      "path": "ddl59.out",
+      "size": 596923
+    },
+    {
+      "path": "ddl6.in",
+      "size": 20
+    },
+    {
+      "path": "ddl6.out",
+      "size": 28
+    },
+    {
+      "path": "ddl60.in",
+      "size": 583442
+    },
+    {
+      "path": "ddl60.out",
+      "size": 632936
+    },
+    {
+      "path": "ddl61.in",
+      "size": 583649
+    },
+    {
+      "path": "ddl61.out",
+      "size": 590328
+    },
+    {
+      "path": "ddl62.in",
+      "size": 574896
+    },
+    {
+      "path": "ddl62.out",
+      "size": 583463
+    },
+    {
+      "path": "ddl63.in",
+      "size": 587791
+    },
+    {
+      "path": "ddl63.out",
+      "size": 600006
+    },
+    {
+      "path": "ddl64.in",
+      "size": 583673
+    },
+    {
+      "path": "ddl64.out",
+      "size": 627745
+    },
+    {
+      "path": "ddl65.in",
+      "size": 567109
+    },
+    {
+      "path": "ddl65.out",
+      "size": 588409
+    },
+    {
+      "path": "ddl66.in",
+      "size": 585218
+    },
+    {
+      "path": "ddl66.out",
+      "size": 596541
+    },
+    {
+      "path": "ddl67.in",
+      "size": 557804
+    },
+    {
+      "path": "ddl67.out",
+      "size": 605553
+    },
+    {
+      "path": "ddl68.in",
+      "size": 559148
+    },
+    {
+      "path": "ddl68.out",
+      "size": 587268
+    },
+    {
+      "path": "ddl69.in",
+      "size": 556751
+    },
+    {
+      "path": "ddl69.out",
+      "size": 583062
+    },
+    {
+      "path": "ddl7.in",
+      "size": 23
+    },
+    {
+      "path": "ddl7.out",
+      "size": 44
+    },
+    {
+      "path": "ddl70.in",
+      "size": 576364
+    },
+    {
+      "path": "ddl70.out",
+      "size": 600939
+    },
+    {
+      "path": "ddl71.in",
+      "size": 561103
+    },
+    {
+      "path": "ddl71.out",
+      "size": 618620
+    },
+    {
+      "path": "ddl72.in",
+      "size": 585978
+    },
+    {
+      "path": "ddl72.out",
+      "size": 596228
+    },
+    {
+      "path": "ddl73.in",
+      "size": 587150
+    },
+    {
+      "path": "ddl73.out",
+      "size": 593317
+    },
+    {
+      "path": "ddl74.in",
+      "size": 562182
+    },
+    {
+      "path": "ddl74.out",
+      "size": 587454
+    },
+    {
+      "path": "ddl75.in",
+      "size": 588329
+    },
+    {
+      "path": "ddl75.out",
+      "size": 598254
+    },
+    {
+      "path": "ddl76.in",
+      "size": 560210
+    },
+    {
+      "path": "ddl76.out",
+      "size": 638102
+    },
+    {
+      "path": "ddl77.in",
+      "size": 585222
+    },
+    {
+      "path": "ddl77.out",
+      "size": 621752
+    },
+    {
+      "path": "ddl78.in",
+      "size": 586985
+    },
+    {
+      "path": "ddl78.out",
+      "size": 610043
+    },
+    {
+      "path": "ddl79.in",
+      "size": 585385
+    },
+    {
+      "path": "ddl79.out",
+      "size": 610328
+    },
+    {
+      "path": "ddl8.in",
+      "size": 23
+    },
+    {
+      "path": "ddl8.out",
+      "size": 35
+    },
+    {
+      "path": "ddl80.in",
+      "size": 564650
+    },
+    {
+      "path": "ddl80.out",
+      "size": 617781
+    },
+    {
+      "path": "ddl81.in",
+      "size": 580718
+    },
+    {
+      "path": "ddl81.out",
+      "size": 584426
+    },
+    {
+      "path": "ddl82.in",
+      "size": 587721
+    },
+    {
+      "path": "ddl82.out",
+      "size": 613749
+    },
+    {
+      "path": "ddl83.in",
+      "size": 571812
+    },
+    {
+      "path": "ddl83.out",
+      "size": 587975
+    },
+    {
+      "path": "ddl84.in",
+      "size": 564201
+    },
+    {
+      "path": "ddl84.out",
+      "size": 605588
+    },
+    {
+      "path": "ddl85.in",
+      "size": 572635
+    },
+    {
+      "path": "ddl85.out",
+      "size": 607017
+    },
+    {
+      "path": "ddl86.in",
+      "size": 559558
+    },
+    {
+      "path": "ddl86.out",
+      "size": 609228
+    },
+    {
+      "path": "ddl87.in",
+      "size": 587131
+    },
+    {
+      "path": "ddl87.out",
+      "size": 597694
+    },
+    {
+      "path": "ddl88.in",
+      "size": 586225
+    },
+    {
+      "path": "ddl88.out",
+      "size": 611199
+    },
+    {
+      "path": "ddl89.in",
+      "size": 586617
+    },
+    {
+      "path": "ddl89.out",
+      "size": 609755
+    },
+    {
+      "path": "ddl9.in",
+      "size": 18
+    },
+    {
+      "path": "ddl9.out",
+      "size": 30
+    },
+    {
+      "path": "ddl90.in",
+      "size": 587665
+    },
+    {
+      "path": "ddl90.out",
+      "size": 595805
+    },
+    {
+      "path": "ddl91.in",
+      "size": 563011
+    },
+    {
+      "path": "ddl91.out",
+      "size": 601215
+    },
+    {
+      "path": "ddl92.in",
+      "size": 585429
+    },
+    {
+      "path": "ddl92.out",
+      "size": 610440
+    },
+    {
+      "path": "ddl93.in",
+      "size": 583928
+    },
+    {
+      "path": "ddl93.out",
+      "size": 594985
+    },
+    {
+      "path": "ddl94.in",
+      "size": 588510
+    },
+    {
+      "path": "ddl94.out",
+      "size": 596368
+    },
+    {
+      "path": "ddl95.in",
+      "size": 582113
+    },
+    {
+      "path": "ddl95.out",
+      "size": 584252
+    },
+    {
+      "path": "ddl96.in",
+      "size": 568061
+    },
+    {
+      "path": "ddl96.out",
+      "size": 585098
+    },
+    {
+      "path": "ddl97.in",
+      "size": 563839
+    },
+    {
+      "path": "ddl97.out",
+      "size": 583448
+    },
+    {
+      "path": "ddl98.in",
+      "size": 567656
+    },
+    {
+      "path": "ddl98.out",
+      "size": 587068
+    },
+    {
+      "path": "ddl99.in",
+      "size": 572726
+    },
+    {
+      "path": "ddl99.out",
+      "size": 613755
+    }
+  ]
+}

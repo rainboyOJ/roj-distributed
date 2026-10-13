@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "treasure1.in",
+      "size": 230
+    },
+    {
+      "path": "treasure1.out",
+      "size": 30
+    },
+    {
+      "path": "treasure10.in",
+      "size": 6548
+    },
+    {
+      "path": "treasure10.out",
+      "size": 190
+    },
+    {
+      "path": "treasure11.in",
+      "size": 27466
+    },
+    {
+      "path": "treasure11.out",
+      "size": 3580
+    },
+    {
+      "path": "treasure12.in",
+      "size": 27823
+    },
+    {
+      "path": "treasure12.out",
+      "size": 3652
+    },
+    {
+      "path": "treasure13.in",
+      "size": 1470139
+    },
+    {
+      "path": "treasure13.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure14.in",
+      "size": 1469976
+    },
+    {
+      "path": "treasure14.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure15.in",
+      "size": 1470146
+    },
+    {
+      "path": "treasure15.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure16.in",
+      "size": 1471303
+    },
+    {
+      "path": "treasure16.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure17.in",
+      "size": 1471112
+    },
+    {
+      "path": "treasure17.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure18.in",
+      "size": 1470466
+    },
+    {
+      "path": "treasure18.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure19.in",
+      "size": 1423947
+    },
+    {
+      "path": "treasure19.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure2.in",
+      "size": 108
+    },
+    {
+      "path": "treasure2.out",
+      "size": 10
+    },
+    {
+      "path": "treasure20.in",
+      "size": 1524812
+    },
+    {
+      "path": "treasure20.out",
+      "size": 200000
+    },
+    {
+      "path": "treasure3.in",
+      "size": 87
+    },
+    {
+      "path": "treasure3.out",
+      "size": 10
+    },
+    {
+      "path": "treasure4.in",
+      "size": 101
+    },
+    {
+      "path": "treasure4.out",
+      "size": 6
+    },
+    {
+      "path": "treasure5.in",
+      "size": 18668
+    },
+    {
+      "path": "treasure5.out",
+      "size": 2124
+    },
+    {
+      "path": "treasure6.in",
+      "size": 11408
+    },
+    {
+      "path": "treasure6.out",
+      "size": 990
+    },
+    {
+      "path": "treasure7.in",
+      "size": 19824
+    },
+    {
+      "path": "treasure7.out",
+      "size": 2308
+    },
+    {
+      "path": "treasure8.in",
+      "size": 10359
+    },
+    {
+      "path": "treasure8.out",
+      "size": 786
+    },
+    {
+      "path": "treasure9.in",
+      "size": 18220
+    },
+    {
+      "path": "treasure9.out",
+      "size": 2036
+    }
+  ]
+}

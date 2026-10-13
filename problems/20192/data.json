@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "sor1.in",
+      "size": 60
+    },
+    {
+      "path": "sor1.out",
+      "size": 110
+    },
+    {
+      "path": "sor10.in",
+      "size": 392
+    },
+    {
+      "path": "sor10.out",
+      "size": 51
+    },
+    {
+      "path": "sor11.in",
+      "size": 11766
+    },
+    {
+      "path": "sor11.out",
+      "size": 62
+    },
+    {
+      "path": "sor12.in",
+      "size": 12427
+    },
+    {
+      "path": "sor12.out",
+      "size": 69
+    },
+    {
+      "path": "sor13.in",
+      "size": 13020
+    },
+    {
+      "path": "sor13.out",
+      "size": 51
+    },
+    {
+      "path": "sor14.in",
+      "size": 13261
+    },
+    {
+      "path": "sor14.out",
+      "size": 40
+    },
+    {
+      "path": "sor15.in",
+      "size": 12074
+    },
+    {
+      "path": "sor15.out",
+      "size": 64
+    },
+    {
+      "path": "sor16.in",
+      "size": 1988909
+    },
+    {
+      "path": "sor16.out",
+      "size": 1233333
+    },
+    {
+      "path": "sor17.in",
+      "size": 1988939
+    },
+    {
+      "path": "sor17.out",
+      "size": 1627266
+    },
+    {
+      "path": "sor18.in",
+      "size": 1988484
+    },
+    {
+      "path": "sor18.out",
+      "size": 1774713
+    },
+    {
+      "path": "sor19.in",
+      "size": 1993824
+    },
+    {
+      "path": "sor19.out",
+      "size": 1789441
+    },
+    {
+      "path": "sor2.in",
+      "size": 130
+    },
+    {
+      "path": "sor2.out",
+      "size": 110
+    },
+    {
+      "path": "sor20.in",
+      "size": 1992322
+    },
+    {
+      "path": "sor20.out",
+      "size": 1439639
+    },
+    {
+      "path": "sor3.in",
+      "size": 96
+    },
+    {
+      "path": "sor3.out",
+      "size": 53
+    },
+    {
+      "path": "sor4.in",
+      "size": 128
+    },
+    {
+      "path": "sor4.out",
+      "size": 164
+    },
+    {
+      "path": "sor5.in",
+      "size": 57
+    },
+    {
+      "path": "sor5.out",
+      "size": 82
+    },
+    {
+      "path": "sor6.in",
+      "size": 391
+    },
+    {
+      "path": "sor6.out",
+      "size": 56
+    },
+    {
+      "path": "sor7.in",
+      "size": 387
+    },
+    {
+      "path": "sor7.out",
+      "size": 50
+    },
+    {
+      "path": "sor8.in",
+      "size": 392
+    },
+    {
+      "path": "sor8.out",
+      "size": 60
+    },
+    {
+      "path": "sor9.in",
+      "size": 393
+    },
+    {
+      "path": "sor9.out",
+      "size": 42
+    }
+  ]
+}

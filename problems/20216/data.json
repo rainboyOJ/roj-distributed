@@ -1,0 +1,220 @@
+{
+  "files": [
+    {
+      "path": "calculator1-1.in",
+      "size": 211
+    },
+    {
+      "path": "calculator1-1.out",
+      "size": 31
+    },
+    {
+      "path": "calculator1-2.in",
+      "size": 205
+    },
+    {
+      "path": "calculator1-2.out",
+      "size": 32
+    },
+    {
+      "path": "calculator2-1.in",
+      "size": 231779
+    },
+    {
+      "path": "calculator2-1.out",
+      "size": 157507
+    },
+    {
+      "path": "calculator2-2.in",
+      "size": 231779
+    },
+    {
+      "path": "calculator2-2.out",
+      "size": 157507
+    },
+    {
+      "path": "calculator2-3.in",
+      "size": 489166
+    },
+    {
+      "path": "calculator2-3.out",
+      "size": 321136
+    },
+    {
+      "path": "calculator3-1.in",
+      "size": 179663
+    },
+    {
+      "path": "calculator3-1.out",
+      "size": 76208
+    },
+    {
+      "path": "calculator3-2.in",
+      "size": 154422
+    },
+    {
+      "path": "calculator3-2.out",
+      "size": 72161
+    },
+    {
+      "path": "calculator3-3.in",
+      "size": 489169
+    },
+    {
+      "path": "calculator3-3.out",
+      "size": 200000
+    },
+    {
+      "path": "calculator3-4.in",
+      "size": 489168
+    },
+    {
+      "path": "calculator3-4.out",
+      "size": 209997
+    },
+    {
+      "path": "calculator4-1.in",
+      "size": 3240350
+    },
+    {
+      "path": "calculator4-1.out",
+      "size": 1139854
+    },
+    {
+      "path": "calculator4-2.in",
+      "size": 3360027
+    },
+    {
+      "path": "calculator4-2.out",
+      "size": 1156882
+    },
+    {
+      "path": "calculator4-3.in",
+      "size": 2616650
+    },
+    {
+      "path": "calculator4-3.out",
+      "size": 909668
+    },
+    {
+      "path": "calculator4-4.in",
+      "size": 5889212
+    },
+    {
+      "path": "calculator4-4.out",
+      "size": 2248616
+    },
+    {
+      "path": "calculator4-5.in",
+      "size": 5889212
+    },
+    {
+      "path": "calculator4-5.out",
+      "size": 2248616
+    },
+    {
+      "path": "calculator4-6.in",
+      "size": 5889222
+    },
+    {
+      "path": "calculator4-6.out",
+      "size": 2000000
+    },
+    {
+      "path": "calculator5-1.in",
+      "size": 26889249
+    },
+    {
+      "path": "calculator5-1.out",
+      "size": 12109561
+    },
+    {
+      "path": "calculator5-2.in",
+      "size": 26889245
+    },
+    {
+      "path": "calculator5-2.out",
+      "size": 14228666
+    },
+    {
+      "path": "calculator6-1.in",
+      "size": 26889246
+    },
+    {
+      "path": "calculator6-1.out",
+      "size": 8000000
+    },
+    {
+      "path": "calculator6-2.in",
+      "size": 26889245
+    },
+    {
+      "path": "calculator6-2.out",
+      "size": 8000000
+    },
+    {
+      "path": "calculator6-3.in",
+      "size": 26889247
+    },
+    {
+      "path": "calculator6-3.out",
+      "size": 9525141
+    },
+    {
+      "path": "calculator6-4.in",
+      "size": 26889249
+    },
+    {
+      "path": "calculator6-4.out",
+      "size": 9748997
+    },
+    {
+      "path": "calculator7-1.in",
+      "size": 68889271
+    },
+    {
+      "path": "calculator7-1.out",
+      "size": 20000000
+    },
+    {
+      "path": "calculator7-2.in",
+      "size": 68889271
+    },
+    {
+      "path": "calculator7-2.out",
+      "size": 20999683
+    },
+    {
+      "path": "calculator7-3.in",
+      "size": 68889270
+    },
+    {
+      "path": "calculator7-3.out",
+      "size": 21026390
+    },
+    {
+      "path": "calculator7-4.in",
+      "size": 68889268
+    },
+    {
+      "path": "calculator7-4.out",
+      "size": 20000000
+    },
+    {
+      "path": "calculator7-5.in",
+      "size": 68889273
+    },
+    {
+      "path": "calculator7-5.out",
+      "size": 20907289
+    },
+    {
+      "path": "calculator7-6.in",
+      "size": 68889269
+    },
+    {
+      "path": "calculator7-6.out",
+      "size": 22888888
+    }
+  ]
+}

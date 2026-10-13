@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "binary1.in",
+      "size": 4
+    },
+    {
+      "path": "binary1.out",
+      "size": 2
+    },
+    {
+      "path": "binary10.in",
+      "size": 400005
+    },
+    {
+      "path": "binary10.out",
+      "size": 989491
+    },
+    {
+      "path": "binary11.in",
+      "size": 400000
+    },
+    {
+      "path": "binary11.out",
+      "size": 988660
+    },
+    {
+      "path": "binary12.in",
+      "size": 399996
+    },
+    {
+      "path": "binary12.out",
+      "size": 988276
+    },
+    {
+      "path": "binary13.in",
+      "size": 400005
+    },
+    {
+      "path": "binary13.out",
+      "size": 989163
+    },
+    {
+      "path": "binary14.in",
+      "size": 400000
+    },
+    {
+      "path": "binary14.out",
+      "size": 988607
+    },
+    {
+      "path": "binary15.in",
+      "size": 4
+    },
+    {
+      "path": "binary15.out",
+      "size": 2
+    },
+    {
+      "path": "binary2.in",
+      "size": 16
+    },
+    {
+      "path": "binary2.out",
+      "size": 24
+    },
+    {
+      "path": "binary3.in",
+      "size": 49
+    },
+    {
+      "path": "binary3.out",
+      "size": 120
+    },
+    {
+      "path": "binary4.in",
+      "size": 65
+    },
+    {
+      "path": "binary4.out",
+      "size": 160
+    },
+    {
+      "path": "binary5.in",
+      "size": 65
+    },
+    {
+      "path": "binary5.out",
+      "size": 160
+    },
+    {
+      "path": "binary6.in",
+      "size": 4003
+    },
+    {
+      "path": "binary6.out",
+      "size": 9905
+    },
+    {
+      "path": "binary7.in",
+      "size": 3998
+    },
+    {
+      "path": "binary7.out",
+      "size": 9871
+    },
+    {
+      "path": "binary8.in",
+      "size": 4003
+    },
+    {
+      "path": "binary8.out",
+      "size": 9920
+    },
+    {
+      "path": "binary9.in",
+      "size": 4003
+    },
+    {
+      "path": "binary9.out",
+      "size": 9938
+    }
+  ]
+}

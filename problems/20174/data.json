@@ -1,0 +1,364 @@
+{
+  "files": [
+    {
+      "path": "color1.in",
+      "size": 19
+    },
+    {
+      "path": "color1.out",
+      "size": 2
+    },
+    {
+      "path": "color10.in",
+      "size": 24
+    },
+    {
+      "path": "color10.out",
+      "size": 10
+    },
+    {
+      "path": "color11.in",
+      "size": 24
+    },
+    {
+      "path": "color11.out",
+      "size": 10
+    },
+    {
+      "path": "color12.in",
+      "size": 23
+    },
+    {
+      "path": "color12.out",
+      "size": 10
+    },
+    {
+      "path": "color13.in",
+      "size": 23
+    },
+    {
+      "path": "color13.out",
+      "size": 10
+    },
+    {
+      "path": "color14.in",
+      "size": 24
+    },
+    {
+      "path": "color14.out",
+      "size": 10
+    },
+    {
+      "path": "color15.in",
+      "size": 24
+    },
+    {
+      "path": "color15.out",
+      "size": 10
+    },
+    {
+      "path": "color16.in",
+      "size": 8
+    },
+    {
+      "path": "color16.out",
+      "size": 4
+    },
+    {
+      "path": "color17.in",
+      "size": 21
+    },
+    {
+      "path": "color17.out",
+      "size": 6
+    },
+    {
+      "path": "color18.in",
+      "size": 50
+    },
+    {
+      "path": "color18.out",
+      "size": 2
+    },
+    {
+      "path": "color19.in",
+      "size": 34
+    },
+    {
+      "path": "color19.out",
+      "size": 5
+    },
+    {
+      "path": "color2.in",
+      "size": 34
+    },
+    {
+      "path": "color2.out",
+      "size": 2
+    },
+    {
+      "path": "color20.in",
+      "size": 56
+    },
+    {
+      "path": "color20.out",
+      "size": 2
+    },
+    {
+      "path": "color21.in",
+      "size": 34
+    },
+    {
+      "path": "color21.out",
+      "size": 4
+    },
+    {
+      "path": "color22.in",
+      "size": 62
+    },
+    {
+      "path": "color22.out",
+      "size": 2
+    },
+    {
+      "path": "color23.in",
+      "size": 62
+    },
+    {
+      "path": "color23.out",
+      "size": 2
+    },
+    {
+      "path": "color24.in",
+      "size": 32
+    },
+    {
+      "path": "color24.out",
+      "size": 2
+    },
+    {
+      "path": "color25.in",
+      "size": 26
+    },
+    {
+      "path": "color25.out",
+      "size": 4
+    },
+    {
+      "path": "color26.in",
+      "size": 40
+    },
+    {
+      "path": "color26.out",
+      "size": 3
+    },
+    {
+      "path": "color27.in",
+      "size": 62
+    },
+    {
+      "path": "color27.out",
+      "size": 2
+    },
+    {
+      "path": "color28.in",
+      "size": 19
+    },
+    {
+      "path": "color28.out",
+      "size": 2
+    },
+    {
+      "path": "color29.in",
+      "size": 34
+    },
+    {
+      "path": "color29.out",
+      "size": 2
+    },
+    {
+      "path": "color3.in",
+      "size": 49
+    },
+    {
+      "path": "color3.out",
+      "size": 2
+    },
+    {
+      "path": "color30.in",
+      "size": 49
+    },
+    {
+      "path": "color30.out",
+      "size": 2
+    },
+    {
+      "path": "color31.in",
+      "size": 1840084
+    },
+    {
+      "path": "color31.out",
+      "size": 10
+    },
+    {
+      "path": "color32.in",
+      "size": 1021335
+    },
+    {
+      "path": "color32.out",
+      "size": 10
+    },
+    {
+      "path": "color33.in",
+      "size": 1449657
+    },
+    {
+      "path": "color33.out",
+      "size": 10
+    },
+    {
+      "path": "color34.in",
+      "size": 1840516
+    },
+    {
+      "path": "color34.out",
+      "size": 10
+    },
+    {
+      "path": "color35.in",
+      "size": 1737093
+    },
+    {
+      "path": "color35.out",
+      "size": 10
+    },
+    {
+      "path": "color36.in",
+      "size": 779839
+    },
+    {
+      "path": "color36.out",
+      "size": 10
+    },
+    {
+      "path": "color37.in",
+      "size": 6918
+    },
+    {
+      "path": "color37.out",
+      "size": 10
+    },
+    {
+      "path": "color38.in",
+      "size": 14154
+    },
+    {
+      "path": "color38.out",
+      "size": 9
+    },
+    {
+      "path": "color39.in",
+      "size": 8406
+    },
+    {
+      "path": "color39.out",
+      "size": 10
+    },
+    {
+      "path": "color4.in",
+      "size": 49
+    },
+    {
+      "path": "color4.out",
+      "size": 2
+    },
+    {
+      "path": "color40.in",
+      "size": 7615
+    },
+    {
+      "path": "color40.out",
+      "size": 10
+    },
+    {
+      "path": "color41.in",
+      "size": 17499
+    },
+    {
+      "path": "color41.out",
+      "size": 10
+    },
+    {
+      "path": "color42.in",
+      "size": 17096
+    },
+    {
+      "path": "color42.out",
+      "size": 10
+    },
+    {
+      "path": "color43.in",
+      "size": 19
+    },
+    {
+      "path": "color43.out",
+      "size": 2
+    },
+    {
+      "path": "color44.in",
+      "size": 34
+    },
+    {
+      "path": "color44.out",
+      "size": 2
+    },
+    {
+      "path": "color45.in",
+      "size": 49
+    },
+    {
+      "path": "color45.out",
+      "size": 2
+    },
+    {
+      "path": "color5.in",
+      "size": 14894
+    },
+    {
+      "path": "color5.out",
+      "size": 2
+    },
+    {
+      "path": "color6.in",
+      "size": 24
+    },
+    {
+      "path": "color6.out",
+      "size": 10
+    },
+    {
+      "path": "color7.in",
+      "size": 23
+    },
+    {
+      "path": "color7.out",
+      "size": 9
+    },
+    {
+      "path": "color8.in",
+      "size": 24
+    },
+    {
+      "path": "color8.out",
+      "size": 10
+    },
+    {
+      "path": "color9.in",
+      "size": 24
+    },
+    {
+      "path": "color9.out",
+      "size": 10
+    }
+  ]
+}

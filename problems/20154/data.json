@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "parametriziran1.in",
+      "size": 150000
+    },
+    {
+      "path": "parametriziran1.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran10.in",
+      "size": 132009
+    },
+    {
+      "path": "parametriziran10.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran11.in",
+      "size": 293697
+    },
+    {
+      "path": "parametriziran11.out",
+      "size": 9
+    },
+    {
+      "path": "parametriziran12.in",
+      "size": 254079
+    },
+    {
+      "path": "parametriziran12.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran13.in",
+      "size": 245380
+    },
+    {
+      "path": "parametriziran13.out",
+      "size": 9
+    },
+    {
+      "path": "parametriziran14.in",
+      "size": 212319
+    },
+    {
+      "path": "parametriziran14.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran15.in",
+      "size": 296837
+    },
+    {
+      "path": "parametriziran15.out",
+      "size": 8
+    },
+    {
+      "path": "parametriziran16.in",
+      "size": 326664
+    },
+    {
+      "path": "parametriziran16.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran17.in",
+      "size": 264457
+    },
+    {
+      "path": "parametriziran17.out",
+      "size": 8
+    },
+    {
+      "path": "parametriziran18.in",
+      "size": 256729
+    },
+    {
+      "path": "parametriziran18.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran19.in",
+      "size": 399041
+    },
+    {
+      "path": "parametriziran19.out",
+      "size": 9
+    },
+    {
+      "path": "parametriziran2.in",
+      "size": 150000
+    },
+    {
+      "path": "parametriziran2.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran20.in",
+      "size": 400009
+    },
+    {
+      "path": "parametriziran20.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran3.in",
+      "size": 120053
+    },
+    {
+      "path": "parametriziran3.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran4.in",
+      "size": 120001
+    },
+    {
+      "path": "parametriziran4.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran5.in",
+      "size": 160009
+    },
+    {
+      "path": "parametriziran5.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran6.in",
+      "size": 200005
+    },
+    {
+      "path": "parametriziran6.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran7.in",
+      "size": 146624
+    },
+    {
+      "path": "parametriziran7.out",
+      "size": 10
+    },
+    {
+      "path": "parametriziran8.in",
+      "size": 150099
+    },
+    {
+      "path": "parametriziran8.out",
+      "size": 11
+    },
+    {
+      "path": "parametriziran9.in",
+      "size": 244534
+    },
+    {
+      "path": "parametriziran9.out",
+      "size": 11
+    }
+  ]
+}

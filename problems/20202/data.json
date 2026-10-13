@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "stone1.in",
+      "size": 19
+    },
+    {
+      "path": "stone1.out",
+      "size": 11
+    },
+    {
+      "path": "stone10.in",
+      "size": 981933
+    },
+    {
+      "path": "stone10.out",
+      "size": 34
+    },
+    {
+      "path": "stone2.in",
+      "size": 226
+    },
+    {
+      "path": "stone2.out",
+      "size": 16
+    },
+    {
+      "path": "stone3.in",
+      "size": 219
+    },
+    {
+      "path": "stone3.out",
+      "size": 24
+    },
+    {
+      "path": "stone4.in",
+      "size": 221
+    },
+    {
+      "path": "stone4.out",
+      "size": 24
+    },
+    {
+      "path": "stone5.in",
+      "size": 226
+    },
+    {
+      "path": "stone5.out",
+      "size": 22
+    },
+    {
+      "path": "stone6.in",
+      "size": 981725
+    },
+    {
+      "path": "stone6.out",
+      "size": 25
+    },
+    {
+      "path": "stone7.in",
+      "size": 981764
+    },
+    {
+      "path": "stone7.out",
+      "size": 32
+    },
+    {
+      "path": "stone8.in",
+      "size": 981915
+    },
+    {
+      "path": "stone8.out",
+      "size": 34
+    },
+    {
+      "path": "stone9.in",
+      "size": 981973
+    },
+    {
+      "path": "stone9.out",
+      "size": 34
+    }
+  ]
+}

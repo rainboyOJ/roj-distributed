@@ -1,0 +1,404 @@
+{
+  "files": [
+    {
+      "path": "in1.in",
+      "size": 17059
+    },
+    {
+      "path": "in1.out",
+      "size": 4
+    },
+    {
+      "path": "in10.in",
+      "size": 2355517
+    },
+    {
+      "path": "in10.out",
+      "size": 3
+    },
+    {
+      "path": "in11.in",
+      "size": 2355640
+    },
+    {
+      "path": "in11.out",
+      "size": 4
+    },
+    {
+      "path": "in12.in",
+      "size": 2355588
+    },
+    {
+      "path": "in12.out",
+      "size": 4
+    },
+    {
+      "path": "in13.in",
+      "size": 2355730
+    },
+    {
+      "path": "in13.out",
+      "size": 4
+    },
+    {
+      "path": "in14.in",
+      "size": 2355408
+    },
+    {
+      "path": "in14.out",
+      "size": 4
+    },
+    {
+      "path": "in15.in",
+      "size": 2355353
+    },
+    {
+      "path": "in15.out",
+      "size": 4
+    },
+    {
+      "path": "in16.in",
+      "size": 2355656
+    },
+    {
+      "path": "in16.out",
+      "size": 4
+    },
+    {
+      "path": "in17.in",
+      "size": 2355538
+    },
+    {
+      "path": "in17.out",
+      "size": 4
+    },
+    {
+      "path": "in18.in",
+      "size": 2355673
+    },
+    {
+      "path": "in18.out",
+      "size": 4
+    },
+    {
+      "path": "in19.in",
+      "size": 2355392
+    },
+    {
+      "path": "in19.out",
+      "size": 4
+    },
+    {
+      "path": "in2.in",
+      "size": 15838
+    },
+    {
+      "path": "in2.out",
+      "size": 4
+    },
+    {
+      "path": "in20.in",
+      "size": 2355493
+    },
+    {
+      "path": "in20.out",
+      "size": 4
+    },
+    {
+      "path": "in21.in",
+      "size": 2355052
+    },
+    {
+      "path": "in21.out",
+      "size": 3
+    },
+    {
+      "path": "in22.in",
+      "size": 2354987
+    },
+    {
+      "path": "in22.out",
+      "size": 3
+    },
+    {
+      "path": "in23.in",
+      "size": 2355264
+    },
+    {
+      "path": "in23.out",
+      "size": 3
+    },
+    {
+      "path": "in24.in",
+      "size": 2355218
+    },
+    {
+      "path": "in24.out",
+      "size": 3
+    },
+    {
+      "path": "in25.in",
+      "size": 2355390
+    },
+    {
+      "path": "in25.out",
+      "size": 3
+    },
+    {
+      "path": "in26.in",
+      "size": 2355287
+    },
+    {
+      "path": "in26.out",
+      "size": 3
+    },
+    {
+      "path": "in27.in",
+      "size": 2355311
+    },
+    {
+      "path": "in27.out",
+      "size": 4
+    },
+    {
+      "path": "in28.in",
+      "size": 2355638
+    },
+    {
+      "path": "in28.out",
+      "size": 4
+    },
+    {
+      "path": "in29.in",
+      "size": 2355604
+    },
+    {
+      "path": "in29.out",
+      "size": 4
+    },
+    {
+      "path": "in3.in",
+      "size": 15837
+    },
+    {
+      "path": "in3.out",
+      "size": 5
+    },
+    {
+      "path": "in30.in",
+      "size": 2355339
+    },
+    {
+      "path": "in30.out",
+      "size": 4
+    },
+    {
+      "path": "in31.in",
+      "size": 2355501
+    },
+    {
+      "path": "in31.out",
+      "size": 4
+    },
+    {
+      "path": "in32.in",
+      "size": 2355426
+    },
+    {
+      "path": "in32.out",
+      "size": 4
+    },
+    {
+      "path": "in33.in",
+      "size": 2355490
+    },
+    {
+      "path": "in33.out",
+      "size": 4
+    },
+    {
+      "path": "in34.in",
+      "size": 2355141
+    },
+    {
+      "path": "in34.out",
+      "size": 4
+    },
+    {
+      "path": "in35.in",
+      "size": 2355567
+    },
+    {
+      "path": "in35.out",
+      "size": 4
+    },
+    {
+      "path": "in36.in",
+      "size": 2355556
+    },
+    {
+      "path": "in36.out",
+      "size": 4
+    },
+    {
+      "path": "in37.in",
+      "size": 2355852
+    },
+    {
+      "path": "in37.out",
+      "size": 4
+    },
+    {
+      "path": "in38.in",
+      "size": 2355546
+    },
+    {
+      "path": "in38.out",
+      "size": 4
+    },
+    {
+      "path": "in39.in",
+      "size": 2355644
+    },
+    {
+      "path": "in39.out",
+      "size": 4
+    },
+    {
+      "path": "in4.in",
+      "size": 2355661
+    },
+    {
+      "path": "in4.out",
+      "size": 3
+    },
+    {
+      "path": "in40.in",
+      "size": 2355651
+    },
+    {
+      "path": "in40.out",
+      "size": 4
+    },
+    {
+      "path": "in41.in",
+      "size": 2355309
+    },
+    {
+      "path": "in41.out",
+      "size": 3
+    },
+    {
+      "path": "in42.in",
+      "size": 2355508
+    },
+    {
+      "path": "in42.out",
+      "size": 3
+    },
+    {
+      "path": "in43.in",
+      "size": 2355788
+    },
+    {
+      "path": "in43.out",
+      "size": 3
+    },
+    {
+      "path": "in44.in",
+      "size": 2355545
+    },
+    {
+      "path": "in44.out",
+      "size": 3
+    },
+    {
+      "path": "in45.in",
+      "size": 2355828
+    },
+    {
+      "path": "in45.out",
+      "size": 3
+    },
+    {
+      "path": "in46.in",
+      "size": 28923877
+    },
+    {
+      "path": "in46.out",
+      "size": 4
+    },
+    {
+      "path": "in47.in",
+      "size": 27828806
+    },
+    {
+      "path": "in47.out",
+      "size": 4
+    },
+    {
+      "path": "in48.in",
+      "size": 26790248
+    },
+    {
+      "path": "in48.out",
+      "size": 5
+    },
+    {
+      "path": "in49.in",
+      "size": 29107199
+    },
+    {
+      "path": "in49.out",
+      "size": 4
+    },
+    {
+      "path": "in5.in",
+      "size": 2356174
+    },
+    {
+      "path": "in5.out",
+      "size": 3
+    },
+    {
+      "path": "in50.in",
+      "size": 27947499
+    },
+    {
+      "path": "in50.out",
+      "size": 4
+    },
+    {
+      "path": "in6.in",
+      "size": 2355533
+    },
+    {
+      "path": "in6.out",
+      "size": 3
+    },
+    {
+      "path": "in7.in",
+      "size": 2355563
+    },
+    {
+      "path": "in7.out",
+      "size": 3
+    },
+    {
+      "path": "in8.in",
+      "size": 2355576
+    },
+    {
+      "path": "in8.out",
+      "size": 3
+    },
+    {
+      "path": "in9.in",
+      "size": 2355787
+    },
+    {
+      "path": "in9.out",
+      "size": 3
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "resona1.in",
+      "size": 345
+    },
+    {
+      "path": "resona1.out",
+      "size": 11
+    },
+    {
+      "path": "resona10.in",
+      "size": 22977927
+    },
+    {
+      "path": "resona10.out",
+      "size": 31
+    },
+    {
+      "path": "resona2.in",
+      "size": 3806
+    },
+    {
+      "path": "resona2.out",
+      "size": 15
+    },
+    {
+      "path": "resona3.in",
+      "size": 45454
+    },
+    {
+      "path": "resona3.out",
+      "size": 16
+    },
+    {
+      "path": "resona4.in",
+      "size": 115122
+    },
+    {
+      "path": "resona4.out",
+      "size": 18
+    },
+    {
+      "path": "resona5.in",
+      "size": 906379
+    },
+    {
+      "path": "resona5.out",
+      "size": 29
+    },
+    {
+      "path": "resona6.in",
+      "size": 986742
+    },
+    {
+      "path": "resona6.out",
+      "size": 30
+    },
+    {
+      "path": "resona7.in",
+      "size": 1088051
+    },
+    {
+      "path": "resona7.out",
+      "size": 30
+    },
+    {
+      "path": "resona8.in",
+      "size": 6054246
+    },
+    {
+      "path": "resona8.out",
+      "size": 26
+    },
+    {
+      "path": "resona9.in",
+      "size": 21486672
+    },
+    {
+      "path": "resona9.out",
+      "size": 32
+    }
+  ]
+}

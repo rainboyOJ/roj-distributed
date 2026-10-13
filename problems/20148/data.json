@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "luna1.in",
+      "size": 83
+    },
+    {
+      "path": "luna1.out",
+      "size": 20
+    },
+    {
+      "path": "luna10.in",
+      "size": 12799908
+    },
+    {
+      "path": "luna10.out",
+      "size": 99
+    },
+    {
+      "path": "luna2.in",
+      "size": 145
+    },
+    {
+      "path": "luna2.out",
+      "size": 73
+    },
+    {
+      "path": "luna3.in",
+      "size": 202
+    },
+    {
+      "path": "luna3.out",
+      "size": 90
+    },
+    {
+      "path": "luna4.in",
+      "size": 171
+    },
+    {
+      "path": "luna4.out",
+      "size": 67
+    },
+    {
+      "path": "luna5.in",
+      "size": 6974
+    },
+    {
+      "path": "luna5.out",
+      "size": 98
+    },
+    {
+      "path": "luna6.in",
+      "size": 13162
+    },
+    {
+      "path": "luna6.out",
+      "size": 100
+    },
+    {
+      "path": "luna7.in",
+      "size": 9749989
+    },
+    {
+      "path": "luna7.out",
+      "size": 99
+    },
+    {
+      "path": "luna8.in",
+      "size": 12399981
+    },
+    {
+      "path": "luna8.out",
+      "size": 100
+    },
+    {
+      "path": "luna9.in",
+      "size": 9350126
+    },
+    {
+      "path": "luna9.out",
+      "size": 98
+    }
+  ]
+}

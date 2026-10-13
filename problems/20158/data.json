@@ -1,0 +1,420 @@
+{
+  "files": [
+    {
+      "path": "dagger1.in",
+      "size": 2287
+    },
+    {
+      "path": "dagger1.out",
+      "size": 30
+    },
+    {
+      "path": "dagger10.in",
+      "size": 287172
+    },
+    {
+      "path": "dagger10.out",
+      "size": 90
+    },
+    {
+      "path": "dagger11.in",
+      "size": 2335
+    },
+    {
+      "path": "dagger11.out",
+      "size": 30
+    },
+    {
+      "path": "dagger12.in",
+      "size": 287333
+    },
+    {
+      "path": "dagger12.out",
+      "size": 90
+    },
+    {
+      "path": "dagger13.in",
+      "size": 287321
+    },
+    {
+      "path": "dagger13.out",
+      "size": 90
+    },
+    {
+      "path": "dagger14.in",
+      "size": 2331
+    },
+    {
+      "path": "dagger14.out",
+      "size": 30
+    },
+    {
+      "path": "dagger15.in",
+      "size": 2214
+    },
+    {
+      "path": "dagger15.out",
+      "size": 29
+    },
+    {
+      "path": "dagger16.in",
+      "size": 2222
+    },
+    {
+      "path": "dagger16.out",
+      "size": 28
+    },
+    {
+      "path": "dagger17.in",
+      "size": 268332
+    },
+    {
+      "path": "dagger17.out",
+      "size": 90
+    },
+    {
+      "path": "dagger18.in",
+      "size": 2207
+    },
+    {
+      "path": "dagger18.out",
+      "size": 30
+    },
+    {
+      "path": "dagger19.in",
+      "size": 268253
+    },
+    {
+      "path": "dagger19.out",
+      "size": 90
+    },
+    {
+      "path": "dagger2.in",
+      "size": 2232
+    },
+    {
+      "path": "dagger2.out",
+      "size": 30
+    },
+    {
+      "path": "dagger20.in",
+      "size": 268237
+    },
+    {
+      "path": "dagger20.out",
+      "size": 90
+    },
+    {
+      "path": "dagger21.in",
+      "size": 2215
+    },
+    {
+      "path": "dagger21.out",
+      "size": 29
+    },
+    {
+      "path": "dagger22.in",
+      "size": 2144
+    },
+    {
+      "path": "dagger22.out",
+      "size": 30
+    },
+    {
+      "path": "dagger23.in",
+      "size": 2151
+    },
+    {
+      "path": "dagger23.out",
+      "size": 30
+    },
+    {
+      "path": "dagger24.in",
+      "size": 172638
+    },
+    {
+      "path": "dagger24.out",
+      "size": 80
+    },
+    {
+      "path": "dagger25.in",
+      "size": 2150
+    },
+    {
+      "path": "dagger25.out",
+      "size": 30
+    },
+    {
+      "path": "dagger26.in",
+      "size": 172619
+    },
+    {
+      "path": "dagger26.out",
+      "size": 80
+    },
+    {
+      "path": "dagger27.in",
+      "size": 172634
+    },
+    {
+      "path": "dagger27.out",
+      "size": 80
+    },
+    {
+      "path": "dagger28.in",
+      "size": 2149
+    },
+    {
+      "path": "dagger28.out",
+      "size": 30
+    },
+    {
+      "path": "dagger29.in",
+      "size": 2232
+    },
+    {
+      "path": "dagger29.out",
+      "size": 20
+    },
+    {
+      "path": "dagger3.in",
+      "size": 2277
+    },
+    {
+      "path": "dagger3.out",
+      "size": 28
+    },
+    {
+      "path": "dagger30.in",
+      "size": 2235
+    },
+    {
+      "path": "dagger30.out",
+      "size": 20
+    },
+    {
+      "path": "dagger31.in",
+      "size": 154836
+    },
+    {
+      "path": "dagger31.out",
+      "size": 25
+    },
+    {
+      "path": "dagger32.in",
+      "size": 2230
+    },
+    {
+      "path": "dagger32.out",
+      "size": 20
+    },
+    {
+      "path": "dagger33.in",
+      "size": 154827
+    },
+    {
+      "path": "dagger33.out",
+      "size": 25
+    },
+    {
+      "path": "dagger34.in",
+      "size": 154900
+    },
+    {
+      "path": "dagger34.out",
+      "size": 26
+    },
+    {
+      "path": "dagger35.in",
+      "size": 2250
+    },
+    {
+      "path": "dagger35.out",
+      "size": 20
+    },
+    {
+      "path": "dagger36.in",
+      "size": 2260
+    },
+    {
+      "path": "dagger36.out",
+      "size": 30
+    },
+    {
+      "path": "dagger37.in",
+      "size": 2274
+    },
+    {
+      "path": "dagger37.out",
+      "size": 30
+    },
+    {
+      "path": "dagger38.in",
+      "size": 227854
+    },
+    {
+      "path": "dagger38.out",
+      "size": 70
+    },
+    {
+      "path": "dagger39.in",
+      "size": 2262
+    },
+    {
+      "path": "dagger39.out",
+      "size": 29
+    },
+    {
+      "path": "dagger4.in",
+      "size": 2262
+    },
+    {
+      "path": "dagger4.out",
+      "size": 30
+    },
+    {
+      "path": "dagger40.in",
+      "size": 227837
+    },
+    {
+      "path": "dagger40.out",
+      "size": 70
+    },
+    {
+      "path": "dagger41.in",
+      "size": 227958
+    },
+    {
+      "path": "dagger41.out",
+      "size": 70
+    },
+    {
+      "path": "dagger42.in",
+      "size": 2268
+    },
+    {
+      "path": "dagger42.out",
+      "size": 30
+    },
+    {
+      "path": "dagger43.in",
+      "size": 285243
+    },
+    {
+      "path": "dagger43.out",
+      "size": 90
+    },
+    {
+      "path": "dagger44.in",
+      "size": 2284
+    },
+    {
+      "path": "dagger44.out",
+      "size": 30
+    },
+    {
+      "path": "dagger45.in",
+      "size": 2281
+    },
+    {
+      "path": "dagger45.out",
+      "size": 30
+    },
+    {
+      "path": "dagger46.in",
+      "size": 285330
+    },
+    {
+      "path": "dagger46.out",
+      "size": 90
+    },
+    {
+      "path": "dagger47.in",
+      "size": 2267
+    },
+    {
+      "path": "dagger47.out",
+      "size": 30
+    },
+    {
+      "path": "dagger48.in",
+      "size": 285200
+    },
+    {
+      "path": "dagger48.out",
+      "size": 90
+    },
+    {
+      "path": "dagger49.in",
+      "size": 285431
+    },
+    {
+      "path": "dagger49.out",
+      "size": 90
+    },
+    {
+      "path": "dagger5.in",
+      "size": 2258
+    },
+    {
+      "path": "dagger5.out",
+      "size": 29
+    },
+    {
+      "path": "dagger50.in",
+      "size": 285233
+    },
+    {
+      "path": "dagger50.out",
+      "size": 90
+    },
+    {
+      "path": "dagger51.in",
+      "size": 2266
+    },
+    {
+      "path": "dagger51.out",
+      "size": 30
+    },
+    {
+      "path": "dagger52.in",
+      "size": 285239
+    },
+    {
+      "path": "dagger52.out",
+      "size": 90
+    },
+    {
+      "path": "dagger6.in",
+      "size": 2252
+    },
+    {
+      "path": "dagger6.out",
+      "size": 30
+    },
+    {
+      "path": "dagger7.in",
+      "size": 2263
+    },
+    {
+      "path": "dagger7.out",
+      "size": 29
+    },
+    {
+      "path": "dagger8.in",
+      "size": 2315
+    },
+    {
+      "path": "dagger8.out",
+      "size": 30
+    },
+    {
+      "path": "dagger9.in",
+      "size": 2327
+    },
+    {
+      "path": "dagger9.out",
+      "size": 30
+    }
+  ]
+}

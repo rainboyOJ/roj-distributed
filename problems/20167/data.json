@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "delete1.in",
+      "size": 5
+    },
+    {
+      "path": "delete1.out",
+      "size": 5
+    },
+    {
+      "path": "delete10.in",
+      "size": 11146538
+    },
+    {
+      "path": "delete10.out",
+      "size": 22
+    },
+    {
+      "path": "delete11.in",
+      "size": 10988840
+    },
+    {
+      "path": "delete11.out",
+      "size": 15
+    },
+    {
+      "path": "delete12.in",
+      "size": 11145704
+    },
+    {
+      "path": "delete12.out",
+      "size": 22
+    },
+    {
+      "path": "delete13.in",
+      "size": 10966698
+    },
+    {
+      "path": "delete13.out",
+      "size": 15
+    },
+    {
+      "path": "delete14.in",
+      "size": 11146011
+    },
+    {
+      "path": "delete14.out",
+      "size": 22
+    },
+    {
+      "path": "delete15.in",
+      "size": 10887919
+    },
+    {
+      "path": "delete15.out",
+      "size": 12
+    },
+    {
+      "path": "delete16.in",
+      "size": 11146366
+    },
+    {
+      "path": "delete16.out",
+      "size": 22
+    },
+    {
+      "path": "delete17.in",
+      "size": 10886977
+    },
+    {
+      "path": "delete17.out",
+      "size": 9
+    },
+    {
+      "path": "delete18.in",
+      "size": 11148920
+    },
+    {
+      "path": "delete18.out",
+      "size": 22
+    },
+    {
+      "path": "delete19.in",
+      "size": 10888499
+    },
+    {
+      "path": "delete19.out",
+      "size": 15
+    },
+    {
+      "path": "delete2.in",
+      "size": 23
+    },
+    {
+      "path": "delete2.out",
+      "size": 5
+    },
+    {
+      "path": "delete20.in",
+      "size": 11146671
+    },
+    {
+      "path": "delete20.out",
+      "size": 22
+    },
+    {
+      "path": "delete3.in",
+      "size": 22266
+    },
+    {
+      "path": "delete3.out",
+      "size": 18
+    },
+    {
+      "path": "delete4.in",
+      "size": 21765
+    },
+    {
+      "path": "delete4.out",
+      "size": 14
+    },
+    {
+      "path": "delete5.in",
+      "size": 11145608
+    },
+    {
+      "path": "delete5.out",
+      "size": 22
+    },
+    {
+      "path": "delete6.in",
+      "size": 11145375
+    },
+    {
+      "path": "delete6.out",
+      "size": 22
+    },
+    {
+      "path": "delete7.in",
+      "size": 11145784
+    },
+    {
+      "path": "delete7.out",
+      "size": 22
+    },
+    {
+      "path": "delete8.in",
+      "size": 11144889
+    },
+    {
+      "path": "delete8.out",
+      "size": 22
+    },
+    {
+      "path": "delete9.in",
+      "size": 11145505
+    },
+    {
+      "path": "delete9.out",
+      "size": 22
+    }
+  ]
+}

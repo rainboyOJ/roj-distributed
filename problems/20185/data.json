@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "chess1.in",
+      "size": 608304
+    },
+    {
+      "path": "chess1.out",
+      "size": 612641
+    },
+    {
+      "path": "chess10.in",
+      "size": 292562
+    },
+    {
+      "path": "chess10.out",
+      "size": 955
+    },
+    {
+      "path": "chess11.in",
+      "size": 1569934
+    },
+    {
+      "path": "chess11.out",
+      "size": 988269
+    },
+    {
+      "path": "chess12.in",
+      "size": 1569994
+    },
+    {
+      "path": "chess12.out",
+      "size": 988774
+    },
+    {
+      "path": "chess13.in",
+      "size": 1570019
+    },
+    {
+      "path": "chess13.out",
+      "size": 988722
+    },
+    {
+      "path": "chess14.in",
+      "size": 1570145
+    },
+    {
+      "path": "chess14.out",
+      "size": 988650
+    },
+    {
+      "path": "chess15.in",
+      "size": 1569907
+    },
+    {
+      "path": "chess15.out",
+      "size": 987983
+    },
+    {
+      "path": "chess16.in",
+      "size": 1569567
+    },
+    {
+      "path": "chess16.out",
+      "size": 988067
+    },
+    {
+      "path": "chess17.in",
+      "size": 1569945
+    },
+    {
+      "path": "chess17.out",
+      "size": 988413
+    },
+    {
+      "path": "chess18.in",
+      "size": 1570083
+    },
+    {
+      "path": "chess18.out",
+      "size": 988687
+    },
+    {
+      "path": "chess19.in",
+      "size": 1570338
+    },
+    {
+      "path": "chess19.out",
+      "size": 988625
+    },
+    {
+      "path": "chess2.in",
+      "size": 978616
+    },
+    {
+      "path": "chess2.out",
+      "size": 985698
+    },
+    {
+      "path": "chess20.in",
+      "size": 1569583
+    },
+    {
+      "path": "chess20.out",
+      "size": 987917
+    },
+    {
+      "path": "chess3.in",
+      "size": 988607
+    },
+    {
+      "path": "chess3.out",
+      "size": 984107
+    },
+    {
+      "path": "chess4.in",
+      "size": 988623
+    },
+    {
+      "path": "chess4.out",
+      "size": 984448
+    },
+    {
+      "path": "chess5.in",
+      "size": 984543
+    },
+    {
+      "path": "chess5.out",
+      "size": 979797
+    },
+    {
+      "path": "chess6.in",
+      "size": 989097
+    },
+    {
+      "path": "chess6.out",
+      "size": 984385
+    },
+    {
+      "path": "chess7.in",
+      "size": 291665
+    },
+    {
+      "path": "chess7.out",
+      "size": 901
+    },
+    {
+      "path": "chess8.in",
+      "size": 292105
+    },
+    {
+      "path": "chess8.out",
+      "size": 946
+    },
+    {
+      "path": "chess9.in",
+      "size": 292239
+    },
+    {
+      "path": "chess9.out",
+      "size": 951
+    }
+  ]
+}

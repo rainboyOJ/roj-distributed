@@ -1,0 +1,324 @@
+{
+  "files": [
+    {
+      "path": "knapsack1-1.in",
+      "size": 107
+    },
+    {
+      "path": "knapsack1-1.out",
+      "size": 41
+    },
+    {
+      "path": "knapsack1-2.in",
+      "size": 107
+    },
+    {
+      "path": "knapsack1-2.out",
+      "size": 41
+    },
+    {
+      "path": "knapsack1-3.in",
+      "size": 109
+    },
+    {
+      "path": "knapsack1-3.out",
+      "size": 43
+    },
+    {
+      "path": "knapsack1-4.in",
+      "size": 109
+    },
+    {
+      "path": "knapsack1-4.out",
+      "size": 43
+    },
+    {
+      "path": "knapsack2-1.in",
+      "size": 3053
+    },
+    {
+      "path": "knapsack2-1.out",
+      "size": 1051
+    },
+    {
+      "path": "knapsack2-2.in",
+      "size": 3053
+    },
+    {
+      "path": "knapsack2-2.out",
+      "size": 1051
+    },
+    {
+      "path": "knapsack2-3.in",
+      "size": 3062
+    },
+    {
+      "path": "knapsack2-3.out",
+      "size": 1077
+    },
+    {
+      "path": "knapsack2-4.in",
+      "size": 3084
+    },
+    {
+      "path": "knapsack2-4.out",
+      "size": 1038
+    },
+    {
+      "path": "knapsack3-1.in",
+      "size": 91224
+    },
+    {
+      "path": "knapsack3-1.out",
+      "size": 33057
+    },
+    {
+      "path": "knapsack3-2.in",
+      "size": 91224
+    },
+    {
+      "path": "knapsack3-2.out",
+      "size": 33057
+    },
+    {
+      "path": "knapsack3-3.in",
+      "size": 91309
+    },
+    {
+      "path": "knapsack3-3.out",
+      "size": 33461
+    },
+    {
+      "path": "knapsack3-4.in",
+      "size": 90945
+    },
+    {
+      "path": "knapsack3-4.out",
+      "size": 33411
+    },
+    {
+      "path": "knapsack3-5.in",
+      "size": 94511
+    },
+    {
+      "path": "knapsack3-5.out",
+      "size": 37083
+    },
+    {
+      "path": "knapsack3-6.in",
+      "size": 94466
+    },
+    {
+      "path": "knapsack3-6.out",
+      "size": 36946
+    },
+    {
+      "path": "knapsack3-7.in",
+      "size": 94534
+    },
+    {
+      "path": "knapsack3-7.out",
+      "size": 36886
+    },
+    {
+      "path": "knapsack4-1.in",
+      "size": 1315795
+    },
+    {
+      "path": "knapsack4-1.out",
+      "size": 539115
+    },
+    {
+      "path": "knapsack4-2.in",
+      "size": 1315923
+    },
+    {
+      "path": "knapsack4-2.out",
+      "size": 535174
+    },
+    {
+      "path": "knapsack4-3.in",
+      "size": 1315923
+    },
+    {
+      "path": "knapsack4-3.out",
+      "size": 535174
+    },
+    {
+      "path": "knapsack4-4.in",
+      "size": 1315704
+    },
+    {
+      "path": "knapsack4-4.out",
+      "size": 537499
+    },
+    {
+      "path": "knapsack5-1.in",
+      "size": 464273
+    },
+    {
+      "path": "knapsack5-1.out",
+      "size": 182912
+    },
+    {
+      "path": "knapsack5-2.in",
+      "size": 464182
+    },
+    {
+      "path": "knapsack5-2.out",
+      "size": 182566
+    },
+    {
+      "path": "knapsack5-3.in",
+      "size": 464182
+    },
+    {
+      "path": "knapsack5-3.out",
+      "size": 182566
+    },
+    {
+      "path": "knapsack5-4.in",
+      "size": 465774
+    },
+    {
+      "path": "knapsack5-4.out",
+      "size": 211552
+    },
+    {
+      "path": "knapsack5-5.in",
+      "size": 465774
+    },
+    {
+      "path": "knapsack5-5.out",
+      "size": 211552
+    },
+    {
+      "path": "knapsack5-6.in",
+      "size": 465648
+    },
+    {
+      "path": "knapsack5-6.out",
+      "size": 211291
+    },
+    {
+      "path": "knapsack5-7.in",
+      "size": 458346
+    },
+    {
+      "path": "knapsack5-7.out",
+      "size": 209114
+    },
+    {
+      "path": "knapsack5-8.in",
+      "size": 458346
+    },
+    {
+      "path": "knapsack5-8.out",
+      "size": 209114
+    },
+    {
+      "path": "knapsack6-1.in",
+      "size": 1532160
+    },
+    {
+      "path": "knapsack6-1.out",
+      "size": 691860
+    },
+    {
+      "path": "knapsack6-10.in",
+      "size": 1534461
+    },
+    {
+      "path": "knapsack6-10.out",
+      "size": 871114
+    },
+    {
+      "path": "knapsack6-11.in",
+      "size": 1534493
+    },
+    {
+      "path": "knapsack6-11.out",
+      "size": 869721
+    },
+    {
+      "path": "knapsack6-12.in",
+      "size": 1534256
+    },
+    {
+      "path": "knapsack6-12.out",
+      "size": 887064
+    },
+    {
+      "path": "knapsack6-13.in",
+      "size": 1534166
+    },
+    {
+      "path": "knapsack6-13.out",
+      "size": 869757
+    },
+    {
+      "path": "knapsack6-2.in",
+      "size": 1532940
+    },
+    {
+      "path": "knapsack6-2.out",
+      "size": 687932
+    },
+    {
+      "path": "knapsack6-3.in",
+      "size": 1531958
+    },
+    {
+      "path": "knapsack6-3.out",
+      "size": 694618
+    },
+    {
+      "path": "knapsack6-4.in",
+      "size": 1532461
+    },
+    {
+      "path": "knapsack6-4.out",
+      "size": 699368
+    },
+    {
+      "path": "knapsack6-5.in",
+      "size": 1542282
+    },
+    {
+      "path": "knapsack6-5.out",
+      "size": 748262
+    },
+    {
+      "path": "knapsack6-6.in",
+      "size": 1542522
+    },
+    {
+      "path": "knapsack6-6.out",
+      "size": 746866
+    },
+    {
+      "path": "knapsack6-7.in",
+      "size": 1541884
+    },
+    {
+      "path": "knapsack6-7.out",
+      "size": 751011
+    },
+    {
+      "path": "knapsack6-8.in",
+      "size": 1534772
+    },
+    {
+      "path": "knapsack6-8.out",
+      "size": 733854
+    },
+    {
+      "path": "knapsack6-9.in",
+      "size": 1534895
+    },
+    {
+      "path": "knapsack6-9.out",
+      "size": 737875
+    }
+  ]
+}

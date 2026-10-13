@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "salary1.in",
+      "size": 258
+    },
+    {
+      "path": "salary1.out",
+      "size": 13
+    },
+    {
+      "path": "salary10.in",
+      "size": 8528168
+    },
+    {
+      "path": "salary10.out",
+      "size": 17
+    },
+    {
+      "path": "salary2.in",
+      "size": 14202
+    },
+    {
+      "path": "salary2.out",
+      "size": 15
+    },
+    {
+      "path": "salary3.in",
+      "size": 14151
+    },
+    {
+      "path": "salary3.out",
+      "size": 15
+    },
+    {
+      "path": "salary4.in",
+      "size": 14216
+    },
+    {
+      "path": "salary4.out",
+      "size": 13
+    },
+    {
+      "path": "salary5.in",
+      "size": 1616704
+    },
+    {
+      "path": "salary5.out",
+      "size": 17
+    },
+    {
+      "path": "salary6.in",
+      "size": 1628035
+    },
+    {
+      "path": "salary6.out",
+      "size": 18
+    },
+    {
+      "path": "salary7.in",
+      "size": 1627890
+    },
+    {
+      "path": "salary7.out",
+      "size": 17
+    },
+    {
+      "path": "salary8.in",
+      "size": 8527773
+    },
+    {
+      "path": "salary8.out",
+      "size": 18
+    },
+    {
+      "path": "salary9.in",
+      "size": 8527354
+    },
+    {
+      "path": "salary9.out",
+      "size": 17
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "files": [
+    {
+      "path": "cycle1.in",
+      "size": 19
+    },
+    {
+      "path": "cycle1.out",
+      "size": 5
+    },
+    {
+      "path": "cycle10.in",
+      "size": 19
+    },
+    {
+      "path": "cycle10.out",
+      "size": 5
+    },
+    {
+      "path": "cycle11.in",
+      "size": 19
+    },
+    {
+      "path": "cycle11.out",
+      "size": 5
+    },
+    {
+      "path": "cycle12.in",
+      "size": 19
+    },
+    {
+      "path": "cycle12.out",
+      "size": 5
+    },
+    {
+      "path": "cycle13.in",
+      "size": 18
+    },
+    {
+      "path": "cycle13.out",
+      "size": 5
+    },
+    {
+      "path": "cycle14.in",
+      "size": 19
+    },
+    {
+      "path": "cycle14.out",
+      "size": 5
+    },
+    {
+      "path": "cycle15.in",
+      "size": 15
+    },
+    {
+      "path": "cycle15.out",
+      "size": 3
+    },
+    {
+      "path": "cycle16.in",
+      "size": 19
+    },
+    {
+      "path": "cycle16.out",
+      "size": 5
+    },
+    {
+      "path": "cycle17.in",
+      "size": 19
+    },
+    {
+      "path": "cycle17.out",
+      "size": 5
+    },
+    {
+      "path": "cycle18.in",
+      "size": 18
+    },
+    {
+      "path": "cycle18.out",
+      "size": 2
+    },
+    {
+      "path": "cycle19.in",
+      "size": 19
+    },
+    {
+      "path": "cycle19.out",
+      "size": 5
+    },
+    {
+      "path": "cycle2.in",
+      "size": 17
+    },
+    {
+      "path": "cycle2.out",
+      "size": 5
+    },
+    {
+      "path": "cycle20.in",
+      "size": 18
+    },
+    {
+      "path": "cycle20.out",
+      "size": 5
+    },
+    {
+      "path": "cycle21.in",
+      "size": 17
+    },
+    {
+      "path": "cycle21.out",
+      "size": 4
+    },
+    {
+      "path": "cycle22.in",
+      "size": 19
+    },
+    {
+      "path": "cycle22.out",
+      "size": 5
+    },
+    {
+      "path": "cycle23.in",
+      "size": 19
+    },
+    {
+      "path": "cycle23.out",
+      "size": 5
+    },
+    {
+      "path": "cycle24.in",
+      "size": 18
+    },
+    {
+      "path": "cycle24.out",
+      "size": 5
+    },
+    {
+      "path": "cycle25.in",
+      "size": 18
+    },
+    {
+      "path": "cycle25.out",
+      "size": 5
+    },
+    {
+      "path": "cycle26.in",
+      "size": 18
+    },
+    {
+      "path": "cycle26.out",
+      "size": 4
+    },
+    {
+      "path": "cycle27.in",
+      "size": 18
+    },
+    {
+      "path": "cycle27.out",
+      "size": 4
+    },
+    {
+      "path": "cycle28.in",
+      "size": 19
+    },
+    {
+      "path": "cycle28.out",
+      "size": 5
+    },
+    {
+      "path": "cycle29.in",
+      "size": 19
+    },
+    {
+      "path": "cycle29.out",
+      "size": 5
+    },
+    {
+      "path": "cycle3.in",
+      "size": 19
+    },
+    {
+      "path": "cycle3.out",
+      "size": 5
+    },
+    {
+      "path": "cycle30.in",
+      "size": 18
+    },
+    {
+      "path": "cycle30.out",
+      "size": 4
+    },
+    {
+      "path": "cycle31.in",
+      "size": 18
+    },
+    {
+      "path": "cycle31.out",
+      "size": 4
+    },
+    {
+      "path": "cycle32.in",
+      "size": 19
+    },
+    {
+      "path": "cycle32.out",
+      "size": 5
+    },
+    {
+      "path": "cycle33.in",
+      "size": 19
+    },
+    {
+      "path": "cycle33.out",
+      "size": 5
+    },
+    {
+      "path": "cycle34.in",
+      "size": 23
+    },
+    {
+      "path": "cycle34.out",
+      "size": 9
+    },
+    {
+      "path": "cycle35.in",
+      "size": 23
+    },
+    {
+      "path": "cycle35.out",
+      "size": 10
+    },
+    {
+      "path": "cycle36.in",
+      "size": 23
+    },
+    {
+      "path": "cycle36.out",
+      "size": 9
+    },
+    {
+      "path": "cycle37.in",
+      "size": 22
+    },
+    {
+      "path": "cycle37.out",
+      "size": 9
+    },
+    {
+      "path": "cycle38.in",
+      "size": 22
+    },
+    {
+      "path": "cycle38.out",
+      "size": 9
+    },
+    {
+      "path": "cycle39.in",
+      "size": 22
+    },
+    {
+      "path": "cycle39.out",
+      "size": 8
+    },
+    {
+      "path": "cycle4.in",
+      "size": 19
+    },
+    {
+      "path": "cycle4.out",
+      "size": 5
+    },
+    {
+      "path": "cycle40.in",
+      "size": 22
+    },
+    {
+      "path": "cycle40.out",
+      "size": 9
+    },
+    {
+      "path": "cycle41.in",
+      "size": 23
+    },
+    {
+      "path": "cycle41.out",
+      "size": 9
+    },
+    {
+      "path": "cycle42.in",
+      "size": 23
+    },
+    {
+      "path": "cycle42.out",
+      "size": 9
+    },
+    {
+      "path": "cycle43.in",
+      "size": 22
+    },
+    {
+      "path": "cycle43.out",
+      "size": 9
+    },
+    {
+      "path": "cycle44.in",
+      "size": 23
+    },
+    {
+      "path": "cycle44.out",
+      "size": 9
+    },
+    {
+      "path": "cycle45.in",
+      "size": 23
+    },
+    {
+      "path": "cycle45.out",
+      "size": 8
+    },
+    {
+      "path": "cycle46.in",
+      "size": 22
+    },
+    {
+      "path": "cycle46.out",
+      "size": 9
+    },
+    {
+      "path": "cycle47.in",
+      "size": 27
+    },
+    {
+      "path": "cycle47.out",
+      "size": 10
+    },
+    {
+      "path": "cycle48.in",
+      "size": 26
+    },
+    {
+      "path": "cycle48.out",
+      "size": 10
+    },
+    {
+      "path": "cycle49.in",
+      "size": 27
+    },
+    {
+      "path": "cycle49.out",
+      "size": 10
+    },
+    {
+      "path": "cycle5.in",
+      "size": 18
+    },
+    {
+      "path": "cycle5.out",
+      "size": 4
+    },
+    {
+      "path": "cycle50.in",
+      "size": 26
+    },
+    {
+      "path": "cycle50.out",
+      "size": 10
+    },
+    {
+      "path": "cycle51.in",
+      "size": 25
+    },
+    {
+      "path": "cycle51.out",
+      "size": 10
+    },
+    {
+      "path": "cycle52.in",
+      "size": 24
+    },
+    {
+      "path": "cycle52.out",
+      "size": 8
+    },
+    {
+      "path": "cycle53.in",
+      "size": 26
+    },
+    {
+      "path": "cycle53.out",
+      "size": 10
+    },
+    {
+      "path": "cycle54.in",
+      "size": 28
+    },
+    {
+      "path": "cycle54.out",
+      "size": 10
+    },
+    {
+      "path": "cycle55.in",
+      "size": 25
+    },
+    {
+      "path": "cycle55.out",
+      "size": 9
+    },
+    {
+      "path": "cycle56.in",
+      "size": 27
+    },
+    {
+      "path": "cycle56.out",
+      "size": 10
+    },
+    {
+      "path": "cycle57.in",
+      "size": 27
+    },
+    {
+      "path": "cycle57.out",
+      "size": 10
+    },
+    {
+      "path": "cycle58.in",
+      "size": 24
+    },
+    {
+      "path": "cycle58.out",
+      "size": 10
+    },
+    {
+      "path": "cycle59.in",
+      "size": 27
+    },
+    {
+      "path": "cycle59.out",
+      "size": 9
+    },
+    {
+      "path": "cycle6.in",
+      "size": 19
+    },
+    {
+      "path": "cycle6.out",
+      "size": 4
+    },
+    {
+      "path": "cycle60.in",
+      "size": 25
+    },
+    {
+      "path": "cycle60.out",
+      "size": 10
+    },
+    {
+      "path": "cycle61.in",
+      "size": 26
+    },
+    {
+      "path": "cycle61.out",
+      "size": 10
+    },
+    {
+      "path": "cycle62.in",
+      "size": 26
+    },
+    {
+      "path": "cycle62.out",
+      "size": 9
+    },
+    {
+      "path": "cycle63.in",
+      "size": 27
+    },
+    {
+      "path": "cycle63.out",
+      "size": 10
+    },
+    {
+      "path": "cycle64.in",
+      "size": 25
+    },
+    {
+      "path": "cycle64.out",
+      "size": 10
+    },
+    {
+      "path": "cycle65.in",
+      "size": 26
+    },
+    {
+      "path": "cycle65.out",
+      "size": 9
+    },
+    {
+      "path": "cycle66.in",
+      "size": 24
+    },
+    {
+      "path": "cycle66.out",
+      "size": 9
+    },
+    {
+      "path": "cycle67.in",
+      "size": 24
+    },
+    {
+      "path": "cycle67.out",
+      "size": 10
+    },
+    {
+      "path": "cycle68.in",
+      "size": 25
+    },
+    {
+      "path": "cycle68.out",
+      "size": 10
+    },
+    {
+      "path": "cycle69.in",
+      "size": 26
+    },
+    {
+      "path": "cycle69.out",
+      "size": 9
+    },
+    {
+      "path": "cycle7.in",
+      "size": 19
+    },
+    {
+      "path": "cycle7.out",
+      "size": 5
+    },
+    {
+      "path": "cycle70.in",
+      "size": 24
+    },
+    {
+      "path": "cycle70.out",
+      "size": 10
+    },
+    {
+      "path": "cycle71.in",
+      "size": 25
+    },
+    {
+      "path": "cycle71.out",
+      "size": 9
+    },
+    {
+      "path": "cycle72.in",
+      "size": 25
+    },
+    {
+      "path": "cycle72.out",
+      "size": 10
+    },
+    {
+      "path": "cycle73.in",
+      "size": 24
+    },
+    {
+      "path": "cycle73.out",
+      "size": 10
+    },
+    {
+      "path": "cycle74.in",
+      "size": 27
+    },
+    {
+      "path": "cycle74.out",
+      "size": 10
+    },
+    {
+      "path": "cycle75.in",
+      "size": 27
+    },
+    {
+      "path": "cycle75.out",
+      "size": 10
+    },
+    {
+      "path": "cycle76.in",
+      "size": 25
+    },
+    {
+      "path": "cycle76.out",
+      "size": 10
+    },
+    {
+      "path": "cycle77.in",
+      "size": 26
+    },
+    {
+      "path": "cycle77.out",
+      "size": 10
+    },
+    {
+      "path": "cycle78.in",
+      "size": 28
+    },
+    {
+      "path": "cycle78.out",
+      "size": 9
+    },
+    {
+      "path": "cycle79.in",
+      "size": 25
+    },
+    {
+      "path": "cycle79.out",
+      "size": 10
+    },
+    {
+      "path": "cycle8.in",
+      "size": 16
+    },
+    {
+      "path": "cycle8.out",
+      "size": 2
+    },
+    {
+      "path": "cycle80.in",
+      "size": 25
+    },
+    {
+      "path": "cycle80.out",
+      "size": 10
+    },
+    {
+      "path": "cycle81.in",
+      "size": 26
+    },
+    {
+      "path": "cycle81.out",
+      "size": 10
+    },
+    {
+      "path": "cycle82.in",
+      "size": 25
+    },
+    {
+      "path": "cycle82.out",
+      "size": 10
+    },
+    {
+      "path": "cycle83.in",
+      "size": 27
+    },
+    {
+      "path": "cycle83.out",
+      "size": 10
+    },
+    {
+      "path": "cycle84.in",
+      "size": 25
+    },
+    {
+      "path": "cycle84.out",
+      "size": 10
+    },
+    {
+      "path": "cycle85.in",
+      "size": 27
+    },
+    {
+      "path": "cycle85.out",
+      "size": 10
+    },
+    {
+      "path": "cycle86.in",
+      "size": 26
+    },
+    {
+      "path": "cycle86.out",
+      "size": 10
+    },
+    {
+      "path": "cycle87.in",
+      "size": 26
+    },
+    {
+      "path": "cycle87.out",
+      "size": 10
+    },
+    {
+      "path": "cycle88.in",
+      "size": 26
+    },
+    {
+      "path": "cycle88.out",
+      "size": 9
+    },
+    {
+      "path": "cycle89.in",
+      "size": 26
+    },
+    {
+      "path": "cycle89.out",
+      "size": 9
+    },
+    {
+      "path": "cycle9.in",
+      "size": 17
+    },
+    {
+      "path": "cycle9.out",
+      "size": 5
+    },
+    {
+      "path": "cycle90.in",
+      "size": 25
+    },
+    {
+      "path": "cycle90.out",
+      "size": 10
+    },
+    {
+      "path": "cycle91.in",
+      "size": 25
+    },
+    {
+      "path": "cycle91.out",
+      "size": 9
+    },
+    {
+      "path": "cycle92.in",
+      "size": 26
+    },
+    {
+      "path": "cycle92.out",
+      "size": 9
+    },
+    {
+      "path": "cycle93.in",
+      "size": 28
+    },
+    {
+      "path": "cycle93.out",
+      "size": 10
+    },
+    {
+      "path": "cycle94.in",
+      "size": 28
+    },
+    {
+      "path": "cycle94.out",
+      "size": 9
+    },
+    {
+      "path": "cycle95.in",
+      "size": 25
+    },
+    {
+      "path": "cycle95.out",
+      "size": 10
+    }
+  ]
+}

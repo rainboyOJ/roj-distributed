@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "nest1.ans",
+      "size": 5
+    },
+    {
+      "path": "nest1.in",
+      "size": 25
+    },
+    {
+      "path": "nest10.ans",
+      "size": 9
+    },
+    {
+      "path": "nest10.in",
+      "size": 20370
+    },
+    {
+      "path": "nest2.ans",
+      "size": 9
+    },
+    {
+      "path": "nest2.in",
+      "size": 51
+    },
+    {
+      "path": "nest3.ans",
+      "size": 9
+    },
+    {
+      "path": "nest3.in",
+      "size": 50
+    },
+    {
+      "path": "nest4.ans",
+      "size": 9
+    },
+    {
+      "path": "nest4.in",
+      "size": 256
+    },
+    {
+      "path": "nest5.ans",
+      "size": 9
+    },
+    {
+      "path": "nest5.in",
+      "size": 1108
+    },
+    {
+      "path": "nest6.ans",
+      "size": 9
+    },
+    {
+      "path": "nest6.in",
+      "size": 1281
+    },
+    {
+      "path": "nest7.ans",
+      "size": 9
+    },
+    {
+      "path": "nest7.in",
+      "size": 6007
+    },
+    {
+      "path": "nest8.ans",
+      "size": 9
+    },
+    {
+      "path": "nest8.in",
+      "size": 10007
+    },
+    {
+      "path": "nest9.ans",
+      "size": 8
+    },
+    {
+      "path": "nest9.in",
+      "size": 19276
+    }
+  ]
+}

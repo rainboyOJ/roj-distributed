@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "qsort1.in",
+      "size": 2014
+    },
+    {
+      "path": "qsort1.out",
+      "size": 1204
+    },
+    {
+      "path": "qsort10.in",
+      "size": 3644
+    },
+    {
+      "path": "qsort10.out",
+      "size": 4439
+    },
+    {
+      "path": "qsort2.in",
+      "size": 2014
+    },
+    {
+      "path": "qsort2.out",
+      "size": 1196
+    },
+    {
+      "path": "qsort3.in",
+      "size": 2429
+    },
+    {
+      "path": "qsort3.out",
+      "size": 1000
+    },
+    {
+      "path": "qsort4.in",
+      "size": 2421
+    },
+    {
+      "path": "qsort4.out",
+      "size": 3552
+    },
+    {
+      "path": "qsort5.in",
+      "size": 2321
+    },
+    {
+      "path": "qsort5.out",
+      "size": 2482
+    },
+    {
+      "path": "qsort6.in",
+      "size": 2329
+    },
+    {
+      "path": "qsort6.out",
+      "size": 2492
+    },
+    {
+      "path": "qsort7.in",
+      "size": 3623
+    },
+    {
+      "path": "qsort7.out",
+      "size": 4368
+    },
+    {
+      "path": "qsort8.in",
+      "size": 3661
+    },
+    {
+      "path": "qsort8.out",
+      "size": 4397
+    },
+    {
+      "path": "qsort9.in",
+      "size": 3658
+    },
+    {
+      "path": "qsort9.out",
+      "size": 4591
+    }
+  ]
+}

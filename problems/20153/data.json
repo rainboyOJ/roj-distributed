@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "se1.in",
+      "size": 173
+    },
+    {
+      "path": "se1.out",
+      "size": 8
+    },
+    {
+      "path": "se10.in",
+      "size": 44461
+    },
+    {
+      "path": "se10.out",
+      "size": 8
+    },
+    {
+      "path": "se11.in",
+      "size": 68997
+    },
+    {
+      "path": "se11.out",
+      "size": 7
+    },
+    {
+      "path": "se12.in",
+      "size": 69057
+    },
+    {
+      "path": "se12.out",
+      "size": 11
+    },
+    {
+      "path": "se13.in",
+      "size": 45010
+    },
+    {
+      "path": "se13.out",
+      "size": 11
+    },
+    {
+      "path": "se14.in",
+      "size": 68983
+    },
+    {
+      "path": "se14.out",
+      "size": 11
+    },
+    {
+      "path": "se15.in",
+      "size": 68884
+    },
+    {
+      "path": "se15.out",
+      "size": 11
+    },
+    {
+      "path": "se16.in",
+      "size": 68983
+    },
+    {
+      "path": "se16.out",
+      "size": 10
+    },
+    {
+      "path": "se17.in",
+      "size": 50010
+    },
+    {
+      "path": "se17.out",
+      "size": 11
+    },
+    {
+      "path": "se18.in",
+      "size": 45010
+    },
+    {
+      "path": "se18.out",
+      "size": 11
+    },
+    {
+      "path": "se19.in",
+      "size": 45009
+    },
+    {
+      "path": "se19.out",
+      "size": 10
+    },
+    {
+      "path": "se2.in",
+      "size": 113
+    },
+    {
+      "path": "se2.out",
+      "size": 8
+    },
+    {
+      "path": "se20.in",
+      "size": 68930
+    },
+    {
+      "path": "se20.out",
+      "size": 11
+    },
+    {
+      "path": "se3.in",
+      "size": 171
+    },
+    {
+      "path": "se3.out",
+      "size": 8
+    },
+    {
+      "path": "se4.in",
+      "size": 6904
+    },
+    {
+      "path": "se4.out",
+      "size": 10
+    },
+    {
+      "path": "se5.in",
+      "size": 6892
+    },
+    {
+      "path": "se5.out",
+      "size": 10
+    },
+    {
+      "path": "se6.in",
+      "size": 4508
+    },
+    {
+      "path": "se6.out",
+      "size": 10
+    },
+    {
+      "path": "se7.in",
+      "size": 6900
+    },
+    {
+      "path": "se7.out",
+      "size": 10
+    },
+    {
+      "path": "se8.in",
+      "size": 4508
+    },
+    {
+      "path": "se8.out",
+      "size": 10
+    },
+    {
+      "path": "se9.in",
+      "size": 68900
+    },
+    {
+      "path": "se9.out",
+      "size": 7
+    }
+  ]
+}

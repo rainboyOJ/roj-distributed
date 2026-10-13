@@ -1,0 +1,596 @@
+{
+  "files": [
+    {
+      "path": "draftpaper1-1.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper1-1.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper1-2.in",
+      "size": 500127
+    },
+    {
+      "path": "draftpaper1-2.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper1-3.in",
+      "size": 466665
+    },
+    {
+      "path": "draftpaper1-3.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper1-4.in",
+      "size": 466587
+    },
+    {
+      "path": "draftpaper1-4.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper2-1.in",
+      "size": 466714
+    },
+    {
+      "path": "draftpaper2-1.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper2-10.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper2-10.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper2-11.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper2-11.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper2-12.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper2-12.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper2-2.in",
+      "size": 466501
+    },
+    {
+      "path": "draftpaper2-2.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper2-3.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper2-3.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper2-4.in",
+      "size": 499898
+    },
+    {
+      "path": "draftpaper2-4.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper2-5.in",
+      "size": 466650
+    },
+    {
+      "path": "draftpaper2-5.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper2-6.in",
+      "size": 466447
+    },
+    {
+      "path": "draftpaper2-6.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper2-7.in",
+      "size": 589011
+    },
+    {
+      "path": "draftpaper2-7.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper2-8.in",
+      "size": 590008
+    },
+    {
+      "path": "draftpaper2-8.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper2-9.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper2-9.out",
+      "size": 25
+    },
+    {
+      "path": "draftpaper3-1.in",
+      "size": 466714
+    },
+    {
+      "path": "draftpaper3-1.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper3-10.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper3-10.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper3-11.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper3-11.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper3-12.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper3-12.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper3-2.in",
+      "size": 466501
+    },
+    {
+      "path": "draftpaper3-2.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper3-3.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper3-3.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper3-4.in",
+      "size": 499898
+    },
+    {
+      "path": "draftpaper3-4.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper3-5.in",
+      "size": 466650
+    },
+    {
+      "path": "draftpaper3-5.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper3-6.in",
+      "size": 466447
+    },
+    {
+      "path": "draftpaper3-6.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper3-7.in",
+      "size": 589011
+    },
+    {
+      "path": "draftpaper3-7.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper3-8.in",
+      "size": 590008
+    },
+    {
+      "path": "draftpaper3-8.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper3-9.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper3-9.out",
+      "size": 25
+    },
+    {
+      "path": "draftpaper4-1.in",
+      "size": 466714
+    },
+    {
+      "path": "draftpaper4-1.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper4-10.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper4-10.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper4-11.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper4-11.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper4-12.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper4-12.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper4-2.in",
+      "size": 466501
+    },
+    {
+      "path": "draftpaper4-2.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper4-3.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper4-3.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper4-4.in",
+      "size": 499898
+    },
+    {
+      "path": "draftpaper4-4.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper4-5.in",
+      "size": 466650
+    },
+    {
+      "path": "draftpaper4-5.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper4-6.in",
+      "size": 466447
+    },
+    {
+      "path": "draftpaper4-6.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper4-7.in",
+      "size": 589011
+    },
+    {
+      "path": "draftpaper4-7.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper4-8.in",
+      "size": 590008
+    },
+    {
+      "path": "draftpaper4-8.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper4-9.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper4-9.out",
+      "size": 25
+    },
+    {
+      "path": "draftpaper5-1.in",
+      "size": 6008
+    },
+    {
+      "path": "draftpaper5-1.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper5-2.in",
+      "size": 6977
+    },
+    {
+      "path": "draftpaper5-2.out",
+      "size": 13
+    },
+    {
+      "path": "draftpaper5-3.in",
+      "size": 7602
+    },
+    {
+      "path": "draftpaper5-3.out",
+      "size": 21
+    },
+    {
+      "path": "draftpaper5-4.in",
+      "size": 7919
+    },
+    {
+      "path": "draftpaper5-4.out",
+      "size": 16
+    },
+    {
+      "path": "draftpaper5-5.in",
+      "size": 7455
+    },
+    {
+      "path": "draftpaper5-5.out",
+      "size": 16
+    },
+    {
+      "path": "draftpaper6-1.in",
+      "size": 489825
+    },
+    {
+      "path": "draftpaper6-1.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper6-2.in",
+      "size": 499762
+    },
+    {
+      "path": "draftpaper6-2.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper6-3.in",
+      "size": 499118
+    },
+    {
+      "path": "draftpaper6-3.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper6-4.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper6-4.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper6-5.in",
+      "size": 466593
+    },
+    {
+      "path": "draftpaper6-5.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper7-1.in",
+      "size": 6985
+    },
+    {
+      "path": "draftpaper7-1.out",
+      "size": 13
+    },
+    {
+      "path": "draftpaper7-10.in",
+      "size": 6122
+    },
+    {
+      "path": "draftpaper7-10.out",
+      "size": 23
+    },
+    {
+      "path": "draftpaper7-11.in",
+      "size": 6122
+    },
+    {
+      "path": "draftpaper7-11.out",
+      "size": 23
+    },
+    {
+      "path": "draftpaper7-12.in",
+      "size": 8894
+    },
+    {
+      "path": "draftpaper7-12.out",
+      "size": 26
+    },
+    {
+      "path": "draftpaper7-2.in",
+      "size": 6990
+    },
+    {
+      "path": "draftpaper7-2.out",
+      "size": 13
+    },
+    {
+      "path": "draftpaper7-3.in",
+      "size": 6008
+    },
+    {
+      "path": "draftpaper7-3.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper7-4.in",
+      "size": 7532
+    },
+    {
+      "path": "draftpaper7-4.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper7-5.in",
+      "size": 7052
+    },
+    {
+      "path": "draftpaper7-5.out",
+      "size": 22
+    },
+    {
+      "path": "draftpaper7-6.in",
+      "size": 7013
+    },
+    {
+      "path": "draftpaper7-6.out",
+      "size": 23
+    },
+    {
+      "path": "draftpaper7-7.in",
+      "size": 6998
+    },
+    {
+      "path": "draftpaper7-7.out",
+      "size": 26
+    },
+    {
+      "path": "draftpaper7-8.in",
+      "size": 7052
+    },
+    {
+      "path": "draftpaper7-8.out",
+      "size": 21
+    },
+    {
+      "path": "draftpaper7-9.in",
+      "size": 8894
+    },
+    {
+      "path": "draftpaper7-9.out",
+      "size": 23
+    },
+    {
+      "path": "draftpaper8-1.in",
+      "size": 466714
+    },
+    {
+      "path": "draftpaper8-1.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper8-10.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper8-10.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper8-11.in",
+      "size": 401012
+    },
+    {
+      "path": "draftpaper8-11.out",
+      "size": 27
+    },
+    {
+      "path": "draftpaper8-12.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper8-12.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper8-2.in",
+      "size": 466501
+    },
+    {
+      "path": "draftpaper8-2.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper8-3.in",
+      "size": 400010
+    },
+    {
+      "path": "draftpaper8-3.out",
+      "size": 3
+    },
+    {
+      "path": "draftpaper8-4.in",
+      "size": 499898
+    },
+    {
+      "path": "draftpaper8-4.out",
+      "size": 6
+    },
+    {
+      "path": "draftpaper8-5.in",
+      "size": 466650
+    },
+    {
+      "path": "draftpaper8-5.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper8-6.in",
+      "size": 466447
+    },
+    {
+      "path": "draftpaper8-6.out",
+      "size": 15
+    },
+    {
+      "path": "draftpaper8-7.in",
+      "size": 589011
+    },
+    {
+      "path": "draftpaper8-7.out",
+      "size": 18
+    },
+    {
+      "path": "draftpaper8-8.in",
+      "size": 590008
+    },
+    {
+      "path": "draftpaper8-8.out",
+      "size": 32
+    },
+    {
+      "path": "draftpaper8-9.in",
+      "size": 599008
+    },
+    {
+      "path": "draftpaper8-9.out",
+      "size": 25
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "str1.in",
+      "size": 25
+    },
+    {
+      "path": "str1.out",
+      "size": 6
+    },
+    {
+      "path": "str10.in",
+      "size": 1997
+    },
+    {
+      "path": "str10.out",
+      "size": 9
+    },
+    {
+      "path": "str11.in",
+      "size": 1998
+    },
+    {
+      "path": "str11.out",
+      "size": 11
+    },
+    {
+      "path": "str12.in",
+      "size": 2003
+    },
+    {
+      "path": "str12.out",
+      "size": 11
+    },
+    {
+      "path": "str13.in",
+      "size": 99999
+    },
+    {
+      "path": "str13.out",
+      "size": 11
+    },
+    {
+      "path": "str14.in",
+      "size": 100000
+    },
+    {
+      "path": "str14.out",
+      "size": 11
+    },
+    {
+      "path": "str15.in",
+      "size": 99999
+    },
+    {
+      "path": "str15.out",
+      "size": 11
+    },
+    {
+      "path": "str16.in",
+      "size": 100005
+    },
+    {
+      "path": "str16.out",
+      "size": 11
+    },
+    {
+      "path": "str17.in",
+      "size": 1000005
+    },
+    {
+      "path": "str17.out",
+      "size": 11
+    },
+    {
+      "path": "str18.in",
+      "size": 1000004
+    },
+    {
+      "path": "str18.out",
+      "size": 11
+    },
+    {
+      "path": "str19.in",
+      "size": 1000007
+    },
+    {
+      "path": "str19.out",
+      "size": 10
+    },
+    {
+      "path": "str2.in",
+      "size": 25
+    },
+    {
+      "path": "str2.out",
+      "size": 7
+    },
+    {
+      "path": "str20.in",
+      "size": 999998
+    },
+    {
+      "path": "str20.out",
+      "size": 10
+    },
+    {
+      "path": "str3.in",
+      "size": 25
+    },
+    {
+      "path": "str3.out",
+      "size": 7
+    },
+    {
+      "path": "str4.in",
+      "size": 26
+    },
+    {
+      "path": "str4.out",
+      "size": 6
+    },
+    {
+      "path": "str5.in",
+      "size": 205
+    },
+    {
+      "path": "str5.out",
+      "size": 11
+    },
+    {
+      "path": "str6.in",
+      "size": 206
+    },
+    {
+      "path": "str6.out",
+      "size": 11
+    },
+    {
+      "path": "str7.in",
+      "size": 204
+    },
+    {
+      "path": "str7.out",
+      "size": 11
+    },
+    {
+      "path": "str8.in",
+      "size": 197
+    },
+    {
+      "path": "str8.out",
+      "size": 9
+    },
+    {
+      "path": "str9.in",
+      "size": 1997
+    },
+    {
+      "path": "str9.out",
+      "size": 9
+    }
+  ]
+}

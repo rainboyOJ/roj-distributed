@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "subarray1.in",
+      "size": 44
+    },
+    {
+      "path": "subarray1.out",
+      "size": 7
+    },
+    {
+      "path": "subarray10.in",
+      "size": 207
+    },
+    {
+      "path": "subarray10.out",
+      "size": 20
+    },
+    {
+      "path": "subarray11.in",
+      "size": 211
+    },
+    {
+      "path": "subarray11.out",
+      "size": 20
+    },
+    {
+      "path": "subarray12.in",
+      "size": 203
+    },
+    {
+      "path": "subarray12.out",
+      "size": 20
+    },
+    {
+      "path": "subarray13.in",
+      "size": 199
+    },
+    {
+      "path": "subarray13.out",
+      "size": 20
+    },
+    {
+      "path": "subarray14.in",
+      "size": 203
+    },
+    {
+      "path": "subarray14.out",
+      "size": 20
+    },
+    {
+      "path": "subarray15.in",
+      "size": 223
+    },
+    {
+      "path": "subarray15.out",
+      "size": 20
+    },
+    {
+      "path": "subarray16.in",
+      "size": 281
+    },
+    {
+      "path": "subarray16.out",
+      "size": 4
+    },
+    {
+      "path": "subarray17.in",
+      "size": 271
+    },
+    {
+      "path": "subarray17.out",
+      "size": 4
+    },
+    {
+      "path": "subarray18.in",
+      "size": 561
+    },
+    {
+      "path": "subarray18.out",
+      "size": 4
+    },
+    {
+      "path": "subarray19.in",
+      "size": 583
+    },
+    {
+      "path": "subarray19.out",
+      "size": 4
+    },
+    {
+      "path": "subarray2.in",
+      "size": 48
+    },
+    {
+      "path": "subarray2.out",
+      "size": 6
+    },
+    {
+      "path": "subarray20.in",
+      "size": 575
+    },
+    {
+      "path": "subarray20.out",
+      "size": 4
+    },
+    {
+      "path": "subarray3.in",
+      "size": 44
+    },
+    {
+      "path": "subarray3.out",
+      "size": 6
+    },
+    {
+      "path": "subarray4.in",
+      "size": 48
+    },
+    {
+      "path": "subarray4.out",
+      "size": 7
+    },
+    {
+      "path": "subarray5.in",
+      "size": 44
+    },
+    {
+      "path": "subarray5.out",
+      "size": 7
+    },
+    {
+      "path": "subarray6.in",
+      "size": 215
+    },
+    {
+      "path": "subarray6.out",
+      "size": 20
+    },
+    {
+      "path": "subarray7.in",
+      "size": 203
+    },
+    {
+      "path": "subarray7.out",
+      "size": 20
+    },
+    {
+      "path": "subarray8.in",
+      "size": 211
+    },
+    {
+      "path": "subarray8.out",
+      "size": 20
+    },
+    {
+      "path": "subarray9.in",
+      "size": 203
+    },
+    {
+      "path": "subarray9.out",
+      "size": 20
+    }
+  ]
+}

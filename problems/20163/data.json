@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "dag1.ans",
+      "size": 14
+    },
+    {
+      "path": "dag1.in",
+      "size": 45
+    },
+    {
+      "path": "dag10.ans",
+      "size": 5975067
+    },
+    {
+      "path": "dag10.in",
+      "size": 7955875
+    },
+    {
+      "path": "dag2.ans",
+      "size": 22
+    },
+    {
+      "path": "dag2.in",
+      "size": 45
+    },
+    {
+      "path": "dag3.ans",
+      "size": 18
+    },
+    {
+      "path": "dag3.in",
+      "size": 45
+    },
+    {
+      "path": "dag4.ans",
+      "size": 11785
+    },
+    {
+      "path": "dag4.in",
+      "size": 15569
+    },
+    {
+      "path": "dag5.ans",
+      "size": 11419
+    },
+    {
+      "path": "dag5.in",
+      "size": 15604
+    },
+    {
+      "path": "dag6.ans",
+      "size": 11786
+    },
+    {
+      "path": "dag6.in",
+      "size": 15578
+    },
+    {
+      "path": "dag7.ans",
+      "size": 5952575
+    },
+    {
+      "path": "dag7.in",
+      "size": 7956026
+    },
+    {
+      "path": "dag8.ans",
+      "size": 5964559
+    },
+    {
+      "path": "dag8.in",
+      "size": 7955358
+    },
+    {
+      "path": "dag9.ans",
+      "size": 5975067
+    },
+    {
+      "path": "dag9.in",
+      "size": 7955875
+    }
+  ]
+}

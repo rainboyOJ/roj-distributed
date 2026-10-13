@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "challenge1.in",
+      "size": 216
+    },
+    {
+      "path": "challenge1.out",
+      "size": 3
+    },
+    {
+      "path": "challenge10.in",
+      "size": 71084202
+    },
+    {
+      "path": "challenge10.out",
+      "size": 10
+    },
+    {
+      "path": "challenge2.in",
+      "size": 218
+    },
+    {
+      "path": "challenge2.out",
+      "size": 3
+    },
+    {
+      "path": "challenge3.in",
+      "size": 1641085
+    },
+    {
+      "path": "challenge3.out",
+      "size": 8
+    },
+    {
+      "path": "challenge4.in",
+      "size": 1640521
+    },
+    {
+      "path": "challenge4.out",
+      "size": 8
+    },
+    {
+      "path": "challenge5.in",
+      "size": 1595994
+    },
+    {
+      "path": "challenge5.out",
+      "size": 8
+    },
+    {
+      "path": "challenge6.in",
+      "size": 1594369
+    },
+    {
+      "path": "challenge6.out",
+      "size": 8
+    },
+    {
+      "path": "challenge7.in",
+      "size": 1595305
+    },
+    {
+      "path": "challenge7.out",
+      "size": 8
+    },
+    {
+      "path": "challenge8.in",
+      "size": 16936056
+    },
+    {
+      "path": "challenge8.out",
+      "size": 9
+    },
+    {
+      "path": "challenge9.in",
+      "size": 34972631
+    },
+    {
+      "path": "challenge9.out",
+      "size": 9
+    }
+  ]
+}

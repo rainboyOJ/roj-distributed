@@ -1,0 +1,308 @@
+{
+  "files": [
+    {
+      "path": "rps1.in",
+      "size": 157745
+    },
+    {
+      "path": "rps1.out",
+      "size": 10054
+    },
+    {
+      "path": "rps10.in",
+      "size": 3739493
+    },
+    {
+      "path": "rps10.out",
+      "size": 199984
+    },
+    {
+      "path": "rps11.in",
+      "size": 3740345
+    },
+    {
+      "path": "rps11.out",
+      "size": 199430
+    },
+    {
+      "path": "rps12.in",
+      "size": 29485
+    },
+    {
+      "path": "rps12.out",
+      "size": 1856
+    },
+    {
+      "path": "rps13.in",
+      "size": 1057900
+    },
+    {
+      "path": "rps13.out",
+      "size": 59922
+    },
+    {
+      "path": "rps14.in",
+      "size": 1057884
+    },
+    {
+      "path": "rps14.out",
+      "size": 59890
+    },
+    {
+      "path": "rps15.in",
+      "size": 13701
+    },
+    {
+      "path": "rps15.out",
+      "size": 1056
+    },
+    {
+      "path": "rps16.in",
+      "size": 724863
+    },
+    {
+      "path": "rps16.out",
+      "size": 40140
+    },
+    {
+      "path": "rps17.in",
+      "size": 108292
+    },
+    {
+      "path": "rps17.out",
+      "size": 9898
+    },
+    {
+      "path": "rps18.in",
+      "size": 1043044
+    },
+    {
+      "path": "rps18.out",
+      "size": 60116
+    },
+    {
+      "path": "rps19.in",
+      "size": 1057705
+    },
+    {
+      "path": "rps19.out",
+      "size": 60014
+    },
+    {
+      "path": "rps2.in",
+      "size": 157597
+    },
+    {
+      "path": "rps2.out",
+      "size": 10158
+    },
+    {
+      "path": "rps20.in",
+      "size": 11472
+    },
+    {
+      "path": "rps20.out",
+      "size": 94
+    },
+    {
+      "path": "rps21.in",
+      "size": 1337685
+    },
+    {
+      "path": "rps21.out",
+      "size": 159994
+    },
+    {
+      "path": "rps22.in",
+      "size": 1053
+    },
+    {
+      "path": "rps22.out",
+      "size": 194
+    },
+    {
+      "path": "rps23.in",
+      "size": 1337848
+    },
+    {
+      "path": "rps23.out",
+      "size": 159996
+    },
+    {
+      "path": "rps24.in",
+      "size": 3577463
+    },
+    {
+      "path": "rps24.out",
+      "size": 399998
+    },
+    {
+      "path": "rps25.in",
+      "size": 1677890
+    },
+    {
+      "path": "rps25.out",
+      "size": 199996
+    },
+    {
+      "path": "rps26.in",
+      "size": 3578051
+    },
+    {
+      "path": "rps26.out",
+      "size": 399998
+    },
+    {
+      "path": "rps27.in",
+      "size": 12782
+    },
+    {
+      "path": "rps27.out",
+      "size": 1996
+    },
+    {
+      "path": "rps28.in",
+      "size": 3577064
+    },
+    {
+      "path": "rps28.out",
+      "size": 400000
+    },
+    {
+      "path": "rps29.in",
+      "size": 27737
+    },
+    {
+      "path": "rps29.out",
+      "size": 3990
+    },
+    {
+      "path": "rps3.in",
+      "size": 157770
+    },
+    {
+      "path": "rps3.out",
+      "size": 9968
+    },
+    {
+      "path": "rps30.in",
+      "size": 3776995
+    },
+    {
+      "path": "rps30.out",
+      "size": 200360
+    },
+    {
+      "path": "rps31.in",
+      "size": 1777531
+    },
+    {
+      "path": "rps31.out",
+      "size": 100328
+    },
+    {
+      "path": "rps32.in",
+      "size": 3778423
+    },
+    {
+      "path": "rps32.out",
+      "size": 199446
+    },
+    {
+      "path": "rps33.in",
+      "size": 13791
+    },
+    {
+      "path": "rps33.out",
+      "size": 986
+    },
+    {
+      "path": "rps34.in",
+      "size": 1165
+    },
+    {
+      "path": "rps34.out",
+      "size": 84
+    },
+    {
+      "path": "rps35.in",
+      "size": 29774
+    },
+    {
+      "path": "rps35.out",
+      "size": 2012
+    },
+    {
+      "path": "rps36.in",
+      "size": 1418056
+    },
+    {
+      "path": "rps36.out",
+      "size": 79782
+    },
+    {
+      "path": "rps37.in",
+      "size": 1417963
+    },
+    {
+      "path": "rps37.out",
+      "size": 79818
+    },
+    {
+      "path": "rps38.in",
+      "size": 3777308
+    },
+    {
+      "path": "rps38.out",
+      "size": 199884
+    },
+    {
+      "path": "rps4.in",
+      "size": 126
+    },
+    {
+      "path": "rps4.out",
+      "size": 16
+    },
+    {
+      "path": "rps5.in",
+      "size": 1160
+    },
+    {
+      "path": "rps5.out",
+      "size": 84
+    },
+    {
+      "path": "rps6.in",
+      "size": 77667
+    },
+    {
+      "path": "rps6.out",
+      "size": 4994
+    },
+    {
+      "path": "rps7.in",
+      "size": 333983
+    },
+    {
+      "path": "rps7.out",
+      "size": 19916
+    },
+    {
+      "path": "rps8.in",
+      "size": 6775
+    },
+    {
+      "path": "rps8.out",
+      "size": 486
+    },
+    {
+      "path": "rps9.in",
+      "size": 3738766
+    },
+    {
+      "path": "rps9.out",
+      "size": 200050
+    }
+  ]
+}

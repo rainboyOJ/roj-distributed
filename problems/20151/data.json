@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "qd1.in",
+      "size": 17473
+    },
+    {
+      "path": "qd1.out",
+      "size": 7851
+    },
+    {
+      "path": "qd10.in",
+      "size": 2355491
+    },
+    {
+      "path": "qd10.out",
+      "size": 917809
+    },
+    {
+      "path": "qd2.in",
+      "size": 17564
+    },
+    {
+      "path": "qd2.out",
+      "size": 7935
+    },
+    {
+      "path": "qd3.in",
+      "size": 17532
+    },
+    {
+      "path": "qd3.out",
+      "size": 7893
+    },
+    {
+      "path": "qd4.in",
+      "size": 1966734
+    },
+    {
+      "path": "qd4.out",
+      "size": 433503
+    },
+    {
+      "path": "qd5.in",
+      "size": 1966701
+    },
+    {
+      "path": "qd5.out",
+      "size": 443035
+    },
+    {
+      "path": "qd6.in",
+      "size": 1966575
+    },
+    {
+      "path": "qd6.out",
+      "size": 440907
+    },
+    {
+      "path": "qd7.in",
+      "size": 2355483
+    },
+    {
+      "path": "qd7.out",
+      "size": 916639
+    },
+    {
+      "path": "qd8.in",
+      "size": 2355725
+    },
+    {
+      "path": "qd8.out",
+      "size": 922037
+    },
+    {
+      "path": "qd9.in",
+      "size": 2355737
+    },
+    {
+      "path": "qd9.out",
+      "size": 919442
+    }
+  ]
+}

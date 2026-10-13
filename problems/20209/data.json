@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "plan1.ans",
+      "size": 300
+    },
+    {
+      "path": "plan1.in",
+      "size": 2839
+    },
+    {
+      "path": "plan10.ans",
+      "size": 387
+    },
+    {
+      "path": "plan10.in",
+      "size": 64371200
+    },
+    {
+      "path": "plan2.ans",
+      "size": 360
+    },
+    {
+      "path": "plan2.in",
+      "size": 6269
+    },
+    {
+      "path": "plan3.ans",
+      "size": 757
+    },
+    {
+      "path": "plan3.in",
+      "size": 163963
+    },
+    {
+      "path": "plan4.ans",
+      "size": 521
+    },
+    {
+      "path": "plan4.in",
+      "size": 72960083
+    },
+    {
+      "path": "plan5.ans",
+      "size": 813
+    },
+    {
+      "path": "plan5.in",
+      "size": 48177186
+    },
+    {
+      "path": "plan6.ans",
+      "size": 186
+    },
+    {
+      "path": "plan6.in",
+      "size": 24203
+    },
+    {
+      "path": "plan7.ans",
+      "size": 609
+    },
+    {
+      "path": "plan7.in",
+      "size": 283376
+    },
+    {
+      "path": "plan8.ans",
+      "size": 425
+    },
+    {
+      "path": "plan8.in",
+      "size": 253426
+    },
+    {
+      "path": "plan9.ans",
+      "size": 174
+    },
+    {
+      "path": "plan9.in",
+      "size": 6667864
+    }
+  ]
+}

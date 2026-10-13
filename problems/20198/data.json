@@ -1,0 +1,460 @@
+{
+  "files": [
+    {
+      "path": "meow1-1.in",
+      "size": 9004
+    },
+    {
+      "path": "meow1-1.out",
+      "size": 13067
+    },
+    {
+      "path": "meow1-10.in",
+      "size": 13635
+    },
+    {
+      "path": "meow1-10.out",
+      "size": 11643
+    },
+    {
+      "path": "meow1-11.in",
+      "size": 13636
+    },
+    {
+      "path": "meow1-11.out",
+      "size": 12552
+    },
+    {
+      "path": "meow1-12.in",
+      "size": 13637
+    },
+    {
+      "path": "meow1-12.out",
+      "size": 23322
+    },
+    {
+      "path": "meow1-13.in",
+      "size": 13641
+    },
+    {
+      "path": "meow1-13.out",
+      "size": 23323
+    },
+    {
+      "path": "meow1-14.in",
+      "size": 13639
+    },
+    {
+      "path": "meow1-14.out",
+      "size": 23318
+    },
+    {
+      "path": "meow1-15.in",
+      "size": 13633
+    },
+    {
+      "path": "meow1-15.out",
+      "size": 23315
+    },
+    {
+      "path": "meow1-2.in",
+      "size": 8031
+    },
+    {
+      "path": "meow1-2.out",
+      "size": 11099
+    },
+    {
+      "path": "meow1-3.in",
+      "size": 8401
+    },
+    {
+      "path": "meow1-3.out",
+      "size": 11058
+    },
+    {
+      "path": "meow1-4.in",
+      "size": 1297
+    },
+    {
+      "path": "meow1-4.out",
+      "size": 1628
+    },
+    {
+      "path": "meow1-5.in",
+      "size": 1192
+    },
+    {
+      "path": "meow1-5.out",
+      "size": 1435
+    },
+    {
+      "path": "meow1-6.in",
+      "size": 1291
+    },
+    {
+      "path": "meow1-6.out",
+      "size": 1563
+    },
+    {
+      "path": "meow1-7.in",
+      "size": 1854
+    },
+    {
+      "path": "meow1-7.out",
+      "size": 3045
+    },
+    {
+      "path": "meow1-8.in",
+      "size": 1740
+    },
+    {
+      "path": "meow1-8.out",
+      "size": 2860
+    },
+    {
+      "path": "meow1-9.in",
+      "size": 1874
+    },
+    {
+      "path": "meow1-9.out",
+      "size": 3073
+    },
+    {
+      "path": "meow2-1.in",
+      "size": 18885589
+    },
+    {
+      "path": "meow2-1.out",
+      "size": 38878181
+    },
+    {
+      "path": "meow2-2.in",
+      "size": 18885669
+    },
+    {
+      "path": "meow2-2.out",
+      "size": 38878112
+    },
+    {
+      "path": "meow2-3.in",
+      "size": 18885321
+    },
+    {
+      "path": "meow2-3.out",
+      "size": 38877850
+    },
+    {
+      "path": "meow3-1.in",
+      "size": 1297
+    },
+    {
+      "path": "meow3-1.out",
+      "size": 1628
+    },
+    {
+      "path": "meow3-10.in",
+      "size": 10965
+    },
+    {
+      "path": "meow3-10.out",
+      "size": 25257
+    },
+    {
+      "path": "meow3-11.in",
+      "size": 11457
+    },
+    {
+      "path": "meow3-11.out",
+      "size": 26483
+    },
+    {
+      "path": "meow3-12.in",
+      "size": 10790
+    },
+    {
+      "path": "meow3-12.out",
+      "size": 24826
+    },
+    {
+      "path": "meow3-13.in",
+      "size": 2091033
+    },
+    {
+      "path": "meow3-13.out",
+      "size": 5180402
+    },
+    {
+      "path": "meow3-14.in",
+      "size": 2091133
+    },
+    {
+      "path": "meow3-14.out",
+      "size": 5180576
+    },
+    {
+      "path": "meow3-15.in",
+      "size": 2091588
+    },
+    {
+      "path": "meow3-15.out",
+      "size": 5181569
+    },
+    {
+      "path": "meow3-16.in",
+      "size": 1667810
+    },
+    {
+      "path": "meow3-16.out",
+      "size": 4130419
+    },
+    {
+      "path": "meow3-17.in",
+      "size": 1739405
+    },
+    {
+      "path": "meow3-17.out",
+      "size": 4308263
+    },
+    {
+      "path": "meow3-18.in",
+      "size": 1646653
+    },
+    {
+      "path": "meow3-18.out",
+      "size": 4078288
+    },
+    {
+      "path": "meow3-2.in",
+      "size": 1192
+    },
+    {
+      "path": "meow3-2.out",
+      "size": 1435
+    },
+    {
+      "path": "meow3-3.in",
+      "size": 1291
+    },
+    {
+      "path": "meow3-3.out",
+      "size": 1563
+    },
+    {
+      "path": "meow3-4.in",
+      "size": 1854
+    },
+    {
+      "path": "meow3-4.out",
+      "size": 3045
+    },
+    {
+      "path": "meow3-5.in",
+      "size": 1740
+    },
+    {
+      "path": "meow3-5.out",
+      "size": 2860
+    },
+    {
+      "path": "meow3-6.in",
+      "size": 1874
+    },
+    {
+      "path": "meow3-6.out",
+      "size": 3073
+    },
+    {
+      "path": "meow3-7.in",
+      "size": 3996
+    },
+    {
+      "path": "meow3-7.out",
+      "size": 8145
+    },
+    {
+      "path": "meow3-8.in",
+      "size": 4247
+    },
+    {
+      "path": "meow3-8.out",
+      "size": 8632
+    },
+    {
+      "path": "meow3-9.in",
+      "size": 4269
+    },
+    {
+      "path": "meow3-9.out",
+      "size": 8717
+    },
+    {
+      "path": "meow4-1.in",
+      "size": 11757644
+    },
+    {
+      "path": "meow4-1.out",
+      "size": 19456884
+    },
+    {
+      "path": "meow4-10.in",
+      "size": 18888854
+    },
+    {
+      "path": "meow4-10.out",
+      "size": 38878104
+    },
+    {
+      "path": "meow4-11.in",
+      "size": 18888449
+    },
+    {
+      "path": "meow4-11.out",
+      "size": 38877836
+    },
+    {
+      "path": "meow4-12.in",
+      "size": 18888629
+    },
+    {
+      "path": "meow4-12.out",
+      "size": 38877757
+    },
+    {
+      "path": "meow4-2.in",
+      "size": 11734290
+    },
+    {
+      "path": "meow4-2.out",
+      "size": 19409228
+    },
+    {
+      "path": "meow4-3.in",
+      "size": 11735448
+    },
+    {
+      "path": "meow4-3.out",
+      "size": 19411604
+    },
+    {
+      "path": "meow4-4.in",
+      "size": 15367963
+    },
+    {
+      "path": "meow4-4.out",
+      "size": 29171417
+    },
+    {
+      "path": "meow4-5.in",
+      "size": 15368014
+    },
+    {
+      "path": "meow4-5.out",
+      "size": 29171403
+    },
+    {
+      "path": "meow4-6.in",
+      "size": 15358959
+    },
+    {
+      "path": "meow4-6.out",
+      "size": 29153057
+    },
+    {
+      "path": "meow4-7.in",
+      "size": 14888725
+    },
+    {
+      "path": "meow4-7.out",
+      "size": 29170985
+    },
+    {
+      "path": "meow4-8.in",
+      "size": 14881945
+    },
+    {
+      "path": "meow4-8.out",
+      "size": 29157071
+    },
+    {
+      "path": "meow4-9.in",
+      "size": 14885796
+    },
+    {
+      "path": "meow4-9.out",
+      "size": 29164921
+    },
+    {
+      "path": "meow5-1.in",
+      "size": 18886515
+    },
+    {
+      "path": "meow5-1.out",
+      "size": 38767198
+    },
+    {
+      "path": "meow5-2.in",
+      "size": 18885632
+    },
+    {
+      "path": "meow5-2.out",
+      "size": 38765376
+    },
+    {
+      "path": "meow5-3.in",
+      "size": 18885843
+    },
+    {
+      "path": "meow5-3.out",
+      "size": 38765860
+    },
+    {
+      "path": "meow5-4.in",
+      "size": 11744300
+    },
+    {
+      "path": "meow5-4.out",
+      "size": 18721983
+    },
+    {
+      "path": "meow5-5.in",
+      "size": 11749093
+    },
+    {
+      "path": "meow5-5.out",
+      "size": 18758758
+    },
+    {
+      "path": "meow5-6.in",
+      "size": 11733647
+    },
+    {
+      "path": "meow5-6.out",
+      "size": 18710013
+    },
+    {
+      "path": "meow5-7.in",
+      "size": 9925202
+    },
+    {
+      "path": "meow5-7.out",
+      "size": 20709638
+    },
+    {
+      "path": "meow5-8.in",
+      "size": 9910964
+    },
+    {
+      "path": "meow5-8.out",
+      "size": 20690681
+    },
+    {
+      "path": "meow5-9.in",
+      "size": 9921819
+    },
+    {
+      "path": "meow5-9.out",
+      "size": 20704097
+    }
+  ]
+}

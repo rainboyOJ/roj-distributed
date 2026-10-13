@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "imbalance1.in",
+      "size": 8795
+    },
+    {
+      "path": "imbalance1.out",
+      "size": 6
+    },
+    {
+      "path": "imbalance10.in",
+      "size": 1288890
+    },
+    {
+      "path": "imbalance10.out",
+      "size": 12
+    },
+    {
+      "path": "imbalance11.in",
+      "size": 1277991
+    },
+    {
+      "path": "imbalance11.out",
+      "size": 10
+    },
+    {
+      "path": "imbalance12.in",
+      "size": 1277920
+    },
+    {
+      "path": "imbalance12.out",
+      "size": 10
+    },
+    {
+      "path": "imbalance13.in",
+      "size": 1277687
+    },
+    {
+      "path": "imbalance13.out",
+      "size": 10
+    },
+    {
+      "path": "imbalance14.in",
+      "size": 1277652
+    },
+    {
+      "path": "imbalance14.out",
+      "size": 10
+    },
+    {
+      "path": "imbalance15.in",
+      "size": 7277320
+    },
+    {
+      "path": "imbalance15.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance16.in",
+      "size": 7277958
+    },
+    {
+      "path": "imbalance16.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance17.in",
+      "size": 7277912
+    },
+    {
+      "path": "imbalance17.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance18.in",
+      "size": 7278856
+    },
+    {
+      "path": "imbalance18.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance19.in",
+      "size": 7278439
+    },
+    {
+      "path": "imbalance19.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance2.in",
+      "size": 8793
+    },
+    {
+      "path": "imbalance2.out",
+      "size": 7
+    },
+    {
+      "path": "imbalance20.in",
+      "size": 7278604
+    },
+    {
+      "path": "imbalance20.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance3.in",
+      "size": 8804
+    },
+    {
+      "path": "imbalance3.out",
+      "size": 7
+    },
+    {
+      "path": "imbalance4.in",
+      "size": 8792
+    },
+    {
+      "path": "imbalance4.out",
+      "size": 7
+    },
+    {
+      "path": "imbalance5.in",
+      "size": 1277785
+    },
+    {
+      "path": "imbalance5.out",
+      "size": 8
+    },
+    {
+      "path": "imbalance6.in",
+      "size": 1277785
+    },
+    {
+      "path": "imbalance6.out",
+      "size": 8
+    },
+    {
+      "path": "imbalance7.in",
+      "size": 1277785
+    },
+    {
+      "path": "imbalance7.out",
+      "size": 8
+    },
+    {
+      "path": "imbalance8.in",
+      "size": 1288890
+    },
+    {
+      "path": "imbalance8.out",
+      "size": 11
+    },
+    {
+      "path": "imbalance9.in",
+      "size": 1288890
+    },
+    {
+      "path": "imbalance9.out",
+      "size": 12
+    }
+  ]
+}

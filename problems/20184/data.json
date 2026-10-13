@@ -1,0 +1,1132 @@
+{
+  "files": [
+    {
+      "path": "1-1.ans",
+      "size": 10
+    },
+    {
+      "path": "1-1.in",
+      "size": 84
+    },
+    {
+      "path": "1-10.ans",
+      "size": 8
+    },
+    {
+      "path": "1-10.in",
+      "size": 76
+    },
+    {
+      "path": "1-11.ans",
+      "size": 8
+    },
+    {
+      "path": "1-11.in",
+      "size": 77
+    },
+    {
+      "path": "1-12.ans",
+      "size": 8
+    },
+    {
+      "path": "1-12.in",
+      "size": 76
+    },
+    {
+      "path": "1-13.ans",
+      "size": 8
+    },
+    {
+      "path": "1-13.in",
+      "size": 75
+    },
+    {
+      "path": "1-14.ans",
+      "size": 8
+    },
+    {
+      "path": "1-14.in",
+      "size": 76
+    },
+    {
+      "path": "1-15.ans",
+      "size": 8
+    },
+    {
+      "path": "1-15.in",
+      "size": 75
+    },
+    {
+      "path": "1-16.ans",
+      "size": 10
+    },
+    {
+      "path": "1-16.in",
+      "size": 76
+    },
+    {
+      "path": "1-17.ans",
+      "size": 10
+    },
+    {
+      "path": "1-17.in",
+      "size": 76
+    },
+    {
+      "path": "1-18.ans",
+      "size": 10
+    },
+    {
+      "path": "1-18.in",
+      "size": 76
+    },
+    {
+      "path": "1-19.ans",
+      "size": 10
+    },
+    {
+      "path": "1-19.in",
+      "size": 77
+    },
+    {
+      "path": "1-2.ans",
+      "size": 10
+    },
+    {
+      "path": "1-2.in",
+      "size": 80
+    },
+    {
+      "path": "1-20.ans",
+      "size": 10
+    },
+    {
+      "path": "1-20.in",
+      "size": 76
+    },
+    {
+      "path": "1-3.ans",
+      "size": 10
+    },
+    {
+      "path": "1-3.in",
+      "size": 78
+    },
+    {
+      "path": "1-4.ans",
+      "size": 10
+    },
+    {
+      "path": "1-4.in",
+      "size": 73
+    },
+    {
+      "path": "1-5.ans",
+      "size": 10
+    },
+    {
+      "path": "1-5.in",
+      "size": 79
+    },
+    {
+      "path": "1-6.ans",
+      "size": 10
+    },
+    {
+      "path": "1-6.in",
+      "size": 80
+    },
+    {
+      "path": "1-7.ans",
+      "size": 10
+    },
+    {
+      "path": "1-7.in",
+      "size": 73
+    },
+    {
+      "path": "1-8.ans",
+      "size": 8
+    },
+    {
+      "path": "1-8.in",
+      "size": 73
+    },
+    {
+      "path": "1-9.ans",
+      "size": 8
+    },
+    {
+      "path": "1-9.in",
+      "size": 74
+    },
+    {
+      "path": "2-1.ans",
+      "size": 12
+    },
+    {
+      "path": "2-1.in",
+      "size": 8006
+    },
+    {
+      "path": "2-10.ans",
+      "size": 11
+    },
+    {
+      "path": "2-10.in",
+      "size": 7129
+    },
+    {
+      "path": "2-11.ans",
+      "size": 11
+    },
+    {
+      "path": "2-11.in",
+      "size": 7129
+    },
+    {
+      "path": "2-12.ans",
+      "size": 11
+    },
+    {
+      "path": "2-12.in",
+      "size": 7122
+    },
+    {
+      "path": "2-13.ans",
+      "size": 11
+    },
+    {
+      "path": "2-13.in",
+      "size": 7125
+    },
+    {
+      "path": "2-14.ans",
+      "size": 11
+    },
+    {
+      "path": "2-14.in",
+      "size": 7119
+    },
+    {
+      "path": "2-15.ans",
+      "size": 11
+    },
+    {
+      "path": "2-15.in",
+      "size": 7125
+    },
+    {
+      "path": "2-16.ans",
+      "size": 12
+    },
+    {
+      "path": "2-16.in",
+      "size": 7134
+    },
+    {
+      "path": "2-17.ans",
+      "size": 12
+    },
+    {
+      "path": "2-17.in",
+      "size": 7117
+    },
+    {
+      "path": "2-18.ans",
+      "size": 12
+    },
+    {
+      "path": "2-18.in",
+      "size": 7119
+    },
+    {
+      "path": "2-19.ans",
+      "size": 12
+    },
+    {
+      "path": "2-19.in",
+      "size": 7123
+    },
+    {
+      "path": "2-2.ans",
+      "size": 12
+    },
+    {
+      "path": "2-2.in",
+      "size": 7507
+    },
+    {
+      "path": "2-20.ans",
+      "size": 12
+    },
+    {
+      "path": "2-20.in",
+      "size": 7120
+    },
+    {
+      "path": "2-3.ans",
+      "size": 12
+    },
+    {
+      "path": "2-3.in",
+      "size": 7153
+    },
+    {
+      "path": "2-4.ans",
+      "size": 12
+    },
+    {
+      "path": "2-4.in",
+      "size": 7141
+    },
+    {
+      "path": "2-5.ans",
+      "size": 12
+    },
+    {
+      "path": "2-5.in",
+      "size": 7134
+    },
+    {
+      "path": "2-6.ans",
+      "size": 12
+    },
+    {
+      "path": "2-6.in",
+      "size": 7073
+    },
+    {
+      "path": "2-7.ans",
+      "size": 12
+    },
+    {
+      "path": "2-7.in",
+      "size": 7168
+    },
+    {
+      "path": "2-8.ans",
+      "size": 11
+    },
+    {
+      "path": "2-8.in",
+      "size": 7125
+    },
+    {
+      "path": "2-9.ans",
+      "size": 10
+    },
+    {
+      "path": "2-9.in",
+      "size": 7118
+    },
+    {
+      "path": "3-1.ans",
+      "size": 13
+    },
+    {
+      "path": "3-1.in",
+      "size": 80007
+    },
+    {
+      "path": "3-10.ans",
+      "size": 12
+    },
+    {
+      "path": "3-10.in",
+      "size": 71191
+    },
+    {
+      "path": "3-11.ans",
+      "size": 12
+    },
+    {
+      "path": "3-11.in",
+      "size": 71216
+    },
+    {
+      "path": "3-12.ans",
+      "size": 12
+    },
+    {
+      "path": "3-12.in",
+      "size": 71176
+    },
+    {
+      "path": "3-13.ans",
+      "size": 12
+    },
+    {
+      "path": "3-13.in",
+      "size": 71180
+    },
+    {
+      "path": "3-14.ans",
+      "size": 12
+    },
+    {
+      "path": "3-14.in",
+      "size": 71214
+    },
+    {
+      "path": "3-15.ans",
+      "size": 12
+    },
+    {
+      "path": "3-15.in",
+      "size": 71156
+    },
+    {
+      "path": "3-16.ans",
+      "size": 13
+    },
+    {
+      "path": "3-16.in",
+      "size": 71033
+    },
+    {
+      "path": "3-17.ans",
+      "size": 13
+    },
+    {
+      "path": "3-17.in",
+      "size": 70998
+    },
+    {
+      "path": "3-18.ans",
+      "size": 13
+    },
+    {
+      "path": "3-18.in",
+      "size": 71026
+    },
+    {
+      "path": "3-19.ans",
+      "size": 13
+    },
+    {
+      "path": "3-19.in",
+      "size": 71018
+    },
+    {
+      "path": "3-2.ans",
+      "size": 13
+    },
+    {
+      "path": "3-2.in",
+      "size": 75008
+    },
+    {
+      "path": "3-20.ans",
+      "size": 13
+    },
+    {
+      "path": "3-20.in",
+      "size": 71048
+    },
+    {
+      "path": "3-3.ans",
+      "size": 13
+    },
+    {
+      "path": "3-3.in",
+      "size": 71266
+    },
+    {
+      "path": "3-4.ans",
+      "size": 13
+    },
+    {
+      "path": "3-4.in",
+      "size": 71399
+    },
+    {
+      "path": "3-5.ans",
+      "size": 13
+    },
+    {
+      "path": "3-5.in",
+      "size": 71295
+    },
+    {
+      "path": "3-6.ans",
+      "size": 13
+    },
+    {
+      "path": "3-6.in",
+      "size": 71303
+    },
+    {
+      "path": "3-7.ans",
+      "size": 13
+    },
+    {
+      "path": "3-7.in",
+      "size": 71266
+    },
+    {
+      "path": "3-8.ans",
+      "size": 12
+    },
+    {
+      "path": "3-8.in",
+      "size": 71188
+    },
+    {
+      "path": "3-9.ans",
+      "size": 12
+    },
+    {
+      "path": "3-9.in",
+      "size": 71204
+    },
+    {
+      "path": "4-0.in",
+      "size": 0
+    },
+    {
+      "path": "4-1.ans",
+      "size": 9
+    },
+    {
+      "path": "4-1.in",
+      "size": 600009
+    },
+    {
+      "path": "4-10.ans",
+      "size": 9
+    },
+    {
+      "path": "4-10.in",
+      "size": 600009
+    },
+    {
+      "path": "4-11.ans",
+      "size": 9
+    },
+    {
+      "path": "4-11.in",
+      "size": 600009
+    },
+    {
+      "path": "4-12.ans",
+      "size": 9
+    },
+    {
+      "path": "4-12.in",
+      "size": 600009
+    },
+    {
+      "path": "4-13.ans",
+      "size": 9
+    },
+    {
+      "path": "4-13.in",
+      "size": 600009
+    },
+    {
+      "path": "4-14.ans",
+      "size": 9
+    },
+    {
+      "path": "4-14.in",
+      "size": 600009
+    },
+    {
+      "path": "4-15.ans",
+      "size": 9
+    },
+    {
+      "path": "4-15.in",
+      "size": 600009
+    },
+    {
+      "path": "4-16.ans",
+      "size": 9
+    },
+    {
+      "path": "4-16.in",
+      "size": 600009
+    },
+    {
+      "path": "4-17.ans",
+      "size": 9
+    },
+    {
+      "path": "4-17.in",
+      "size": 600009
+    },
+    {
+      "path": "4-18.ans",
+      "size": 9
+    },
+    {
+      "path": "4-18.in",
+      "size": 600009
+    },
+    {
+      "path": "4-19.ans",
+      "size": 9
+    },
+    {
+      "path": "4-19.in",
+      "size": 600009
+    },
+    {
+      "path": "4-2.ans",
+      "size": 9
+    },
+    {
+      "path": "4-2.in",
+      "size": 600009
+    },
+    {
+      "path": "4-20.ans",
+      "size": 9
+    },
+    {
+      "path": "4-20.in",
+      "size": 600009
+    },
+    {
+      "path": "4-3.ans",
+      "size": 9
+    },
+    {
+      "path": "4-3.in",
+      "size": 600009
+    },
+    {
+      "path": "4-4.ans",
+      "size": 9
+    },
+    {
+      "path": "4-4.in",
+      "size": 600009
+    },
+    {
+      "path": "4-5.ans",
+      "size": 9
+    },
+    {
+      "path": "4-5.in",
+      "size": 600009
+    },
+    {
+      "path": "4-6.ans",
+      "size": 9
+    },
+    {
+      "path": "4-6.in",
+      "size": 600009
+    },
+    {
+      "path": "4-7.ans",
+      "size": 9
+    },
+    {
+      "path": "4-7.in",
+      "size": 600009
+    },
+    {
+      "path": "4-8.ans",
+      "size": 9
+    },
+    {
+      "path": "4-8.in",
+      "size": 600009
+    },
+    {
+      "path": "4-9.ans",
+      "size": 3
+    },
+    {
+      "path": "4-9.in",
+      "size": 600009
+    },
+    {
+      "path": "5-1.ans",
+      "size": 10
+    },
+    {
+      "path": "5-1.in",
+      "size": 627288
+    },
+    {
+      "path": "5-10.ans",
+      "size": 10
+    },
+    {
+      "path": "5-10.in",
+      "size": 627274
+    },
+    {
+      "path": "5-11.ans",
+      "size": 10
+    },
+    {
+      "path": "5-11.in",
+      "size": 627475
+    },
+    {
+      "path": "5-12.ans",
+      "size": 10
+    },
+    {
+      "path": "5-12.in",
+      "size": 627066
+    },
+    {
+      "path": "5-13.ans",
+      "size": 10
+    },
+    {
+      "path": "5-13.in",
+      "size": 627425
+    },
+    {
+      "path": "5-14.ans",
+      "size": 10
+    },
+    {
+      "path": "5-14.in",
+      "size": 627362
+    },
+    {
+      "path": "5-15.ans",
+      "size": 10
+    },
+    {
+      "path": "5-15.in",
+      "size": 627150
+    },
+    {
+      "path": "5-16.ans",
+      "size": 10
+    },
+    {
+      "path": "5-16.in",
+      "size": 627284
+    },
+    {
+      "path": "5-17.ans",
+      "size": 10
+    },
+    {
+      "path": "5-17.in",
+      "size": 627210
+    },
+    {
+      "path": "5-18.ans",
+      "size": 10
+    },
+    {
+      "path": "5-18.in",
+      "size": 627231
+    },
+    {
+      "path": "5-19.ans",
+      "size": 10
+    },
+    {
+      "path": "5-19.in",
+      "size": 627544
+    },
+    {
+      "path": "5-2.ans",
+      "size": 10
+    },
+    {
+      "path": "5-2.in",
+      "size": 627210
+    },
+    {
+      "path": "5-20.ans",
+      "size": 10
+    },
+    {
+      "path": "5-20.in",
+      "size": 627451
+    },
+    {
+      "path": "5-3.ans",
+      "size": 10
+    },
+    {
+      "path": "5-3.in",
+      "size": 627175
+    },
+    {
+      "path": "5-4.ans",
+      "size": 10
+    },
+    {
+      "path": "5-4.in",
+      "size": 627258
+    },
+    {
+      "path": "5-5.ans",
+      "size": 10
+    },
+    {
+      "path": "5-5.in",
+      "size": 627226
+    },
+    {
+      "path": "5-6.ans",
+      "size": 10
+    },
+    {
+      "path": "5-6.in",
+      "size": 627303
+    },
+    {
+      "path": "5-7.ans",
+      "size": 10
+    },
+    {
+      "path": "5-7.in",
+      "size": 627516
+    },
+    {
+      "path": "5-8.ans",
+      "size": 10
+    },
+    {
+      "path": "5-8.in",
+      "size": 627306
+    },
+    {
+      "path": "5-9.ans",
+      "size": 10
+    },
+    {
+      "path": "5-9.in",
+      "size": 627215
+    },
+    {
+      "path": "6-1.ans",
+      "size": 14
+    },
+    {
+      "path": "6-1.in",
+      "size": 800008
+    },
+    {
+      "path": "6-10.ans",
+      "size": 13
+    },
+    {
+      "path": "6-10.in",
+      "size": 713575
+    },
+    {
+      "path": "6-11.ans",
+      "size": 13
+    },
+    {
+      "path": "6-11.in",
+      "size": 713530
+    },
+    {
+      "path": "6-12.ans",
+      "size": 13
+    },
+    {
+      "path": "6-12.in",
+      "size": 713540
+    },
+    {
+      "path": "6-13.ans",
+      "size": 13
+    },
+    {
+      "path": "6-13.in",
+      "size": 713524
+    },
+    {
+      "path": "6-14.ans",
+      "size": 13
+    },
+    {
+      "path": "6-14.in",
+      "size": 713531
+    },
+    {
+      "path": "6-15.ans",
+      "size": 13
+    },
+    {
+      "path": "6-15.in",
+      "size": 713637
+    },
+    {
+      "path": "6-16.ans",
+      "size": 14
+    },
+    {
+      "path": "6-16.in",
+      "size": 697473
+    },
+    {
+      "path": "6-17.ans",
+      "size": 14
+    },
+    {
+      "path": "6-17.in",
+      "size": 697543
+    },
+    {
+      "path": "6-18.ans",
+      "size": 14
+    },
+    {
+      "path": "6-18.in",
+      "size": 697541
+    },
+    {
+      "path": "6-19.ans",
+      "size": 14
+    },
+    {
+      "path": "6-19.in",
+      "size": 697664
+    },
+    {
+      "path": "6-2.ans",
+      "size": 14
+    },
+    {
+      "path": "6-2.in",
+      "size": 750009
+    },
+    {
+      "path": "6-20.ans",
+      "size": 14
+    },
+    {
+      "path": "6-20.in",
+      "size": 697446
+    },
+    {
+      "path": "6-3.ans",
+      "size": 14
+    },
+    {
+      "path": "6-3.in",
+      "size": 712914
+    },
+    {
+      "path": "6-4.ans",
+      "size": 14
+    },
+    {
+      "path": "6-4.in",
+      "size": 712878
+    },
+    {
+      "path": "6-5.ans",
+      "size": 14
+    },
+    {
+      "path": "6-5.in",
+      "size": 713236
+    },
+    {
+      "path": "6-6.ans",
+      "size": 14
+    },
+    {
+      "path": "6-6.in",
+      "size": 712249
+    },
+    {
+      "path": "6-7.ans",
+      "size": 14
+    },
+    {
+      "path": "6-7.in",
+      "size": 713069
+    },
+    {
+      "path": "6-8.ans",
+      "size": 13
+    },
+    {
+      "path": "6-8.in",
+      "size": 713632
+    },
+    {
+      "path": "6-9.ans",
+      "size": 13
+    },
+    {
+      "path": "6-9.in",
+      "size": 713516
+    },
+    {
+      "path": "7-0.in",
+      "size": 4392
+    },
+    {
+      "path": "7-1.ans",
+      "size": 15
+    },
+    {
+      "path": "7-1.in",
+      "size": 2400008
+    },
+    {
+      "path": "7-10.ans",
+      "size": 13
+    },
+    {
+      "path": "7-10.in",
+      "size": 2260344
+    },
+    {
+      "path": "7-11.ans",
+      "size": 13
+    },
+    {
+      "path": "7-11.in",
+      "size": 2260559
+    },
+    {
+      "path": "7-12.ans",
+      "size": 13
+    },
+    {
+      "path": "7-12.in",
+      "size": 2260247
+    },
+    {
+      "path": "7-13.ans",
+      "size": 13
+    },
+    {
+      "path": "7-13.in",
+      "size": 2260355
+    },
+    {
+      "path": "7-14.ans",
+      "size": 13
+    },
+    {
+      "path": "7-14.in",
+      "size": 2260434
+    },
+    {
+      "path": "7-15.ans",
+      "size": 13
+    },
+    {
+      "path": "7-15.in",
+      "size": 2260360
+    },
+    {
+      "path": "7-16.ans",
+      "size": 14
+    },
+    {
+      "path": "7-16.in",
+      "size": 1980341
+    },
+    {
+      "path": "7-17.ans",
+      "size": 14
+    },
+    {
+      "path": "7-17.in",
+      "size": 1980174
+    },
+    {
+      "path": "7-18.ans",
+      "size": 14
+    },
+    {
+      "path": "7-18.in",
+      "size": 1980404
+    },
+    {
+      "path": "7-19.ans",
+      "size": 14
+    },
+    {
+      "path": "7-19.in",
+      "size": 1980261
+    },
+    {
+      "path": "7-2.ans",
+      "size": 15
+    },
+    {
+      "path": "7-2.in",
+      "size": 2250009
+    },
+    {
+      "path": "7-20.ans",
+      "size": 14
+    },
+    {
+      "path": "7-20.in",
+      "size": 1980397
+    },
+    {
+      "path": "7-3.ans",
+      "size": 15
+    },
+    {
+      "path": "7-3.in",
+      "size": 2138728
+    },
+    {
+      "path": "7-4.ans",
+      "size": 15
+    },
+    {
+      "path": "7-4.in",
+      "size": 2138410
+    },
+    {
+      "path": "7-5.ans",
+      "size": 15
+    },
+    {
+      "path": "7-5.in",
+      "size": 2138148
+    },
+    {
+      "path": "7-6.ans",
+      "size": 15
+    },
+    {
+      "path": "7-6.in",
+      "size": 2139321
+    },
+    {
+      "path": "7-7.ans",
+      "size": 15
+    },
+    {
+      "path": "7-7.in",
+      "size": 2139296
+    },
+    {
+      "path": "7-8.ans",
+      "size": 13
+    },
+    {
+      "path": "7-8.in",
+      "size": 2260430
+    },
+    {
+      "path": "7-9.ans",
+      "size": 13
+    },
+    {
+      "path": "7-9.in",
+      "size": 2260364
+    }
+  ]
+}

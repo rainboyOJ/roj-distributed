@@ -1,0 +1,292 @@
+{
+  "files": [
+    {
+      "path": "digit1.in",
+      "size": 9
+    },
+    {
+      "path": "digit1.out",
+      "size": 2
+    },
+    {
+      "path": "digit10.in",
+      "size": 4016
+    },
+    {
+      "path": "digit10.out",
+      "size": 10
+    },
+    {
+      "path": "digit11.in",
+      "size": 2999
+    },
+    {
+      "path": "digit11.out",
+      "size": 10
+    },
+    {
+      "path": "digit12.in",
+      "size": 3665
+    },
+    {
+      "path": "digit12.out",
+      "size": 10
+    },
+    {
+      "path": "digit13.in",
+      "size": 3501
+    },
+    {
+      "path": "digit13.out",
+      "size": 10
+    },
+    {
+      "path": "digit14.in",
+      "size": 2608
+    },
+    {
+      "path": "digit14.out",
+      "size": 10
+    },
+    {
+      "path": "digit15.in",
+      "size": 1316
+    },
+    {
+      "path": "digit15.out",
+      "size": 10
+    },
+    {
+      "path": "digit16.in",
+      "size": 3268
+    },
+    {
+      "path": "digit16.out",
+      "size": 10
+    },
+    {
+      "path": "digit17.in",
+      "size": 3302
+    },
+    {
+      "path": "digit17.out",
+      "size": 10
+    },
+    {
+      "path": "digit18.in",
+      "size": 3614
+    },
+    {
+      "path": "digit18.out",
+      "size": 10
+    },
+    {
+      "path": "digit19.in",
+      "size": 11
+    },
+    {
+      "path": "digit19.out",
+      "size": 2
+    },
+    {
+      "path": "digit2.in",
+      "size": 124
+    },
+    {
+      "path": "digit2.out",
+      "size": 10
+    },
+    {
+      "path": "digit20.in",
+      "size": 1332
+    },
+    {
+      "path": "digit20.out",
+      "size": 10
+    },
+    {
+      "path": "digit21.in",
+      "size": 106
+    },
+    {
+      "path": "digit21.out",
+      "size": 10
+    },
+    {
+      "path": "digit22.in",
+      "size": 545
+    },
+    {
+      "path": "digit22.out",
+      "size": 10
+    },
+    {
+      "path": "digit23.in",
+      "size": 317
+    },
+    {
+      "path": "digit23.out",
+      "size": 10
+    },
+    {
+      "path": "digit24.in",
+      "size": 1564
+    },
+    {
+      "path": "digit24.out",
+      "size": 10
+    },
+    {
+      "path": "digit25.in",
+      "size": 1746
+    },
+    {
+      "path": "digit25.out",
+      "size": 10
+    },
+    {
+      "path": "digit26.in",
+      "size": 994
+    },
+    {
+      "path": "digit26.out",
+      "size": 10
+    },
+    {
+      "path": "digit27.in",
+      "size": 470
+    },
+    {
+      "path": "digit27.out",
+      "size": 10
+    },
+    {
+      "path": "digit28.in",
+      "size": 4010
+    },
+    {
+      "path": "digit28.out",
+      "size": 5
+    },
+    {
+      "path": "digit29.in",
+      "size": 921
+    },
+    {
+      "path": "digit29.out",
+      "size": 10
+    },
+    {
+      "path": "digit3.in",
+      "size": 71
+    },
+    {
+      "path": "digit3.out",
+      "size": 10
+    },
+    {
+      "path": "digit30.in",
+      "size": 2703
+    },
+    {
+      "path": "digit30.out",
+      "size": 10
+    },
+    {
+      "path": "digit31.in",
+      "size": 2984
+    },
+    {
+      "path": "digit31.out",
+      "size": 10
+    },
+    {
+      "path": "digit32.in",
+      "size": 913
+    },
+    {
+      "path": "digit32.out",
+      "size": 10
+    },
+    {
+      "path": "digit33.in",
+      "size": 437
+    },
+    {
+      "path": "digit33.out",
+      "size": 10
+    },
+    {
+      "path": "digit34.in",
+      "size": 1766
+    },
+    {
+      "path": "digit34.out",
+      "size": 10
+    },
+    {
+      "path": "digit35.in",
+      "size": 113
+    },
+    {
+      "path": "digit35.out",
+      "size": 10
+    },
+    {
+      "path": "digit36.in",
+      "size": 7570
+    },
+    {
+      "path": "digit36.out",
+      "size": 9
+    },
+    {
+      "path": "digit4.in",
+      "size": 80
+    },
+    {
+      "path": "digit4.out",
+      "size": 10
+    },
+    {
+      "path": "digit5.in",
+      "size": 65
+    },
+    {
+      "path": "digit5.out",
+      "size": 10
+    },
+    {
+      "path": "digit6.in",
+      "size": 70
+    },
+    {
+      "path": "digit6.out",
+      "size": 10
+    },
+    {
+      "path": "digit7.in",
+      "size": 52
+    },
+    {
+      "path": "digit7.out",
+      "size": 10
+    },
+    {
+      "path": "digit8.in",
+      "size": 8
+    },
+    {
+      "path": "digit8.out",
+      "size": 2
+    },
+    {
+      "path": "digit9.in",
+      "size": 102
+    },
+    {
+      "path": "digit9.out",
+      "size": 9
+    }
+  ]
+}

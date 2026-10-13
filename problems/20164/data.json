@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "mope1.in",
+      "size": 161721
+    },
+    {
+      "path": "mope1.out",
+      "size": 90111
+    },
+    {
+      "path": "mope2.in",
+      "size": 1293811
+    },
+    {
+      "path": "mope2.out",
+      "size": 720896
+    },
+    {
+      "path": "mope3.in",
+      "size": 1293546
+    },
+    {
+      "path": "mope3.out",
+      "size": 720896
+    },
+    {
+      "path": "mope4.in",
+      "size": 2587521
+    },
+    {
+      "path": "mope4.out",
+      "size": 1441775
+    },
+    {
+      "path": "mope5.in",
+      "size": 5175422
+    },
+    {
+      "path": "mope5.out",
+      "size": 2883577
+    }
+  ]
+}

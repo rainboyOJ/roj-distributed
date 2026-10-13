@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "variance1-1.in",
+      "size": 25
+    },
+    {
+      "path": "variance1-1.out",
+      "size": 122
+    },
+    {
+      "path": "variance1-2.in",
+      "size": 24
+    },
+    {
+      "path": "variance1-2.out",
+      "size": 121
+    },
+    {
+      "path": "variance2-1.in",
+      "size": 19507
+    },
+    {
+      "path": "variance2-1.out",
+      "size": 198010
+    },
+    {
+      "path": "variance2-2.in",
+      "size": 19473
+    },
+    {
+      "path": "variance2-2.out",
+      "size": 197880
+    },
+    {
+      "path": "variance2-3.in",
+      "size": 19513
+    },
+    {
+      "path": "variance2-3.out",
+      "size": 197916
+    },
+    {
+      "path": "variance2-4.in",
+      "size": 19502
+    },
+    {
+      "path": "variance2-4.out",
+      "size": 197820
+    },
+    {
+      "path": "variance3-1.in",
+      "size": 389311
+    },
+    {
+      "path": "variance3-1.out",
+      "size": 4835435
+    },
+    {
+      "path": "variance3-2.in",
+      "size": 389262
+    },
+    {
+      "path": "variance3-2.out",
+      "size": 4835760
+    },
+    {
+      "path": "variance3-3.in",
+      "size": 389327
+    },
+    {
+      "path": "variance3-3.out",
+      "size": 4834836
+    },
+    {
+      "path": "variance3-4.in",
+      "size": 389414
+    },
+    {
+      "path": "variance3-4.out",
+      "size": 4835491
+    }
+  ]
+}

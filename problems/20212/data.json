@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "monkey1.in",
+      "size": 3105
+    },
+    {
+      "path": "monkey1.out",
+      "size": 472
+    },
+    {
+      "path": "monkey10.in",
+      "size": 29676575
+    },
+    {
+      "path": "monkey10.out",
+      "size": 133
+    },
+    {
+      "path": "monkey2.in",
+      "size": 49005
+    },
+    {
+      "path": "monkey2.out",
+      "size": 2220
+    },
+    {
+      "path": "monkey3.in",
+      "size": 49005
+    },
+    {
+      "path": "monkey3.out",
+      "size": 2208
+    },
+    {
+      "path": "monkey4.in",
+      "size": 394999
+    },
+    {
+      "path": "monkey4.out",
+      "size": 228
+    },
+    {
+      "path": "monkey5.in",
+      "size": 395008
+    },
+    {
+      "path": "monkey5.out",
+      "size": 231
+    },
+    {
+      "path": "monkey6.in",
+      "size": 394995
+    },
+    {
+      "path": "monkey6.out",
+      "size": 224
+    },
+    {
+      "path": "monkey7.in",
+      "size": 29676463
+    },
+    {
+      "path": "monkey7.out",
+      "size": 137
+    },
+    {
+      "path": "monkey8.in",
+      "size": 29676623
+    },
+    {
+      "path": "monkey8.out",
+      "size": 136
+    },
+    {
+      "path": "monkey9.in",
+      "size": 29676419
+    },
+    {
+      "path": "monkey9.out",
+      "size": 141
+    }
+  ]
+}

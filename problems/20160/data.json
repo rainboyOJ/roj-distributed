@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "speech1.in",
+      "size": 123
+    },
+    {
+      "path": "speech1.out",
+      "size": 20
+    },
+    {
+      "path": "speech10.in",
+      "size": 490
+    },
+    {
+      "path": "speech10.out",
+      "size": 59
+    },
+    {
+      "path": "speech2.in",
+      "size": 165
+    },
+    {
+      "path": "speech2.out",
+      "size": 39
+    },
+    {
+      "path": "speech3.in",
+      "size": 201
+    },
+    {
+      "path": "speech3.out",
+      "size": 32
+    },
+    {
+      "path": "speech4.in",
+      "size": 341
+    },
+    {
+      "path": "speech4.out",
+      "size": 65
+    },
+    {
+      "path": "speech5.in",
+      "size": 340
+    },
+    {
+      "path": "speech5.out",
+      "size": 64
+    },
+    {
+      "path": "speech6.in",
+      "size": 340
+    },
+    {
+      "path": "speech6.out",
+      "size": 64
+    },
+    {
+      "path": "speech7.in",
+      "size": 486
+    },
+    {
+      "path": "speech7.out",
+      "size": 23
+    },
+    {
+      "path": "speech8.in",
+      "size": 485
+    },
+    {
+      "path": "speech8.out",
+      "size": 22
+    },
+    {
+      "path": "speech9.in",
+      "size": 410
+    },
+    {
+      "path": "speech9.out",
+      "size": 68
+    }
+  ]
+}
