@@ -1,0 +1,10 @@
+{
+  "title": "Rolete",
+  "time": 1000,
+  "memory": 256,
+  "tags": [
+    "比赛",
+    "CSP-S"
+  ],
+  "source": "CSP-S 国外模拟赛 39 - T3"
+}

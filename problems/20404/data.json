@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "1.in",
+      "size": 11
+    },
+    {
+      "path": "1.out",
+      "size": 4
+    },
+    {
+      "path": "2.in",
+      "size": 10
+    },
+    {
+      "path": "2.out",
+      "size": 3
+    }
+  ]
+}

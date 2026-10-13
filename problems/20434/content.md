@@ -1,0 +1,100 @@
+# 第 4 题 Plahte (`plahte`)
+
+> 时间限制 1.0 s · 空间限制 256 MB · 15 个测试点 · 全文比较（过滤行末空格及文末回车）
+
+**本题使用文件输入输出**：输入文件 `plahte.in`，输出文件 `plahte.out`。
+
+## 题目描述
+
+Little Donald decided to wash all N of his white sheets one day. After washing them, he put them to dry on the ground in his backyard. Donald placed the sheets so that **none of them touch on the tips or the sides and that none of their sides intersect**, but it is possible that he placed smaller sheets on top of bigger ones, or that a sheet is completely covering another sheet. After doing this, Donald went to bed.
+
+Donald's friend Kim somehow got the information that Donald is drying his sheets and decided to mess with him. He found a paintball gun from his father in the attic. Along with the gun, there were M paintball balls in different colours, but it is possible that there were more balls having the same colour. As soon as Donald fell asleep, Kim walked into his backyard and started shooting the sheets with his paintball gun. We all know that sheets bleed, so when Kim shoots the topmost sheet, that sheet would bleed the color of the ball down to all of the sheets beneath it. After Kim used all the balls, he happily left Donald's backyard.
+
+When Donald woke up and went to get his sheets, shock ensued. On most of Donald's sheets, there was a number of new colours. Since Donald is very interested in correct data, and he's in shock and not able to think, he is asking you to tell him the number of new colours on each sheet.
+
+We can represent Donald's backyard as an infinite coordinate system, and the sheets as rectangles parallel to the coordinate axes. Kim's shots can be represented as points in that system.
+
+Please note: it is possible that Kim's shot missed all the sheets, but coordinates of each shot are unique.
+
+## 输入格式
+
+The first line of input contains the positive integers N (1 ≤ N ≤ 80 000), the number of sheets, and M (1 ≤ M ≤ 80 000), the number of paintball balls.
+
+The $i^{th}$ of the following N lines contains four numbers: the coordinates of the lower left corner $A_i$, $B_i$ ($1 \le A_i, B_i \le 10^9$) and the upper right corner $C_i$, $D_i$ ($1 \le C_i, D_i \le 10^9$) of the $i^{th}$ sheet.
+
+The $j^{th}$ of the following M lines contains the coordinates where Kim's $j^{th}$ shot landed $X_j$, $Y_j$ ($1 \le X_j, Y_j \le 10^9$), and $K_j$ ($1 \le K_j \le 10^9$), the colour label of the $j^{th}$ ball.
+
+## 输出格式
+
+The $i^{th}$ of N lines must contain the number of new colours on the $i^{th}$ sheet.
+
+## 样例
+
+### 样例 1
+
+输入：
+
+```text
+2 2
+1 1 3 3
+5 6 10 10
+3 3 1
+5 1 2
+```
+
+输出：
+
+```text
+1
+0
+```
+
+### 样例 2
+
+输入：
+
+```text
+3 3
+1 1 7 7
+2 2 6 6
+3 3 5 5
+4 4 1
+2 6 2
+4 7 3
+```
+
+输出：
+
+```text
+3
+2
+1
+```
+
+### 样例 3
+
+输入：
+
+```text
+1 3
+1 1 7 7
+2 6 2
+4 7 3
+4 4 1
+```
+
+输出：
+
+```text
+3
+```
+
+## 提示
+
+### Clarification of the test cases:
+
+The number of the shot denotes the colour of the ball from that shot.
+
+*Image from the first test case*
+
+*Image from the second test case*
