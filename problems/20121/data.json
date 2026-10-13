@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "set1.in",
+      "size": 39
+    },
+    {
+      "path": "set1.out",
+      "size": 38
+    },
+    {
+      "path": "set10.in",
+      "size": 32899
+    },
+    {
+      "path": "set10.out",
+      "size": 60247
+    },
+    {
+      "path": "set11.in",
+      "size": 8390660
+    },
+    {
+      "path": "set11.out",
+      "size": 20820682
+    },
+    {
+      "path": "set12.in",
+      "size": 8390660
+    },
+    {
+      "path": "set12.out",
+      "size": 20964014
+    },
+    {
+      "path": "set13.in",
+      "size": 8390660
+    },
+    {
+      "path": "set13.out",
+      "size": 20774605
+    },
+    {
+      "path": "set14.in",
+      "size": 8390660
+    },
+    {
+      "path": "set14.out",
+      "size": 21126453
+    },
+    {
+      "path": "set15.in",
+      "size": 8390660
+    },
+    {
+      "path": "set15.out",
+      "size": 20820399
+    },
+    {
+      "path": "set16.in",
+      "size": 8390660
+    },
+    {
+      "path": "set16.out",
+      "size": 20934987
+    },
+    {
+      "path": "set17.in",
+      "size": 8390660
+    },
+    {
+      "path": "set17.out",
+      "size": 20740611
+    },
+    {
+      "path": "set18.in",
+      "size": 8390660
+    },
+    {
+      "path": "set18.out",
+      "size": 20637627
+    },
+    {
+      "path": "set19.in",
+      "size": 8390660
+    },
+    {
+      "path": "set19.out",
+      "size": 20718696
+    },
+    {
+      "path": "set2.in",
+      "size": 39
+    },
+    {
+      "path": "set2.out",
+      "size": 43
+    },
+    {
+      "path": "set20.in",
+      "size": 8390660
+    },
+    {
+      "path": "set20.out",
+      "size": 20756424
+    },
+    {
+      "path": "set3.in",
+      "size": 39
+    },
+    {
+      "path": "set3.out",
+      "size": 43
+    },
+    {
+      "path": "set4.in",
+      "size": 39
+    },
+    {
+      "path": "set4.out",
+      "size": 54
+    },
+    {
+      "path": "set5.in",
+      "size": 531
+    },
+    {
+      "path": "set5.out",
+      "size": 768
+    },
+    {
+      "path": "set6.in",
+      "size": 531
+    },
+    {
+      "path": "set6.out",
+      "size": 705
+    },
+    {
+      "path": "set7.in",
+      "size": 531
+    },
+    {
+      "path": "set7.out",
+      "size": 717
+    },
+    {
+      "path": "set8.in",
+      "size": 32899
+    },
+    {
+      "path": "set8.out",
+      "size": 60249
+    },
+    {
+      "path": "set9.in",
+      "size": 32899
+    },
+    {
+      "path": "set9.out",
+      "size": 59668
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "busy1.ans",
+      "size": 1296002
+    },
+    {
+      "path": "busy1.in",
+      "size": 1290559
+    },
+    {
+      "path": "busy10.ans",
+      "size": 1296235
+    },
+    {
+      "path": "busy10.in",
+      "size": 1290305
+    },
+    {
+      "path": "busy2.ans",
+      "size": 1296395
+    },
+    {
+      "path": "busy2.in",
+      "size": 1290570
+    },
+    {
+      "path": "busy3.ans",
+      "size": 1296253
+    },
+    {
+      "path": "busy3.in",
+      "size": 1290438
+    },
+    {
+      "path": "busy4.ans",
+      "size": 1296209
+    },
+    {
+      "path": "busy4.in",
+      "size": 1290291
+    },
+    {
+      "path": "busy5.ans",
+      "size": 20
+    },
+    {
+      "path": "busy5.in",
+      "size": 43
+    },
+    {
+      "path": "busy6.ans",
+      "size": 2536
+    },
+    {
+      "path": "busy6.in",
+      "size": 2547
+    },
+    {
+      "path": "busy7.ans",
+      "size": 1296031
+    },
+    {
+      "path": "busy7.in",
+      "size": 1290487
+    },
+    {
+      "path": "busy8.ans",
+      "size": 1297972
+    },
+    {
+      "path": "busy8.in",
+      "size": 262174
+    },
+    {
+      "path": "busy9.ans",
+      "size": 647941
+    },
+    {
+      "path": "busy9.in",
+      "size": 645245
+    }
+  ]
+}

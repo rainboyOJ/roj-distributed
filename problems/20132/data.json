@@ -1,0 +1,188 @@
+{
+  "files": [
+    {
+      "path": "division1.in",
+      "size": 630
+    },
+    {
+      "path": "division1.out",
+      "size": 198
+    },
+    {
+      "path": "division10.in",
+      "size": 1926309
+    },
+    {
+      "path": "division10.out",
+      "size": 80
+    },
+    {
+      "path": "division11.in",
+      "size": 4809235
+    },
+    {
+      "path": "division11.out",
+      "size": 80
+    },
+    {
+      "path": "division12.in",
+      "size": 2956975
+    },
+    {
+      "path": "division12.out",
+      "size": 80
+    },
+    {
+      "path": "division13.in",
+      "size": 2893629
+    },
+    {
+      "path": "division13.out",
+      "size": 80
+    },
+    {
+      "path": "division14.in",
+      "size": 3787270
+    },
+    {
+      "path": "division14.out",
+      "size": 80
+    },
+    {
+      "path": "division15.in",
+      "size": 5170664
+    },
+    {
+      "path": "division15.out",
+      "size": 1471280
+    },
+    {
+      "path": "division16.in",
+      "size": 4260679
+    },
+    {
+      "path": "division16.out",
+      "size": 1470496
+    },
+    {
+      "path": "division17.in",
+      "size": 4530730
+    },
+    {
+      "path": "division17.out",
+      "size": 1563552
+    },
+    {
+      "path": "division18.in",
+      "size": 3632506
+    },
+    {
+      "path": "division18.out",
+      "size": 1592448
+    },
+    {
+      "path": "division19.in",
+      "size": 3650194
+    },
+    {
+      "path": "division19.out",
+      "size": 1600000
+    },
+    {
+      "path": "division2.in",
+      "size": 14874
+    },
+    {
+      "path": "division2.out",
+      "size": 5060
+    },
+    {
+      "path": "division20.in",
+      "size": 5624618
+    },
+    {
+      "path": "division20.out",
+      "size": 1600000
+    },
+    {
+      "path": "division3.in",
+      "size": 19359
+    },
+    {
+      "path": "division3.out",
+      "size": 5423
+    },
+    {
+      "path": "division4.in",
+      "size": 155168
+    },
+    {
+      "path": "division4.out",
+      "size": 42345
+    },
+    {
+      "path": "division5.in",
+      "size": 130874
+    },
+    {
+      "path": "division5.out",
+      "size": 43530
+    },
+    {
+      "path": "division6.in",
+      "size": 2567941
+    },
+    {
+      "path": "division6.out",
+      "size": 1543088
+    },
+    {
+      "path": "division7.in",
+      "size": 2575156
+    },
+    {
+      "path": "division7.out",
+      "size": 1547488
+    },
+    {
+      "path": "division8.in",
+      "size": 2610493
+    },
+    {
+      "path": "division8.out",
+      "size": 1568480
+    },
+    {
+      "path": "division9.in",
+      "size": 1937638
+    },
+    {
+      "path": "division9.out",
+      "size": 80
+    },
+    {
+      "path": "division_ex1.in",
+      "size": 8420721
+    },
+    {
+      "path": "division_ex1.out",
+      "size": 2929006
+    },
+    {
+      "path": "division_ex2.in",
+      "size": 8288526
+    },
+    {
+      "path": "division_ex2.out",
+      "size": 2881706
+    },
+    {
+      "path": "division_ex3.in",
+      "size": 8514232
+    },
+    {
+      "path": "division_ex3.out",
+      "size": 2962424
+    }
+  ]
+}

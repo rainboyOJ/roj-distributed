@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 PUBLIC_EXTENSIONS = frozenset((".in", ".out", ".ans", ".txt", ".dat"))
-MAX_FILE_BYTES = 100 * 1024 * 1024
+MAX_FILE_BYTES = int(os.environ.get("ROJ_MAX_DATA_BYTES", 100 * 1024 * 1024))
 
 
 def parse_args() -> argparse.Namespace:

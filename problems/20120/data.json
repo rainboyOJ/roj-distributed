@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "mfsn1.in",
+      "size": 1538
+    },
+    {
+      "path": "mfsn1.out",
+      "size": 494
+    },
+    {
+      "path": "mfsn10.in",
+      "size": 13564801
+    },
+    {
+      "path": "mfsn10.out",
+      "size": 8470138
+    },
+    {
+      "path": "mfsn11.in",
+      "size": 15177717
+    },
+    {
+      "path": "mfsn11.out",
+      "size": 8336026
+    },
+    {
+      "path": "mfsn12.in",
+      "size": 13501077
+    },
+    {
+      "path": "mfsn12.out",
+      "size": 8683558
+    },
+    {
+      "path": "mfsn13.in",
+      "size": 5862848
+    },
+    {
+      "path": "mfsn13.out",
+      "size": 2909272
+    },
+    {
+      "path": "mfsn14.in",
+      "size": 6207091
+    },
+    {
+      "path": "mfsn14.out",
+      "size": 3048236
+    },
+    {
+      "path": "mfsn15.in",
+      "size": 6308082
+    },
+    {
+      "path": "mfsn15.out",
+      "size": 2985760
+    },
+    {
+      "path": "mfsn16.in",
+      "size": 6678111
+    },
+    {
+      "path": "mfsn16.out",
+      "size": 2869811
+    },
+    {
+      "path": "mfsn17.in",
+      "size": 16704275
+    },
+    {
+      "path": "mfsn17.out",
+      "size": 7921572
+    },
+    {
+      "path": "mfsn18.in",
+      "size": 16872187
+    },
+    {
+      "path": "mfsn18.out",
+      "size": 7945407
+    },
+    {
+      "path": "mfsn19.in",
+      "size": 16205264
+    },
+    {
+      "path": "mfsn19.out",
+      "size": 7989358
+    },
+    {
+      "path": "mfsn2.in",
+      "size": 1644
+    },
+    {
+      "path": "mfsn2.out",
+      "size": 374
+    },
+    {
+      "path": "mfsn20.in",
+      "size": 15964020
+    },
+    {
+      "path": "mfsn20.out",
+      "size": 7988395
+    },
+    {
+      "path": "mfsn3.in",
+      "size": 123603
+    },
+    {
+      "path": "mfsn3.out",
+      "size": 48980
+    },
+    {
+      "path": "mfsn4.in",
+      "size": 128864
+    },
+    {
+      "path": "mfsn4.out",
+      "size": 42941
+    },
+    {
+      "path": "mfsn5.in",
+      "size": 128368
+    },
+    {
+      "path": "mfsn5.out",
+      "size": 45906
+    },
+    {
+      "path": "mfsn6.in",
+      "size": 117937
+    },
+    {
+      "path": "mfsn6.out",
+      "size": 49440
+    },
+    {
+      "path": "mfsn7.in",
+      "size": 14554596
+    },
+    {
+      "path": "mfsn7.out",
+      "size": 1000000
+    },
+    {
+      "path": "mfsn8.in",
+      "size": 14555503
+    },
+    {
+      "path": "mfsn8.out",
+      "size": 999992
+    },
+    {
+      "path": "mfsn9.in",
+      "size": 14405759
+    },
+    {
+      "path": "mfsn9.out",
+      "size": 8478168
+    }
+  ]
+}

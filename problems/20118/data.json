@@ -1,0 +1,260 @@
+{
+  "files": [
+    {
+      "path": "top1.in",
+      "size": 89854
+    },
+    {
+      "path": "top1.out",
+      "size": 9
+    },
+    {
+      "path": "top10.in",
+      "size": 697842
+    },
+    {
+      "path": "top10.out",
+      "size": 11
+    },
+    {
+      "path": "top11.in",
+      "size": 3541458
+    },
+    {
+      "path": "top11.out",
+      "size": 10
+    },
+    {
+      "path": "top12.in",
+      "size": 8124445
+    },
+    {
+      "path": "top12.out",
+      "size": 11
+    },
+    {
+      "path": "top13.in",
+      "size": 3455035
+    },
+    {
+      "path": "top13.out",
+      "size": 9
+    },
+    {
+      "path": "top14.in",
+      "size": 6840322
+    },
+    {
+      "path": "top14.out",
+      "size": 10
+    },
+    {
+      "path": "top15.in",
+      "size": 8106661
+    },
+    {
+      "path": "top15.out",
+      "size": 11
+    },
+    {
+      "path": "top16.in",
+      "size": 13742819
+    },
+    {
+      "path": "top16.out",
+      "size": 11
+    },
+    {
+      "path": "top17.in",
+      "size": 5611144
+    },
+    {
+      "path": "top17.out",
+      "size": 11
+    },
+    {
+      "path": "top18.in",
+      "size": 11974905
+    },
+    {
+      "path": "top18.out",
+      "size": 11
+    },
+    {
+      "path": "top19.in",
+      "size": 8507892
+    },
+    {
+      "path": "top19.out",
+      "size": 11
+    },
+    {
+      "path": "top2.in",
+      "size": 80968
+    },
+    {
+      "path": "top2.out",
+      "size": 8
+    },
+    {
+      "path": "top20.in",
+      "size": 13718028
+    },
+    {
+      "path": "top20.out",
+      "size": 11
+    },
+    {
+      "path": "top21.in",
+      "size": 11323103
+    },
+    {
+      "path": "top21.out",
+      "size": 13
+    },
+    {
+      "path": "top22.in",
+      "size": 11242956
+    },
+    {
+      "path": "top22.out",
+      "size": 14
+    },
+    {
+      "path": "top3.in",
+      "size": 68014
+    },
+    {
+      "path": "top3.out",
+      "size": 10
+    },
+    {
+      "path": "top31.in",
+      "size": 8888419
+    },
+    {
+      "path": "top31.out",
+      "size": 13
+    },
+    {
+      "path": "top32.in",
+      "size": 7352977
+    },
+    {
+      "path": "top32.out",
+      "size": 13
+    },
+    {
+      "path": "top4.in",
+      "size": 62603
+    },
+    {
+      "path": "top4.out",
+      "size": 9
+    },
+    {
+      "path": "top41.in",
+      "size": 1610931
+    },
+    {
+      "path": "top41.out",
+      "size": 12
+    },
+    {
+      "path": "top42.in",
+      "size": 3771840
+    },
+    {
+      "path": "top42.out",
+      "size": 13
+    },
+    {
+      "path": "top5.in",
+      "size": 8832185
+    },
+    {
+      "path": "top5.out",
+      "size": 14
+    },
+    {
+      "path": "top51.in",
+      "size": 3541458
+    },
+    {
+      "path": "top51.out",
+      "size": 12
+    },
+    {
+      "path": "top52.in",
+      "size": 8124445
+    },
+    {
+      "path": "top52.out",
+      "size": 12
+    },
+    {
+      "path": "top6.in",
+      "size": 2222568
+    },
+    {
+      "path": "top6.out",
+      "size": 12
+    },
+    {
+      "path": "top61.in",
+      "size": 4810496
+    },
+    {
+      "path": "top61.out",
+      "size": 12
+    },
+    {
+      "path": "top62.in",
+      "size": 1967492
+    },
+    {
+      "path": "top62.out",
+      "size": 12
+    },
+    {
+      "path": "top63.in",
+      "size": 6298680
+    },
+    {
+      "path": "top63.out",
+      "size": 13
+    },
+    {
+      "path": "top64.in",
+      "size": 5808750
+    },
+    {
+      "path": "top64.out",
+      "size": 12
+    },
+    {
+      "path": "top7.in",
+      "size": 7737479
+    },
+    {
+      "path": "top7.out",
+      "size": 13
+    },
+    {
+      "path": "top8.in",
+      "size": 2188034
+    },
+    {
+      "path": "top8.out",
+      "size": 12
+    },
+    {
+      "path": "top9.in",
+      "size": 3210019
+    },
+    {
+      "path": "top9.out",
+      "size": 12
+    }
+  ]
+}

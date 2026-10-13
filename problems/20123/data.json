@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "chicken1.in",
+      "size": 15
+    },
+    {
+      "path": "chicken1.out",
+      "size": 6
+    },
+    {
+      "path": "chicken10.in",
+      "size": 17
+    },
+    {
+      "path": "chicken10.out",
+      "size": 11
+    },
+    {
+      "path": "chicken11.in",
+      "size": 17
+    },
+    {
+      "path": "chicken11.out",
+      "size": 11
+    },
+    {
+      "path": "chicken12.in",
+      "size": 17
+    },
+    {
+      "path": "chicken12.out",
+      "size": 9
+    },
+    {
+      "path": "chicken13.in",
+      "size": 17
+    },
+    {
+      "path": "chicken13.out",
+      "size": 11
+    },
+    {
+      "path": "chicken14.in",
+      "size": 17
+    },
+    {
+      "path": "chicken14.out",
+      "size": 11
+    },
+    {
+      "path": "chicken15.in",
+      "size": 19
+    },
+    {
+      "path": "chicken15.out",
+      "size": 11
+    },
+    {
+      "path": "chicken16.in",
+      "size": 19
+    },
+    {
+      "path": "chicken16.out",
+      "size": 11
+    },
+    {
+      "path": "chicken17.in",
+      "size": 19
+    },
+    {
+      "path": "chicken17.out",
+      "size": 10
+    },
+    {
+      "path": "chicken18.in",
+      "size": 21
+    },
+    {
+      "path": "chicken18.out",
+      "size": 11
+    },
+    {
+      "path": "chicken19.in",
+      "size": 21
+    },
+    {
+      "path": "chicken19.out",
+      "size": 11
+    },
+    {
+      "path": "chicken2.in",
+      "size": 15
+    },
+    {
+      "path": "chicken2.out",
+      "size": 5
+    },
+    {
+      "path": "chicken20.in",
+      "size": 21
+    },
+    {
+      "path": "chicken20.out",
+      "size": 11
+    },
+    {
+      "path": "chicken3.in",
+      "size": 17
+    },
+    {
+      "path": "chicken3.out",
+      "size": 11
+    },
+    {
+      "path": "chicken4.in",
+      "size": 17
+    },
+    {
+      "path": "chicken4.out",
+      "size": 11
+    },
+    {
+      "path": "chicken5.in",
+      "size": 17
+    },
+    {
+      "path": "chicken5.out",
+      "size": 11
+    },
+    {
+      "path": "chicken6.in",
+      "size": 17
+    },
+    {
+      "path": "chicken6.out",
+      "size": 11
+    },
+    {
+      "path": "chicken7.in",
+      "size": 17
+    },
+    {
+      "path": "chicken7.out",
+      "size": 11
+    },
+    {
+      "path": "chicken8.in",
+      "size": 17
+    },
+    {
+      "path": "chicken8.out",
+      "size": 11
+    },
+    {
+      "path": "chicken9.in",
+      "size": 17
+    },
+    {
+      "path": "chicken9.out",
+      "size": 11
+    }
+  ]
+}

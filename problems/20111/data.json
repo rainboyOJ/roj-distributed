@@ -1,0 +1,452 @@
+{
+  "files": [
+    {
+      "path": "t1.ans",
+      "size": 38
+    },
+    {
+      "path": "t1.in",
+      "size": 19510
+    },
+    {
+      "path": "t10.ans",
+      "size": 42
+    },
+    {
+      "path": "t10.in",
+      "size": 3937714
+    },
+    {
+      "path": "t11.ans",
+      "size": 42
+    },
+    {
+      "path": "t11.in",
+      "size": 4997709
+    },
+    {
+      "path": "t12.ans",
+      "size": 35
+    },
+    {
+      "path": "t12.in",
+      "size": 49
+    },
+    {
+      "path": "t13.ans",
+      "size": 35
+    },
+    {
+      "path": "t13.in",
+      "size": 566512
+    },
+    {
+      "path": "t14.ans",
+      "size": 36
+    },
+    {
+      "path": "t14.in",
+      "size": 155
+    },
+    {
+      "path": "t15.ans",
+      "size": 41
+    },
+    {
+      "path": "t15.in",
+      "size": 3651584
+    },
+    {
+      "path": "t16.ans",
+      "size": 36
+    },
+    {
+      "path": "t16.in",
+      "size": 155
+    },
+    {
+      "path": "t17.ans",
+      "size": 34
+    },
+    {
+      "path": "t17.in",
+      "size": 3555630
+    },
+    {
+      "path": "t18.ans",
+      "size": 34
+    },
+    {
+      "path": "t18.in",
+      "size": 3744489
+    },
+    {
+      "path": "t19.ans",
+      "size": 45
+    },
+    {
+      "path": "t19.in",
+      "size": 6020658
+    },
+    {
+      "path": "t2.ans",
+      "size": 35
+    },
+    {
+      "path": "t2.in",
+      "size": 27028
+    },
+    {
+      "path": "t20.ans",
+      "size": 46
+    },
+    {
+      "path": "t20.in",
+      "size": 7111630
+    },
+    {
+      "path": "t21.ans",
+      "size": 35
+    },
+    {
+      "path": "t21.in",
+      "size": 566512
+    },
+    {
+      "path": "t22.ans",
+      "size": 35
+    },
+    {
+      "path": "t22.in",
+      "size": 49
+    },
+    {
+      "path": "t23.ans",
+      "size": 45
+    },
+    {
+      "path": "t23.in",
+      "size": 5344986
+    },
+    {
+      "path": "t24.ans",
+      "size": 46
+    },
+    {
+      "path": "t24.in",
+      "size": 7110736
+    },
+    {
+      "path": "t25.ans",
+      "size": 46
+    },
+    {
+      "path": "t25.in",
+      "size": 5526704
+    },
+    {
+      "path": "t26.ans",
+      "size": 46
+    },
+    {
+      "path": "t26.in",
+      "size": 5855643
+    },
+    {
+      "path": "t27.ans",
+      "size": 46
+    },
+    {
+      "path": "t27.in",
+      "size": 5655645
+    },
+    {
+      "path": "t28.ans",
+      "size": 45
+    },
+    {
+      "path": "t28.in",
+      "size": 7109584
+    },
+    {
+      "path": "t29.ans",
+      "size": 45
+    },
+    {
+      "path": "t29.in",
+      "size": 7109990
+    },
+    {
+      "path": "t3.ans",
+      "size": 35
+    },
+    {
+      "path": "t3.in",
+      "size": 21619
+    },
+    {
+      "path": "t30.ans",
+      "size": 45
+    },
+    {
+      "path": "t30.in",
+      "size": 7109974
+    },
+    {
+      "path": "t31.ans",
+      "size": 45
+    },
+    {
+      "path": "t31.in",
+      "size": 7108752
+    },
+    {
+      "path": "t32.ans",
+      "size": 45
+    },
+    {
+      "path": "t32.in",
+      "size": 6020133
+    },
+    {
+      "path": "t33.ans",
+      "size": 45
+    },
+    {
+      "path": "t33.in",
+      "size": 5731588
+    },
+    {
+      "path": "t34.ans",
+      "size": 45
+    },
+    {
+      "path": "t34.in",
+      "size": 5732018
+    },
+    {
+      "path": "t35.ans",
+      "size": 44
+    },
+    {
+      "path": "t35.in",
+      "size": 5731619
+    },
+    {
+      "path": "t36.ans",
+      "size": 46
+    },
+    {
+      "path": "t36.in",
+      "size": 5343779
+    },
+    {
+      "path": "t37.ans",
+      "size": 46
+    },
+    {
+      "path": "t37.in",
+      "size": 5343740
+    },
+    {
+      "path": "t38.ans",
+      "size": 47
+    },
+    {
+      "path": "t38.in",
+      "size": 5343589
+    },
+    {
+      "path": "t39.ans",
+      "size": 44
+    },
+    {
+      "path": "t39.in",
+      "size": 5731982
+    },
+    {
+      "path": "t4.ans",
+      "size": 38
+    },
+    {
+      "path": "t4.in",
+      "size": 19956
+    },
+    {
+      "path": "t40.ans",
+      "size": 45
+    },
+    {
+      "path": "t40.in",
+      "size": 7110958
+    },
+    {
+      "path": "t41.ans",
+      "size": 45
+    },
+    {
+      "path": "t41.in",
+      "size": 5659003
+    },
+    {
+      "path": "t42.ans",
+      "size": 46
+    },
+    {
+      "path": "t42.in",
+      "size": 5343703
+    },
+    {
+      "path": "t43.ans",
+      "size": 45
+    },
+    {
+      "path": "t43.in",
+      "size": 7109959
+    },
+    {
+      "path": "t44.ans",
+      "size": 35
+    },
+    {
+      "path": "t44.in",
+      "size": 4549598
+    },
+    {
+      "path": "t45.ans",
+      "size": 35
+    },
+    {
+      "path": "t45.in",
+      "size": 3880915
+    },
+    {
+      "path": "t46.ans",
+      "size": 40
+    },
+    {
+      "path": "t46.in",
+      "size": 3634242
+    },
+    {
+      "path": "t47.ans",
+      "size": 45
+    },
+    {
+      "path": "t47.in",
+      "size": 7109826
+    },
+    {
+      "path": "t48.ans",
+      "size": 45
+    },
+    {
+      "path": "t48.in",
+      "size": 7109887
+    },
+    {
+      "path": "t49.ans",
+      "size": 45
+    },
+    {
+      "path": "t49.in",
+      "size": 7109820
+    },
+    {
+      "path": "t5.ans",
+      "size": 35
+    },
+    {
+      "path": "t5.in",
+      "size": 49
+    },
+    {
+      "path": "t50.ans",
+      "size": 42
+    },
+    {
+      "path": "t50.in",
+      "size": 5744537
+    },
+    {
+      "path": "t51.ans",
+      "size": 41
+    },
+    {
+      "path": "t51.in",
+      "size": 5694537
+    },
+    {
+      "path": "t52.ans",
+      "size": 40
+    },
+    {
+      "path": "t52.in",
+      "size": 5694537
+    },
+    {
+      "path": "t53.ans",
+      "size": 41
+    },
+    {
+      "path": "t53.in",
+      "size": 5705643
+    },
+    {
+      "path": "t54.ans",
+      "size": 41
+    },
+    {
+      "path": "t54.in",
+      "size": 5705643
+    },
+    {
+      "path": "t55.ans",
+      "size": 40
+    },
+    {
+      "path": "t55.in",
+      "size": 5705643
+    },
+    {
+      "path": "t56.ans",
+      "size": 40
+    },
+    {
+      "path": "t56.in",
+      "size": 5659779
+    },
+    {
+      "path": "t6.ans",
+      "size": 36
+    },
+    {
+      "path": "t6.in",
+      "size": 183
+    },
+    {
+      "path": "t7.ans",
+      "size": 44
+    },
+    {
+      "path": "t7.in",
+      "size": 182
+    },
+    {
+      "path": "t8.ans",
+      "size": 36
+    },
+    {
+      "path": "t8.in",
+      "size": 145
+    },
+    {
+      "path": "t9.ans",
+      "size": 42
+    },
+    {
+      "path": "t9.in",
+      "size": 4997287
+    }
+  ]
+}

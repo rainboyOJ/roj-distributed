@@ -1,0 +1,516 @@
+{
+  "files": [
+    {
+      "path": "september1.in",
+      "size": 156
+    },
+    {
+      "path": "september1.out",
+      "size": 41
+    },
+    {
+      "path": "september10.in",
+      "size": 364
+    },
+    {
+      "path": "september10.out",
+      "size": 41
+    },
+    {
+      "path": "september11.in",
+      "size": 364
+    },
+    {
+      "path": "september11.out",
+      "size": 41
+    },
+    {
+      "path": "september12.in",
+      "size": 364
+    },
+    {
+      "path": "september12.out",
+      "size": 41
+    },
+    {
+      "path": "september13.in",
+      "size": 364
+    },
+    {
+      "path": "september13.out",
+      "size": 41
+    },
+    {
+      "path": "september14.in",
+      "size": 364
+    },
+    {
+      "path": "september14.out",
+      "size": 41
+    },
+    {
+      "path": "september15.in",
+      "size": 364
+    },
+    {
+      "path": "september15.out",
+      "size": 41
+    },
+    {
+      "path": "september16.in",
+      "size": 364
+    },
+    {
+      "path": "september16.out",
+      "size": 41
+    },
+    {
+      "path": "september17.in",
+      "size": 12819
+    },
+    {
+      "path": "september17.out",
+      "size": 153
+    },
+    {
+      "path": "september18.in",
+      "size": 12819
+    },
+    {
+      "path": "september18.out",
+      "size": 149
+    },
+    {
+      "path": "september19.in",
+      "size": 12819
+    },
+    {
+      "path": "september19.out",
+      "size": 153
+    },
+    {
+      "path": "september2.in",
+      "size": 156
+    },
+    {
+      "path": "september2.out",
+      "size": 41
+    },
+    {
+      "path": "september20.in",
+      "size": 12819
+    },
+    {
+      "path": "september20.out",
+      "size": 151
+    },
+    {
+      "path": "september21.in",
+      "size": 12338
+    },
+    {
+      "path": "september21.out",
+      "size": 153
+    },
+    {
+      "path": "september22.in",
+      "size": 12367
+    },
+    {
+      "path": "september22.out",
+      "size": 153
+    },
+    {
+      "path": "september23.in",
+      "size": 12802
+    },
+    {
+      "path": "september23.out",
+      "size": 153
+    },
+    {
+      "path": "september24.in",
+      "size": 12807
+    },
+    {
+      "path": "september24.out",
+      "size": 153
+    },
+    {
+      "path": "september25.in",
+      "size": 12329
+    },
+    {
+      "path": "september25.out",
+      "size": 153
+    },
+    {
+      "path": "september26.in",
+      "size": 12367
+    },
+    {
+      "path": "september26.out",
+      "size": 152
+    },
+    {
+      "path": "september27.in",
+      "size": 12799
+    },
+    {
+      "path": "september27.out",
+      "size": 153
+    },
+    {
+      "path": "september28.in",
+      "size": 12800
+    },
+    {
+      "path": "september28.out",
+      "size": 152
+    },
+    {
+      "path": "september29.in",
+      "size": 37875
+    },
+    {
+      "path": "september29.out",
+      "size": 151
+    },
+    {
+      "path": "september3.in",
+      "size": 156
+    },
+    {
+      "path": "september3.out",
+      "size": 41
+    },
+    {
+      "path": "september30.in",
+      "size": 37875
+    },
+    {
+      "path": "september30.out",
+      "size": 152
+    },
+    {
+      "path": "september31.in",
+      "size": 37875
+    },
+    {
+      "path": "september31.out",
+      "size": 152
+    },
+    {
+      "path": "september32.in",
+      "size": 37875
+    },
+    {
+      "path": "september32.out",
+      "size": 146
+    },
+    {
+      "path": "september33.in",
+      "size": 37414
+    },
+    {
+      "path": "september33.out",
+      "size": 150
+    },
+    {
+      "path": "september34.in",
+      "size": 37452
+    },
+    {
+      "path": "september34.out",
+      "size": 153
+    },
+    {
+      "path": "september35.in",
+      "size": 37859
+    },
+    {
+      "path": "september35.out",
+      "size": 150
+    },
+    {
+      "path": "september36.in",
+      "size": 37859
+    },
+    {
+      "path": "september36.out",
+      "size": 149
+    },
+    {
+      "path": "september37.in",
+      "size": 37425
+    },
+    {
+      "path": "september37.out",
+      "size": 152
+    },
+    {
+      "path": "september38.in",
+      "size": 37449
+    },
+    {
+      "path": "september38.out",
+      "size": 149
+    },
+    {
+      "path": "september39.in",
+      "size": 37854
+    },
+    {
+      "path": "september39.out",
+      "size": 152
+    },
+    {
+      "path": "september4.in",
+      "size": 156
+    },
+    {
+      "path": "september4.out",
+      "size": 41
+    },
+    {
+      "path": "september40.in",
+      "size": 37853
+    },
+    {
+      "path": "september40.out",
+      "size": 151
+    },
+    {
+      "path": "september41.in",
+      "size": 8160543
+    },
+    {
+      "path": "september41.out",
+      "size": 6963
+    },
+    {
+      "path": "september42.in",
+      "size": 8160543
+    },
+    {
+      "path": "september42.out",
+      "size": 6651
+    },
+    {
+      "path": "september43.in",
+      "size": 8160543
+    },
+    {
+      "path": "september43.out",
+      "size": 6963
+    },
+    {
+      "path": "september44.in",
+      "size": 8160543
+    },
+    {
+      "path": "september44.out",
+      "size": 6670
+    },
+    {
+      "path": "september45.in",
+      "size": 7906768
+    },
+    {
+      "path": "september45.out",
+      "size": 6963
+    },
+    {
+      "path": "september46.in",
+      "size": 7906551
+    },
+    {
+      "path": "september46.out",
+      "size": 6888
+    },
+    {
+      "path": "september47.in",
+      "size": 8157324
+    },
+    {
+      "path": "september47.out",
+      "size": 6963
+    },
+    {
+      "path": "september48.in",
+      "size": 8157313
+    },
+    {
+      "path": "september48.out",
+      "size": 6834
+    },
+    {
+      "path": "september49.in",
+      "size": 7906786
+    },
+    {
+      "path": "september49.out",
+      "size": 6963
+    },
+    {
+      "path": "september5.in",
+      "size": 156
+    },
+    {
+      "path": "september5.out",
+      "size": 41
+    },
+    {
+      "path": "september50.in",
+      "size": 7906810
+    },
+    {
+      "path": "september50.out",
+      "size": 6887
+    },
+    {
+      "path": "september51.in",
+      "size": 8157400
+    },
+    {
+      "path": "september51.out",
+      "size": 6963
+    },
+    {
+      "path": "september52.in",
+      "size": 8157307
+    },
+    {
+      "path": "september52.out",
+      "size": 6849
+    },
+    {
+      "path": "september53.in",
+      "size": 4892778
+    },
+    {
+      "path": "september53.out",
+      "size": 1352
+    },
+    {
+      "path": "september54.in",
+      "size": 4892778
+    },
+    {
+      "path": "september54.out",
+      "size": 1330
+    },
+    {
+      "path": "september55.in",
+      "size": 4892778
+    },
+    {
+      "path": "september55.out",
+      "size": 1339
+    },
+    {
+      "path": "september56.in",
+      "size": 4892778
+    },
+    {
+      "path": "september56.out",
+      "size": 1324
+    },
+    {
+      "path": "september57.in",
+      "size": 4842041
+    },
+    {
+      "path": "september57.out",
+      "size": 1356
+    },
+    {
+      "path": "september58.in",
+      "size": 4842118
+    },
+    {
+      "path": "september58.out",
+      "size": 1335
+    },
+    {
+      "path": "september59.in",
+      "size": 4892160
+    },
+    {
+      "path": "september59.out",
+      "size": 1349
+    },
+    {
+      "path": "september6.in",
+      "size": 156
+    },
+    {
+      "path": "september6.out",
+      "size": 41
+    },
+    {
+      "path": "september60.in",
+      "size": 4892143
+    },
+    {
+      "path": "september60.out",
+      "size": 1321
+    },
+    {
+      "path": "september61.in",
+      "size": 4842026
+    },
+    {
+      "path": "september61.out",
+      "size": 1351
+    },
+    {
+      "path": "september62.in",
+      "size": 4841905
+    },
+    {
+      "path": "september62.out",
+      "size": 1340
+    },
+    {
+      "path": "september63.in",
+      "size": 4892134
+    },
+    {
+      "path": "september63.out",
+      "size": 1352
+    },
+    {
+      "path": "september64.in",
+      "size": 4892145
+    },
+    {
+      "path": "september64.out",
+      "size": 1320
+    },
+    {
+      "path": "september7.in",
+      "size": 156
+    },
+    {
+      "path": "september7.out",
+      "size": 41
+    },
+    {
+      "path": "september8.in",
+      "size": 156
+    },
+    {
+      "path": "september8.out",
+      "size": 41
+    },
+    {
+      "path": "september9.in",
+      "size": 364
+    },
+    {
+      "path": "september9.out",
+      "size": 41
+    }
+  ]
+}

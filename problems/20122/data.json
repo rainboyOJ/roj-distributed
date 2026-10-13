@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "calculate0.in",
+      "size": 12
+    },
+    {
+      "path": "calculate0.out",
+      "size": 2
+    },
+    {
+      "path": "calculate1.in",
+      "size": 52
+    },
+    {
+      "path": "calculate1.out",
+      "size": 10
+    },
+    {
+      "path": "calculate10.in",
+      "size": 105
+    },
+    {
+      "path": "calculate10.out",
+      "size": 50
+    },
+    {
+      "path": "calculate11.in",
+      "size": 105
+    },
+    {
+      "path": "calculate11.out",
+      "size": 50
+    },
+    {
+      "path": "calculate12.in",
+      "size": 106
+    },
+    {
+      "path": "calculate12.out",
+      "size": 48
+    },
+    {
+      "path": "calculate13.in",
+      "size": 110
+    },
+    {
+      "path": "calculate13.out",
+      "size": 49
+    },
+    {
+      "path": "calculate14.in",
+      "size": 107
+    },
+    {
+      "path": "calculate14.out",
+      "size": 50
+    },
+    {
+      "path": "calculate15.in",
+      "size": 108
+    },
+    {
+      "path": "calculate15.out",
+      "size": 50
+    },
+    {
+      "path": "calculate16.in",
+      "size": 112
+    },
+    {
+      "path": "calculate16.out",
+      "size": 50
+    },
+    {
+      "path": "calculate17.in",
+      "size": 235679
+    },
+    {
+      "path": "calculate17.out",
+      "size": 98916
+    },
+    {
+      "path": "calculate18.in",
+      "size": 235682
+    },
+    {
+      "path": "calculate18.out",
+      "size": 98885
+    },
+    {
+      "path": "calculate19.in",
+      "size": 235689
+    },
+    {
+      "path": "calculate19.out",
+      "size": 98856
+    },
+    {
+      "path": "calculate2.in",
+      "size": 45
+    },
+    {
+      "path": "calculate2.out",
+      "size": 17
+    },
+    {
+      "path": "calculate3.in",
+      "size": 59
+    },
+    {
+      "path": "calculate3.out",
+      "size": 46
+    },
+    {
+      "path": "calculate4.in",
+      "size": 57
+    },
+    {
+      "path": "calculate4.out",
+      "size": 50
+    },
+    {
+      "path": "calculate5.in",
+      "size": 56
+    },
+    {
+      "path": "calculate5.out",
+      "size": 50
+    },
+    {
+      "path": "calculate6.in",
+      "size": 73
+    },
+    {
+      "path": "calculate6.out",
+      "size": 50
+    },
+    {
+      "path": "calculate7.in",
+      "size": 76
+    },
+    {
+      "path": "calculate7.out",
+      "size": 50
+    },
+    {
+      "path": "calculate8.in",
+      "size": 75
+    },
+    {
+      "path": "calculate8.out",
+      "size": 50
+    },
+    {
+      "path": "calculate9.in",
+      "size": 103
+    },
+    {
+      "path": "calculate9.out",
+      "size": 49
+    }
+  ]
+}

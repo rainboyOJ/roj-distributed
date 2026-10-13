@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "tree1.ans",
+      "size": 5472
+    },
+    {
+      "path": "tree1.in",
+      "size": 8584
+    },
+    {
+      "path": "tree10.ans",
+      "size": 7376459
+    },
+    {
+      "path": "tree10.in",
+      "size": 10630278
+    },
+    {
+      "path": "tree11.ans",
+      "size": 5422669
+    },
+    {
+      "path": "tree11.in",
+      "size": 10068504
+    },
+    {
+      "path": "tree12.ans",
+      "size": 5421978
+    },
+    {
+      "path": "tree12.in",
+      "size": 10068632
+    },
+    {
+      "path": "tree13.ans",
+      "size": 6337338
+    },
+    {
+      "path": "tree13.in",
+      "size": 10392395
+    },
+    {
+      "path": "tree14.ans",
+      "size": 6337443
+    },
+    {
+      "path": "tree14.in",
+      "size": 10392444
+    },
+    {
+      "path": "tree15.ans",
+      "size": 6333512
+    },
+    {
+      "path": "tree15.in",
+      "size": 10384203
+    },
+    {
+      "path": "tree16.ans",
+      "size": 6337886
+    },
+    {
+      "path": "tree16.in",
+      "size": 10395970
+    },
+    {
+      "path": "tree17.ans",
+      "size": 29476023
+    },
+    {
+      "path": "tree17.in",
+      "size": 53477490
+    },
+    {
+      "path": "tree18.ans",
+      "size": 29455813
+    },
+    {
+      "path": "tree18.in",
+      "size": 53465976
+    },
+    {
+      "path": "tree19.ans",
+      "size": 29547844
+    },
+    {
+      "path": "tree19.in",
+      "size": 53501375
+    },
+    {
+      "path": "tree2.ans",
+      "size": 5512
+    },
+    {
+      "path": "tree2.in",
+      "size": 8577
+    },
+    {
+      "path": "tree20.ans",
+      "size": 29458491
+    },
+    {
+      "path": "tree20.in",
+      "size": 53471203
+    },
+    {
+      "path": "tree3.ans",
+      "size": 115378
+    },
+    {
+      "path": "tree3.in",
+      "size": 189033
+    },
+    {
+      "path": "tree4.ans",
+      "size": 115224
+    },
+    {
+      "path": "tree4.in",
+      "size": 188954
+    },
+    {
+      "path": "tree5.ans",
+      "size": 115276
+    },
+    {
+      "path": "tree5.in",
+      "size": 188496
+    },
+    {
+      "path": "tree6.ans",
+      "size": 601692
+    },
+    {
+      "path": "tree6.in",
+      "size": 978379
+    },
+    {
+      "path": "tree7.ans",
+      "size": 602324
+    },
+    {
+      "path": "tree7.in",
+      "size": 978268
+    },
+    {
+      "path": "tree8.ans",
+      "size": 601259
+    },
+    {
+      "path": "tree8.in",
+      "size": 978150
+    },
+    {
+      "path": "tree9.ans",
+      "size": 7376472
+    },
+    {
+      "path": "tree9.in",
+      "size": 10630366
+    }
+  ]
+}

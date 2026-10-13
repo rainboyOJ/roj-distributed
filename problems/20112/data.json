@@ -1,0 +1,572 @@
+{
+  "files": [
+    {
+      "path": "graph1.ans",
+      "size": 3
+    },
+    {
+      "path": "graph1.in",
+      "size": 40
+    },
+    {
+      "path": "graph10.ans",
+      "size": 5
+    },
+    {
+      "path": "graph10.in",
+      "size": 47
+    },
+    {
+      "path": "graph11.ans",
+      "size": 4
+    },
+    {
+      "path": "graph11.in",
+      "size": 14
+    },
+    {
+      "path": "graph12.ans",
+      "size": 3
+    },
+    {
+      "path": "graph12.in",
+      "size": 21
+    },
+    {
+      "path": "graph13.ans",
+      "size": 5
+    },
+    {
+      "path": "graph13.in",
+      "size": 38
+    },
+    {
+      "path": "graph14.ans",
+      "size": 5
+    },
+    {
+      "path": "graph14.in",
+      "size": 19
+    },
+    {
+      "path": "graph15.ans",
+      "size": 3
+    },
+    {
+      "path": "graph15.in",
+      "size": 17
+    },
+    {
+      "path": "graph16.ans",
+      "size": 8
+    },
+    {
+      "path": "graph16.in",
+      "size": 303
+    },
+    {
+      "path": "graph17.ans",
+      "size": 9
+    },
+    {
+      "path": "graph17.in",
+      "size": 222
+    },
+    {
+      "path": "graph18.ans",
+      "size": 10
+    },
+    {
+      "path": "graph18.in",
+      "size": 188
+    },
+    {
+      "path": "graph19.ans",
+      "size": 10
+    },
+    {
+      "path": "graph19.in",
+      "size": 345
+    },
+    {
+      "path": "graph2.ans",
+      "size": 4
+    },
+    {
+      "path": "graph2.in",
+      "size": 33
+    },
+    {
+      "path": "graph20.ans",
+      "size": 10
+    },
+    {
+      "path": "graph20.in",
+      "size": 422
+    },
+    {
+      "path": "graph21.ans",
+      "size": 10
+    },
+    {
+      "path": "graph21.in",
+      "size": 236
+    },
+    {
+      "path": "graph22.ans",
+      "size": 10
+    },
+    {
+      "path": "graph22.in",
+      "size": 274
+    },
+    {
+      "path": "graph23.ans",
+      "size": 8
+    },
+    {
+      "path": "graph23.in",
+      "size": 253
+    },
+    {
+      "path": "graph24.ans",
+      "size": 10
+    },
+    {
+      "path": "graph24.in",
+      "size": 178
+    },
+    {
+      "path": "graph25.ans",
+      "size": 10
+    },
+    {
+      "path": "graph25.in",
+      "size": 394
+    },
+    {
+      "path": "graph26.ans",
+      "size": 10
+    },
+    {
+      "path": "graph26.in",
+      "size": 235
+    },
+    {
+      "path": "graph27.ans",
+      "size": 10
+    },
+    {
+      "path": "graph27.in",
+      "size": 211
+    },
+    {
+      "path": "graph28.ans",
+      "size": 10
+    },
+    {
+      "path": "graph28.in",
+      "size": 407
+    },
+    {
+      "path": "graph29.ans",
+      "size": 10
+    },
+    {
+      "path": "graph29.in",
+      "size": 314
+    },
+    {
+      "path": "graph3.ans",
+      "size": 3
+    },
+    {
+      "path": "graph3.in",
+      "size": 26
+    },
+    {
+      "path": "graph30.ans",
+      "size": 10
+    },
+    {
+      "path": "graph30.in",
+      "size": 186
+    },
+    {
+      "path": "graph31.ans",
+      "size": 10
+    },
+    {
+      "path": "graph31.in",
+      "size": 617
+    },
+    {
+      "path": "graph32.ans",
+      "size": 10
+    },
+    {
+      "path": "graph32.in",
+      "size": 567
+    },
+    {
+      "path": "graph33.ans",
+      "size": 10
+    },
+    {
+      "path": "graph33.in",
+      "size": 577
+    },
+    {
+      "path": "graph34.ans",
+      "size": 10
+    },
+    {
+      "path": "graph34.in",
+      "size": 569
+    },
+    {
+      "path": "graph35.ans",
+      "size": 10
+    },
+    {
+      "path": "graph35.in",
+      "size": 468
+    },
+    {
+      "path": "graph36.ans",
+      "size": 10
+    },
+    {
+      "path": "graph36.in",
+      "size": 494
+    },
+    {
+      "path": "graph37.ans",
+      "size": 10
+    },
+    {
+      "path": "graph37.in",
+      "size": 605
+    },
+    {
+      "path": "graph38.ans",
+      "size": 10
+    },
+    {
+      "path": "graph38.in",
+      "size": 581
+    },
+    {
+      "path": "graph39.ans",
+      "size": 10
+    },
+    {
+      "path": "graph39.in",
+      "size": 585
+    },
+    {
+      "path": "graph4.ans",
+      "size": 4
+    },
+    {
+      "path": "graph4.in",
+      "size": 14
+    },
+    {
+      "path": "graph40.ans",
+      "size": 10
+    },
+    {
+      "path": "graph40.in",
+      "size": 503
+    },
+    {
+      "path": "graph41.ans",
+      "size": 10
+    },
+    {
+      "path": "graph41.in",
+      "size": 99
+    },
+    {
+      "path": "graph42.ans",
+      "size": 10
+    },
+    {
+      "path": "graph42.in",
+      "size": 117
+    },
+    {
+      "path": "graph43.ans",
+      "size": 10
+    },
+    {
+      "path": "graph43.in",
+      "size": 207
+    },
+    {
+      "path": "graph44.ans",
+      "size": 10
+    },
+    {
+      "path": "graph44.in",
+      "size": 137
+    },
+    {
+      "path": "graph45.ans",
+      "size": 10
+    },
+    {
+      "path": "graph45.in",
+      "size": 210
+    },
+    {
+      "path": "graph46.ans",
+      "size": 10
+    },
+    {
+      "path": "graph46.in",
+      "size": 80
+    },
+    {
+      "path": "graph47.ans",
+      "size": 10
+    },
+    {
+      "path": "graph47.in",
+      "size": 287
+    },
+    {
+      "path": "graph48.ans",
+      "size": 10
+    },
+    {
+      "path": "graph48.in",
+      "size": 231
+    },
+    {
+      "path": "graph49.ans",
+      "size": 9
+    },
+    {
+      "path": "graph49.in",
+      "size": 191
+    },
+    {
+      "path": "graph5.ans",
+      "size": 6
+    },
+    {
+      "path": "graph5.in",
+      "size": 46
+    },
+    {
+      "path": "graph50.ans",
+      "size": 9
+    },
+    {
+      "path": "graph50.in",
+      "size": 212
+    },
+    {
+      "path": "graph51.ans",
+      "size": 10
+    },
+    {
+      "path": "graph51.in",
+      "size": 473
+    },
+    {
+      "path": "graph52.ans",
+      "size": 10
+    },
+    {
+      "path": "graph52.in",
+      "size": 376
+    },
+    {
+      "path": "graph53.ans",
+      "size": 10
+    },
+    {
+      "path": "graph53.in",
+      "size": 298
+    },
+    {
+      "path": "graph54.ans",
+      "size": 10
+    },
+    {
+      "path": "graph54.in",
+      "size": 572
+    },
+    {
+      "path": "graph55.ans",
+      "size": 10
+    },
+    {
+      "path": "graph55.in",
+      "size": 666
+    },
+    {
+      "path": "graph56.ans",
+      "size": 9
+    },
+    {
+      "path": "graph56.in",
+      "size": 557
+    },
+    {
+      "path": "graph57.ans",
+      "size": 10
+    },
+    {
+      "path": "graph57.in",
+      "size": 419
+    },
+    {
+      "path": "graph58.ans",
+      "size": 10
+    },
+    {
+      "path": "graph58.in",
+      "size": 712
+    },
+    {
+      "path": "graph59.ans",
+      "size": 9
+    },
+    {
+      "path": "graph59.in",
+      "size": 409
+    },
+    {
+      "path": "graph6.ans",
+      "size": 3
+    },
+    {
+      "path": "graph6.in",
+      "size": 35
+    },
+    {
+      "path": "graph60.ans",
+      "size": 10
+    },
+    {
+      "path": "graph60.in",
+      "size": 350
+    },
+    {
+      "path": "graph61.ans",
+      "size": 10
+    },
+    {
+      "path": "graph61.in",
+      "size": 732
+    },
+    {
+      "path": "graph62.ans",
+      "size": 10
+    },
+    {
+      "path": "graph62.in",
+      "size": 769
+    },
+    {
+      "path": "graph63.ans",
+      "size": 10
+    },
+    {
+      "path": "graph63.in",
+      "size": 710
+    },
+    {
+      "path": "graph64.ans",
+      "size": 10
+    },
+    {
+      "path": "graph64.in",
+      "size": 728
+    },
+    {
+      "path": "graph65.ans",
+      "size": 10
+    },
+    {
+      "path": "graph65.in",
+      "size": 729
+    },
+    {
+      "path": "graph66.ans",
+      "size": 10
+    },
+    {
+      "path": "graph66.in",
+      "size": 725
+    },
+    {
+      "path": "graph67.ans",
+      "size": 10
+    },
+    {
+      "path": "graph67.in",
+      "size": 715
+    },
+    {
+      "path": "graph68.ans",
+      "size": 10
+    },
+    {
+      "path": "graph68.in",
+      "size": 763
+    },
+    {
+      "path": "graph69.ans",
+      "size": 10
+    },
+    {
+      "path": "graph69.in",
+      "size": 706
+    },
+    {
+      "path": "graph7.ans",
+      "size": 4
+    },
+    {
+      "path": "graph7.in",
+      "size": 32
+    },
+    {
+      "path": "graph70.ans",
+      "size": 10
+    },
+    {
+      "path": "graph70.in",
+      "size": 801
+    },
+    {
+      "path": "graph71.ans",
+      "size": 10
+    },
+    {
+      "path": "graph71.in",
+      "size": 814
+    },
+    {
+      "path": "graph8.ans",
+      "size": 3
+    },
+    {
+      "path": "graph8.in",
+      "size": 25
+    },
+    {
+      "path": "graph9.ans",
+      "size": 5
+    },
+    {
+      "path": "graph9.in",
+      "size": 38
+    }
+  ]
+}
