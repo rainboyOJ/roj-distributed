@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_life1.in",
+      "size": 7
+    },
+    {
+      "path": "ex_life1.out",
+      "size": 6
+    },
+    {
+      "path": "ex_life2.in",
+      "size": 5
+    },
+    {
+      "path": "ex_life2.out",
+      "size": 9
+    },
+    {
+      "path": "ex_life3.in",
+      "size": 10
+    },
+    {
+      "path": "ex_life3.out",
+      "size": 9
+    }
+  ]
 }

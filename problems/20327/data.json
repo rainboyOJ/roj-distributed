@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_dream1.in",
+      "size": 26
+    },
+    {
+      "path": "ex_dream1.out",
+      "size": 14
+    },
+    {
+      "path": "ex_dream2.in",
+      "size": 597
+    },
+    {
+      "path": "ex_dream2.out",
+      "size": 546
+    },
+    {
+      "path": "ex_dream3.in",
+      "size": 31659
+    },
+    {
+      "path": "ex_dream3.out",
+      "size": 28662
+    },
+    {
+      "path": "ex_dream4.in",
+      "size": 78901
+    },
+    {
+      "path": "ex_dream4.out",
+      "size": 97786
+    },
+    {
+      "path": "ex_dream5.in",
+      "size": 168901
+    },
+    {
+      "path": "ex_dream5.out",
+      "size": 195836
+    }
+  ]
 }

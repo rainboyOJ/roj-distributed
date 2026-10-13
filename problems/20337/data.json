@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_tree1.in",
+      "size": 28
+    },
+    {
+      "path": "ex_tree1.out",
+      "size": 9
+    },
+    {
+      "path": "ex_tree2.in",
+      "size": 156805
+    },
+    {
+      "path": "ex_tree2.out",
+      "size": 550000
+    },
+    {
+      "path": "ex_tree3.in",
+      "size": 72
+    },
+    {
+      "path": "ex_tree3.out",
+      "size": 33
+    },
+    {
+      "path": "ex_tree4.in",
+      "size": 994336
+    },
+    {
+      "path": "ex_tree4.out",
+      "size": 544524
+    },
+    {
+      "path": "ex_tree5.in",
+      "size": 100475
+    },
+    {
+      "path": "ex_tree5.out",
+      "size": 54414
+    }
+  ]
 }

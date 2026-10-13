@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_spy1.in",
+      "size": 57
+    },
+    {
+      "path": "ex_spy1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_spy2.in",
+      "size": 80
+    },
+    {
+      "path": "ex_spy2.out",
+      "size": 9
+    },
+    {
+      "path": "ex_spy3.in",
+      "size": 1684857
+    },
+    {
+      "path": "ex_spy3.out",
+      "size": 334208
+    },
+    {
+      "path": "ex_spy4.in",
+      "size": 1709511
+    },
+    {
+      "path": "ex_spy4.out",
+      "size": 352445
+    },
+    {
+      "path": "ex_spy5.in",
+      "size": 57126
+    },
+    {
+      "path": "ex_spy5.out",
+      "size": 11693
+    }
+  ]
 }

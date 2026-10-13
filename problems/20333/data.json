@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_snowball1.in",
+      "size": 30
+    },
+    {
+      "path": "ex_snowball1.out",
+      "size": 23
+    },
+    {
+      "path": "ex_snowball2.in",
+      "size": 2764
+    },
+    {
+      "path": "ex_snowball2.out",
+      "size": 1148
+    },
+    {
+      "path": "ex_snowball3.in",
+      "size": 1413
+    },
+    {
+      "path": "ex_snowball3.out",
+      "size": 114
+    }
+  ]
 }

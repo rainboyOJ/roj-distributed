@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_summer1.in",
+      "size": 58
+    },
+    {
+      "path": "ex_summer1.out",
+      "size": 18
+    },
+    {
+      "path": "ex_summer2.in",
+      "size": 16965
+    },
+    {
+      "path": "ex_summer2.out",
+      "size": 7742
+    },
+    {
+      "path": "ex_summer3.in",
+      "size": 176611
+    },
+    {
+      "path": "ex_summer3.out",
+      "size": 111552
+    },
+    {
+      "path": "ex_summer4.in",
+      "size": 205468
+    },
+    {
+      "path": "ex_summer4.out",
+      "size": 79695
+    },
+    {
+      "path": "ex_summer5.in",
+      "size": 205459
+    },
+    {
+      "path": "ex_summer5.out",
+      "size": 111365
+    }
+  ]
 }

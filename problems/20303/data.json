@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "award1.in",
+      "size": 6074
+    },
+    {
+      "path": "award1.out",
+      "size": 1500
+    },
+    {
+      "path": "award2.in",
+      "size": 129432
+    },
+    {
+      "path": "award2.out",
+      "size": 30040
+    },
+    {
+      "path": "award3.in",
+      "size": 6843461
+    },
+    {
+      "path": "award3.out",
+      "size": 1600000
+    }
+  ]
 }

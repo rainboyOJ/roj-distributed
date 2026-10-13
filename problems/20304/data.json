@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "redstone1.in",
+      "size": 620
+    },
+    {
+      "path": "redstone1.out",
+      "size": 5
+    },
+    {
+      "path": "redstone2.in",
+      "size": 2444
+    },
+    {
+      "path": "redstone2.out",
+      "size": 6
+    }
+  ]
 }

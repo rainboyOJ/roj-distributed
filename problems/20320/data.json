@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_magic1.in",
+      "size": 12
+    },
+    {
+      "path": "ex_magic1.out",
+      "size": 2
+    },
+    {
+      "path": "ex_magic2.in",
+      "size": 4935301
+    },
+    {
+      "path": "ex_magic2.out",
+      "size": 4
+    }
+  ]
 }

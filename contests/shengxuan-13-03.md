@@ -8,6 +8,6 @@ tags: [模拟赛, 省选, 十三连测]
 
 ## 题目
 
-- [T1. A.分身(avatar)](/problem/20305)
-- [T2. B.递归(rec)](/problem/20306)
-- [T3. C.序列(array)](/problem/20307)
+- [T1. A.分身(avatar)（暂无数据）](/problem/20305)
+- [T2. B.递归(rec)（暂无数据）](/problem/20306)
+- [T3. C.序列(array)（暂无数据）](/problem/20307)

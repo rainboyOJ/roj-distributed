@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_dazzling1.in",
+      "size": 5
+    },
+    {
+      "path": "ex_dazzling1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_dazzling2.in",
+      "size": 8
+    },
+    {
+      "path": "ex_dazzling2.out",
+      "size": 11
+    },
+    {
+      "path": "ex_dazzling3.in",
+      "size": 11
+    },
+    {
+      "path": "ex_dazzling3.out",
+      "size": 11
+    }
+  ]
 }

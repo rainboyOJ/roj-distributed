@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_game1.in",
+      "size": 36
+    },
+    {
+      "path": "ex_game1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_game2.in",
+      "size": 64
+    },
+    {
+      "path": "ex_game2.out",
+      "size": 4
+    },
+    {
+      "path": "ex_game3.in",
+      "size": 17518
+    },
+    {
+      "path": "ex_game3.out",
+      "size": 6
+    },
+    {
+      "path": "ex_game4.in",
+      "size": 541111
+    },
+    {
+      "path": "ex_game4.out",
+      "size": 7
+    }
+  ]
 }

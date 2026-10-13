@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "array0_2.in",
+      "size": 537
+    },
+    {
+      "path": "array0_2.out",
+      "size": 513
+    },
+    {
+      "path": "array0_3.in",
+      "size": 40121
+    },
+    {
+      "path": "array0_3.out",
+      "size": 49470
+    },
+    {
+      "path": "array0_4.in",
+      "size": 13219881
+    },
+    {
+      "path": "array0_4.out",
+      "size": 17240839
+    },
+    {
+      "path": "array0_5.in",
+      "size": 11215463
+    },
+    {
+      "path": "array0_5.out",
+      "size": 16710192
+    }
+  ]
 }

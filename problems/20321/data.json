@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_merchant1.in",
+      "size": 6
+    },
+    {
+      "path": "ex_merchant1.out",
+      "size": 2
+    },
+    {
+      "path": "ex_merchant2.in",
+      "size": 9
+    },
+    {
+      "path": "ex_merchant2.out",
+      "size": 10
+    }
+  ]
 }

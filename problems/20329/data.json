@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_class1.in",
+      "size": 44
+    },
+    {
+      "path": "ex_class1.out",
+      "size": 8
+    },
+    {
+      "path": "ex_class2.in",
+      "size": 70
+    },
+    {
+      "path": "ex_class2.out",
+      "size": 15
+    },
+    {
+      "path": "ex_class3.in",
+      "size": 414
+    },
+    {
+      "path": "ex_class3.out",
+      "size": 118
+    },
+    {
+      "path": "ex_class4.in",
+      "size": 6576387
+    },
+    {
+      "path": "ex_class4.out",
+      "size": 1590984
+    }
+  ]
 }

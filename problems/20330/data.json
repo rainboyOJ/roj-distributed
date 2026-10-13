@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_party1.in",
+      "size": 16
+    },
+    {
+      "path": "ex_party1.out",
+      "size": 6
+    },
+    {
+      "path": "ex_party2.in",
+      "size": 261728
+    },
+    {
+      "path": "ex_party2.out",
+      "size": 64
+    },
+    {
+      "path": "ex_party3.in",
+      "size": 15
+    },
+    {
+      "path": "ex_party3.out",
+      "size": 11
+    },
+    {
+      "path": "ex_party4.in",
+      "size": 66651
+    },
+    {
+      "path": "ex_party4.out",
+      "size": 11
+    }
+  ]
 }

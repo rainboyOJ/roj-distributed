@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_vis1.in",
+      "size": 30
+    },
+    {
+      "path": "ex_vis1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_vis2.in",
+      "size": 108
+    },
+    {
+      "path": "ex_vis2.out",
+      "size": 4
+    },
+    {
+      "path": "ex_vis3.in",
+      "size": 1016
+    },
+    {
+      "path": "ex_vis3.out",
+      "size": 3
+    }
+  ]
 }

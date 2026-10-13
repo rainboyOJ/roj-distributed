@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_path1.in",
+      "size": 45
+    },
+    {
+      "path": "ex_path1.out",
+      "size": 6
+    },
+    {
+      "path": "ex_path2.in",
+      "size": 204
+    },
+    {
+      "path": "ex_path2.out",
+      "size": 78
+    },
+    {
+      "path": "ex_path3.in",
+      "size": 26254
+    },
+    {
+      "path": "ex_path3.out",
+      "size": 9128
+    },
+    {
+      "path": "ex_path4.in",
+      "size": 9858432
+    },
+    {
+      "path": "ex_path4.out",
+      "size": 1500000
+    },
+    {
+      "path": "ex_path5.in",
+      "size": 3314274
+    },
+    {
+      "path": "ex_path5.out",
+      "size": 984873
+    }
+  ]
 }

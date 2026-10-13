@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "rec0_02.in",
+      "size": 114876
+    },
+    {
+      "path": "rec0_02.out",
+      "size": 29740
+    },
+    {
+      "path": "rec0_03.in",
+      "size": 109045
+    },
+    {
+      "path": "rec0_03.out",
+      "size": 18208
+    },
+    {
+      "path": "rec0_04.in",
+      "size": 103520
+    },
+    {
+      "path": "rec0_04.out",
+      "size": 7206
+    },
+    {
+      "path": "rec0_05.in",
+      "size": 100932
+    },
+    {
+      "path": "rec0_05.out",
+      "size": 1928
+    }
+  ]
 }

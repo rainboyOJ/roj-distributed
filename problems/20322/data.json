@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_capital1.in",
+      "size": 34
+    },
+    {
+      "path": "ex_capital1.out",
+      "size": 4
+    },
+    {
+      "path": "ex_capital2.in",
+      "size": 8316
+    },
+    {
+      "path": "ex_capital2.out",
+      "size": 423
+    }
+  ]
 }

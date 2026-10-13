@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_tree1.in",
+      "size": 57
+    },
+    {
+      "path": "ex_tree1.out",
+      "size": 19
+    },
+    {
+      "path": "ex_tree2.in",
+      "size": 105448
+    },
+    {
+      "path": "ex_tree2.out",
+      "size": 56509
+    },
+    {
+      "path": "ex_tree3.in",
+      "size": 2551854
+    },
+    {
+      "path": "ex_tree3.out",
+      "size": 1513585
+    }
+  ]
 }

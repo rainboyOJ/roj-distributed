@@ -1,3 +1,36 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_yoimiya1.in",
+      "size": 209
+    },
+    {
+      "path": "ex_yoimiya1.out",
+      "size": 64
+    },
+    {
+      "path": "ex_yoimiya2.in",
+      "size": 29020
+    },
+    {
+      "path": "ex_yoimiya2.out",
+      "size": 9997
+    },
+    {
+      "path": "ex_yoimiya3.in",
+      "size": 1614201
+    },
+    {
+      "path": "ex_yoimiya3.out",
+      "size": 100001
+    },
+    {
+      "path": "ex_yoimiya4.in",
+      "size": 1144704
+    },
+    {
+      "path": "ex_yoimiya4.out",
+      "size": 500000
+    }
+  ]
 }

@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_number1.in",
+      "size": 11
+    },
+    {
+      "path": "ex_number1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_number2.in",
+      "size": 11
+    },
+    {
+      "path": "ex_number2.out",
+      "size": 4
+    },
+    {
+      "path": "ex_number3.in",
+      "size": 14
+    },
+    {
+      "path": "ex_number3.out",
+      "size": 11
+    }
+  ]
 }

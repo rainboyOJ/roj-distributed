@@ -1,3 +1,28 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_lost1.in",
+      "size": 30
+    },
+    {
+      "path": "ex_lost1.out",
+      "size": 3
+    },
+    {
+      "path": "ex_lost2.in",
+      "size": 1639
+    },
+    {
+      "path": "ex_lost2.out",
+      "size": 13
+    },
+    {
+      "path": "ex_lost3.in",
+      "size": 1301407
+    },
+    {
+      "path": "ex_lost3.out",
+      "size": 9
+    }
+  ]
 }

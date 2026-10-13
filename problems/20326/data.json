@@ -1,3 +1,44 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "ex_op1.in",
+      "size": 48
+    },
+    {
+      "path": "ex_op1.out",
+      "size": 17
+    },
+    {
+      "path": "ex_op2.in",
+      "size": 2398
+    },
+    {
+      "path": "ex_op2.out",
+      "size": 24
+    },
+    {
+      "path": "ex_op3.in",
+      "size": 3304
+    },
+    {
+      "path": "ex_op3.out",
+      "size": 20
+    },
+    {
+      "path": "ex_op4.in",
+      "size": 3203
+    },
+    {
+      "path": "ex_op4.out",
+      "size": 95
+    },
+    {
+      "path": "ex_op5.in",
+      "size": 316956
+    },
+    {
+      "path": "ex_op5.out",
+      "size": 12
+    }
+  ]
 }
