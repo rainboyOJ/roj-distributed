@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "magic2.in",
+      "size": 346
+    },
+    {
+      "path": "magic2.out",
+      "size": 4
+    },
+    {
+      "path": "magic3.in",
+      "size": 4398
+    },
+    {
+      "path": "magic3.out",
+      "size": 5
+    },
+    {
+      "path": "magic4.in",
+      "size": 53900
+    },
+    {
+      "path": "magic4.out",
+      "size": 6
+    }
+  ]
+}

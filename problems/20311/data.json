@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "tree1.in",
+      "size": 22
+    },
+    {
+      "path": "tree1.out",
+      "size": 24
+    },
+    {
+      "path": "tree2.in",
+      "size": 302
+    },
+    {
+      "path": "tree2.out",
+      "size": 969
+    }
+  ]
+}

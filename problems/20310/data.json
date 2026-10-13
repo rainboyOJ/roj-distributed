@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "ship3.ans",
+      "size": 7
+    },
+    {
+      "path": "ship3.in",
+      "size": 200006
+    },
+    {
+      "path": "ship4.ans",
+      "size": 9
+    },
+    {
+      "path": "ship4.in",
+      "size": 294642
+    },
+    {
+      "path": "ship5.ans",
+      "size": 9
+    },
+    {
+      "path": "ship5.in",
+      "size": 294582
+    },
+    {
+      "path": "ship6.ans",
+      "size": 7
+    },
+    {
+      "path": "ship6.in",
+      "size": 5886
+    }
+  ]
+}
