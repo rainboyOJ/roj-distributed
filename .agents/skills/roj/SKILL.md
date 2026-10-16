@@ -57,9 +57,10 @@ Data ships as one immutable `tar.zst` archive per problem. The default collectio
 directory is `./roj-data/`: the archive lands at `./roj-data/<id>.tar.zst` and is
 extracted so the data ends up in `./roj-data/<id>/data/`. The command reads the ROJ
 manifest first, downloads `<id>.tar.zst` from the configured archive sources
-(csps 主站 first, oidata 备用 as fallback), verifies it with `zstd -t`, and extracts
-it. A cached archive is reused without re-downloading; an existing `data/` directory
-is never overwritten. `--force` re-downloads and re-extracts. `--output` names the
+(csps 主站 first, oidata 备用 as fallback), verifies it with `zstd -t`, extracts it,
+and cross-checks every extracted file against the manifest (path + size). A cached
+archive is reused without re-downloading; an existing `data/` directory is never
+overwritten. `--force` re-downloads and re-extracts. `--output` names the
 collection directory instead of `./roj-data`.
 
 ```sh

@@ -182,6 +182,57 @@ def archive_urls(manifest: dict[str, Any]) -> list[str]:
     return [f"{source['baseUrl']}{name}" for source in manifest.get("sources", [])]
 
 
+def extract_archive(archive_path: Path, target: Path) -> None:
+    """把归档解压到 target（归档内从 data/ 开始）。
+
+    先用 tar --zstd；失败时回退 zstd -dc | tar -xf -
+    （如 macOS 自带 bsdtar 未编入 zstd 支持时仍可解压）。
+    """
+    tar = require_command("tar")
+    extract = subprocess.run([tar, "--zstd", "-xf", str(archive_path), "-C", str(target)],
+                             stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    if extract.returncode == 0:
+        return
+    # 主命令失败先留尾部报错，再走回退；两条路都失败才报错
+    primary_error = extract.stderr.decode("utf-8", errors="replace")[-300:]
+    zstd = require_command("zstd")
+    decompressor = subprocess.Popen([zstd, "-dc", str(archive_path)], stdout=subprocess.PIPE)
+    fallback = subprocess.run([tar, "-xf", "-", "-C", str(target)], stdin=decompressor.stdout,
+                              stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    decompressor.stdout.close()
+    decompressor.wait()
+    if fallback.returncode != 0:
+        fallback_error = fallback.stderr.decode("utf-8", errors="replace")[-300:]
+        raise RojError(f"归档解压失败（--zstd：{primary_error}；回退：{fallback_error}）")
+
+
+def verify_extracted(data_dir: Path, files: list[dict[str, Any]]) -> None:
+    """解包后与公开数据清单对账：逐个核对文件存在且大小一致。
+
+    防的是“拿到了旧字节/坏档但 zstd -t 没拦住”（如边缘缓存吐旧归档）。
+    只在本次解包后调用；用户已有本地数据时不校验（可能被改过）。
+    """
+    problems: list[str] = []
+    for item in files:
+        relative = item.get("path")
+        if not isinstance(relative, str) or not relative:
+            continue
+        # 清单路径必须是 data/ 下的相对路径，拒绝绝对路径与 ..（防路径穿越）
+        if Path(relative).is_absolute() or ".." in Path(relative).parts:
+            raise RojError(f"拒绝不安全的数据清单路径：{relative}")
+        target = data_dir / relative
+        if not target.is_file():
+            problems.append(f"缺少 {relative}")
+            continue
+        size = item.get("size")
+        if isinstance(size, int) and target.stat().st_size != size:
+            problems.append(f"大小不符 {relative}（期望 {size}，实际 {target.stat().st_size}）")
+    if problems:
+        shown = "；".join(problems[:5])
+        more = f"（共 {len(problems)} 项）" if len(problems) > 5 else ""
+        raise RojError(f"归档解包结果与数据清单不一致：{shown}{more}")
+
+
 def download_and_extract_archive(client: RojClient, identifier: str, manifest: dict[str, Any], destination: Path,
                                  force: bool = False,
                                  progress: DownloadProgress | None = None) -> tuple[Path, Path, bool, bool]:
@@ -203,11 +254,14 @@ def download_and_extract_archive(client: RojClient, identifier: str, manifest: d
         pass
     else:
         if progress is not None:
+            # 归档大小只有响应头里才有：先画状态行，拿到 Content-Length 再补进度条分母
+            progress.enable(0)
             progress.show_status(f"下载 {name}")
         archive_path.parent.mkdir(parents=True, exist_ok=True)
         download_to(client, archive_urls(manifest), archive_path, force=force,
                     on_attempt=progress.on_attempt if progress else None,
-                    on_chunk=progress.on_chunk if progress else None)
+                    on_chunk=progress.on_chunk if progress else None,
+                    on_start=progress.set_total if progress else None)
         if progress is not None:
             progress.show_status(f"下载 {name} 完成")
         downloaded_now = True
@@ -223,24 +277,24 @@ def download_and_extract_archive(client: RojClient, identifier: str, manifest: d
         # 已有本地数据：不覆盖用户的修改
         pass
     else:
-        tar = require_command("tar")
         data_dir.parent.mkdir(parents=True, exist_ok=True)
-        extract = subprocess.run([tar, "--zstd", "-xf", str(archive_path), "-C", str(data_dir.parent)],
-                                 stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
-        if extract.returncode != 0:
-            raise RojError("归档解压失败：" + extract.stderr.decode("utf-8", errors="replace")[-1000:])
+        extract_archive(archive_path, data_dir.parent)
+        # 解包后与清单对账（只校验本次解包的结果）
+        verify_extracted(data_dir, manifest.get("files", []))
         extracted_now = True
     return archive_path, data_dir, downloaded_now, extracted_now
 
 
 def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False,
                 on_attempt: Callable[[], None] | None = None,
-                on_chunk: Callable[[int], None] | None = None) -> int:
+                on_chunk: Callable[[int], None] | None = None,
+                on_start: Callable[[int], None] | None = None) -> int:
     """依次尝试多个下载源，把文件下载到 destination，返回字节数。
 
     先写入同目录临时文件再原子改名，避免半截文件残留；
     所有源都失败才报错。--force 允许覆盖已存在文件。
-    on_attempt/on_chunk 用于进度回调：每次换源时与每读一块后触发。
+    on_attempt/on_chunk/on_start 用于进度回调：换源、每读一块、
+    拿到 Content-Length 时分别触发（归档大小只有响应头里才知道，用 on_start 补分母）。
     """
     if destination.exists() and not force:
         raise RojError(f"文件已存在，未覆盖：{destination}（如需覆盖请使用 --force）")
@@ -255,6 +309,10 @@ def download_to(client: RojClient, urls: list[str], destination: Path, force: bo
             on_attempt()
         try:
             with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
+                if on_start:
+                    length = (response.headers.get("Content-Length") or "").strip()
+                    if length.isdigit():
+                        on_start(int(length))
                 # 与目标同目录的临时文件，保证同文件系统可原子 rename
                 with tempfile.NamedTemporaryFile(prefix=".roj-download-", dir=destination.parent, delete=False) as output:
                     temporary = Path(output.name)
@@ -311,7 +369,7 @@ class DownloadProgress:
 
     仅当 stderr 是 TTY 且总大小为正时才启用；管道/重定向/JSON 输出时静默。
     进度 = 已成功落盘的文件字节（committed）+ 当前源尝试中已读的字节（attempt）。
-    分母是本次任务实际要下载的文件 size 之和。
+    分母是归档的 Content-Length（下载开始后才知道），拿不到时只画状态行。
     """
 
     BAR_WIDTH = 30  # 进度条字符宽度
@@ -336,6 +394,12 @@ class DownloadProgress:
         self.total = max(0, int(total_bytes))
         self.samples.clear()
         self.show_status("准备下载")
+
+    def set_total(self, total_bytes: int) -> None:
+        """下载开始后才拿到 Content-Length：补上分母，状态行保持不变。"""
+        if total_bytes > 0 and self.total <= 0:
+            self.total = int(total_bytes)
+            self.samples.clear()
 
     def show_status(self, text: str) -> None:
         """设置状态行文字并强制刷新（清单请求、文件开始等阶段切换）。"""
