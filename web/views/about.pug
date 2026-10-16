@@ -30,18 +30,15 @@ block content
       h3 安装 Skill
       p
         | 如果使用 OpenCode、Codex 或 Claude Code，可以把下面的安装说明链接交给 AI：
-        a.external-link(href="https://raw.githubusercontent.com/rainboyOJ/problems/master/ai-install.md", target="_blank", rel="noopener noreferrer") ai-install.md ↗
+        a.external-link(href="https://raw.githubusercontent.com/rainboyOJ/roj-distributed/master/ai-install.md", target="_blank", rel="noopener noreferrer") ai-install.md ↗
         | 。安装说明会优先使用 GitHub Raw，直连失败时自动切换到加速源，不会下载整个仓库。
-      p 网站中的“常用命令”默认使用全局 Skill 路径
+      p 网站中的“常用命令”使用全局 Skill 路径
         code ~/.agents/skills/roj/
-        | 。手动安装到个人 Agent 的全局目录时，默认使用该路径，也可以通过
-        code AGENT_HOME
-        | 更改根目录。当前仓库内也保留了项目级副本，直接从仓库运行时无需复制。
+        | ，安装说明也固定安装到该路径。仓库内保留同一份 Skill，直接从仓库运行时无需复制。
       pre
         code
-          | AGENT_SKILLS_DIR="${AGENT_HOME:-$HOME/.agents}/skills"
-          | mkdir -p "$AGENT_SKILLS_DIR"
-          | cp -r .agents/skills/roj "$AGENT_SKILLS_DIR/roj"
+          | mkdir -p ~/.agents/skills
+          | cp -r .agents/skills/roj ~/.agents/skills/roj
 
       h3 使用 roj.py
       p
@@ -68,9 +65,13 @@ block content
           | 获取题目元数据和 Markdown 题面；PDF-only 题目会显示浏览器地址。
         li
           code download &lt;id&gt;
-          | 下载公开数据到
-          code ./roj-data/&lt;id&gt;/
-          | ，默认通过 GitHub 加速源下载，已有文件默认不会覆盖。
+          | 下载数据归档（
+          code &lt;id&gt;.tar.zst
+          | ）到
+          code ./roj-data/
+          | 并解压出
+          code ./roj-data/&lt;id&gt;/data/
+          | ，经两站双通道下载（csps 主站 / oidata 备用），已有归档默认复用不重下。
         li
           code test &lt;id&gt; &lt;source.cpp&gt;
           | 使用本地公开数据评测 C++；默认离线，需要联网时显式添加
