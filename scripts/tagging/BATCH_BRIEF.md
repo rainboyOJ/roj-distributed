@@ -4,7 +4,7 @@
 
 ## 基本参数
 
-- 仓库（git worktree）：`~/mycode/RBOOK_series/new_ROJ-tags`，分支 `problem-tags`（基线 `a0d0386`）
+- 仓库（git worktree）：`~/new_ROJ-tags`，分支 `problem-tags`（基线 `a0d0386`）
 - 目标：1253 道题的 `problems/<id>/config.json` 补齐/规范 `tags` 字段
   - `missing` 963 题（无 tag 或空 tag 或非法 JSON）：打 2~3 个算法 tag
   - `existing` 290 题（已有 tag）：同义归并到规范词（如 `DFS→深度优先搜索`、`dp→动态规划`、`Trie→字典树`），可补缺，不改语义
@@ -14,8 +14,8 @@
 - worker tab 名 = 当前批次首题号（如 `tag-1069`）；agent 名 `<批次>-w<槽>-g<代次>`
 - 提交授权：**按批 commit（每批 10 题一个 commit），禁止 push**；全量验证通过后由派发器决定推送
 - 协议必读（绝对路径）：
-  - `~/mycode/RBOOK_series/rbook_new_problem_solutions/.agents/skills/rbook-problem-batch-launch/SKILL.md`
-  - `~/mycode/RBOOK_series/rbook_new_problem_solutions/.agents/skills/rbook-problem-batch-launch/references/supervision.md`
+  - `~/rbook_new_problem_solutions/.agents/skills/rbook-problem-batch-launch/SKILL.md`
+  - `~/rbook_new_problem_solutions/.agents/skills/rbook-problem-batch-launch/references/supervision.md`
 
 ## 本批三条硬约束（先记住）
 
@@ -35,7 +35,7 @@
 ```
 
 - 数据源：new_ROJ 既有 179 词（`queue.py init` 前先扫 `problems/*/config.json` 的 tags）
-  + rbook 高频词（参考 `~/mycode/RBOOK_series/rbook_new_problem_solutions/problems/`，其 tags 字段高频词：动态规划/模拟/字符串/数学/贪心/图论/枚举/排序/思维/计数/前缀和/最短路/数论/位运算/背包/搜索/递归/递推/并查集/构造/二分/树/BFS/DFS/矩阵/线段树/栈/堆/树状数组/二分答案/双指针/倍增/单调队列/状态压缩/最小生成树/拓扑排序/高精度/差分/剪枝/记忆化搜索/LCA/背包/二叉树/队列…）
+  + rbook 高频词（参考 `~/rbook_new_problem_solutions/problems/`，其 tags 字段高频词：动态规划/模拟/字符串/数学/贪心/图论/枚举/排序/思维/计数/前缀和/最短路/数论/位运算/背包/搜索/递归/递推/并查集/构造/二分/树/BFS/DFS/矩阵/线段树/栈/堆/树状数组/二分答案/双指针/倍增/单调队列/状态压缩/最小生成树/拓扑排序/高精度/差分/剪枝/记忆化搜索/LCA/背包/二叉树/队列…）
 - 只收**算法/技术类**词；来源类（`比赛题目/牛客/rbook`）与难度类（`普及`）不进词表：新题不打这类 tag，存量保留原样
 - definition 一句话（jev criteria 用）；aliases 用于归并与校验
 

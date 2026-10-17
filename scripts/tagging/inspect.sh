@@ -2,7 +2,7 @@
 # 巡检脚本：打印每个活跃 worker 的状态、完成标记与文件进度。
 # 用法: inspect.sh [worker 后缀...]（默认 rojtag-w1-g1 .. rojtag-w6-g1）
 set -u
-cd ~/mycode/RBOOK_series/new_ROJ-tags
+cd "${WORKTREE:?请设置 WORKTREE 为 new_ROJ-tags 工作树路径}"
 workers=("$@")
 if [ ${#workers[@]} -eq 0 ]; then
   for w in 1 2 3 4 5 6; do workers+=("rojtag-w$w-g1"); done

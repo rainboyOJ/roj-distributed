@@ -2,7 +2,7 @@
 # 派批循环单步：claim 10 题 -> tab 改名 -> prompt worker。
 # 用法: dispatch.sh <slot> <tab_id>    例: dispatch.sh 3 wS:t4
 set -u
-cd ~/mycode/RBOOK_series/new_ROJ-tags
+cd "${WORKTREE:?请设置 WORKTREE 为 new_ROJ-tags 工作树路径}"
 slot="$1"; tab="$2"
 name="rojtag-w${slot}-g1"
 out=$(python3 scripts/tagging/batch.py --worker "$name" --count 10)
