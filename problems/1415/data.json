@@ -1,156 +1,156 @@
 {
   "files": [
     {
-      "path": "example_00.in",
+      "path": "problem1.in",
       "size": 104
     },
     {
-      "path": "example_00.out",
+      "path": "problem1.out",
       "size": 32
     },
     {
-      "path": "example_01.in",
-      "size": 90
-    },
-    {
-      "path": "example_01.out",
-      "size": 20
-    },
-    {
-      "path": "many_points_1.in",
-      "size": 7392816
-    },
-    {
-      "path": "many_points_1.out",
-      "size": 1276818
-    },
-    {
-      "path": "many_rectangles_1.in",
-      "size": 9818420
-    },
-    {
-      "path": "many_rectangles_1.out",
-      "size": 130205
-    },
-    {
-      "path": "max_random_1.in",
-      "size": 8604420
-    },
-    {
-      "path": "max_random_1.out",
-      "size": 709043
-    },
-    {
-      "path": "max_random_2.in",
-      "size": 8599810
-    },
-    {
-      "path": "max_random_2.out",
-      "size": 711183
-    },
-    {
-      "path": "power_of_2_1.in",
-      "size": 5640903
-    },
-    {
-      "path": "power_of_2_1.out",
-      "size": 454225
-    },
-    {
-      "path": "power_of_2_2.in",
-      "size": 5636780
-    },
-    {
-      "path": "power_of_2_2.out",
-      "size": 455958
-    },
-    {
-      "path": "random_1.in",
-      "size": 4175330
-    },
-    {
-      "path": "random_1.out",
-      "size": 135313
-    },
-    {
-      "path": "random_2.in",
-      "size": 4905349
-    },
-    {
-      "path": "random_2.out",
-      "size": 427620
-    },
-    {
-      "path": "random_3.in",
+      "path": "problem10.in",
       "size": 2726462
     },
     {
-      "path": "random_3.out",
+      "path": "problem10.out",
       "size": 177460
     },
     {
-      "path": "small_1.in",
-      "size": 18308
+      "path": "problem11.in",
+      "size": 8604420
     },
     {
-      "path": "small_1.out",
-      "size": 1364
+      "path": "problem11.out",
+      "size": 709043
     },
     {
-      "path": "small_2.in",
-      "size": 19190
+      "path": "problem12.in",
+      "size": 8599810
     },
     {
-      "path": "small_2.out",
-      "size": 1986
+      "path": "problem12.out",
+      "size": 711183
     },
     {
-      "path": "small_3.in",
-      "size": 18144
+      "path": "problem13.in",
+      "size": 7392816
     },
     {
-      "path": "small_3.out",
-      "size": 1416
+      "path": "problem13.out",
+      "size": 1276818
     },
     {
-      "path": "small_4.in",
-      "size": 55371
+      "path": "problem14.in",
+      "size": 9818420
     },
     {
-      "path": "small_4.out",
-      "size": 5035
+      "path": "problem14.out",
+      "size": 130205
     },
     {
-      "path": "small_5.in",
-      "size": 51371
-    },
-    {
-      "path": "small_5.out",
-      "size": 1295
-    },
-    {
-      "path": "small_coord_1.in",
+      "path": "problem15.in",
       "size": 3646562
     },
     {
-      "path": "small_coord_1.out",
+      "path": "problem15.out",
       "size": 689706
     },
     {
-      "path": "small_coord_2.in",
+      "path": "problem16.in",
       "size": 3645103
     },
     {
-      "path": "small_coord_2.out",
+      "path": "problem16.out",
       "size": 690759
     },
     {
-      "path": "small_coord_3.in",
+      "path": "problem17.in",
       "size": 3645013
     },
     {
-      "path": "small_coord_3.out",
+      "path": "problem17.out",
       "size": 689262
+    },
+    {
+      "path": "problem18.in",
+      "size": 5640903
+    },
+    {
+      "path": "problem18.out",
+      "size": 454225
+    },
+    {
+      "path": "problem19.in",
+      "size": 5636780
+    },
+    {
+      "path": "problem19.out",
+      "size": 455958
+    },
+    {
+      "path": "problem2.in",
+      "size": 90
+    },
+    {
+      "path": "problem2.out",
+      "size": 20
+    },
+    {
+      "path": "problem3.in",
+      "size": 18308
+    },
+    {
+      "path": "problem3.out",
+      "size": 1364
+    },
+    {
+      "path": "problem4.in",
+      "size": 19190
+    },
+    {
+      "path": "problem4.out",
+      "size": 1986
+    },
+    {
+      "path": "problem5.in",
+      "size": 18144
+    },
+    {
+      "path": "problem5.out",
+      "size": 1416
+    },
+    {
+      "path": "problem6.in",
+      "size": 55371
+    },
+    {
+      "path": "problem6.out",
+      "size": 5035
+    },
+    {
+      "path": "problem7.in",
+      "size": 51371
+    },
+    {
+      "path": "problem7.out",
+      "size": 1295
+    },
+    {
+      "path": "problem8.in",
+      "size": 4175330
+    },
+    {
+      "path": "problem8.out",
+      "size": 135313
+    },
+    {
+      "path": "problem9.in",
+      "size": 4905349
+    },
+    {
+      "path": "problem9.out",
+      "size": 427620
     }
   ]
 }
