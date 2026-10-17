@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "problem1.in",
+      "size": 48
+    },
+    {
+      "path": "problem1.out",
+      "size": 10
+    },
+    {
+      "path": "problem10.in",
+      "size": 5933716
+    },
+    {
+      "path": "problem10.out",
+      "size": 543686
+    },
+    {
+      "path": "problem11.in",
+      "size": 1978112
+    },
+    {
+      "path": "problem11.out",
+      "size": 200000
+    },
+    {
+      "path": "problem12.in",
+      "size": 3985969
+    },
+    {
+      "path": "problem12.out",
+      "size": 8319
+    },
+    {
+      "path": "problem13.in",
+      "size": 1682220
+    },
+    {
+      "path": "problem13.out",
+      "size": 537892
+    },
+    {
+      "path": "problem14.in",
+      "size": 1682709
+    },
+    {
+      "path": "problem14.out",
+      "size": 538048
+    },
+    {
+      "path": "problem15.in",
+      "size": 3888541
+    },
+    {
+      "path": "problem15.out",
+      "size": 340964
+    },
+    {
+      "path": "problem16.in",
+      "size": 3888760
+    },
+    {
+      "path": "problem16.out",
+      "size": 341260
+    },
+    {
+      "path": "problem2.in",
+      "size": 38
+    },
+    {
+      "path": "problem2.out",
+      "size": 6
+    },
+    {
+      "path": "problem3.in",
+      "size": 46
+    },
+    {
+      "path": "problem3.out",
+      "size": 6
+    },
+    {
+      "path": "problem4.in",
+      "size": 284
+    },
+    {
+      "path": "problem4.out",
+      "size": 36
+    },
+    {
+      "path": "problem5.in",
+      "size": 147
+    },
+    {
+      "path": "problem5.out",
+      "size": 8
+    },
+    {
+      "path": "problem6.in",
+      "size": 8029
+    },
+    {
+      "path": "problem6.out",
+      "size": 351
+    },
+    {
+      "path": "problem7.in",
+      "size": 52632
+    },
+    {
+      "path": "problem7.out",
+      "size": 2914
+    },
+    {
+      "path": "problem8.in",
+      "size": 26007
+    },
+    {
+      "path": "problem8.out",
+      "size": 611
+    },
+    {
+      "path": "problem9.in",
+      "size": 5933455
+    },
+    {
+      "path": "problem9.out",
+      "size": 543862
+    }
+  ]
+}
