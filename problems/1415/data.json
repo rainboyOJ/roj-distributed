@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "example_00.in",
+      "size": 104
+    },
+    {
+      "path": "example_00.out",
+      "size": 32
+    },
+    {
+      "path": "example_01.in",
+      "size": 90
+    },
+    {
+      "path": "example_01.out",
+      "size": 20
+    },
+    {
+      "path": "many_points_1.in",
+      "size": 7392816
+    },
+    {
+      "path": "many_points_1.out",
+      "size": 1276818
+    },
+    {
+      "path": "many_rectangles_1.in",
+      "size": 9818420
+    },
+    {
+      "path": "many_rectangles_1.out",
+      "size": 130205
+    },
+    {
+      "path": "max_random_1.in",
+      "size": 8604420
+    },
+    {
+      "path": "max_random_1.out",
+      "size": 709043
+    },
+    {
+      "path": "max_random_2.in",
+      "size": 8599810
+    },
+    {
+      "path": "max_random_2.out",
+      "size": 711183
+    },
+    {
+      "path": "power_of_2_1.in",
+      "size": 5640903
+    },
+    {
+      "path": "power_of_2_1.out",
+      "size": 454225
+    },
+    {
+      "path": "power_of_2_2.in",
+      "size": 5636780
+    },
+    {
+      "path": "power_of_2_2.out",
+      "size": 455958
+    },
+    {
+      "path": "random_1.in",
+      "size": 4175330
+    },
+    {
+      "path": "random_1.out",
+      "size": 135313
+    },
+    {
+      "path": "random_2.in",
+      "size": 4905349
+    },
+    {
+      "path": "random_2.out",
+      "size": 427620
+    },
+    {
+      "path": "random_3.in",
+      "size": 2726462
+    },
+    {
+      "path": "random_3.out",
+      "size": 177460
+    },
+    {
+      "path": "small_1.in",
+      "size": 18308
+    },
+    {
+      "path": "small_1.out",
+      "size": 1364
+    },
+    {
+      "path": "small_2.in",
+      "size": 19190
+    },
+    {
+      "path": "small_2.out",
+      "size": 1986
+    },
+    {
+      "path": "small_3.in",
+      "size": 18144
+    },
+    {
+      "path": "small_3.out",
+      "size": 1416
+    },
+    {
+      "path": "small_4.in",
+      "size": 55371
+    },
+    {
+      "path": "small_4.out",
+      "size": 5035
+    },
+    {
+      "path": "small_5.in",
+      "size": 51371
+    },
+    {
+      "path": "small_5.out",
+      "size": 1295
+    },
+    {
+      "path": "small_coord_1.in",
+      "size": 3646562
+    },
+    {
+      "path": "small_coord_1.out",
+      "size": 689706
+    },
+    {
+      "path": "small_coord_2.in",
+      "size": 3645103
+    },
+    {
+      "path": "small_coord_2.out",
+      "size": 690759
+    },
+    {
+      "path": "small_coord_3.in",
+      "size": 3645013
+    },
+    {
+      "path": "small_coord_3.out",
+      "size": 689262
+    }
+  ]
+}

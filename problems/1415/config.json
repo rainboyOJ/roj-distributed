@@ -1,0 +1,11 @@
+{
+  "title": "矩形加点求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构",
+    "树状数组",
+    "分治"
+  ],
+  "source": "Library Checker (yosupo06) - rectangle_add_point_get"
+}
