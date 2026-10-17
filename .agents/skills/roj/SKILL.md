@@ -71,6 +71,12 @@ python3 ~/.agents/skills/roj/scripts/roj.py download 1000 --output ./data --forc
 Extraction requires the system `zstd` and GNU `tar` commands. The archive contains
 the whole `data/` tree; there is no per-file download.
 
+Downloads resume: an interrupted transfer keeps its bytes in `<id>.tar.zst.part` and
+the next run continues with an HTTP `Range` request from where it stopped (the two
+archive channels support byte ranges). A server that ignores `Range` or reports a
+size mismatch makes the client restart that source from scratch; `--force` discards
+the partial file.
+
 ### Test C++ locally
 
 `test` is local-only. It compiles with `g++ -std=c++17 -O2`, runs each matching

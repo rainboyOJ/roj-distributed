@@ -285,63 +285,112 @@ def download_and_extract_archive(client: RojClient, identifier: str, manifest: d
     return archive_path, data_dir, downloaded_now, extracted_now
 
 
+def content_range_start(header: str | None) -> int | None:
+    """解析 Content-Range 的起始字节："bytes 100-199/2000" → 100。"""
+    if not header:
+        return None
+    match = re.match(r"\s*bytes\s+(\d+)-\d+/(\d+|\*)\s*$", header, re.IGNORECASE)
+    return int(match.group(1)) if match else None
+
+
+def response_total_size(response: Any) -> int | None:
+    """从响应头推断文件总大小：206 看 Content-Range，200 看 Content-Length。"""
+    header = (response.headers.get("Content-Range") or "").strip()
+    if "/" in header:
+        tail = header.rsplit("/", 1)[1].strip()
+        if tail.isdigit():
+            return int(tail)
+    length = (response.headers.get("Content-Length") or "").strip()
+    return int(length) if length.isdigit() else None
+
+
 def download_to(client: RojClient, urls: list[str], destination: Path, force: bool = False,
                 on_attempt: Callable[[], None] | None = None,
                 on_chunk: Callable[[int], None] | None = None,
                 on_start: Callable[[int], None] | None = None) -> int:
-    """依次尝试多个下载源，把文件下载到 destination，返回字节数。
+    """依次尝试多个下载源，把文件下载到 destination，返回文件字节数。
 
-    先写入同目录临时文件再原子改名，避免半截文件残留；
-    所有源都失败才报错。--force 允许覆盖已存在文件。
+    断点续传：半成品固定留在 `<destination>.part`，重跑时带
+    `Range: bytes=<已下载字节>-` 从断点继续；只接受起点与本地进度一致的 206
+    响应，服务器忽略 Range（回 200）或起点不符时丢弃 .part 从头重来。
+    全部源都失败时 .part 保留，下次运行自动续上。
+    完成后原子 rename 成目标文件（避免半截文件被当成完整归档）。
+    `--force` 会丢弃既有 .part 从头下载。
     on_attempt/on_chunk/on_start 用于进度回调：换源、每读一块、
-    拿到 Content-Length 时分别触发（归档大小只有响应头里才知道，用 on_start 补分母）。
+    拿到总大小时分别触发（归档大小只有响应头里才知道，用 on_start 补分母）。
     """
     if destination.exists() and not force:
         raise RojError(f"文件已存在，未覆盖：{destination}（如需覆盖请使用 --force）")
     if not urls:
         raise RojError("没有可用的下载源。")
-    errors = []
     destination.parent.mkdir(parents=True, exist_ok=True)
+    partial = destination.parent / f"{destination.name}.part"
+    if force:
+        # 显式重下：连半成品一起丢掉
+        partial.unlink(missing_ok=True)
+
+    errors: list[str] = []
     for url in urls:
-        temporary = None
-        total = 0
         if on_attempt:
             on_attempt()
-        try:
-            with urlopen(Request(url, headers={"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}), timeout=client.timeout) as response:
-                if on_start:
-                    length = (response.headers.get("Content-Length") or "").strip()
-                    if length.isdigit():
-                        on_start(int(length))
-                # 与目标同目录的临时文件，保证同文件系统可原子 rename
-                with tempfile.NamedTemporaryFile(prefix=".roj-download-", dir=destination.parent, delete=False) as output:
-                    temporary = Path(output.name)
-                    while True:
-                        chunk = response.read(CHUNK_SIZE)
-                        if not chunk:
-                            break
-                        output.write(chunk)
-                        total += len(chunk)
+        # 同一个源最多尝试两次：Range 失效（416/起点不符）时从头再试一次
+        for _ in range(2):
+            offset = partial.stat().st_size if partial.exists() else 0
+            headers = {"Accept": "application/octet-stream", "User-Agent": "roj-cli/1.0"}
+            if offset:
+                headers["Range"] = f"bytes={offset}-"
+                if on_chunk:
+                    # 续传起点先计入进度，进度条不会从 0 跳回
+                    on_chunk(offset)
+            try:
+                with urlopen(Request(url, headers=headers), timeout=client.timeout) as response:
+                    total_size = response_total_size(response)
+                    if on_start and total_size:
+                        on_start(total_size)
+                    status = getattr(response, "status", None) or response.getcode()
+                    if offset and (status != 206 or content_range_start(response.headers.get("Content-Range")) != offset):
+                        # 服务器没按约定续传：丢掉旧进度，本次从头写
+                        partial.unlink(missing_ok=True)
+                        offset = 0
                         if on_chunk:
-                            on_chunk(total)
-            os.replace(temporary, destination)
-            temporary = None
-            return total
-        except HTTPError as error:
-            errors.append(f"HTTP {error.code}")
-        except URLError as error:
-            errors.append(str(error.reason))
-        except TimeoutError:
-            errors.append("请求超时")
-        except OSError as error:
-            # 本地写盘失败属于环境问题，直接抛出而非继续换源
-            raise RojError(f"无法写入下载文件：{destination}（{error.strerror or error}）") from error
-        finally:
-            # 清理可能残留的临时文件
-            if temporary:
-                temporary.unlink(missing_ok=True)
+                            on_chunk(0)
+                    with partial.open("ab" if offset else "wb") as output:
+                        written = offset
+                        while True:
+                            chunk = response.read(CHUNK_SIZE)
+                            if not chunk:
+                                break
+                            output.write(chunk)
+                            written += len(chunk)
+                            if on_chunk:
+                                on_chunk(written)
+                size = partial.stat().st_size
+                if total_size is not None and size != total_size:
+                    # 连接提前结束：.part 留着，下个源（或下次运行）续传
+                    errors.append(f"大小不符（{size}/{total_size}）")
+                    break
+                os.replace(partial, destination)
+                return size
+            except HTTPError as error:
+                if error.code == 416:
+                    # Range 起点越界：本地 .part 可能已完整或超长，丢掉从头来
+                    partial.unlink(missing_ok=True)
+                    errors.append("HTTP 416（Range 越界，已丢弃 .part）")
+                    continue
+                errors.append(f"HTTP {error.code}")
+                break
+            except URLError as error:
+                errors.append(str(error.reason))
+                break
+            except TimeoutError:
+                errors.append("请求超时")
+                break
+            except OSError as error:
+                # 本地写盘失败属于环境问题，直接抛出而非继续换源
+                raise RojError(f"无法写入下载文件：{destination}（{error.strerror or error}）") from error
     detail = "；".join(errors) if errors else "未知错误"
-    raise RojError(f"下载失败，已尝试 {len(urls)} 个源：{detail}")
+    hint = f"（已保留半成品 {partial.name}，重跑会从断点续传）" if partial.exists() else ""
+    raise RojError(f"下载失败，已尝试 {len(urls)} 个源：{detail}{hint}")
 
 
 def print_manifest_summary(manifest: dict[str, Any]) -> None:
