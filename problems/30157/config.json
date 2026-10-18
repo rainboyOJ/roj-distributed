@@ -1,0 +1,10 @@
+{
+  "title": "狄利克雷逆与前缀和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "数论"
+  ],
+  "source": "Library Checker (yosupo06) - dirichlet_inverse_and_prefix_sums"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "动态点赋值矩形仿射矩形求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - dynamic_point_set_rectangle_affine_rectangle_sum"
+}

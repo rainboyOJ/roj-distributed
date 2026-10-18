@@ -1,0 +1,9 @@
+{
+  "title": "形式幂级数 exp",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - exp_of_formal_power_series"
+}

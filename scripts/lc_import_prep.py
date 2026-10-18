@@ -20,6 +20,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from lc_cn_meta import TAGS_BY_CATEGORY, TAG_OVERRIDES, TITLE_CN
+
 # ---- 全系列统一口径（沿 problems/1415 先例；第二轮出数据后再按规模调整） ----
 TIME_MS = 10000
 MEMORY_MB = 1024
@@ -32,14 +35,7 @@ KEYWORDS = {
     "sample": "Sample",
 }
 
-# 中文标题与标签（标签必须取自 ROJ 现有标签词表）；后续批次在此扩充
-CN_META = {
-    "unionfind": ("并查集", ["数据结构", "并查集"]),
-    "point_add_range_sum": ("单点加区间求和", ["数据结构", "树状数组"]),
-    "staticrmq": ("静态区间最小值", ["数据结构", "倍增"]),
-    "zalgorithm": ("Z 算法", ["字符串"]),
-    "lca": ("最近公共祖先", ["图论", "树", "LCA"]),
-}
+
 
 
 def parse_info(text: str) -> dict:
@@ -75,12 +71,40 @@ def parse_info(text: str) -> dict:
     return info
 
 
-def expand_statement(task_md: str, params: dict, samples_md: str) -> str:
-    """task.md → 中间题面：取英文、去日文、展开参数与关键字、嵌入样例块。"""
-    text = task_md
-    # 日文块整体移除，lang 标记清掉（英文块保留在原位）
-    text = re.sub(r"@{lang\.ja}.*?@{lang\.end}", "", text, flags=re.S)
-    text = text.replace("@{lang.en}", "").replace("@{lang.end}", "")
+def _split_lang_segments(body: str):
+    """把文本切成 (lang, text) 片段：lang 为 None（块外）/ 'en' / 'ja'。"""
+    tokens = re.split(r"(@{lang\.(?:en|ja|end)})", body)
+    segs, lang = [], None
+    for tok in tokens:
+        if tok == "@{lang.en}":
+            lang = "en"
+        elif tok == "@{lang.ja}":
+            lang = "ja"
+        elif tok == "@{lang.end}":
+            lang = None
+        elif tok:
+            segs.append((lang, tok))
+    return segs
+
+
+def expand_statement(task_md: str, params: dict, samples_md: str):
+    """task.md → 中间题面：逐小节取英文（en 在前在后都行）、缺英文回退日文。
+    返回 (题面文本, 纯日文小节标题列表)。"""
+    # LC 里存在 ja 在前 en 在后的写法，必须按小节处理 lang 块，不能全局正则删
+    parts = re.split(r"(?m)^(##+ .*)$", task_md)
+    chunks, ja_sections = [], []
+    for i in range(0, len(parts), 2):
+        block = parts[i] + (parts[i + 1] if i + 1 < len(parts) else "")
+        segs = _split_lang_segments(block)
+        if any(lang == "en" and t.strip() for lang, t in segs):
+            out = "".join(t for lang, t in segs if lang in (None, "en"))
+        elif any(lang == "ja" and t.strip() for lang, t in segs):
+            out = "".join(t for lang, t in segs if lang in (None, "ja"))
+            ja_sections.append(parts[i].strip())
+        else:
+            out = "".join(t for lang, t in segs if lang is None)
+        chunks.append(out)
+    text = "".join(chunks)
 
     def param_sub(m):
         name = m.group(1)
@@ -102,7 +126,7 @@ def expand_statement(task_md: str, params: dict, samples_md: str) -> str:
     leftover = re.findall(r"@\{[\w.]+", text)
     if leftover:
         raise ValueError(f"模板变量残留未展开: {sorted(set(leftover))}")
-    return text
+    return text, ja_sections
 
 
 def sample_block(idx: int, in_text: str, out_text: str) -> str:
@@ -111,6 +135,21 @@ def sample_block(idx: int, in_text: str, out_text: str) -> str:
         f"### 【输入样例{n}】\n\n```\n{in_text.rstrip()}\n```\n\n"
         f"### 【输出样例{n}】\n\n```\n{out_text.rstrip()}\n```\n"
     )
+
+
+def write_params_h(prob_dir: Path, params: dict) -> None:
+    """按 LC generate.py 的格式生成 <prob>/params.h（标程 #include \"../params.h\"）。"""
+    lines = []
+    for key, value in params.items():
+        if isinstance(value, int):
+            lines.append(f"#define {key} (long long){value}")
+        elif isinstance(value, float):
+            lines.append(f"#define {key} {value}")
+        elif isinstance(value, str):
+            lines.append(f'#define {key} "{value}"')
+        else:
+            raise TypeError(f"params.{key} 类型不支持: {type(value)}")
+    (prob_dir / "params.h").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def build_problem(lc_prob_dir: Path, repo_root: Path, roj_id: int, out_dir: Path) -> dict:
@@ -125,10 +164,22 @@ def build_problem(lc_prob_dir: Path, repo_root: Path, roj_id: int, out_dir: Path
     bin_dir.mkdir(parents=True, exist_ok=True)
     exe = bin_dir / name
     src = lc_prob_dir / "sol" / "correct.cpp"
-    subprocess.run(
-        ["c++", "-O2", "-std=c++17", "-o", str(exe), str(src)],
-        check=True, capture_output=True,
-    )
+    write_params_h(lc_prob_dir, info.get("params", {}))
+    lc_root = None
+    for anc in lc_prob_dir.parents:
+        if (anc / "common").is_dir() and (anc / "generate.py").is_file():
+            lc_root = anc
+            break
+    for std in ("c++17", "c++20"):
+        proc = subprocess.run(
+            ["c++", "-O2", f"-std={std}", "-I", str(lc_root / "common"),
+             "-o", str(exe), str(src)],
+            capture_output=True,
+        )
+        if proc.returncode == 0:
+            break
+    else:
+        raise RuntimeError(f"{name}: correct.cpp 编译失败\n{proc.stderr.decode()[-2000:]}")
 
     samples_md = {}
     examples = []
@@ -147,7 +198,7 @@ def build_problem(lc_prob_dir: Path, repo_root: Path, roj_id: int, out_dir: Path
         })
         samples_md[in_path.stem] = sample_block(idx, in_text, out_text)
 
-    statement = expand_statement(
+    statement, ja_sections = expand_statement(
         (lc_prob_dir / "task.md").read_text(encoding="utf-8"),
         info.get("params", {}),
         samples_md,
@@ -156,7 +207,11 @@ def build_problem(lc_prob_dir: Path, repo_root: Path, roj_id: int, out_dir: Path
     checker_head = (lc_prob_dir / "checker.cpp").read_text(encoding="utf-8")[:400]
     judge = "diff" if "wcmp" in checker_head else "special-judge"
 
-    title_cn, tags = CN_META.get(name, (info.get("title", name), []))
+    category = lc_prob_dir.parent.name
+    if name not in TITLE_CN:
+        raise KeyError(f"{name}: lc_cn_meta.py 缺中文标题")
+    title_cn = TITLE_CN[name]
+    tags = TAG_OVERRIDES.get(name) or TAGS_BY_CATEGORY.get(category, [])
     card_dir = out_dir / f"{roj_id}-{name}"
     card_dir.mkdir(parents=True, exist_ok=True)
 
@@ -185,6 +240,8 @@ def build_problem(lc_prob_dir: Path, repo_root: Path, roj_id: int, out_dir: Path
         "source": f"Library Checker (yosupo06) - {name}",
         "source_line": f"Library Checker（yosupo06） {name}",
         "judge": judge,
+        "spj_note": judge != "diff",
+        "ja_sections": ja_sections,
         "statement_en": str(card_dir / "statement_en.md"),
         "std_cpp": str(src),
         "examples": example_refs,

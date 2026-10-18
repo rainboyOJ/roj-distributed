@@ -1,0 +1,7 @@
+{
+  "title": "最长上升子序列",
+  "time": 10000,
+  "memory": 1024,
+  "tags": ["动态规划", "贪心"],
+  "source": "Library Checker (yosupo06) - longest_increasing_subsequence"
+}

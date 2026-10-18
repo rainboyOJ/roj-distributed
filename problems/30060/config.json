@@ -1,0 +1,9 @@
+{
+  "title": "静态区间不同元素个数",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - static_range_count_distinct"
+}

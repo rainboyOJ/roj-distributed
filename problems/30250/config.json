@@ -1,0 +1,10 @@
+{
+  "title": "树上等距层加点查询",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - vertex_get_range_contour_add_on_tree"
+}

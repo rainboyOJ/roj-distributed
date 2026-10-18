@@ -1,0 +1,7 @@
+{
+  "title": "十六进制高精度整数除法",
+  "time": 10000,
+  "memory": 1024,
+  "tags": ["数学", "高精度"],
+  "source": "Library Checker (yosupo06) - division_of_hex_big_integers"
+}

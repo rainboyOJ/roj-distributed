@@ -1,0 +1,9 @@
+{
+  "title": "最小费用 b-流",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - min_cost_b_flow"
+}

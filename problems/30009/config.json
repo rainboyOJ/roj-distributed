@@ -1,0 +1,10 @@
+{
+  "title": "高精度整数乘法",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "高精度"
+  ],
+  "source": "Library Checker (yosupo06) - multiplication_of_big_integers"
+}

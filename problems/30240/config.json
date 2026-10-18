@@ -1,0 +1,11 @@
+{
+  "title": "树上跳转",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论",
+    "倍增"
+  ],
+  "source": "Library Checker (yosupo06) - jump_on_tree"
+}

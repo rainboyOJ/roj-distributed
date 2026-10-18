@@ -1,0 +1,10 @@
+{
+  "title": "公共区间分解树",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - common_interval_decomposition_tree"
+}

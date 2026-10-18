@@ -1,0 +1,9 @@
+{
+  "title": "子集卷积",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - subset_convolution"
+}

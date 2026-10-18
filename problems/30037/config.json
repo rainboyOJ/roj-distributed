@@ -1,0 +1,9 @@
+{
+  "title": "可持久化队列",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - persistent_queue"
+}

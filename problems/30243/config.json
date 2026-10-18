@@ -1,0 +1,10 @@
+{
+  "title": "有根树同构分类",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - rooted_tree_isomorphism_classification"
+}

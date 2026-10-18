@@ -1,0 +1,10 @@
+{
+  "title": "迭代幂次取模",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "数论"
+  ],
+  "source": "Library Checker (yosupo06) - tetration_mod"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "单点赋值区间元素出现次数",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - point_set_range_frequency"
+}

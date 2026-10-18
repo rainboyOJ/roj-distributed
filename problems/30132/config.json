@@ -1,0 +1,9 @@
+{
+  "title": "三边连通分量",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - three_edge_connected_components"
+}

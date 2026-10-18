@@ -1,0 +1,9 @@
+{
+  "title": "按位与卷积",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - bitwise_and_convolution"
+}

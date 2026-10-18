@@ -1,0 +1,9 @@
+{
+  "title": "区间加区间最小值",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - range_add_range_min"
+}

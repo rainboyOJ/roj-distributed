@@ -1,0 +1,9 @@
+{
+  "title": "动态星形增广图全局最小割",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - global_minimum_cut_of_dynamic_star_augmented_graph"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "曼哈顿最小生成树",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "计算几何",
+    "最小生成树"
+  ],
+  "source": "Library Checker (yosupo06) - manhattanmst"
+}

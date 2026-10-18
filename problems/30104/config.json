@@ -1,0 +1,9 @@
+{
+  "title": "补图连通分量",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - connected_components_of_complement_graph"
+}

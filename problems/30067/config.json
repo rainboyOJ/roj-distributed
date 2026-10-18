@@ -1,0 +1,9 @@
+{
+  "title": "静态矩形加矩形求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - static_rectangle_add_rectangle_sum"
+}

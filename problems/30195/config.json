@@ -1,0 +1,9 @@
+{
+  "title": "形式幂级数求逆",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - inv_of_formal_power_series"
+}

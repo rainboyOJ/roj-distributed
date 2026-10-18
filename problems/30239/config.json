@@ -1,0 +1,10 @@
+{
+  "title": "树上距离频数表",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - frequency_table_of_tree_distance"
+}

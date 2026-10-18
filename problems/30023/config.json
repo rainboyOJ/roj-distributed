@@ -1,0 +1,9 @@
+{
+  "title": "乘法幺半群卷积（Z/2^N Z）",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - mul_mod2n_convolution"
+}

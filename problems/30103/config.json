@@ -1,0 +1,9 @@
+{
+  "title": "色多项式",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - chromatic_polynomial"
+}

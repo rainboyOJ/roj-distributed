@@ -1,0 +1,10 @@
+{
+  "title": "线性函数取模最小值",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "数论"
+  ],
+  "source": "Library Checker (yosupo06) - min_of_mod_of_linear"
+}

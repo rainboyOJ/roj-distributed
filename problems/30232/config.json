@@ -1,0 +1,9 @@
+{
+  "title": "通配符模式匹配",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "字符串"
+  ],
+  "source": "Library Checker (yosupo06) - wildcard_pattern_matching"
+}

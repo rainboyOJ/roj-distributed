@@ -1,0 +1,10 @@
+{
+  "title": "区间连边并查集",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构",
+    "并查集"
+  ],
+  "source": "Library Checker (yosupo06) - range_parallel_unionfind"
+}

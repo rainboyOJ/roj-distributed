@@ -1,0 +1,10 @@
+{
+  "title": "增量最小生成森林",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论",
+    "最小生成树"
+  ],
+  "source": "Library Checker (yosupo06) - incremental_minimum_spanning_forest"
+}

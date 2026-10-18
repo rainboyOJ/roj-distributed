@@ -1,0 +1,10 @@
+{
+  "title": "两序列间递增序列个数",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "计数"
+  ],
+  "source": "Library Checker (yosupo06) - number_of_increasing_sequences_between_two_sequences"
+}

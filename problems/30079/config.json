@@ -1,0 +1,10 @@
+{
+  "title": "q-二项式系数（质数模）",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学",
+    "计数"
+  ],
+  "source": "Library Checker (yosupo06) - q_binomial_coefficient_prime_mod"
+}

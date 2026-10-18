@@ -1,0 +1,10 @@
+{
+  "title": "Aho-Corasick 自动机",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "字符串",
+    "字典树"
+  ],
+  "source": "Library Checker (yosupo06) - aho_corasick"
+}

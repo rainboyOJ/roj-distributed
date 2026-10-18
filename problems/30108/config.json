@@ -1,0 +1,9 @@
+{
+  "title": "无向图生成树计数",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - counting_spanning_tree_undirected"
+}

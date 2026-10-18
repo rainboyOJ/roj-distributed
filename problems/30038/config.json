@@ -1,0 +1,9 @@
+{
+  "title": "可持久化区间仿射区间求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - persistent_range_affine_range_sum"
+}

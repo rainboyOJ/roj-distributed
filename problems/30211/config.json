@@ -1,0 +1,9 @@
+{
+  "title": "多项式采样点平移",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - shift_of_sampling_points_of_polynomial"
+}

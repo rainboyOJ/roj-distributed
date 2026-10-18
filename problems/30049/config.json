@@ -1,0 +1,9 @@
+{
+  "title": "区间仿射区间求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - range_affine_range_sum"
+}

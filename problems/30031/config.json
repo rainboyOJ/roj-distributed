@@ -1,0 +1,9 @@
+{
+  "title": "双端优先队列",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - double_ended_priority_queue"
+}

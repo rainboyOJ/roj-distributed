@@ -1,0 +1,9 @@
+{
+  "title": "双端队列（带全体复合操作）",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构"
+  ],
+  "source": "Library Checker (yosupo06) - deque_operate_all_composite"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "单项式基转牛顿基",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - conversion_from_monomial_basis_to_newton_basis"
+}

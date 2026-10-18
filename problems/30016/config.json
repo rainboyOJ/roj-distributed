@@ -1,0 +1,9 @@
+{
+  "title": "卷积（模 2^64）",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - convolution_mod_2_64"
+}

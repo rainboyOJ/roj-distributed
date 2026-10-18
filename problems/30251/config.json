@@ -1,0 +1,10 @@
+{
+  "title": "点赋值路径复合",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "树",
+    "图论"
+  ],
+  "source": "Library Checker (yosupo06) - vertex_set_path_composite"
+}

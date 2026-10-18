@@ -1,0 +1,9 @@
+{
+  "title": "矩阵行列式（模 2）",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数学"
+  ],
+  "source": "Library Checker (yosupo06) - matrix_det_mod_2"
+}

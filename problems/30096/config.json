@@ -1,0 +1,7 @@
+{
+  "title": "静态凸包",
+  "time": 10000,
+  "memory": 1024,
+  "tags": ["计算几何"],
+  "source": "Library Checker (yosupo06) - static_convex_hull"
+}

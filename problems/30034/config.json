@@ -1,0 +1,10 @@
+{
+  "title": "直线加查询最小值",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构",
+    "线段树"
+  ],
+  "source": "Library Checker (yosupo06) - line_add_get_min"
+}

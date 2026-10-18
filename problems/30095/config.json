@@ -1,0 +1,9 @@
+{
+  "title": "极角排序",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "计算几何"
+  ],
+  "source": "Library Checker (yosupo06) - sort_points_by_argument"
+}
