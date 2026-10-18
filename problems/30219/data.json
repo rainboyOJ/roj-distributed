@@ -1,3 +1,140 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "1.in",
+      "size": 11357677
+    },
+    {
+      "path": "1.out",
+      "size": 10368646
+    },
+    {
+      "path": "10.in",
+      "size": 391739
+    },
+    {
+      "path": "10.out",
+      "size": 10
+    },
+    {
+      "path": "11.in",
+      "size": 952488
+    },
+    {
+      "path": "11.out",
+      "size": 20
+    },
+    {
+      "path": "12.in",
+      "size": 10782317
+    },
+    {
+      "path": "12.out",
+      "size": 10368759
+    },
+    {
+      "path": "13.in",
+      "size": 2689152
+    },
+    {
+      "path": "13.out",
+      "size": 2592379
+    },
+    {
+      "path": "14.in",
+      "size": 30424
+    },
+    {
+      "path": "14.out",
+      "size": 10120
+    },
+    {
+      "path": "15.in",
+      "size": 5565
+    },
+    {
+      "path": "15.out",
+      "size": 2531
+    },
+    {
+      "path": "16.in",
+      "size": 6624
+    },
+    {
+      "path": "16.out",
+      "size": 5076
+    },
+    {
+      "path": "17.in",
+      "size": 963
+    },
+    {
+      "path": "17.out",
+      "size": 310
+    },
+    {
+      "path": "2.in",
+      "size": 11357890
+    },
+    {
+      "path": "2.out",
+      "size": 10369652
+    },
+    {
+      "path": "3.in",
+      "size": 11357532
+    },
+    {
+      "path": "3.out",
+      "size": 10369040
+    },
+    {
+      "path": "4.in",
+      "size": 14
+    },
+    {
+      "path": "4.out",
+      "size": 2
+    },
+    {
+      "path": "5.in",
+      "size": 25
+    },
+    {
+      "path": "5.out",
+      "size": 4
+    },
+    {
+      "path": "6.in",
+      "size": 80989
+    },
+    {
+      "path": "6.out",
+      "size": 16384
+    },
+    {
+      "path": "7.in",
+      "size": 24
+    },
+    {
+      "path": "7.out",
+      "size": 10
+    },
+    {
+      "path": "8.in",
+      "size": 33
+    },
+    {
+      "path": "8.out",
+      "size": 11
+    },
+    {
+      "path": "9.in",
+      "size": 1296123
+    },
+    {
+      "path": "9.out",
+      "size": 262152
+    }
+  ]
 }

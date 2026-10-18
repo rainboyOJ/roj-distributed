@@ -53,4 +53,3 @@ $ans_0$ $ans_1$ $ans_2$ ... $ans_{M - 1}$
 
 Library Checker（yosupo06） incremental_minimum_spanning_forest
 
-本题为 special judge（输出任意合法解），暂不可本地评测。

@@ -59,3 +59,5 @@ $AB$
 ### 【来源】
 
 Library Checker（yosupo06） multiplication_of_hex_big_integers
+
+本题为 special judge（合法答案表示不唯一），暂不可本地评测。

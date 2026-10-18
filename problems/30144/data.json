@@ -1,3 +1,156 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "1.in",
+      "size": 20738716
+    },
+    {
+      "path": "1.out",
+      "size": 10369156
+    },
+    {
+      "path": "10.in",
+      "size": 10222
+    },
+    {
+      "path": "10.out",
+      "size": 5218
+    },
+    {
+      "path": "11.in",
+      "size": 161387
+    },
+    {
+      "path": "11.out",
+      "size": 52672
+    },
+    {
+      "path": "12.in",
+      "size": 65420
+    },
+    {
+      "path": "12.out",
+      "size": 25093
+    },
+    {
+      "path": "13.in",
+      "size": 140688
+    },
+    {
+      "path": "13.out",
+      "size": 49283
+    },
+    {
+      "path": "14.in",
+      "size": 96892
+    },
+    {
+      "path": "14.out",
+      "size": 4325
+    },
+    {
+      "path": "15.in",
+      "size": 93593
+    },
+    {
+      "path": "15.out",
+      "size": 20706
+    },
+    {
+      "path": "16.in",
+      "size": 33004
+    },
+    {
+      "path": "16.out",
+      "size": 4423
+    },
+    {
+      "path": "17.in",
+      "size": 146038
+    },
+    {
+      "path": "17.out",
+      "size": 23011
+    },
+    {
+      "path": "18.in",
+      "size": 6489
+    },
+    {
+      "path": "18.out",
+      "size": 972
+    },
+    {
+      "path": "19.in",
+      "size": 7229
+    },
+    {
+      "path": "19.out",
+      "size": 1083
+    },
+    {
+      "path": "2.in",
+      "size": 20738523
+    },
+    {
+      "path": "2.out",
+      "size": 10369030
+    },
+    {
+      "path": "3.in",
+      "size": 20738101
+    },
+    {
+      "path": "3.out",
+      "size": 10369079
+    },
+    {
+      "path": "4.in",
+      "size": 11836719
+    },
+    {
+      "path": "4.out",
+      "size": 5318483
+    },
+    {
+      "path": "5.in",
+      "size": 11044020
+    },
+    {
+      "path": "5.out",
+      "size": 5524886
+    },
+    {
+      "path": "6.in",
+      "size": 10500155
+    },
+    {
+      "path": "6.out",
+      "size": 3394169
+    },
+    {
+      "path": "7.in",
+      "size": 28889
+    },
+    {
+      "path": "7.out",
+      "size": 14440
+    },
+    {
+      "path": "8.in",
+      "size": 63773
+    },
+    {
+      "path": "8.out",
+      "size": 50808
+    },
+    {
+      "path": "9.in",
+      "size": 96369
+    },
+    {
+      "path": "9.out",
+      "size": 14493
+    }
+  ]
 }

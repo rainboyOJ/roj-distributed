@@ -58,3 +58,5 @@ ECA8641FE5A86421ECA8641FE5A86421
 ### 【来源】
 
 Library Checker（yosupo06） addition_of_hex_big_integers
+
+本题为 special judge（合法答案表示不唯一），暂不可本地评测。

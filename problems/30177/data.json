@@ -1,3 +1,140 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "1.in",
+      "size": 9
+    },
+    {
+      "path": "1.out",
+      "size": 3
+    },
+    {
+      "path": "10.in",
+      "size": 29773
+    },
+    {
+      "path": "10.out",
+      "size": 9847
+    },
+    {
+      "path": "11.in",
+      "size": 20571
+    },
+    {
+      "path": "11.out",
+      "size": 6658
+    },
+    {
+      "path": "12.in",
+      "size": 5886
+    },
+    {
+      "path": "12.out",
+      "size": 1900
+    },
+    {
+      "path": "13.in",
+      "size": 2615
+    },
+    {
+      "path": "13.out",
+      "size": 847
+    },
+    {
+      "path": "14.in",
+      "size": 5734
+    },
+    {
+      "path": "14.out",
+      "size": 1850
+    },
+    {
+      "path": "15.in",
+      "size": 15800
+    },
+    {
+      "path": "15.out",
+      "size": 5142
+    },
+    {
+      "path": "16.in",
+      "size": 6105
+    },
+    {
+      "path": "16.out",
+      "size": 2000
+    },
+    {
+      "path": "17.in",
+      "size": 13905
+    },
+    {
+      "path": "17.out",
+      "size": 6460
+    },
+    {
+      "path": "2.in",
+      "size": 29673
+    },
+    {
+      "path": "2.out",
+      "size": 9582
+    },
+    {
+      "path": "3.in",
+      "size": 29684
+    },
+    {
+      "path": "3.out",
+      "size": 9591
+    },
+    {
+      "path": "4.in",
+      "size": 29667
+    },
+    {
+      "path": "4.out",
+      "size": 9608
+    },
+    {
+      "path": "5.in",
+      "size": 30789
+    },
+    {
+      "path": "5.out",
+      "size": 9059
+    },
+    {
+      "path": "6.in",
+      "size": 30792
+    },
+    {
+      "path": "6.out",
+      "size": 9204
+    },
+    {
+      "path": "7.in",
+      "size": 30773
+    },
+    {
+      "path": "7.out",
+      "size": 9070
+    },
+    {
+      "path": "8.in",
+      "size": 29789
+    },
+    {
+      "path": "8.out",
+      "size": 9814
+    },
+    {
+      "path": "9.in",
+      "size": 29792
+    },
+    {
+      "path": "9.out",
+      "size": 9773
+    }
+  ]
 }

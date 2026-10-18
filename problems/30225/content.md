@@ -87,3 +87,5 @@ aaaaa
 ### 【来源】
 
 Library Checker（yosupo06） longest_common_substring
+
+本题为 special judge（输出任意合法解），暂不可本地评测。

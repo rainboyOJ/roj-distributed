@@ -87,3 +87,5 @@ $a_i$ 的输出顺序可以是任意的。
 ### 【来源】
 
 Library Checker（yosupo06） polynomial_root_finding
+
+本题为 special judge（输出任意合法解），暂不可本地评测。

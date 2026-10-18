@@ -1,3 +1,140 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "1.in",
+      "size": 3388897
+    },
+    {
+      "path": "1.out",
+      "size": 3388897
+    },
+    {
+      "path": "10.in",
+      "size": 527442
+    },
+    {
+      "path": "10.out",
+      "size": 2632
+    },
+    {
+      "path": "11.in",
+      "size": 4244807
+    },
+    {
+      "path": "11.out",
+      "size": 8743
+    },
+    {
+      "path": "12.in",
+      "size": 2739337
+    },
+    {
+      "path": "12.out",
+      "size": 6916
+    },
+    {
+      "path": "13.in",
+      "size": 52
+    },
+    {
+      "path": "13.out",
+      "size": 6
+    },
+    {
+      "path": "14.in",
+      "size": 61
+    },
+    {
+      "path": "14.out",
+      "size": 10
+    },
+    {
+      "path": "15.in",
+      "size": 80
+    },
+    {
+      "path": "15.out",
+      "size": 10
+    },
+    {
+      "path": "16.in",
+      "size": 12
+    },
+    {
+      "path": "16.out",
+      "size": 4
+    },
+    {
+      "path": "17.in",
+      "size": 42
+    },
+    {
+      "path": "17.out",
+      "size": 8
+    },
+    {
+      "path": "2.in",
+      "size": 5000008
+    },
+    {
+      "path": "2.out",
+      "size": 9
+    },
+    {
+      "path": "3.in",
+      "size": 4944940
+    },
+    {
+      "path": "3.out",
+      "size": 9391
+    },
+    {
+      "path": "4.in",
+      "size": 4944780
+    },
+    {
+      "path": "4.out",
+      "size": 9447
+    },
+    {
+      "path": "5.in",
+      "size": 4944321
+    },
+    {
+      "path": "5.out",
+      "size": 9495
+    },
+    {
+      "path": "6.in",
+      "size": 4944585
+    },
+    {
+      "path": "6.out",
+      "size": 9436
+    },
+    {
+      "path": "7.in",
+      "size": 4944227
+    },
+    {
+      "path": "7.out",
+      "size": 9509
+    },
+    {
+      "path": "8.in",
+      "size": 3855214
+    },
+    {
+      "path": "8.out",
+      "size": 8229
+    },
+    {
+      "path": "9.in",
+      "size": 4579280
+    },
+    {
+      "path": "9.out",
+      "size": 9139
+    }
+  ]
 }

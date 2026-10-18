@@ -1,3 +1,52 @@
 {
-  "files": []
+  "files": [
+    {
+      "path": "1.in",
+      "size": 52
+    },
+    {
+      "path": "1.out",
+      "size": 49
+    },
+    {
+      "path": "2.in",
+      "size": 52
+    },
+    {
+      "path": "2.out",
+      "size": 50
+    },
+    {
+      "path": "3.in",
+      "size": 52
+    },
+    {
+      "path": "3.out",
+      "size": 50
+    },
+    {
+      "path": "4.in",
+      "size": 52
+    },
+    {
+      "path": "4.out",
+      "size": 50
+    },
+    {
+      "path": "5.in",
+      "size": 52
+    },
+    {
+      "path": "5.out",
+      "size": 50
+    },
+    {
+      "path": "6.in",
+      "size": 51
+    },
+    {
+      "path": "6.out",
+      "size": 50
+    }
+  ]
 }

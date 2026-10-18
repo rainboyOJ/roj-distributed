@@ -137,7 +137,7 @@ source: https://github.com/yosupo06/library-checker-problems
 - [一般图最大匹配](/problem/30118)（`general_matching`） · special judge
 - [一般图最大权匹配](/problem/30119)（`general_weighted_matching`） · special judge
 - [动态星形增广图全局最小割](/problem/30120)（`global_minimum_cut_of_dynamic_star_augmented_graph`）
-- [增量最小生成森林](/problem/30121)（`incremental_minimum_spanning_forest`） · special judge
+- [增量最小生成森林](/problem/30121)（`incremental_minimum_spanning_forest`）
 - [增量强连通分量](/problem/30122)（`incremental_scc`）
 - [K 次最短路](/problem/30123)（`k_shortest_walk`）
 - [最大独立集](/problem/30124)（`maximum_independent_set`） · special judge
@@ -159,7 +159,7 @@ source: https://github.com/yosupo06/library-checker-problems
 - [Aho-Corasick 自动机](/problem/30222)（`aho_corasick`）
 - [回文树（Eertree）](/problem/30223)（`eertree`）
 - [枚举回文串](/problem/30224)（`enumerate_palindromes`）
-- [最长公共子串](/problem/30225)（`longest_common_substring`）
+- [最长公共子串](/problem/30225)（`longest_common_substring`） · special judge
 - [Lyndon 分解](/problem/30226)（`lyndon_factorization`）
 - [子串个数](/problem/30227)（`number_of_substrings`）
 - [双端队列回文计数](/problem/30228)（`palindromes_in_deque`）
@@ -190,7 +190,7 @@ source: https://github.com/yosupo06/library-checker-problems
 - [多点求值（等比数列）](/problem/30202)（`multipoint_evaluation_on_geometric_sequence`）
 - [多项式插值](/problem/30203)（`polynomial_interpolation`）
 - [多项式插值（等比数列）](/problem/30204)（`polynomial_interpolation_on_geometric_sequence`）
-- [多项式求根](/problem/30205)（`polynomial_root_finding`）
+- [多项式求根](/problem/30205)（`polynomial_root_finding`） · special judge
 - [多项式平移（Taylor Shift）](/problem/30206)（`polynomial_taylor_shift`）
 - [形式幂级数快速幂](/problem/30207)（`pow_of_formal_power_series`）
 - [形式幂级数快速幂（稀疏）](/problem/30208)（`pow_of_formal_power_series_sparse`）
@@ -320,11 +320,11 @@ source: https://github.com/yosupo06/library-checker-problems
 ## 高精度
 
 - [高精度整数加法](/problem/30005)（`addition_of_big_integers`）
-- [十六进制高精度整数加法](/problem/30006)（`addition_of_hex_big_integers`）
+- [十六进制高精度整数加法](/problem/30006)（`addition_of_hex_big_integers`） · special judge
 - [高精度整数除法](/problem/30007)（`division_of_big_integers`）
-- [十六进制高精度整数除法](/problem/30008)（`division_of_hex_big_integers`）
+- [十六进制高精度整数除法](/problem/30008)（`division_of_hex_big_integers`） · special judge
 - [高精度整数乘法](/problem/30009)（`multiplication_of_big_integers`）
-- [十六进制高精度整数乘法](/problem/30010)（`multiplication_of_hex_big_integers`）
+- [十六进制高精度整数乘法](/problem/30010)（`multiplication_of_hex_big_integers`） · special judge
 
 <a id="sec-other"></a>
 ## 其他
