@@ -1,0 +1,11 @@
+{
+  "title": "最近公共祖先",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "图论",
+    "树",
+    "LCA"
+  ],
+  "source": "Library Checker (yosupo06) - lca"
+}

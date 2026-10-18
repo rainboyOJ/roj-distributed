@@ -1,0 +1,10 @@
+{
+  "title": "单点加区间求和",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构",
+    "树状数组"
+  ],
+  "source": "Library Checker (yosupo06) - point_add_range_sum"
+}

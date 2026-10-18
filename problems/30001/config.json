@@ -1,0 +1,10 @@
+{
+  "title": "静态区间最小值",
+  "time": 10000,
+  "memory": 1024,
+  "tags": [
+    "数据结构",
+    "倍增"
+  ],
+  "source": "Library Checker (yosupo06) - staticrmq"
+}
