@@ -1,0 +1,11 @@
+{
+  "title": "最大利润(Maximum Profit)",
+  "time": 1000,
+  "memory": 128,
+  "tags": [
+    "前缀最小值",
+    "枚举"
+  ],
+  "level": 1,
+  "source": "Aizu Online Judge ALDS1_1_D"
+}
